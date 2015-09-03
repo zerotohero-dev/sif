@@ -1,0 +1,1359 @@
+http://24ways.org/2014/javascript-modules-the-es6-way/ :: JavaScript Modules the ES6 Way &#9670; 24 ways
+http://52weeksofux.com/ :: 52 Weeks of UX 
+http://960.gs/ :: 960 Grid System
+http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified :: OAuth 2 Simplified - Aaron Parecki
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/ :: Learning JavaScript Design Patterns
+http://aelgru.github.io/ :: Visual Experiments
+http://agilemanifesto.org/ :: Manifesto for Agile Software Development
+http://a-jie.github.io/Agile/ :: Agile Css3 Engine
+http://alistapart.com/ :: A List Apart: For People Who Make Websites
+http://alistapart.com/article/application-cache-is-a-douchebag :: Application Cache is a Douchebag · An A List Apart Article
+http://anthonycalzadilla.com/css3-ATAT/index.html :: Pure CSS3 AT-AT Walker by: Anthony Calzadilla
+http://appium.io/ :: -
+http://appstorm.net/ ::  AppStorm &#8211; App Review Network
+http://archive.org/web/ :: Internet Archive: Wayback Machine
+http://aroc.github.io/side-comments-demo/ :: Side Comments - Medium.com style commenting
+http://askubuntu.com/ :: Ask Ubuntu
+http://askubuntu.com/questions/148171/dropbox-error-echo-100000-sudo-tee-proc-sys-fs-inotify-max-user-watches :: directory - Dropbox error - &#39;echo 100000 | sudo tee / proc/sys/fs/inotify/max_user_watches&#39; - Ask Ubuntu
+http://askubuntu.com/questions/462112/nofile-ulimit-n-on-ubuntu-14-04-lts :: nofile ulimit -n on Ubuntu 14.04 LTS - Ask Ubuntu
+http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/ :: What is the difference between a block, a proc, and a lambda in ruby? - Build, Break, Learn.
+http://aws.amazon.com/ec2/instance-types/ :: AWS | Amazon EC2 | Instance Types
+http://aws.amazon.com/free/ :: AWS Free Tier | Try Amazon Cloud Services, Free
+http://aws.amazon.com/ses/ :: AWS | Amazon Simple Email Service (SES) - Cloud Based Email Services
+http://babeljs.io/docs/usage/runtime/ :: Runtime · Babel
+http://backbonejs.org/ :: Backbone.js
+http://becausejavascript.com/ :: Because JavaScript
+http://becausejavascript.com/node-js-process-nexttick-vs-setimmediate/ :: Node.js: process.nextTick() vs. setImmediate()
+http://benchmarkjs.com/ :: Benchmark.js
+http://benhowdle.im/touche/ :: Touche.js - seamless touch event mapping for your click events
+http://bennettfeely.com/csscreatures/ :: CSS Creatures
+http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/ :: How To Optimize Your Site With GZIP Compression | BetterExplained
+http://betterexplained.com/ :: BetterExplained | Friendly lessons for lasting insight.
+http://bhavin.directi.com/unix-domain-sockets-vs-tcp-sockets/ ::  Unix domain sockets vs TCP Sockets
+http://blanketjs.org/ :: Blanket.js | Seamless javascript code coverage
+http://blog.atom.io/2014/07/02/moving-atom-to-react.html :: Moving Atom To React
+http://blog.atom.io/2015/06/16/optimizing-an-important-atom-primitive.html :: Optimizing An Important Atom Primitive
+http://blog.bitovi.com/why-checklist/ :: Bitovi.com | Why You Need a JavaScript Project Checklist
+http://blog.bitovi.com/why-checklist/?utm_source=javascriptweekly&utm_medium=email :: Bitovi.com | Why You Need a JavaScript Project Checklist
+http://blog.bobbyallen.me/2013/01/21/installing-a-high-availability-web-server-cluster-on-ubuntu-12-04-lts-using-haproxy-heartbeat-and-nginx/ :: Installing a high availability web server cluster on Ubuntu 12.04 LTS using HAProxy, HeartBeat and Nginx | Life in apps, os&#039;s and code!
+http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/ ::  Sinatra Best Practices: Part One
+http://blog.carbonfive.com/2014/02/28/taking-advantage-of-multi-processor-environments-in-node-js/ ::  Taking Advantage of Multi-Processor Environments in Node.js
+http://blog.carbonfive.com/ :: Blog by Carbon Five
+http://blog.caustik.com/2012/04/11/escape-the-1-4gb-v8-heap-limit-in-node-js/ ::  Escape the 1.4GB V8 heap limit in Node.js! at caustik&#039;s blog
+http://blog.caustik.com/category/node-js/ ::  node.js at caustik&#039;s blog
+http://blog.codeclimate.com/blog/2013/08/07/deciphering-ruby-code-metrics/ :: Deciphering Ruby Code Metrics - Code Climate Blog
+http://blog.davidmisshula.com/blog/2013/02/04/configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl/ :: Configure HAProxy to Scale Socket.io Node.js Apps with SSL - Divisa C
+http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/ :: How to Use npm as a Build Tool
+http://blog.lightstreamer.com/2013/05/benchmarking-socketio-vs-lightstreamer.html :: The Lightstreamer Blog: Benchmarking Socket.IO vs. Lightstreamer with Node.js
+http://blog.mact.me/ :: mact.me | Dan MacTough&#039;s Personal Site
+http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/ :: Understanding the node.js event loop
+http://blog.neutrondrive.com/posts/252697-isomorphic-javascript-is-not-the-answer :: Isomorphic Javascript is not the Answer « Neutron Drive Blog
+http://blog.nodejs.org/2012/04/25/profiling-node-js/ :: Profiling Node.js | Node.js
+http://blog.npmjs.org/post/101775448305/npm-and-front-end-packaging :: The npm Blog — npm and front-end packaging
+http://blog.percolatestudio.com/design/animation-timing-guidelines/ :: Guidelines for Animation Timing | Percolate Studio
+http://blog.rastating.com/using-zeromq-with-node-js/ :: Using ZeroMQ with Node.js
+http://blogs.adobe.com/webplatform/2014/03/18/css-animations-and-transitions-performance/ :: CSS animations and transitions performance: looking inside the browser | Web Platform Team Blog
+http://blogs.msdn.com/b/ericlippert/archive/2003/09/17/53038.aspx ::  How Do The Script Garbage Collectors Work? - Fabulous Adventures In Coding - Site Home - MSDN Blogs 
+http://blog.tatham.oddie.com.au/2008/10/13/why-light-text-on-dark-background-is-a-bad-idea/ :: Why light text on dark background is a bad idea | Tatham Oddie
+http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html :: SSH Tunnel - Local and Remote Port Forwarding Explained With Examples - Trackets Blog
+http://blog-zokahn.rhcloud.com/?p=185 :: Moving files around with RPM &laquo; Zokahn
+http://bocoup.com/weblog/node-stress-test-analysis/ :: Realtime Node.js App: A Stress Testing Story - Bocoup
+http://bonsaiden.github.io/JavaScript-Garden/ :: JavaScript Garden
+http://book.realworldhaskell.org/read/why-functional-programming-why-haskell.html :: Why functional programming? Why Haskell?
+http://booster.railsware.com/ :: @Booster_app – The Best Mac OS X Desktop client for the Pivotal Tracker
+http://bootsnipp.com/ :: Home of free code snippets for Bootstrap | Bootsnipp.com
+http://bost.ocks.org/mike/algorithms/ :: Visualizing Algorithms
+http://bower.io/ :: Bower
+http://boz.com/articles/be-kind.html :: Be Kind
+http://brackets.io/ :: -
+http://bradfrost.com/blog/ ::  Brad Frost | Web Design, Speaking, Consulting, Music, and Art 
+http://bradfrost.com/blog/post/float-label-pattern/ ::  Float Label Pattern | Brad Frost 
+http://browserify.org/ :: Browserify
+http://buckets.io/ :: Buckets
+http://buildbot.net/ :: Buildbot
+http://buildnewgames.com/optimizing-websockets-bandwidth/ :: Optimizing WebSockets Bandwidth - Build New Games
+http://bundler.io/ ::  Bundler: The best way to manage a Ruby application's gems 
+http://bundler.io/v1.3/rationale.html ::  Bundler: The best way to manage a Ruby application's gems 
+http://c2.com/cgi/wiki?AdvantagesOfFunctionalProgramming :: Advantages Of Functional Programming
+http://c2.com/cgi/wiki?NewConsideredHarmful :: New Considered Harmful
+http://caniuse.com/ :: Can I use... Support tables for HTML5, CSS3, etc
+http://cantina.co/automated-dns-for-aws-instances-using-route-53/ :: Automated DNS for AWS Instances Using Route 53 | Cantina
+http://cassandra.apache.org/ :: The Apache Cassandra Project
+http://cbonte.github.io/haproxy-dconv/configuration-1.5.html :: HAProxy version 1.5.14 - Configuration Manual
+http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/ :: Killing the Crunch Mode Antipattern - Chad Fowler
+http://chaijs.com/ :: Home - Chai
+http://challengepost.com/ :: Devpost - Hackathons, App Contests, and Hackers
+http://chriskempson.github.io/base16/ :: Base16
+http://christianheilmann.com/2012/04/16/of-parser-fetishists-and-semi-colons/ ::  Of parser-fetishists and semi-colons | Christian Heilmann
+http://christianheilmann.com/ :: Christian Heilmann
+http://codebeautify.org/ :: Free Online Tools For Developers - To Beautify, Validate, Minify, Analyse and Convert your JSON, XML, JavaScript, CSS, HTML, Excel
+http://code.macournoyer.com/thin/ :: Thin - yet another web server
+http://codeorchestra.com/ :: COLT.IO: Development tool for angular.js, node-webkit, node.js, phonegap
+http://codepen.io/callmenick/pen/XbdxbV :: Old
+http://codepen.io :: CodePen - Front End Developer Playground &amp; Code Editor in the Browser
+http://codepen.io/ :: CodePen - Front End Developer Playground &amp; Code Editor in the Browser
+http://codepen.io/DeptofJeffAyer/full/waLYxy/ :: CodePen - Button, button, who&#x27;s got the button
+http://codepen.io/fbrz/pen/whxbF :: CSS 3D Bending Effect - Page Flip
+http://codepen.io/juliangarnier/pen/idhuG :: CSS 3D Solar System
+http://codepen.io/lbebber/pen/OPWXEd :: CSS Fake blend preloader
+http://codepen.io/maccadb7/pen/nbHEg :: Modal - Pure CSS (no Javascript)
+http://codepen.io/thebabydino/full/doBLxx/ :: CodePen - Nightly Sea Creatures
+http://codepen.io/Yakudoo/pen/rVGraP :: holy running cow
+http://code.runnable.com/UWw3g0PKxoAWAA6K/how-to-serve-static-files-in-express-for-node-js :: How to serve static files in Express for Node.js Code Example - Runnable
+http://codyhouse.co/demo/back-to-top/index.html :: Back To Top | Cody
+http://codyhouse.co/demo/smart-fixed-navigation/index.html :: Smart Fixed Navigation
+http://com.hemiola.com/2009/11/23/memory-leaks-in-ie8/ :: Memory Leaks in IE8 and IE9 (Fixed in IE10) | Baffling Browsers
+http://commandlinepoweruser.com/ :: Command Line Power User
+http://compass-style.org/ ::  Compass Home | Compass Documentation 
+http://computer.howstuffworks.com/lan-switch15.htm :: Routers and Layer 3 Switching - How LAN Switches Work
+http://confreaks.tv/ ::  Confreaks TV 
+http://cordobo.com/wp-content/uploads/pure-css-animated-3d-super-mario/ :: Pure CSS animated 3D Super Mario Icon - An experiment by Andreas Jacob
+http://cosplay.watch/ :: Cosplay Watch - Everything You Need For Cosplay
+http://css3pie.com/demos/ :: Demos and Example Sites &#8211; CSS3 PIE: CSS3 decorations for IE
+http://css3test.com/ :: The CSS3 Test
+http://cssdeck.com/ :: HTML5, CSS3, JS Demos, Creations and Experiments | CSSDeck
+http://cssline.com/ :: CSSline - Showcase gallery of excellent CSS sites.
+http://csstriggers.com/ :: CSS Triggers...
+http://cwe.mitre.org/data/definitions/398 :: CWE - CWE-398: Indicator of Poor Code Quality (2.8) 
+http://cwe.mitre.org/index.html :: CWE - Common Weakness Enumeration 
+http://d3js.org/ :: D3.js - Data-Driven Documents
+http://daneden.github.io/animate.css/ :: Animate.css
+http://dashing.io/ :: Dashing - The exceptionally handsome dashboard framework.
+http://davidandsuzi.com/using-react-for-faster-renders-and-isomorphism-in-angular/ :: David and Suzi | Using React for Faster Renders and Isomosphism in Angular
+http://davidwalsh.name/es6-generators :: The Basics Of ES6 Generators
+http://davidwalsh.name/javascript-objects :: JS Objects: Inherited a Mess
+http://deckofcardsapi.com/ :: Deck of Cards API
+http://demo.marcofolio.net/3d_animation_css3/ :: 3d animation using pure CSS3
+http://demosthenes.info/blog/777/Create-Fullscreen-HTML5-Page-Background-Video :: the new code – Create Fullscreen HTML5 Page Background Video
+http://designshack.net/ :: Design Gallery, Articles &amp; Community | Design Shack
+http://developer.openstack.org/api-ref-telemetry-v2.html :: OpenStack API Documentation
+http://discuss.joelonsoftware.com/default.asp?joel.3.219431.12& :: The Joel on Software Discussion Group (CLOSED) - Why I Hate Frameworks
+http://diveintohtml5.info/ :: Dive Into HTML5
+http://diveintohtml5.info/offline.html :: Offline Web Applications - Dive Into HTML5
+http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html :: Choosing a Routing Policy - Amazon Route&nbsp;53
+http://docs.libuv.org/en/v1.x/ :: Welcome to the libuv API documentation &mdash; libuv API documentation
+http://docs.openstack.org/developer/devstack/ :: DevStack - an OpenStack Community Production &mdash; DevStack 0.0.1.dev6499 documentation
+http://docs.openstack.org/ ::  OpenStack Docs: Current 
+http://docs.openstack.org/openstack-ops/content/logging_monitoring.html :: Chapter 13. Logging and Monitoring - OpenStack Operations Guide
+http://docs.oracle.com/cd/E13214_01/wli/docs70/diuser/wlxtover.htm :: Introduction to Data Translation
+http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html :: What Every Computer Scientist Should Know About Floating-Point Arithmetic
+http://docs.oracle.com/cd/E39820_01/doc.11121/gateway_docs/content/oauth_flows.html :: API Gateway OAuth 2.0 Authentication Flows
+http://docs.oracle.com/en/ :: Oracle Help Center
+http://docs.saltstack.com/en/latest/ref/pillar/all/index.html :: Full list of builtin pillar modules
+http://docs.saltstack.com/en/latest/salt-modindex.html :: Salt Module Index
+http://docs.saltstack.com/en/latest/topics/installation/ubuntu.html :: Ubuntu Installation
+http://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html :: SaltStack Walk-through
+http://docs.uchiwa.io/en/latest/faq/faq/ :: Frequently asked questions - Uchiwa Docs
+http://dotnetslackers.com/articles/designpatterns/InversionOfControlAndDependencyInjectionWithCastleWindsorContainerPart1.aspx ::  Inversion of Control and Dependency Injection with Castle Windsor Container - Part I 
+http://dotnetslackers.com/ ::  DotNetSlackers: ASP.NET News and Articles For Lazy Developers 
+http://drewww.github.io/socket.io-benchmarking/ :: drewww/socket.io-benchmarking @ GitHub
+http://dtrace.org/blogs/about/ :: dtrace.org &raquo; About DTrace
+http://dtrace.org/blogs/brendan/2013/01/11/virtualization-performance-zones-kvm-xen/ :: Brendan&#039;s blog &raquo; Virtualization Performance: Zones, KVM, Xen
+http://dtrace.org/blogs/dap/2011/10/31/nodejs-v8-postmortem-debugging/ :: Node.js/V8 postmortem debugging | Dave Pacheco&#039;s Blog
+http://dtrace.org/blogs/dap/2012/01/05/where-does-your-node-program-spend-its-time/ :: Where does your Node program spend its time? | Dave Pacheco&#039;s Blog
+http://dtrace.org/blogs/dap/2012/01/13/playing-with-nodev8-postmortem-debugging/ :: Playing with Node/V8 postmortem debugging | Dave Pacheco&#039;s Blog
+http://dtrace.org/blogs/ :: dtrace.org 
+http://duartes.org/gustavo/blog/post/what-does-an-idle-cpu-do/ :: What Does an Idle CPU Do? - Gustavo Duarte
+http://effbot.org/zone/python-list.htm :: An Introduction to Python&nbsp;Lists
+http://effectivejs.com/ :: Effective JavaScript
+http://ejohn.org/blog/simple-javascript-inheritance/ :: John Resig - Simple JavaScript Inheritance
+http://electric-cloud.com/products/electricflow/electriccommander/ :: ElectricFlow: Make Continuous Delivery a Reality
+http://eloquentjavascript.net/ :: Eloquent JavaScript
+http://enable-cors.org/ :: enable cross-origin resource sharing
+http://endoflineblog.com/gitflow-considered-harmful :: GitFlow considered harmful | End of Line Blog
+http://engineering.chartbeat.com/2014/01/02/part-1-lessons-learned-tuning-tcp-and-nginx-in-ec2/ :: Part 1: Lessons learned tuning TCP and Nginx in EC2 &laquo; Chartbeat Engineering Blog
+http://engineering.linkedin.com/performance/how-linkedin-used-pops-and-rum-make-dynamic-content-download-25-faster :: How LinkedIn used PoPs and RUM to make dynamic content download 25% faster | LinkedIn Engineering
+http://en.wikipedia.org/wiki/File:Xterm_256color_chart.svg :: File:Xterm 256color chart.svg - Wikipedia, the free encyclopedia
+http://epydoc.sourceforge.net/docstrings.html :: Python Docstrings
+http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript/ :: Stop Using Constructor Functions in JavaScript &laquo; Eric Elliott &#8211; JavaScript Architect (A JavaScript Blog)
+http://es6-features.org/ :: ECMAScript 6: New Features: Overview and Comparison
+http://es6katas.org/ :: Learn ECMAScript6 by doing it
+http://eslint.org/ :: ESLint - Pluggable JavaScript linter
+http://espadrine.github.io/New-In-A-Spec/es6/ :: What's New In A Spec
+http://esprima.org/ :: Esprima
+http://ethanschoonover.com/solarized :: Solarized - Ethan Schoonover
+http://example.com/ :: Example Domain
+http://explainshell.com/ :: explainshell.com - match command-line arguments to their help text
+http://expressjs.com/4x/api.html :: Express 4.x - API Reference
+http://expressjs.com/api.html :: Express 4.x - API Reference
+http://expressjs.com/ :: Express - Node.js web application framework
+http://expressjs.com/starter/hello-world.html :: Express "Hello World" example
+http://fastly.github.io/epoch/ :: Epoch by Fastly
+http://five.sentenc.es/ :: Sentenc.es - A Disciplined Way To Deal With Email
+http://flipclockjs.com/ :: FlipClock.js
+http://flowtype.org/ :: Flow | Flow | A static type checker for JavaScript
+http://forecastfont.iconvau.lt/ :: Forecast Font
+http://fortune.com/best-companies/cisco-70/ :: Cisco - 100 Best Companies to Work For 2015 - Fortune
+http://foundation.zurb.com/ :: Foundation | The Most Advanced Responsive Front-end Framework from ZURB
+http://framerjs.com/ :: Framer - Prototyping Tool for Designing UI, Interaction and Animation
+http://fredkschott.com/post/2014/02/npm-no-longer-defaults-to-tildes/ :: "npm install --save" No Longer Using Tildes | FredKSchott
+http://futurice.com/blog/reactive-mvc-and-the-virtual-dom :: Reactive MVC and the Virtual DOM — Futurice
+http://gbracha.blogspot.com/2007/06/constructors-considered-harmful.html :: Room 101: Constructors Considered Harmful
+http://getbootstrap.com/ ::  Bootstrap &middot; The world's most popular mobile-first and responsive front-end framework. 
+http://getbootstrap.com/components/ ::  Components &middot; Bootstrap 
+http://getfirebug.com/ :: Firebug
+http://getskeleton.com/ :: Skeleton: Responsive CSS Boilerplate
+http://gionkunz.github.io/chartist-js/ :: Chartist - Simple responsive charts
+http://githubengineering.com/exception-monitoring-and-response/ ::  Exception Monitoring and Response - GitHub Engineering 
+http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html :: git ready &raquo; squashing commits with rebase
+http://git-scm.com/docs/git-revert :: Git - git-revert Documentation
+http://gradle.org/docs/current/dsl/ :: Gradle DSL Version 2.6
+http://gradle.org/docs/current/userguide/userguide_single.html :: Gradle User Guide
+http://gradle.org/ :: Gradle l Endgame Open-Source Enterprise Build Automation
+http://gridster.net/ :: gridster.js
+http://gruntjs.com/ :: Grunt: The JavaScript Task Runner
+http://guides.rubyonrails.org/security.html :: Ruby on Rails Security Guide — Ruby on Rails Guides
+http://guides.rubyonrails.org/testing.html :: A Guide to Testing Rails Applications — Ruby on Rails Guides
+http://gumbyframework.com/ :: Gumby - A Flexible, Responsive CSS Framework - Powered by Sass
+http://handlebarsjs.com/ :: Handlebars.js: Minimal Templating on Steroids
+http://helb.github.io/goodbye-sourceforge/ :: Goodbye, Sourceforge!
+http://hellohappy.org/beautiful-web-type/ :: Beautiful web type &mdash; the best typefaces from the Google web fonts directory
+http://hivelogic.com/articles/top-10-programming-fonts :: Top 10 Programming Fonts
+http://hook.io/ :: hook.io - Free Microservice and Webhook Hosting. Deploy your code in seconds.
+http://howtonode.org/understanding-process-next-tick :: Understanding process.nextTick() - How To Node - NodeJS
+http://html5doctor.com/ ::  HTML5 Doctor, helping you implement HTML5 today 
+http://html5please.com/ :: HTML5 Please - Use the new and shiny responsibly
+http://htmlhint.com/ :: HTMLHint
+http://httparchive.org/ :: HTTP Archive 
+http://httpd.apache.org/docs/2.4/programs/htpasswd.html :: htpasswd - Manage user files for basic authentication - Apache HTTP Server Version 2.4
+http://hueniverse.com/oauth/ :: OAuth | hueniverse
+http://ignitersworld.com/lab/patternLock.html :: jQuery plugin for android style pattern lock | ignitersworld.com
+http://ilovetypography.com/ :: Fonts, typefaces and all things typographical — I love Typography (ILT)
+http://imaginea.github.io/uvCharts/ :: uvCharts
+http://info.meteor.com/blog/optimistic-ui-with-meteor-latency-compensation :: Optimistic UI with Meteor
+http://input.fontbureau.com/download/ :: Input: Fonts for Code — Download
+http://input.fontbureau.com/info/ :: Input: Fonts for Code — Info
+http://isomorphic.net/ :: Isomorphic JavaScript - The future of web app development
+http://jaicab.com/2015/05/18/making-a-difference-with-performance/ ::  Making a difference with performance | Frontend architect based in London | Jaime Caballero 
+http://jakearchibald.com/2014/using-serviceworker-today/ :: Using ServiceWorker in Chrome today - JakeArchibald.com
+http://jankfree.org/ :: Jank Free: Let's Make the Web Silky Smooth!
+http://jaredforsyth.com/2015/03/06/visualizing-reactive-streams-hot-and-cold/ :: Visualizing Reactive Streams: Hot and Cold Observables
+http://jasmine.github.io/edge/introduction.html :: introduction.js
+http://jasmine.github.io/ :: Jasmine: Behavior-Driven JavaScript
+http://jasonwilder.com/blog/2012/01/03/centralized-logging/ :: Centralized Logging &middot; 
+http://javascript.crockford.com/ :: Douglas Crockford's Javascript
+http://jekyllrb.com/ :: Jekyll &bull; Simple, blog-aware, static sites
+http://jigsaw.w3.org/css-validator/ :: The W3C CSS Validation Service
+http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript :: Taming the Asynchronous Beast with CSP Channels in JavaScript 
+http://jorgeatgu.github.io/svg-filters/ :: SVG FILTERS + DRAG AND DROP
+http://jquery.com/ :: jQuery
+http://js2.coffee/ :: js2coffee 2.0 &mdash; convert JavaScript to CoffeeScript
+http://jsbeautifier.org/ :: Online JavaScript beautifier
+http://jsbin.com/?html,js,output :: JS Bin - Collaborative JavaScript Debugging
+http://jsfiddle.net/ :: Create a new fiddle - JSFiddle
+http://jsfiddle.net/thirtydot/5CJ5e/ :: Edit fiddle - JSFiddle
+http://jsforcats.com/ :: JavaScript for Cats
+http://jshint.com/about/ :: About JSHint
+http://jsonlint.com/ ::  JSONLint - The JSON Validator. 
+http://jsperf.com/bluebird-vs-rsvp/87 :: Bluebird vs RSVP · jsPerf
+http://jsperf.com/ :: jsPerf: JavaScript performance playground
+http://juriy.com/p/socket-io.html :: What's new in Socket.IO 1.0
+http://kallithea-scm.org/ :: Kallithea
+http://kangax.github.io/compat-table/es6/ :: ECMAScript 6 compatibility table
+http://kangax.github.io/nfe/ :: Named function expressions demystified
+http://kb.imakewebsites.ca/2014/01/03/nodejs-setup-tips-for-devops/ :: NodeJS setup tips for DevOps &#8211; Knowledge Base
+http://keepalived.org/ :: Keepalived for Linux
+http://keithclark.co.uk/articles/pure-css-parallax-websites/ :: Pure CSS Parallax Websites by Keith Clark
+http://keithclark.co.uk/ :: Keith Clark
+http://kkovacs.eu/cool-but-obscure-unix-tools :: Cool, but obscure unix tools :: Software architect Kristof Kovacs
+http://krakenjs.com/ :: krakenjs - Give your node.js express apps some extra arms
+http://kristopolous.github.io/BOOTSTRA.386/ :: Bootstrap
+http://labs.omniti.com/labs/jsend :: JSend
+http://learning-0mq-with-pyzmq.readthedocs.org/en/latest/pyzmq/devices/devices.html :: ØMQ Devices &mdash; Learning 0MQ with examples
+http://learnrubythehardway.org/book/ex44.html :: Learn Ruby The Hard Way
+http://learnrubythehardway.org/book/ :: Learn Ruby The Hard Way
+http://learnxinyminutes.com/docs/groovy/ :: Learn Groovy in Y Minutes
+http://learnxinyminutes.com :: Learn X in Y Minutes: Scenic Programming Language Tours
+http://learnxinyminutes.com/ :: Learn X in Y Minutes: Scenic Programming Language Tours
+http://learnyouahaskell.com/ :: Learn You a Haskell for Great Good!
+http://lea.verou.me/2015/04/jquery-considered-harmful/ :: jQuery considered harmful | Lea Verou
+http://lea.verou.me/ :: Lea Verou | Life at the bleeding edge (of web standards)
+http://lesscss.org/ ::  Getting started | Less.js 
+http://lighttable.com/ :: Light Table
+http://linkedin.github.io/dustjs :: Dust.js by LinkedIn
+http://linkedin.github.io/dustjs/test/test.html :: dust
+http://linuxcommand.org/lts0080.php :: Learning the shell - Lesson 8: Job Control
+http://linux.die.net/man/2/listen :: listen(2): listen for connections on socket - Linux man page
+http://linux.die.net/man/3/write :: write(3): on file - Linux man page
+http://logging.apache.org/log4j/ :: -
+http://lorempixel.com/ :: lorempixel - placeholder images for every case
+http://lunrjs.com/ :: lunr.js - A bit like Solr, but much smaller and not as bright
+http://mac.appstorm.net/ ::  Mac.AppStorm
+http://man7.org/linux/man-pages/man1/gcore.1.html :: gcore(1) - Linux manual page
+http://manning.com/ :: Manning | Home
+http://manpages.ubuntu.com/manpages/lucid/man1/gcore.1.html :: Ubuntu Manpage: gcore - Generate a core file for a running process 
+http://markdalgleish.github.io/presentation-return-of-the-progressive-web/ :: The Return of the Progressive Web
+http://martinfowler.com/articles/consumerDrivenContracts.html :: Consumer-Driven Contracts: A Service Evolution Pattern
+http://martinfowler.com/articles/enterpriseREST.html :: Enterprise Integration Using REST
+http://martinfowler.com/articles/injection.html :: Inversion of Control Containers and the Dependency Injection pattern
+http://martinfowler.com/articles/microservices.html :: Microservices
+http://martinfowler.com/bliki/CircuitBreaker.html :: CircuitBreaker
+http://martinfowler.com/bliki/MicroservicePremium.html :: MicroservicePremium
+http://martinfowler.com/bliki/SnowflakeServer.html :: SnowflakeServer
+http://martinfowler.com/bliki/TolerantReader.html :: TolerantReader
+http://martinfowler.com/eaaDev/EventSourcing.html :: Event Sourcing
+http://martinfowler.com/ :: Martin Fowler
+http://mashable.com/ :: Mashable
+http://matthewlein.com/ceaser/ :: Ceaser - CSS Easing Animation Tool - Matthew Lein
+http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/ :: Memoizing recursive functions via the fixed-point Y combinator: Applying functional programming techniques to Javascript
+http://mcavage.me/node-restify/ :: API Guide | restify
+http://mcavage.me/presentations/dtrace_conf_2012-04-03/ :: DTrace Your Node.js Applications
+http://merbist.com/2011/02/22/concurrency-in-ruby-explained/ :: Ruby concurrency explainined | Matt Aimonetti
+http://meyerweb.com/eric/tools/dencoder/ :: URL Decoder/Encoder
+http://meyerweb.com/ :: meyerweb.com
+http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/ :: Install Jekyll 2 on Ubuntu 14.04 &#8211; michaelchelen.net
+http://mobilehtml5.org/ :: Mobile HTML5 compatibility on iPhone, Android, Windows Phone, BlackBerry, Firefox OS and other mobile devices
+http://modernizr.com/ :: Modernizr: the feature detection library for HTML5/CSS3
+http://momentjs.com/ :: Moment.js | Home
+http://momentjs.com/timezone/ :: Moment Timezone | Home
+http://monodraw.helftone.com/ :: Monodraw for Mac &mdash; Helftone
+http://mrale.ph/blog/2011/12/18/v8-optimization-checklist.html ::  I-want-to-optimize-my-JS-application-on-V8 checklist 
+http://mrdoob.github.io/three.js/examples/css3d_periodictable.html :: three.js css3d - periodic table
+http://mrjoes.github.io/2011/12/15/sockjs-bench.html :: SockJS benchmark | Eat at Joe's
+http://msgpack.org/ :: MessagePack: It's like JSON. but fast and small.
+http://mvnrepository.com/ :: Maven Repository: Search/Browse/Explore
+http://n3-charts.github.io/line-chart/ :: n3-charts
+http://namez.com/ :: Namez: Record and share your name pronunciation.
+http://neatline.dclure.org/neatline/show/declaration-of-independence ::  Neatline Labs | The Declaration of Independence 
+http://nefariousdesigns.co.uk/ :: Nefarious Designs
+http://netflix.github.io/falcor/ :: Falcor: One Model Everywhere
+http://newrelic.com/ :: Application Performance Management &amp; Monitoring | New Relic
+http://newrelic.com/nodejs :: Node.js Troubleshooting and Performance Monitoring | New Relic APM
+http://ng-inspector.org/ :: ng-inspector for AngularJS
+http://nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/ :: Inside NGINX: Designed for Performance &amp; Scalability
+http://nginx.com/blog/socket-sharding-nginx-release-1-9-1/ :: Socket Sharding in NGINX Release 1.9.1 - NGINX
+http://nginx.com/products/ :: NGINX Plus: Complete Application Delivery Platform
+http://nginx.com/resources/glossary/layer-7-load-balancing/ :: Benefits of Layer 7 Load Balancing | NGINX Load Balancer
+http://nginx.org/en/docs/beginners_guide.html :: Beginner’s Guide
+http://nginx.org/en/docs/http/load_balancing.html :: Using nginx as HTTP load balancer
+http://nginx.org/en/docs/http/ngx_http_auth_basic_module.html :: Module ngx_http_auth_basic_module
+http://nginx.org/en/docs/http/ngx_http_upstream_module.html :: Module ngx_http_upstream_module
+http://nginx.org/en/docs/ :: nginx documentation
+http://nginx.org/ :: nginx news
+http://nikhilm.github.io/uvbook/processes.html :: Processes &mdash; An Introduction to libuv
+http://nikhilm.github.io/uvbook/ :: Table of Contents &mdash; An Introduction to libuv
+http://nikhilm.github.io/uvbook/threads.html :: Threads &mdash; An Introduction to libuv
+http://node-modules.com/ :: Better search for Node.js modules
+http://nvie.com/posts/a-successful-git-branching-model/ :: A successful Git branching model &raquo; nvie.com
+http://oauth.net/documentation/ ::  Documentation &mdash; OAuth 
+http://ogp.me/ :: The Open Graph protocol
+http://okor.github.io/justice/ :: justice
+http://openid.net/connect/ :: OpenID Connect | OpenID
+http://osxdaily.com/2008/03/21/how-to-flush-your-dns-cache-in-mac-os-x/ :: How to Flush DNS Cache in Mac OS X | OSXDaily
+http://osxfuse.github.io/ :: Home - FUSE for OS X
+http://passportjs.org/ :: Passport
+http://patternlab.io/about.html :: About Pattern Lab and Atomic Design
+http://people.adams.edu/~cdmiller/posts/nginx-heartbeat-ha/ :: Nginx high availability via heartbeat
+http://phabricator.org/ :: Phabricator
+http://phantomjs.org/build.html :: Build | PhantomJS
+http://phantomjs.org/quick-start.html :: Quick Start | PhantomJS
+http://pheuter.github.io/essential-react/ :: Essential React
+http://php.net/manual/en/function.socket-listen.php :: PHP: socket_listen - Manual 
+http://pivotaltracker.com/ :: Pivotal Tracker | Agile Project Management
+http://practicaltypography.com/ :: Butterick’s Practical Typography
+http://prettydiff.com/ :: Pretty Diff - The difference tool
+http://programmers.stackexchange.com/questions/221034/usage-of-magic-strings-numbers :: coding style - Usage of magic strings/numbers - Programmers Stack Exchange
+http://programmers.stackexchange.com/questions/278778/why-are-native-es6-promises-slower-and-more-memory-intensive-than-bluebird :: javascript - Why are native ES6 promises slower and more memory-intensive than bluebird? - Programmers Stack Exchange
+http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/ :: Consul Service Discovery with Docker :: Jeff Lindsay
+http://projects.spring.io/spring-boot/ :: Spring Boot
+http://px64.net/ :: Transparent PNG Pixel Base64 Encoded
+http://queue.acm.org/detail.cfm?id=2039361 :: Postmortem Debugging in Dynamic Environments - ACM Queue
+http://queues.io/ :: Queues
+http://quirksmode.org/ :: QuirksMode - for all your browser quirks
+http://quoteunquoteapps.com/courierprime/faq :: Courier Prime FAQ | Quote-Unquote Apps
+http://qzaidi.github.io/2013/05/14/node-in-production/ :: 10 steps to nodejs nirvana in production | Thruput | Garbage In, Garbage Out
+http://redis.io/documentation ::  Redis 
+http://redis.io/ ::  Redis 
+http://redis.io/topics/benchmarks ::  How fast is Redis? – Redis 
+http://redis.io/topics/cluster-tutorial ::  Redis cluster tutorial – Redis 
+http://redis.io/topics/introduction ::  Introduction to Redis – Redis 
+http://redis.io/topics/replication ::  Replication – Redis 
+http://reference.sitepoint.com/css :: SitePoint CSS Reference » Learn CSS3 | Cheat Sheet | CSS Tutorial | Selectors | Properties 
+http://regexone.com/ :: RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and the ABCs
+http://requirejs.org/docs/start.html :: How to get started with RequireJS
+http://research.google.com/archive/chubby.html :: Google Research Publication: Chubby Distributed Lock Service
+http://rethinkdb.com/faq/ ::  Frequently asked questions - RethinkDB 
+http://roxik.com/cat/ :: Caaaaat
+http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven ::  REST APIs must be hypertext-driven &raquo; Untangled
+http://rubylearning.com/ :: Ruby Tutorial - Learn Ruby
+http://rubyplus.biz/ :: Ruby Plus
+http://rustyshelf.org/2014/07/08/the-android-screen-fragmentation-myth/ :: The Android Screen Fragmentation Myth | Rusty Rants 
+http://ryanclark.me/going-native-with-react/ :: Going native with React, an introduction
+https://access.redhat.com/documentation/en-US/index.html :: Product Documentation
+https://access.redhat.com/documentation/en-US/Red_Hat_Certificate_System/8.0/html/Install_Guide/chkconfig.html :: 9.3. Starting the Subsystem Automatically
+https://access.redhat.com/documentation/en-US/Red_Hat_Network_Satellite/5.3/html/Deployment_Guide/satops-rpm-building.html :: 2.5. RPM Building
+https://aerotwist.com/blog/pixels-are-expensive/ :: Aerotwist - Pixels are expensive
+http://saltstack.com/ ::  SaltStack automation for CloudOps, ITOps &amp; DevOps at scale 
+https://angularjs.org/ :: AngularJS — Superheroic JavaScript MVW Framework
+https://aphyr.com/posts/281-call-me-maybe-carly-rae-jepsen-and-the-perils-of-network-partitions :: Call me maybe: Carly Rae Jepsen and the perils of network partitions
+https://archive.org/details/internetarcade :: Internet Arcade : Free Software : Download & Streaming : Internet Archive
+https://archive.org/ :: Internet Archive: Digital Library of Free Books, Movies, Music & Wayback Machine
+https://archive.org/web/ :: Internet Archive: Wayback Machine
+https://arnavkagrawal.wordpress.com/2013/07/21/websockets/ :: Working with websockets | Beyond Layman
+https://ask.openstack.org/en/question/51388/whats-the-difference-between-flat-gre-and-vlan-neutron-network-types/ :: What&#39;s the difference between flat, gre and vlan Neutron network types? - Ask OpenStack: Q&amp;A Site for OpenStack Users and Developers
+http://sass-lang.com/guide :: Sass: Sass Basics
+http://sass-lang.com/ :: Sass: Syntactically Awesome Style Sheets
+https://atmospherejs.com/ :: The trusted source for JavaScript packages, Meteor resources and tools &#124; Atmosphere
+https://auth0.com/ :: Auth0 - Identity infrastructure, built for developers
+https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/ :: Critical vulnerabilities in JSON Web Token libraries
+https://aws.amazon.com/elasticache/pricing/ :: Pricing
+https://awwapp.com/ :: A web whiteboard
+https://babeljs.io/docs/learn-es2015/ :: Learn ES2015 · Babel
+https://babeljs.io/docs/learn-es6/ :: Redirecting...
+https://babeljs.io/docs/setup/ :: Using Babel · Babel
+https://babeljs.io/docs/usage/cli/ :: CLI · Babel
+https://blog.cloudflare.com/how-to-receive-a-million-packets/ :: How to receive a million packets per second
+https://blog.dylants.com/2014/05/10/creating-a-private-npm-registry-with-sinopia/ :: Creating a Private npm Registry with Sinopia
+https://blog.logentries.com/2014/12/keepalived-and-haproxy-in-aws-an-exploratory-guide/ :: Keepalived & HAProxy in AWS: An Exploratory Guide
+https://blog.polymer-project.org/ :: Polymer Blog
+https://blog.pusher.com/ :: Pusher Blog - Enjoy our helpful resources &amp; Industry insights.
+https://blog.pusher.com/websockets-from-scratch/ :: WebSockets From Scratch - Pusher Blog
+https://blog.talpor.com/2014/07/saltstack-beginners-tutorial/ ::  Salt - Beginners Tutorial | talPor Solutions Blog
+https://bonsaiden.github.io/JavaScript-Garden/ :: JavaScript Garden
+https://c9.io/blog/behind-the-scenes-continuous-integration-at-cloud9/ :: Behind the Scenes: Continuous Integration at Cloud9
+https://cacoo.com/ :: Cacoo - Your ideas. Our canvas.
+https://changelog.com/ :: The Changelog - Open source moves fast. Keep up.
+https://changelog.com/winston-a-multi-transport-async-logging-library-for-node/ :: winston: Pluggable async logging library for Node.js - The Changelog
+https://cloud.google.com/ :: Google Cloud Computing, Hosting Services &amp; Cloud Support &mdash; Google Cloud Platform
+https://code.google.com/p/v8/issues/detail?id=847 :: Issue 847 - v8 - 1gb memory limit - V8 JavaScript Engine - Google Project Hosting 
+https://code.google.com/p/v8-wiki/wiki/V8Profiler :: V8Profiler - v8-wiki - How to profile V8 using the built-in profiler. - V8 JavaScript Engine Wiki - Google Project Hosting 
+https://console.ng.bluemix.net/ :: -
+https://consul.io/ :: Consul by HashiCorp
+https://consul.io/docs/ :: Documentation - Consul by HashiCorp
+http://scottksmith.com/blog/2015/06/15/secure-node-apps-against-owasp-top-10-authentication-and-sessions/ :: Secure Node Apps Against OWASP Top 10 - Authentication &amp; Sessions - Scott Smith
+https://cssanimation.rocks/buffer/ :: Buffer's loading animation - CSS Animation
+https://cssanimation.rocks/ :: CSS Animation
+https://css-tricks.com/ :: -
+https://css-tricks.com/building-a-circular-navigation-with-css-clip-paths/ :: Building A Circular Navigation with CSS Clip Paths | CSS-Tricks
+https://css-tricks.com/on-target/ :: On :target | CSS-Tricks
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ :: -
+https://css-tricks.com/snippets/css/keyframe-animation-syntax/ :: -
+https://css-tricks.com/snippets/css/style-placeholder-text/ :: -
+https://developer.blackberry.com/html5/documentation/v2_2/css_best_practices.html :: CSS best practices - HTML5/WebWorks for BB10 - BlackBerry Developer
+https://developer.mozilla.org/en-US/docs/Server-sent_events/Using_server-sent_events :: Using server-sent events - Web API Interfaces | MDN
+https://developer.mozilla.org/en-US/docs/Tools :: Firefox Developer Tools | MDN
+https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API :: IndexedDB - Web API Interfaces | MDN
+https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events :: Using server-sent events - Web API Interfaces | MDN
+https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API :: Service Worker API - Web API Interfaces | MDN
+https://developer.mozilla.org/en-US/docs/Web/API/Touch_events :: Touch events - Web API Interfaces | MDN
+https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate :: Window.setImmediate() - Web API Interfaces | MDN
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 :: CSS3 - CSS | MDN
+https://developer.mozilla.org/en-US/docs/Web/CSS/opacity :: opacity - CSS | MDN
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5 :: HTML5 - Web developer guide | MDN
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS :: HTTP access control (CORS) - HTTP | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript :: A re-introduction to JavaScript (JS tutorial) - JavaScript | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators :: Iterators and generators - JavaScript | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions :: Arrow functions - JavaScript | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map :: Map - JavaScript | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith :: String.prototype.endsWith() - JavaScript | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import :: import - JavaScript | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let :: let - JavaScript | MDN
+https://developer.mozilla.org/en-US/ :: Mozilla Developer Network
+https://developer.mozilla.org/ :: Mozilla Developer Network
+https://developers.google.com/apis-explorer/?csw=1#p/ :: Google APIs Explorer
+https://developers.google.com/chart/ :: Charts &nbsp;|&nbsp; Google Developers
+https://developers.google.com/closure/ :: Closure Tools &nbsp;|&nbsp; Google Developers
+https://developers.google.com/speed/docs/insights/UseLegibleFontSizes?hl=en :: Use Legible Font Sizes &nbsp;|&nbsp; PageSpeed Insights &nbsp;|&nbsp; Google Developers
+https://developers.google.com/speed/docs/insights/v2/reference/ :: API Reference &nbsp;|&nbsp; PageSpeed Insights &nbsp;|&nbsp; Google Developers
+https://developers.google.com/speed/pagespeed/?csw=1 :: PageSpeed Tools &nbsp;|&nbsp; Google Developers
+https://developers.google.com/speed/pagespeed/insights/ :: PageSpeed Insights
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching :: HTTP caching — Web Fundamentals
+https://developers.google.com/web/fundamentals/ :: Web Fundamentals — Google Developers
+https://developers.openshift.com/ :: -
+https://dev.opera.com/articles/ux-accessibility-aria-label/ :: Dev.Opera — UX accessibility with aria-label
+https://dev.opera.com/ :: Dev.Opera
+https://docs.docker.com/reference/commandline/cli/ :: Using the command line 
+https://docs.docker.com/userguide/dockerizing/ :: Dockerizing applications: A &#39;Hello world&#39; 
+https://docs.google.com/presentation/d/1r7QXGYOLCh4fcUq0jDdDwKJWNqWK1o4xMtYpKZCJYjM/present?slide=id.p19 :: HTTP/2 is here, let&#39;s optimize! - Velocity SC 2015 - Google Slides
+https://docs.jboss.org/ :: Dashboard - JBoss.org Documentation
+https://docs.jboss.org/jbossas/docs/Server_Configuration_Guide/4/html/TransactionJTA_Overview-Pessimistic_and_optimistic_locking.html :: 6.1.1. Pessimistic and optimistic locking
+https://docs.npmjs.com/cli/build :: build | npm Documentation
+https://docs.npmjs.com/cli/install :: install | npm Documentation
+https://docs.npmjs.com/cli/pack :: pack | npm Documentation
+https://docs.npmjs.com/cli/shrinkwrap :: shrinkwrap | npm Documentation
+https://docs.npmjs.com/files/package.json :: package.json | npm Documentation
+https://docs.npmjs.com/misc/config :: config | npm Documentation
+https://docs.npmjs.com/misc/developers :: developers | npm Documentation
+https://docs.npmjs.com/misc/semver :: semver | npm Documentation
+https://docs.oracle.com/javase/tutorial/ :: The Java&trade; Tutorials
+https://docs.saltstack.com/en/develop/topics/reactor/index.html :: Reactor System
+https://documentation.mailgun.com/user_manual.html#sending-via-api :: User Manual &mdash; Mailgun API documentation
+https://documentation.mailgun.com/user_manual.html :: User Manual &mdash; Mailgun API documentation
+https://dribbble.com/ :: Dribbble - Show and tell for designers
+http://security.stackexchange.com/questions/46883/is-every-hash-format-that-nginx-accepts-for-http-basic-auth-weak-against-brute-f :: Is every hash format that nginx accepts for HTTP Basic Auth weak against brute force? - Information Security Stack Exchange
+http://security.stackexchange.com/questions/988/is-basic-auth-secure-if-done-over-https :: appsec - Is BASIC-Auth secure if done over HTTPS? - Information Security Stack Exchange
+http://semver.org/ :: Semantic Versioning 2.0.0
+https://engineering.gosquared.com/error-handling-using-domains-node-js :: Crash safety using domains in Node.js - GoSquared Engineering
+https://engineering.linkedin.com/nodejs/blazing-fast-nodejs-10-performance-tips-linkedin-mobile :: Blazing fast node.js: 10 performance tips from LinkedIn Mobile | LinkedIn Engineering
+http://sensuapp.org/docs/latest :: Sensu | Table of contents
+http://sensuapp.org/ :: Sensu | Monitoring for today's infrastructure.
+https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Classes :: Ruby Programming/Syntax/Classes - Wikibooks, open books for an open world
+https://ericelliottjs.com/ :: Learn JavaScript - 
+https://ericelliottjs.com/product/programming-javascript-applications-paper-ebook-bundle/ :: Programming JavaScript Applications Paper &#038; eBook Bundle &#8211; Learn JavaScript
+http://serverfault.com/questions/204025/ordering-1-nginx-2-varnish-3-haproxy-4-webserver :: web - Ordering: 1. nginx 2. varnish 3. haproxy 4. webserver? - Server Fault
+http://serverfault.com/questions/276170/alternatives-to-heartbeat-pacemaker-and-corosync :: linux - Alternatives to Heartbeat, Pacemaker and CoroSync? - Server Fault
+http://serverfault.com/questions/339200/haproxy-as-load-balancer-and-nginx-as-webserver :: apache 2.2 - haproxy as load-balancer and nginx as webserver? - Server Fault
+http://serverfault.com/questions/361071/what-is-the-difference-between-keepalive-and-heartbeat :: high availability - What is the difference between keepalive and heartbeat? - Server Fault
+http://serverfault.com/questions/506465/is-there-a-hard-limit-to-the-number-of-files-a-directory-can-have :: linux - Is there a hard limit to the number of files a directory can have? - Server Fault
+http://serverfault.com/ :: Server Fault
+https://esdiscuss.org/topic/finding-a-safety-syntax-for-classes :: Finding a &quot;safety syntax&quot; for classes
+https://evernote.com/ ::  The workspace for your life’s work | Evernote
+https://facebook.github.io/react/docs/getting-started.html :: Getting Started | React
+https://flexibits.com/fantastical :: Flexibits | Fantastical 2 for Mac | Meet your Mac's new calendar.
+https://forgerock.org/openam/ :: OpenAM - Access Management &amp; SSO - Project Home Page
+https://frontendmasters.com/courses/jsnext-es6/ :: Learn the New JavaScript Features: JS.Next: ES6 / ES2015
+https://gist.github.com/danmactough/8190476 :: Isaac&#39;s description of process.nextTick vs. setImmediate · GitHub
+https://gist.github.com/debasishg/8172796 :: A collection of links for streaming algorithms and data structures · GitHub
+https://gist.github.com/edtsech/4364933 :: Merge two hashes/dictionaries in Ruby and Python. · GitHub
+https://gist.github.com/felixge/243632 :: client.js · GitHub
+https://gist.github.com/gregology/5313326 :: Service script for dashing. Update DASHING_DIR variable, add this file to /etc/init.d/ , chmod to 755, and let update rc.d with $ sudo update-rc.d dashboard defaults This scripts stops the dashing service with &quot;killall thin&quot; which will kill all thin services running on your server. · GitHub
+https://gist.github.com/julionc/7476620 :: How to install PhantomJS on Debian/Ubuntu · GitHub
+https://gist.github.com/kentbrew/776580 :: How I Got Node.js Talking on EC2&#39;s Port 80 · GitHub
+https://gist.github.com/kixorz/5146008 :: Update Route53 DNS records from your EC2 instance using this simple Ruby script. You can call it from rc.local after setting your hostname locally. First parameter is the desired &lt;hostname&gt;.&lt;domain&gt; Domain and other parameters are hardcoded. This script is useful for handling internal DNS changes in your systems after instance changes. Attached is also IAM policy for your AWS IAM user. You should create a new user for this and not use your admin credentials to keep the security tight. · GitHub
+https://gist.github.com/kixorz/81287bb06dbc5e16e96b :: EC2 Instance Route53 Hostname registration init.d script. Instance needs to have the attached IAM instance role policy applied. · GitHub
+https://gist.github.com/lovellfelix/8135631 :: Install Ruby with Bundler on CentOS 6.5 [RVM Example] · GitHub
+https://gist.github.com/oroce/4052571 :: pipe bunyan logger into mongodb (even with node-restify) · GitHub
+https://gist.github.com/staltz/868e7e9bc2a7b8c1f754 :: The introduction to Reactive Programming you&#39;ve been missing · GitHub
+https://gist.github.com/trevnorris/6fea5ab2632dff8b5b25 :: module-notes.txt · GitHub
+https://gist.github.com/trevnorris/9616784 :: Quick steps of how to create a flame graph using perf · GitHub
+https://gist.github.com/v0lkan/90fcb83c86918732b894 :: Configuring NGINX for Maximum Throughput Under High Concurrency · GitHub
+https://github.com/ageitgey/node-unfluff :: ageitgey/node-unfluff · GitHub
+https://github.com/allotrop3/four :: allotrop3/four · GitHub
+https://github.com/apresta/tagger :: apresta/tagger · GitHub
+https://github.com/ariya/phantomjs :: ariya/phantomjs · GitHub
+https://github.com/azproduction/autopolyfiller :: azproduction/autopolyfiller · GitHub
+https://github.com/babel/babel :: babel/babel · GitHub
+https://github.com/babel/babel.github.io :: babel/babel.github.io · GitHub
+https://github.com/baryon/tracer :: baryon/tracer · GitHub
+https://github.com/batmanjs/batman :: batmanjs/batman · GitHub
+https://github.com/bendc/sprint :: bendc/sprint · GitHub
+https://github.com/bevacqua/woofmark/blob/master/readme.markdown :: woofmark/readme.markdown at master · bevacqua/woofmark · GitHub
+https://github.com/bevry/caterpillar :: bevry/caterpillar · GitHub
+https://github.com/bnoordhuis/node-heapdump :: bnoordhuis/node-heapdump · GitHub
+https://github.com/bnoordhuis/node-profiler :: bnoordhuis/node-profiler · GitHub
+https://github.com/bumptech/stud :: bumptech/stud · GitHub
+https://github.com/c4milo/node-webkit-agent :: c4milo/node-webkit-agent · GitHub
+https://github.com/chjj/blessed :: chjj/blessed · GitHub
+https://github.com/chriso/cli :: chriso/cli · GitHub
+https://github.com/creationix/nvm :: creationix/nvm · GitHub
+https://github.com/CrossEye/ramda :: CrossEye/ramda · GitHub
+https://github.com/CSSLint/csslint :: CSSLint/csslint · GitHub
+https://github.com/danielstjules/redislock :: danielstjules/redislock · GitHub
+https://github.com/danwrong/restler :: danwrong/restler · GitHub
+https://github.com/davepacheco/kang :: davepacheco/kang · GitHub
+https://github.com/davepacheco/node-verror :: davepacheco/node-verror · GitHub
+https://github.com/ddopson/node-segfault-handler :: ddopson/node-segfault-handler · GitHub
+https://github.com/doxout/recluster :: doxout/recluster · GitHub
+https://github.com/drduh/pwd.sh :: drduh/pwd.sh · GitHub
+https://github.com/dthree/vantage :: dthree/vantage · GitHub
+https://github.com/dtrace4linux/linux :: dtrace4linux/linux · GitHub
+https://github.com/dumbmatter/fakeIndexedDB :: dumbmatter/fakeIndexedDB · GitHub
+https://github.com/ericdouglas/ES6-Learning :: ericdouglas/ES6-Learning · GitHub
+https://github.com/eventmachine/eventmachine :: eventmachine/eventmachine · GitHub
+https://github.com/fanout/zurl :: fanout/zurl · GitHub
+https://github.com/fent/socket.io-clusterhub :: fent/socket.io-clusterhub · GitHub
+https://github.com/fergiemcdowall/norch :: fergiemcdowall/norch · GitHub
+https://github.com/filamentgroup/loadCSS/ :: filamentgroup/loadCSS · GitHub
+https://github.com/flatiron/prompt :: flatiron/prompt · GitHub
+https://github.com/flitbit/json-path :: flitbit/json-path · GitHub
+https://github.com/foreverjs/forever :: foreverjs/forever · GitHub
+https://github.com/gevorg/htpasswd :: gevorg/htpasswd · GitHub
+https://github.com/giampaolo/psutil :: giampaolo/psutil · GitHub
+https://github.com/github/hub :: github/hub · GitHub
+https://github.com/ :: GitHub · Where software is built
+https://github.com/google/fonts :: google/fonts · GitHub
+https://github.com/google/traceur-compiler :: google/traceur-compiler · GitHub
+https://github.com/gotwarlost/istanbul :: gotwarlost/istanbul · GitHub
+https://github.com/gregoryfabry/checkerboard :: gregoryfabry/checkerboard · GitHub
+https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess :: html5-boilerplate/.htaccess at master · h5bp/html5-boilerplate · GitHub
+https://github.com/harthur/nomnom :: harthur/nomnom · GitHub
+https://github.com/harthur/replace :: harthur/replace · GitHub
+https://github.com/hgarc014/git-game :: git-game/git-game · GitHub
+https://github.com/hueniverse/iron :: hueniverse/iron · GitHub
+https://github.com/indexzero/http-server :: indexzero/http-server · GitHub
+https://github.com/indexzero/winston :: indexzero/winston · GitHub
+https://github.com/isaacs/fast-list :: isaacs/fast-list · GitHub
+https://github.com/isaacs/node-supervisor :: petruisfan/node-supervisor · GitHub
+https://github.com/ivopetkov/responsively-lazy :: ivopetkov/responsively-lazy · GitHub
+https://github.com/jariz/vibrant.js :: jariz/vibrant.js · GitHub
+https://github.com/jayway/JsonPath :: jayway/JsonPath · GitHub
+https://github.com/joeferner/node-sf :: joeferner/node-sf · GitHub
+https://github.com/joyent :: Joyent · GitHub
+https://github.com/joyent/nhttpsnoop :: joyent/nhttpsnoop · GitHub
+https://github.com/joyent/node/issues/8022 :: Outdated/Confusing Documentation on console API · Issue #8022 · nodejs/node-v0.x-archive · GitHub
+https://github.com/joyent/node-snmpjs :: joyent/node-snmpjs · GitHub
+https://github.com/joyent/node-stackvis :: joyent/node-stackvis · GitHub
+https://github.com/joyent/node/wiki/Api-changes-between-v0.8-and-v0.10 :: API changes between v0.8 and v0.10 · nodejs/node-v0.x-archive Wiki · GitHub
+https://github.com/joyent/node/wiki/Best-practices-and-gotchas-with-v8 :: Best practices and gotchas with v8 · nodejs/node-v0.x-archive Wiki · GitHub
+https://github.com/joyent/node/wiki/FAQ :: FAQ · nodejs/node-v0.x-archive Wiki · GitHub
+https://github.com/joyent/node/wiki/installing-node.js-via-package-manager :: Installing Node.js via package manager · nodejs/node-v0.x-archive Wiki · GitHub
+https://github.com/JustinTulloss/zeromq.node :: JustinTulloss/zeromq.node · GitHub
+https://github.com/krakenjs/kappa :: krakenjs/kappa · GitHub
+https://github.com/kriskowal/q :: kriskowal/q · GitHub
+https://github.com/linkedin/dustjs/wiki/Dust-Tutorial :: Dust Tutorial · linkedin/dustjs Wiki · GitHub
+https://github.com/lloyd/node-memwatch :: lloyd/node-memwatch · GitHub
+https://github.com/lucagrulla/node-tail :: lucagrulla/node-tail · GitHub
+https://github.com/mateodelnorte/servicebus :: mateodelnorte/servicebus · GitHub
+https://github.com/mateodelnorte/sourced :: mateodelnorte/sourced · GitHub
+https://github.com/mochajs/mocha :: mochajs/mocha · GitHub
+https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills :: HTML5 Cross Browser Polyfills · Modernizr/Modernizr Wiki · GitHub
+https://github.com/mozilla-services/heka/wiki/Sample--etc-init.d-hekad-file :: Sample etc init.d hekad file · mozilla-services/heka Wiki · GitHub
+https://github.com/mranney/node_redis :: NodeRedis/node_redis · GitHub
+https://github.com/msemenistyi/hypnos :: msemenistyi/hypnos · GitHub
+https://github.com/Nathanaela/v8-natives :: NathanaelA/v8-Natives · GitHub
+https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey :: Chaos Monkey · Netflix/SimianArmy Wiki · GitHub
+https://github.com/node-inspector/node-inspector :: node-inspector/node-inspector · GitHub
+https://github.com/node-inspector/v8-profiler :: node-inspector/v8-profiler · GitHub
+https://github.com/nodejitsu/node-http-proxy :: nodejitsu/node-http-proxy · GitHub
+https://github.com/nodejs/node-v0.x-archive/issues/8022 :: Outdated/Confusing Documentation on console API · Issue #8022 · nodejs/node-v0.x-archive · GitHub
+https://github.com/npm-dom :: npm-dom · GitHub
+https://github.com/npm/node-semver :: npm/node-semver · GitHub
+https://github.com/nwjs/nw.js/ :: nwjs/nw.js · GitHub
+https://github.com/openvswitch/ovs/blob/master/WHY-OVS.md :: ovs/WHY-OVS.md at master · openvswitch/ovs · GitHub
+https://github.com/panitw/easy-rpm :: panitw/easy-rpm · GitHub
+https://github.com/PaperElectron/Sundry :: PaperElectron/Sundry · GitHub
+https://github.com/pburtchaell/react-karma-webpack-example :: pburtchaell/react-karma-webpack-example · GitHub
+https://github.com/petkaantonov/bluebird :: petkaantonov/bluebird · GitHub
+https://github.com/petkaantonov/bluebird/wiki/Optimization-killers :: Optimization killers · petkaantonov/bluebird Wiki · GitHub
+https://github.com/pheuter/essential-react :: pheuter/essential-react · GitHub
+https://github.com/pocketjoso/penthouse :: pocketjoso/penthouse · GitHub
+https://github.com/polymer :: polymer · GitHub
+https://github.com/qiao/PathFinding.js/ :: qiao/PathFinding.js · GitHub
+https://github.com/Reactive-Extensions/RxJS :: Reactive-Extensions/RxJS · GitHub
+https://github.com/ReactiveX/RxJava :: ReactiveX/RxJava · GitHub
+https://github.com/remy/nodemon :: remy/nodemon · GitHub
+https://github.com/request/request :: request/request · GitHub
+https://github.com/rietveld-codereview/rietveld :: rietveld-codereview/rietveld · GitHub
+https://github.com/rlidwka/sinopia :: rlidwka/sinopia · GitHub
+https://github.com/rmustacc/node-ctype :: rmustacc/node-ctype · GitHub
+https://github.com/saltstack/salt :: saltstack/salt · GitHub
+https://github.com/sensu/uchiwa :: sensu/uchiwa · GitHub
+https://github.com/shaneGirish/bcrypt-nodejs :: shaneGirish/bcrypt-nodejs · GitHub
+https://github.com/shipitjs/shipit :: shipitjs/shipit · GitHub
+https://github.com/sidorares/node-tick :: sidorares/node-tick · GitHub
+https://github.com/sindresorhus/awesome-nodejs :: sindresorhus/awesome-nodejs · GitHub
+https://github.com/sindresorhus/chalk :: chalk/chalk · GitHub
+https://github.com/socketio/socket.io-client :: socketio/socket.io-client · GitHub
+https://github.com/socketio/socket.io :: socketio/socket.io · GitHub
+https://github.com/strongloop/express :: strongloop/express · GitHub
+https://github.com/strongloop :: StrongLoop, Inc. · GitHub
+https://github.com/sw4/revert.css :: sw4/revert.css · GitHub
+https://github.com/swagger-api/swagger-ui :: swagger-api/swagger-ui · GitHub
+https://github.com/taskrabbit/node-resque :: taskrabbit/node-resque · GitHub
+https://github.com/tcs-de/nodecache :: tcs-de/nodecache · GitHub
+https://github.com/tiddolangerak/tracegl :: TiddoLangerak/tracegl · GitHub
+https://github.com/timqian/jsCodeStructure :: timqian/jsCodeStructure · GitHub
+https://github.com/tj/cluster-live :: tj/cluster-live · GitHub
+https://github.com/tj/commander.js :: tj/commander.js · GitHub
+https://github.com/tj/reds :: tj/reds · GitHub
+https://github.com/traceglMPL/tracegl :: traceglMPL/tracegl · GitHub
+https://github.com/trentm/node-bunyan :: trentm/node-bunyan · GitHub
+https://github.com/unisonweb/platform :: unisonweb/platform · GitHub
+https://github.com/Unitech/pm2 :: Unitech/PM2 · GitHub
+https://github.com/v0lkan/sensei :: v0lkan/sensei · GitHub
+https://github.com/vigetlabs/grunt-complexity :: vigetlabs/grunt-complexity · GitHub
+https://github.com/w3c/ :: World Wide Web Consortium · GitHub
+https://github.com/werk85/node-html-to-text :: werk85/node-html-to-text · GitHub
+https://github.com/winstonjs/winston :: winstonjs/winston · GitHub
+https://github.com/Yalantis/PullToMakeSoup :: Yalantis/PullToMakeSoup · GitHub
+https://github.com/yeoman/generator :: yeoman/generator · GitHub
+https://github.com/young-steveo/bottlejs :: young-steveo/bottlejs · GitHub
+https://github.com/YuzuJS/setImmediate :: YuzuJS/setImmediate · GitHub
+https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging :: Git - Interactive Staging
+https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration :: Git - Git Configuration
+https://gomockingbird.com/ :: Mockingbird: website wireframes
+https://gradle.org/building-a-continuous-delivery-pipeline-with-gradle-and-jenkins/ :: Building a Continuous Delivery Pipeline with Gradle and Jenkins - Gradle
+https://groups.google.com/forum/ :: Google Groups
+https://guidgenerator.com/ ::  Online GUID Generator 
+https://guidgenerator.com/online-guid-generator.aspx ::  Online GUID Generator 
+https://hacks.mozilla.org/2013/01/building-a-node-js-server-that-wont-melt-a-node-js-holiday-season-part-5/ ::  Building A Node.JS Server That Won&#039;t Melt – A Node.JS Holiday Season, part 5 &#10025; Mozilla Hacks &#8211; the Web developer blog 
+https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/ ::  ES6 In Depth: Arrow functions &#10025; Mozilla Hacks &#8211; the Web developer blog 
+http://shapeshed.com/command-line-utilities-with-nodejs/ :: Command Line Utilities with Node.js | Shape Shed
+https://hekad.readthedocs.org/en/v0.9.2/ :: Heka &mdash; Heka 0.9.2 documentation
+https://help.github.com/articles/generating-ssh-keys/ ::  Generating SSH keys - User Documentation 
+https://help.github.com/articles/remove-sensitive-data/ ::  Remove sensitive data - User Documentation 
+http://shop.oreilly.com/product/0636920033141.do :: Programming JavaScript Applications&nbsp;-&nbsp;O'Reilly Media
+http://shop.oreilly.com/product/9780596802806.do :: High Performance JavaScript&nbsp;-&nbsp;O'Reilly Media
+http://shop.oreilly.com/product/9780596806767.do :: JavaScript Patterns&nbsp;-&nbsp;O'Reilly Media
+https://html5boilerplate.com/ :: HTML5 Boilerplate: The web&#8217;s most popular front-end template
+https://http2.github.io/faq/ :: HTTP/2 Frequently Asked Questions
+http://simpledesktops.com/ ::  Simple Desktops 
+http://simpl.info/videoalpha/ :: Video alpha channel
+https://inbox.google.com :: Sign in - Google Accounts
+https://infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-code-optimization-and-cleanup :: Top 8 tools for Ruby on Rails code optimization and cleanup — Infinum
+http://sinonjs.org/ :: Sinon.JS - Documentation
+http://sintaxi.com/you-half-assed-it :: Sintaxi
+https://intercityup.com/blog/how-to-expose-an-ssh-tunnel-to-localhost-in-a-docker-container-via-vagrant.html :: How to expose an SSH tunnel to localhost in a docker container via vagrant. - Intercity
+https://iojs.org/en/index.html :: io.js - JavaScript I/O
+https://jakearchibald.github.io/isserviceworkerready/ :: Is ServiceWorker ready?
+https://kapeli.com/dash :: Dash for OS X - API Documentation Browser, Snippet Manager - Kapeli
+https://leanpub.com/understandinges6/read :: Read Understanding ECMAScript 6 | Leanpub
+https://logging.apache.org/log4j/2.x/manual/async.html :: Log4j &#x2013; Log4j 2 Asynchronous Loggers for Low-Latency Logging - Apache Log4j 2
+https://lookback.io/ :: Understand users with Lookback
+https://lw.microstrategy.com/msdz/MSDL/901/docs/SSO_Typical_single_sign-on_workflow.htm :: Typical single sign-on workflow
+https://mailgun.com/app/dashboard :: -
+http://smartbear.com/product/collaborator/overview/ ::  Peer Code Review Tool | SmartBear Collaborator 
+http://smartcomments.github.io/ :: SmartComments
+https://mathiasbynens.be/demo/url-regex :: In search of the perfect URL validation regex
+https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b :: JavaScript Application Architecture On The Road To 2015 — Google Developers — Medium
+https://medium.com/@b_k/https-the-end-of-an-era-c106acded474 :: HTTPS: the end of an era — Medium
+https://medium.com/conquering-corporate-america/10-tricks-to-appear-smart-during-meetings-27b489a39d1a :: 10 Tricks to Appear Smart During Meetings — The Cooper Review — Medium
+https://medium.com/@denizozger/finding-the-right-node-js-websocket-implementation-b63bfca0539 :: Finding the right Node.js WebSocket implementation — Medium
+https://medium.com/design-and-innovation/design-pretty-b7ab0158454c :: (Design != Pretty) — Design and Innovation — Medium
+https://medium.com/@dte/understanding-css-selector-specificity-a02238a02a59 :: Understanding CSS: Selector Specificity — Medium
+https://medium.com/javascript-scene/javascript-training-sucks-284b53666245 :: JavaScript Training Sucks — JavaScript Scene — Medium
+https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3 :: The Two Pillars of JavaScript — JavaScript Scene — Medium
+https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4 :: The Two Pillars of JavaScript — Pt 2: Functional Programming — JavaScript Scene — Medium
+https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6 :: What is WebAssembly? The Dawn of a New Era — JavaScript Scene — Medium
+https://medium.com/@leeb/why-invest-in-tools-3240ce289930 :: Why Invest in Tools? — Medium
+https://medium.com/ :: Medium
+https://medium.com/@nodesource/the-state-of-node-in-the-enterprise-e513fbc0bdc :: The State of Node in the Enterprise — Medium
+https://medium.com/seek-ui-engineering/the-end-of-global-css-90d2a4a06284 :: The End of Global CSS — SEEK UI Engineering — Medium
+https://medium.com/sketch-app/harnessing-vector-awesomeness-in-sketch-3c9621408138 :: Harnessing Vector Awesomeness in Sketch — .Sketch App — Medium
+https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122 :: Express vs Flask vs Go vs Sparkjava vs Sinatra — Medium
+https://mkaz.com/2012/10/10/python-string-format/ :: Python String Format Cookbook – mkaz.github.io – all about that code
+https://mozilla.github.io/Fira/ :: Fira
+https://msdn.microsoft.com/en-us/ie/aa740473 :: Microsoft Edge – Windows app development
+https://msdn.microsoft.com/en-us/library/aa0416cz(v=vs.110).aspx :: Optimistic Concurrency
+https://msdn.microsoft.com/en-us/library/bb514138.aspx :: Create XML Documentation Comments for JavaScript IntelliSense
+https://msdn.microsoft.com/en-us/library/Bb742429.aspx :: Step-by-Step Guide to Internet Protocol Security (IPSec)
+https://msdn.microsoft.com/en-us/library/ee267816(v=bts.10).aspx :: Transformation vs. Translation
+https://msdn.microsoft.com/en-us/library/gg589512(v=vs.85).aspx :: Introduction to F12 Developer Tools (Windows)
+https://msdn.microsoft.com/ :: Learn to Develop with Microsoft Developer Network | MSDN
+https://news.ycombinator.com/item?id=4803335 :: I recently tried out Joyent SmartOS for a NodeJS consulting gig I&#x27;m doing. After... | Hacker News
+https://news.ycombinator.com/item?id=7937002 :: Ask HN: Dev promoted to more strategic role in startup. What literature? | Hacker News
+https://news.ycombinator.com/newsfaq.html :: Hacker News FAQ
+https://nodejs.org/api/addons.html :: Addons Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/buffer.html :: Buffer Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/child_process.html :: Child Process Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/cluster.html :: Cluster Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/debugger.html :: Debugger Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/domain.html :: Domain Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/fs.html :: File System Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/http.html :: HTTP Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/net.html :: net Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/ ::  Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/process.html :: process Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/repl.html :: REPL Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/stream.html :: Stream Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/timers.html :: Timers Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/ :: Node.js
+https://node-os.com/ :: Node OS
+http://snook.ca/technical/colour_contrast/colour.html :: Colour Contrast Check - snook.ca
+https://oav.net/mirrors/cidr.html :: CIDR SUBNET MASK CHEATSHEET & ICMP TYPE CODES
+http://socketcluster.io/ :: SocketCluster - Scalable realtime engine
+http://socket.io/docs/client-api/ :: Socket.IO — Client API
+http://socket.io/docs/rooms-and-namespaces/ :: Socket.IO — Rooms and Namespaces
+http://socket.io/docs/ :: Socket.IO — Docs
+https://pattle.github.io/simpsons-in-css/ :: The Simpsons in CSS
+https://people.mozilla.org/~jorendorff/es6-draft.html :: ECMAScript Language Specification ECMA-262 6th Edition &ndash; DRAFT
+https://plex.tv/ :: -
+https://popcorntime.io/ :: Popcorn Time - Watch movies and TV shows instantly!
+http://sporto.github.io/blog/2012/12/09/callbacks-listeners-promises/ :: Asynchronous JS: Callbacks, Listeners, Control Flow Libs and Promises - Sebastian's Blog
+https://prerender.io/ :: Prerender - AngularJS SEO, BackboneJS SEO, or EmberJS SEO
+http://spring.io/understanding/HATEOAS :: Understanding HATEOAS
+http://sproutcore.com/ :: SproutCore
+https://puppetlabs.com/puppet/what-is-puppet :: What is Puppet? | Puppet Labs
+https://pypi.python.org/pypi/nodeenv :: nodeenv 0.13.4 : Python Package Index
+https://pypi.python.org/pypi :: PyPI - the Python Package Index : Python Package Index
+https://redislabs.com/redis-cloud :: Redis Cloud - Fully-Managed Redis Service
+https://rtcamp.com/tutorials/linux/sysctl-conf/ :: sysctl.conf - tweaking for high concurrancy &amp; security
+https://rtyley.github.io/bfg-repo-cleaner/ :: BFG Repo-Cleaner by rtyley
+https://rubygems.org/gems/sprockets/versions/3.2.0 :: sprockets | RubyGems.org | your community gem host
+https://rubygems.org/ :: RubyGems.org | your community gem host
+https://rubymonk.com/learning/books/1-ruby-primer/chapters/5-strings/lessons/31-string-basics ::  RubyMonk - Ruby Primer - String Basics 
+https://runnable.io/ :: Runnable
+https://saucelabs.com/ :: Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More
+https://scotch.io/tutorials/scraping-the-web-with-node-js :: Scraping the Web With Node.js | Scotch
+https://scriptstoprograms.wordpress.com/2011/09/27/javascript-shared-state/ :: JavaScript: a concurrent language with shared mutable state | Scripts to Programs
+https://sendgrid.com/ :: Email Delivery &amp; Transactional Email Service | SendGrid
+https://sensuapp.org/docs/0.16/adding_a_standalone_check :: Sensu | Adding a standalone check
+https://sensuapp.org/docs/latest/clients :: Sensu | Clients
+https://sensuapp.org/docs/latest/getting-started-with-checks :: Sensu | Getting Started with Checks
+https://sensuapp.org/docs/latest/getting-started-with-handlers :: Sensu | Getting Started with Handlers
+https://sensuapp.org/docs/latest/install-rabbitmq :: Sensu | Install RabbitMQ
+https://sensuapp.org/docs/latest/install-redis :: Sensu | Install Redis
+https://sensuapp.org/docs/latest/install-repositories :: Sensu | Install Repositories
+https://sensuapp.org/docs/latest/install-sensu :: Sensu | Install Sensu
+https://sensuapp.org/docs/latest/ :: Sensu | Table of contents
+https://sensuapp.org/ :: Sensu | Monitoring for today's infrastructure.
+https://serversforhackers.com/load-balancing-with-haproxy :: Load Balancing with HAProxy - Servers for Hackers
+https://slightlyoff.github.io/BackgroundSync/spec/ :: Web Background Synchronization
+https://smartos.org/ :: SmartOS
+https://smartos.org/tag/node-js/ :: node.js &#8211; SmartOS
+https://software.mirantis.com/openstack/ :: OpenStack - Mirantis OpenStack
+https://sourcegear.com/diffmerge/ :: SourceGear | DiffMerge
+https://strongloop.com/node-js/node-js-performance-tips/ :: StrongLoop | Node.js Performance Tips
+https://strongloop.com/node-js/performance-monitoring/ :: StrongLoop | Performance Monitoring
+https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/ :: StrongLoop | Comparing Winston and Bunyan Node.js Logging
+https://strongloop.com/strongblog/improve-the-performance-of-the-node-js-https-server/ :: StrongLoop | How-to Improve Node.js HTTPS Server Performance
+https://strongloop.com/strongblog/node-js-event-loop/ :: StrongLoop | Understanding the Node.js Event Loop
+https://strongloop.com/strongblog/node-js-performance-event-loop-monitoring/ :: StrongLoop | Node.js Performance Tip of the Week: Event Loop Monitoring
+https://strongloop.com/strongblog/node-js-react-isomorphic-javascript-why-it-matters/ :: StrongLoop | How to Implement Node + React Isomorphic JavaScript &amp; Why it Matters
+https://support.microsoft.com/en-us/kb/253169 :: -
+https://support.microsoft.com/en-us/kb/830555 :: -
+http://stackoverflow.com/questions/10048173/why-is-it-bad-style-to-rescue-exception-e-in-ruby :: Why is it bad style to `rescue Exception =&gt; e` in Ruby? - Stack Overflow
+http://stackoverflow.com/questions/10386310/how-to-install-a-private-npm-module-without-my-own-registry :: node.js - How to install a private NPM module without my own registry? - Stack Overflow
+http://stackoverflow.com/questions/10548417/how-to-distribute-floated-elements-evenly-with-a-dynamic-column-and-row-count-in :: javascript - How to distribute floated elements evenly with a dynamic column and row count in CSS? - Stack Overflow
+http://stackoverflow.com/questions/10930286/socket-io-rooms-or-namespacing :: node.js - socket.io rooms or namespacing? - Stack Overflow
+http://stackoverflow.com/questions/11632969/how-configure-reconnecting-in-socket-io :: javascript - How configure reconnecting in socket.io? - Stack Overflow
+http://stackoverflow.com/questions/13504320/socket-io-namespaces-channels-co :: node.js - Socket.io: Namespaces, channels &amp; co - Stack Overflow
+http://stackoverflow.com/questions/14429203/inter-child-process-communication-options-in-node-js-cluster :: multithreading - Inter-child-process communication options in node.js cluster - Stack Overflow
+http://stackoverflow.com/questions/15349733/setimmediate-vs-nexttick :: javascript - setImmediate vs. nextTick - Stack Overflow
+http://stackoverflow.com/questions/15769739/determining-type-of-an-object-in-ruby :: determining type of an object in ruby - Stack Overflow
+http://stackoverflow.com/questions/18561352/server-sent-events-cross-domain-safari :: php - Server sent events - cross domain safari - Stack Overflow
+http://stackoverflow.com/questions/19072070/how-can-i-find-where-gem-files-are-installed :: ruby - How can I find where gem files are installed? - Stack Overflow
+http://stackoverflow.com/questions/1911015/how-to-debug-node-js-applications/16512303 :: javascript - How to debug Node.js applications - Stack Overflow
+http://stackoverflow.com/questions/20058566/node-js-and-ulimit :: ubuntu - Node.js and ulimit - Stack Overflow
+http://stackoverflow.com/questions/2117771/is-it-possible-to-run-one-logrotate-check-manually :: logging - Is it possible to run one logrotate check manually? - Stack Overflow
+http://stackoverflow.com/questions/22544754/failed-to-build-gem-native-extension-installing-compass :: ruby - Failed to build gem native extension (installing Compass) - Stack Overflow
+http://stackoverflow.com/questions/2641489/what-is-a-thunk :: c++ - What is a &#39;thunk&#39;? - Stack Overflow
+http://stackoverflow.com/questions/3044315/how-to-set-the-authorization-header-using-curl :: How to set the authorization header using curl - Stack Overflow
+http://stackoverflow.com/questions/30495905/accessing-host-machine-as-localhost-from-a-docker-container-thats-also-inside-a :: Accessing host machine as localhost from a Docker container that&#39;s also inside a boot2docker vm - Stack Overflow
+http://stackoverflow.com/questions/3559824/what-is-a-very-simple-authentication-scheme-for-sinatra-rack :: ruby - What is a very simple authentication scheme for Sinatra/Rack - Stack Overflow
+http://stackoverflow.com/questions/383402/is-javascripts-new-keyword-considered-harmful :: Is JavaScript&#39;s &quot;new&quot; keyword considered harmful? - Stack Overflow
+http://stackoverflow.com/questions/4437291/what-is-java-interface-equivalent-in-ruby :: What is java interface equivalent in Ruby? - Stack Overflow
+http://stackoverflow.com/questions/466521/how-many-files-can-i-put-in-a-directory :: filesystems - How many files can I put in a directory? - Stack Overflow
+http://stackoverflow.com/questions/4765740/relative-urls-in-ajax-requests :: javascript - Relative URLs in AJAX requests - Stack Overflow
+http://stackoverflow.com/questions/512466/how-to-implement-an-abstract-class-in-ruby :: How to implement an abstract class in ruby? - Stack Overflow
+http://stackoverflow.com/questions/5380826/thin-loaderror-no-such-file-to-load-thin-parser/28922667 :: ruby on rails 3 - Thin LoadError: no such file to load thin_parser - Stack Overflow
+http://stackoverflow.com/questions/5525795/does-javascript-guarantee-object-property-order :: Does JavaScript Guarantee Object Property Order? - Stack Overflow
+http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in :: Can a Bash script tell what directory it&#39;s stored in? - Stack Overflow
+http://stackoverflow.com/questions/676249/deep-cloning-vs-setting-of-innerhtml-whats-faster :: javascript - Deep cloning vs setting of innerHTML: what&#39;s faster? - Stack Overflow
+http://stackoverflow.com/questions/6865194/fluid-width-with-equally-spaced-divs/6880421 :: css - Fluid width with equally spaced DIVs - Stack Overflow
+http://stackoverflow.com/questions/8423493/what-is-the-performance-of-objects-arrays-in-javascript-specifically-for-googl :: What is the performance of Objects/Arrays in JavaScript? (specifically for Google V8) - Stack Overflow
+http://stackoverflow.com/questions/849308/pull-push-from-multiple-remote-locations :: git - pull/push from multiple remote locations - Stack Overflow
+http://stackoverflow.com/questions/9289243/read-and-write-atomic-operation-implementation-in-the-linux-kernel :: c - Read and Write atomic operation implementation in the Linux Kernel - Stack Overflow
+http://stackoverflow.com/ :: Stack Overflow
+https://taiga.io/ :: Taiga.Io | Agile, Open Source, Free Project Management System
+http://stanhub.com/how-to-make-div-element-100-height-of-browser-window-using-css-only/ :: How to Make Div Element 100% Height of Browser Window Using CSS Only &#8211; Stanhub
+http://status.modern.ie/ :: Developer Resources : Microsoft Edge Dev
+https://technet.microsoft.com/en-us/library/ms189132(v=sql.105).aspx :: Types of Concurrency Control
+https://the-pastry-box-project.net/ed-finkler/2014-july-6 :: The Developer's Dystopian Future
+https://thewiringcloset.wordpress.com/2013/03/27/linux-iptable-snat-dnat/ :: Source and Destination Network Address Translation (SNAT / DNAT) with iptables | The Wiring Closet
+https://thimble.webmaker.org/ :: Mozilla Thimble
+https://trackjs.com/ :: {Track:js} Javascript Error and Event Logging
+https://travis-ci.org/ :: Travis CI - Test and Deploy Your Code with Confidence
+https://try.github.io/levels/1/challenges/1 :: Code School - Try Git
+https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/ :: Constructors Are Bad For JavaScript | Tarek Sherif
+http://stu.radnidge.com/post/30612112900 :: Stu Radnidge - Using SmartOS for Node.js Development
+http://submarine-cable-map-2015.telegeography.com/ :: Submarine Cable Map 2015
+https://unpm.nodesource.com/ :: Understanding npm
+http://superuser.com/questions/590808/yum-install-gcc-g-doesnt-work-anymore-in-centos-6-4 :: linux - yum install gcc-g++ doesn&#39;t work anymore in CentOs 6.4 - Super User
+http://support.suso.com/supki/CentOS_Init_startup_scripts :: CentOS Init startup scripts - Support Documentation
+https://url.spec.whatwg.org/ :: URL Standard
+https://userium.com/ :: Usability checklist
+http://susy.oddbird.net/ :: Susy
+http://svdictionary.com/ :: Your Guide To Silicon Valley Culture | Silicon Valley Dictionary
+http://svgpocketguide.com/ :: Pocket Guide to Writing SVG
+https://vimeo.com/96425312 :: Philip Roberts: Help, I&#039;m stuck in an event-loop. on Vimeo
+http://swagger.io/ :: Swagger | The World&#039;s Most Popular Framework for APIs.
+https://whatwg.org/ :: Web Hypertext Application Technology Working Group
+https://wiki.archlinux.org/index.php/Simple_IP_Failover_with_Heartbeat :: Simple IP Failover with Heartbeat - ArchWiki
+https://wiki.haskell.org/FRP_explanation_using_reactive-banana :: FRP explanation using reactive-banana - HaskellWiki
+https://wiki.openstack.org/wiki/HypervisorSupportMatrix :: HypervisorSupportMatrix - OpenStack
+https://wiki.openstack.org/wiki/Neutron :: Neutron - OpenStack
+https://wiki.ubuntu.com/SystemdForUpstartUsers :: SystemdForUpstartUsers - Ubuntu Wiki
+http://swreflections.blogspot.com.au/2015/06/does-devops-reduce-technical-debt-or.html :: Building Real Software: Does DevOps Reduce Technical Debt &#8211; or Make it Worse?
+https://www.activecollab.com/ :: Active Collab — Task management, Team collaboration, Time tracking & Invoicing app
+https://www.antonlindstrom.com/2014/11/23/standalone-checks-with-sensu.html :: Standalone checks with Sensu &mdash; AntonLindstrom.com
+https://www.atlassian.com/software/crucible/overview :: Peer Code Review Tool | Atlassian Crucible
+https://www.atlassian.com/software/stash :: Enterprise Git Repository Management | Atlassian
+https://www.behance.net/ :: Online Portfolios on Behance
+https://www.box.com/ ::  Box | Secure Content & Online File Sharing for Businesses 
+https://www.centos.org/docs/2/rhl-gsg-en-7.2/s1-zip-tar.html :: -
+https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-services-chkconfig.html :: 15.5. chkconfig
+https://www.chef.io/chef/ :: Chef | IT automation for speed and awesomeness | Chef
+https://www.chromestatus.com/features :: Chrome Platform Status
+https://www.codeschool.com/blog/ :: Code School Blog - Supplement your learning by reading posts on educational strategy, technical tips, course previews, and all the haps at Code School.
+https://www.codeschool.com/ :: Learn to Code by Doing - Code School
+https://www.codeschool.com/paths/javascript :: JavaScript - Code School
+https://www.contentful.com/ :: -
+https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html :: E.W. Dijkstra Archive: On the cruelty of really teaching computing science (EWD 1036)
+https://www.daniweb.com/software-development/python/threads/39004/what-does-__call__-method-do :: what does __call__() method do? - Python | DaniWeb
+https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04 :: How To Configure Sensu Monitoring, RabbitMQ, and Redis on Ubuntu 14.04 | DigitalOcean
+https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit :: How To Install And Run A Node.js App On Centos 6.4 64bit | DigitalOcean
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04 :: How To Install Git on Ubuntu 14.04 | DigitalOcean
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-centos-6 :: How To Install Ruby on Rails on CentOS 6 | DigitalOcean
+https://www.digitalocean.com/community/tutorials/how-to-set-up-http-authentication-with-nginx-on-ubuntu-12-10 :: How To Set Up HTTP Authentication With Nginx On Ubuntu 12.10 | DigitalOcean
+https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking :: Understanding IP Addresses, Subnets, and CIDR Notation for Networking | DigitalOcean
+https://www.docker.com/ :: Docker - Build, Ship, and Run Any App, Anywhere
+https://www.dropbox.com/ :: Dropbox
+https://www.elastic.co/ :: Elastic · Revealing Insights from Data (Formerly Elasticsearch)
+https://www.elastic.co/found ::  Hosted Elasticsearch | Elastic 
+https://www.elastic.co/products/kibana ::  Kibana: Explore, Visualize, Discover Data | Elastic 
+https://www.facebook.com/ :: -
+https://www.flickr.com/ :: Flickr, a Yahoo company | Flickr - Photo Sharing!
+https://www.flickr.com/groups/_typography/ :: Typography * | Flickr - Photo Sharing!
+https://www.fpcomplete.com/school/starting-with-haskell?show=tutorials :: Starting with Haskell - School of Haskell | FP Complete
+https://www.gliffy.com/ :: Online Diagram Software and Flow Chart Software - Gliffy
+https://www.google.com/about/careers/students/guide-to-technical-development.html ::  Students - Guide to Technical Development - Google Careers 
+https://www.google.com/events/io/ :: Google I/O 2014
+https://www.google.com/events/io/io14videos :: Google I/O 2014 - Videos
+https://www.google.com/?gws_rd=ssl :: Google
+https://www.google.com/voice :: Google Voice
+https://www.h2check.org/ :: H2Check - test your site for HTTP/2 support
+https://www.haskell.org/platform/linux.html :: Download Haskell Platform
+https://www.heroku.com/ :: Heroku | Cloud Application Platform
+https://www.icloud.com/ :: iCloud
+https://www.infoblox.com/ :: Network Control with Secure DNS, DHCP, and IPAM (DDI) | Infoblox DDI
+https://www.jetbrains.com/clion/ :: JetBrains CLion &mdash; intelligent cross-platform C/C++ IDE
+https://www.jetbrains.com/idea/help/intellij-idea.html :: IntelliJ IDEA 14.1.0 Help :: IntelliJ IDEA
+https://www.jetbrains.com/idea/ :: IntelliJ IDEA &mdash; The Most Intelligent Java IDE
+https://www.jetbrains.com/ :: JetBrains :: World's Leading Vendor of Professional Development Tools
+https://www.jetbrains.com/objc/ :: JetBrains AppCode: Swift Execution of Your Bright Ideas
+https://www.jetbrains.com/phpstorm/ :: PHP IDE :: JetBrains PhpStorm
+https://www.jetbrains.com/pycharm/ :: Python IDE &amp Django IDE for Web developers : JetBrains PyCharm
+https://www.jetbrains.com/ruby/ :: Ruby on Rails IDE :: JetBrains RubyMine
+https://www.jetbrains.com/webstorm/ :: WebStorm: The Smartest JavaScript IDE
+https://www.joedog.org/siege-home/ :: Siege Home
+https://www.joyent.com/blog/bruning-questions-why-use-smartos :: Bruning Questions: Why Use SmartOS? - Blog - Joyent
+https://www.joyent.com/blog/mdb-and-linux :: MDB and Linux - Blog - Joyent
+https://www.joyent.com/blog/mdb-and-node-js :: MDB and Node.js - Blog - Joyent
+https://www.joyent.com/developers/node/debug :: Debug - Developer Center - Joyent
+https://www.joyent.com/developers/node/design/errors :: Error Handling in Nodejs - Developer Center - Joyent
+https://www.joyent.com/developers/videos/debugging-node-js-in-production :: Debugging Node.js Applications in Production - Developer Center - Joyent
+https://www.joyent.com/ :: Elastic Container Infrastructure - Home - Joyent
+https://www.joyent.com/public-cloud/ :: Joyent Triton™ Elastic Container Service - Public Cloud - Joyent
+https://www.joyent.com/public-cloud/pricing :: Joyent Compute Service Pricing - Public Cloud - Joyent
+https://www.khanacademy.org/computing/computer-programming/sql ::  Intro to SQL: Querying and managing data | Computer programming | Khan Academy
+https://www.khanacademy.org/ :: Khan Academy
+https://www.linkedin.com/grp/post/49301-103760767 :: What does net.core.somaxconn exact means? | LinkedIn
+https://www.linkedin.com/ :: World&#39;s Largest Professional Network | LinkedIn
+https://www.linode.com/docs/tools-reference/tools/load-testing-with-siege :: Load Testing Web Servers with Siege - Linode Guides & Tutorials
+https://www.linode.com/docs/websites/nginx/basic-nginx-configuration/ :: -
+https://www.linode.com/ :: SSD Cloud Hosting - Linode
+https://www.lucidchart.com/techblog/2015/07/21/selenium-7-things-you-need-to-know-2/ :: Selenium: 7 Things You Need To Know - Lucidchart
+https://www.meteor.com/blog/2013/08/13/an-interesting-kind-of-javascript-memory-leak :: An interesting kind of JavaScript memory leak
+https://www.meteor.com/ :: Meteor
+https://www.mnot.net/cache_docs/ :: Caching Tutorial for Web Authors and Webmasters
+https://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ :: -
+https://www.nczonline.net/blog/2014/04/22/creating-defensive-objects-with-es6-proxies/ :: Creating defensive objects with ES6 proxies - NCZOnline
+https://www.nginx.com/blog/nginx-nodejs-websockets-socketio/ :: Using NGINX with Node.js and Socket.IO, the WebSocket API
+https://www.nginx.com/blog/websocket-nginx/ :: NGINX as a WebSocket Proxy - NGINX
+https://www.npmjs.com/ :: npm
+https://www.npmjs.com/package/inquirer :: inquirer
+https://www.npmjs.com/package/sinopia :: sinopia
+https://www.openshift.com/ :: OpenShift by Red Hat
+https://www.openstack.org/ :: Home &raquo; OpenStack Open Source Cloud Computing Software
+https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project :: Category:OWASP Top Ten Project - OWASP
+https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet :: Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet - OWASP
+https://www.owasp.org/index.php/Main_Page :: OWASP
+https://www.owasp.org/index.php/Session_fixation :: Session fixation - OWASP
+https://www.pinterest.com/explore/typography/ :: Typography on Pinterest | Jessica Hische, Chinese Typography and Graphic design
+https://www.pinterest.com/ :: Pinterest: Discover and save creative ideas
+https://www.pivotaltracker.com/dashboard :: Pivotal Tracker - Sign in
+https://www.pivotaltracker.com :: Pivotal Tracker | Agile Project Management
+https://www.polymer-project.org/ ::  Welcome - Polymer 1.0 
+https://www.pubnub.com/socket.io/ :: Socket.IO Tutorials And More | PubNub
+https://www.python.org/dev/peps/pep-0008/ :: PEP 0008 -- Style Guide for Python Code | Python.org
+https://www.python.org/ :: Welcome to Python.org
+https://www.rabbitmq.com/ :: RabbitMQ - Messaging that just works
+https://www.raspberrypi.org :: Raspberry Pi - Teach, Learn, and Make with Raspberry Pi
+https://www.reviewboard.org/ :: Take the pain out of code review | Review Board
+https://www.ruby-lang.org/en/documentation/installation/ :: Installing Ruby
+https://www.ruby-lang.org/en/ :: Ruby Programming Language
+https://www.ruby-toolbox.com/ :: The Ruby Toolbox - Know Your Options!
+https://www.scriptrock.com/blog/comparing-containers-generating-dockerfiles-guardrail :: Comparing Containers and Generating Dockerfiles with GuardRail
+https://www.serfdom.io/intro/vs-custom.html :: Serf vs. Custom Solutions - Serf by HashiCorp
+https://www.textmaster.com/ :: TextMaster | Translation Service | Web Content Writing
+https://www.twitter.com/ :: Twitter
+https://www.udemy.com/ ::  Udemy: Online Courses Anytime, Anywhere 
+https://www.varnish-cache.org/ :: Home | Varnish Community
+https://www.vaultier.org/ :: Collaborative Password Manager &amp; File Storage | Vaultier.org
+https://www.virtualbox.org/ ::  Oracle VM VirtualBox 
+https://www.webplatform.org/ :: Your Web, documented · WebPlatform.org
+https://www.wikiwand.com/en/0.0.0.0 :: 0.0.0.0 - Wikiwand
+https://www.wikiwand.com/en/ARP_spoofing :: ARP spoofing - Wikiwand
+https://www.wikiwand.com/en/Blinkenlights :: Blinkenlights - Wikiwand
+https://www.wikiwand.com/en/Cgroups :: cgroups - Wikiwand
+https://www.wikiwand.com/en/Comparison_of_continuous_integration_software :: Comparison of continuous integration software - Wikiwand
+https://www.wikiwand.com/en/Composition_over_inheritance :: Composition over inheritance - Wikiwand
+https://www.wikiwand.com/en/Concurrency_control :: Concurrency control - Wikiwand
+https://www.wikiwand.com/en/Consistent_hashing :: Consistent hashing - Wikiwand
+https://www.wikiwand.com/en/Continuation-passing_style :: Continuation-passing style - Wikiwand
+https://www.wikiwand.com/en/Cross-site_request_forgery :: Cross-site request forgery - Wikiwand
+https://www.wikiwand.com/en/Cross-site_scripting :: Cross-site scripting - Wikiwand
+https://www.wikiwand.com/en/Digest_access_authentication :: Digest access authentication - Wikiwand
+https://www.wikiwand.com/en/DMZ_(computing) :: DMZ (computing) - Wikiwand
+https://www.wikiwand.com/en/Eventual_consistency :: Eventual consistency - Wikiwand
+https://www.wikiwand.com/en/Generic_Routing_Encapsulation :: Generic Routing Encapsulation - Wikiwand
+https://www.wikiwand.com/en/Getting_Things_Done :: Getting Things Done - Wikiwand
+https://www.wikiwand.com/en/Gimbal_lock :: Gimbal lock - Wikiwand
+https://www.wikiwand.com/en/HTTP_302 :: HTTP 302 - Wikiwand
+https://www.wikiwand.com/en/HTTP_ETag :: HTTP ETag - Wikiwand
+https://www.wikiwand.com/en/HTTP_persistent_connection :: HTTP persistent connection - Wikiwand
+https://www.wikiwand.com/en/HTTP_Strict_Transport_Security :: HTTP Strict Transport Security - Wikiwand
+https://www.wikiwand.com/en/Impact_event :: Impact event - Wikiwand
+https://www.wikiwand.com/en/Inverse_filter :: Inverse filter - Wikiwand
+https://www.wikiwand.com/en/Iperf :: Iperf - Wikiwand
+https://www.wikiwand.com/en/Layer_8 :: Layer 8 - Wikiwand
+https://www.wikiwand.com/en/List_of_time_zone_abbreviations :: List of time zone abbreviations - Wikiwand
+https://www.wikiwand.com/en/Load_(computing) :: Load (computing) - Wikiwand
+https://www.wikiwand.com/en/Monad_(functional_programming) :: Monad (functional programming) - Wikiwand
+https://www.wikiwand.com/en/Moving_average :: Moving average - Wikiwand
+https://www.wikiwand.com/en/Node.js :: Node.js - Wikiwand
+https://www.wikiwand.com/en/Observer_pattern :: Observer pattern - Wikiwand
+https://www.wikiwand.com/en/Operational_transformation :: Operational transformation - Wikiwand
+https://www.wikiwand.com/en/Opera_(web_browser) :: Opera (web browser) - Wikiwand
+https://www.wikiwand.com/en/Patch_cable :: Patch cable - Wikiwand
+https://www.wikiwand.com/en/ReDoS :: ReDoS - Wikiwand
+https://www.wikiwand.com/en/Salt_(software) :: Salt (software) - Wikiwand
+https://www.wikiwand.com/en/Server-sent_events :: Server-sent events - Wikiwand
+https://www.wikiwand.com/en/Service_discovery :: Service discovery - Wikiwand
+https://www.wikiwand.com/en/Shebang_(Unix) :: Shebang (Unix) - Wikiwand
+https://www.wikiwand.com/en/Single_sign-on :: Single sign-on - Wikiwand
+https://www.wikiwand.com/en/Smurf_attack :: Smurf attack - Wikiwand
+https://www.wikiwand.com/en/SSL_termination_proxy :: TLS termination proxy - Wikiwand
+https://www.wikiwand.com/en/Static_program_analysis :: Static program analysis - Wikiwand
+https://www.wikiwand.com/en/SYN_flood :: SYN flood - Wikiwand
+https://www.wikiwand.com/en/Syslog :: syslog - Wikiwand
+https://www.wikiwand.com/en/Systemd :: systemd - Wikiwand
+https://www.wikiwand.com/en/The_Mythical_Man-Month :: The Mythical Man-Month - Wikiwand
+https://www.wikiwand.com/en/Throughput :: Throughput - Wikiwand
+https://www.wikiwand.com/en/Travelling_salesman_problem :: Travelling salesman problem - Wikiwand
+https://www.wikiwand.com/en/Unicast :: Unicast - Wikiwand
+https://www.wikiwand.com/en/Virtual_Extensible_LAN :: Virtual Extensible LAN - Wikiwand
+https://www.wikiwand.com/en/Virtual_Router_Redundancy_Protocol :: Virtual Router Redundancy Protocol - Wikiwand
+https://www.wikiwand.com/en/X.509 :: X.509 - Wikiwand
+https://www.wunderlist.com/home :: Wunderlist | To-do list, Reminders, Errands - App of the Year!
+https://www.youtube.com/playlist?list=PL5586336C26BDB324 ::  The JavaScript Trilogy by Douglas Crockford - YouTube
+https://www.youtube.com/watch?v=0ZMvSh7lUdM :: dtrace.conf 2012 - DTrace in node.js - YouTube
+https://www.youtube.com/watch?v=1b831QnPIeo :: Nodejs in Production - YouTube
+https://www.youtube.com/watch?v=4uQMl7mFB6g :: The ServiceWorker: The network layer is yours to own - YouTube
+https://www.youtube.com/watch?v=7TZrkJBxDJw :: Best Practices for Deploying Node.js in Production - YouTube
+https://www.youtube.com/watch?v=AH7kw8sKefg :: A Million Connections...and Beyond! - Node.js at Scale - YouTube
+https://www.youtube.com/watch?v=AMnnAFqgLaU :: Node.js in Production: Dave Pacheco at Hack Deploy Scale - YouTube
+https://www.youtube.com/watch?v=Axpi1_OVSdo :: Peter Flynn and Kevin Dangoor: Building Live HTML and Omniscient Debuggers in Brackets - YouTube
+https://www.youtube.com/watch?v=B-Iqld6-Y18 :: Node.js - How to debug using node-inspector ? - YouTube
+https://www.youtube.com/watch?v=bvDtEcQdGs0 :: Node.js at Scale with Erik Toth - YouTube
+https://www.youtube.com/watch?v=C8orjQLacTo :: TCP and The Lower Bound of Web Performance - YouTube
+https://www.youtube.com/watch?v=CN0jTnSROsk :: Node.JS: The Good Parts? A Skeptic&#39;s View - YouTube
+https://www.youtube.com/watch?v=DgVS-zXgMTk&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi :: Pete Hunt: React - Rethinking Best Practices (updated) - JSConf.Asia 2013 - YouTube
+https://www.youtube.com/watch?v=FEs2jgZBaQA :: CSSconf EU 2014 | Addy Osmani: CSS Performance Tooling - YouTube
+https://www.youtube.com/watch?v=gawmdhCNy-A :: Asynchronous Programming at Netflix - @Scale 2014 - Web - YouTube
+https://www.youtube.com/watch?v=GRrvai-V58U :: How to Cluster Node.js Processes and Applications - YouTube
+https://www.youtube.com/watch?v=hAzhayTnhEI :: Google I/O 2012 - Jank Busters: Building Performant Web Apps - YouTube
+https://www.youtube.com/watch?v=hMd45Ij2DYQ :: HTML5 Lessons from LinkedIn using Node.js - YouTube
+https://www.youtube.com/watch?v=i_fGWJqdtFU :: Debugging, Profiling, Heap Dumping, Scaling and other fix-it techniques in Node.js - YouTube
+https://www.youtube.com/watch?v=IWPgUn8tL8s :: Scott Hanselman - &quot;It&#39;s not what you read, it&#39;s what you ignore&quot; - YouTube
+https://www.youtube.com/watch?v=jsiqvXi3qSA :: High Performance JavaScript with Trevor Norris - YouTube
+https://www.youtube.com/watch?v=JxAXlJEmNMg :: Crockford on JavaScript - Volume 1: The Early Years - YouTube
+https://www.youtube.com/watch?v=KAW8IyT-aV0 :: Node Philly 2012 :: Large Scale Node.js Panel - YouTube
+https://www.youtube.com/watch?v=nQaCN-xWGnc :: AngularJs $http Promise Tutorial - YouTube
+https://www.youtube.com/watch?v=nYkdrAPrdcw&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi&index=9 :: Hacker Way: Rethinking Web App Development at Facebook - YouTube
+https://www.youtube.com/watch?v=R8W_6xWphtw :: Paul Irish, &quot;Delivering the goods&quot; - Fluent 2014 Keynote - YouTube
+https://www.youtube.com/watch?v=TiLJKpzlOeY :: Jeremy Ashkenas - JS.Next and CoffeeScript (FutureJS 2014) - YouTube
+https://www.youtube.com/watch?v=uhNpSWI8MTM :: Deploying a Scalable Node.js Application with Docker - YouTube
+https://www.youtube.com/watch?v=vE5kCqwoSUg :: HTML5DevConf May2014: Mark Stuart, PayPal: Web Security in Node.js and JavaScript Apps (SPAs) - YouTube
+https://www.youtube.com/watch?v=VN4SNJ2JT9E :: Scaling A/B Testing on Netflix.com with Node.js - YouTube
+https://www.youtube.com/watch?v=vQUq5rWWn-s :: Surge 2012 ~ David Pacheco ~ When Node.js Goes Wrong. - YouTube
+https://www.youtube.com/watch?v=XRYN2xt11Ek :: Netflix JavaScript Talks - Async JavaScript with Reactive Extensions - YouTube
+https://www.youtube.com/watch?v=X_VHWQa1k0k :: Eventually Consistent Distributed Systems with Node.js for Finance - Stefan Kutko of Electronifie - YouTube
+https://www.youtube.com/watch?v=ya4UHuXNygM :: Crockford on JavaScript - Act III: Function the Ultimate - YouTube
+https://www.youtube.com/watch?v=ya4UHuXNygM&t=50m23s :: Crockford on JavaScript - Act III: Function the Ultimate - YouTube
+https://www.youtube.com/watch?v=Ym96Z-sThZU :: Surge 2012 ~ Artur Bergman ~ Mysteries of a CDN Explained - YouTube
+https://www.youtube.com/watch?v=ZKaonn-gNQQ :: HTML5DevConf: Jon Abrams, OUYA: Server side or front-end templating? Get the best of both! - YouTube
+http://sysmagazine.com/posts/123154/ :: One million simultaneous connections on Node.js — IT daily blog, news, magazine, technologies
+http://sysmagazine.com/posts/205804/ :: Sensu — freymvork for monitoring — IT daily blog, news, magazine, technologies
+http://tagtree.io/courses/expert-es6/do :: Tagtree course: Expert ES6 | active
+http://tc39wiki.calculist.org/es6/arrow-functions/ :: ECMAScript Wiki - Arrow Functions
+http://techblog.netflix.com/2012/02/fault-tolerance-in-high-volume.html :: The Netflix Tech Blog: Fault Tolerance in a High Volume, Distributed System
+http://techblog.netflix.com/2014/11/nodejs-in-flames.html :: The Netflix Tech Blog: Node.js in Flames
+http://techblog.netflix.com/ :: The Netflix Tech Blog
+http://tech.ticketmaster.com/2015/06/30/what-ticketmaster-is-doing-about-technical-debt/ :: What Ticketmaster is doing about technical debt | Ticketmaster Technology
+http://ternjs.net/ :: Tern
+http://testdroid.com/ :: Mobile App Testing on Android and iOS Devices - Testdroid
+http://thesecretlivesofdata.com/raft/ :: Raft
+http://thetrendythings.com/read/13256 :: CPU Flame Graphs
+http://thlorenz.com/ :: thlorenz.com home
+http://thlorenz.com/v8-perf/ :: v8-perf
+http://tjholowaychuk.tumblr.com/post/543349452/apachebench-gnuplot-graphing-benchmarks :: ApacheBench GnuPlot Graphing Benchmarks - TJ Holowaychuk 
+http://tjholowaychuk.tumblr.com/ :: TJ Holowaychuk 
+http://toddfredrich.com/ :: ToddFredrich.com - RESTful/Platform APIs and Examples, Tutorials and the Software Craft. Mostly...ToddFredrich.com
+http://trac.nginx.org/nginx/ticket/50 ::  #50 (Basic Auth does not seem to work with SHA1 hashs) – nginx 
+http://tributary.io/ :: Tributary
+http://tweaked.io/guide/kernel/ :: Optimizing servers - Tuning the GNU/Linux Kernel
+http://tympanus.net/codrops/2013/11/07/css-overlay-techniques/ :: CSS Overlay Techniques
+http://tympanus.net/codrops/ :: Codrops | Useful resources and inspiration for creative minds
+http://tympanus.net/Development/TextInputEffects/index.html :: Text Input Effects | Set 1
+http://tympanus.net/Tutorials/AnimatedButtons/index.html :: Animated Buttons with CSS3
+http://tympanus.net/Tutorials/OriginalHoverEffects/index3.html :: Original Hover Effects with CSS3
+http://tympanus.net/ :: Tympanus
+http://typecast.com/blog/10-fonts-for-code :: 10 Fonts for Code - Typecast
+http://uk.businessinsider.com/inside-facebooks-little-red-book-2015-5?op=1 :: Take a look inside Facebook's own little red book - Business Insider
+http://ukiyo-e.org/ :: Japanese Woodblock Print Search - Ukiyo-e Search
+http://unix.stackexchange.com/questions/140350/linux-g-command-not-found :: linux + g++: command not found - Unix & Linux Stack Exchange
+http://unix.stackexchange.com/questions/28384/how-can-same-fd-in-different-processes-point-to-the-same-file :: kernel - How can same fd in different processes point to the same file? - Unix & Linux Stack Exchange
+http://unix.stackexchange.com/questions/29608/why-is-it-better-to-use-usr-bin-env-name-instead-of-path-to-name-as-my :: shell script - Why is it better to use &quot;#!/usr/bin/env NAME&quot; instead of &quot;#!/path/to/NAME&quot; as my shebang? - Unix & Linux Stack Exchange
+http://unix.stackexchange.com/questions/33447/why-we-should-use-create-and-copytruncate-together :: logrotate - why we should use create and copytruncate together? - Unix & Linux Stack Exchange
+http://unix.stackexchange.com/questions/49626/purpose-and-typical-usage-of-etc-rc-local :: debian - Purpose and typical usage of /etc/rc.local - Unix & Linux Stack Exchange
+http://unsemantic.com/ :: Unsemantic CSS Framework
+http://unsucktheweb.com/ :: Unsucked Web Manifesto
+http://updates.html5rocks.com/2012/06/How-to-convert-ArrayBuffer-to-and-from-String :: How to convert ArrayBuffer to and from String
+http://updates.html5rocks.com/2015/04/permissions-api-for-the-web :: Permissions API for the Web
+http://updates.html5rocks.com/ :: HTML5 Updates
+http://upstart.ubuntu.com/ :: upstart - event-based init daemon
+http://usabilitytools.com/ :: UsabilityTools - Unlock your business growth like never before
+http://uxmag.com/ :: UX Magazine | Defining and Informing the Complex Field of User Experience (UX)
+http://uxmovement.com/navigation/why-hover-menus-do-users-more-harm-than-good/ :: Why Hover Menus Do Users More Harm Than Good - UX Movement
+http://uxmyths.com/ :: UX Myths
+http://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes :: Dark or white color theme is better for the eyes? - User Experience Stack Exchange
+http://ux.stackexchange.com/ :: User Experience Stack Exchange
+http://validator.w3.org/ :: The W3C Markup Validation Service
+http://vimawesome.com/ :: Vim Awesome
+http://vimcolors.com/ :: Vim Colors
+http://vimdoc.sourceforge.net/htmldoc/scroll.html :: Vim documentation: scroll
+http://vim.wikia.com/wiki/All_the_right_moves :: All the right moves - Vim Tips Wiki
+http://vim.wikia.com/wiki/Search_and_replace :: Search and replace - Vim Tips Wiki
+http://vim.wikia.com/wiki/Vim_Tips_Wiki :: Vim Tips Wiki
+http://vision.is.tohoku.ac.jp/~kyamagu/ :: Kota Yamaguchi
+http://w3c.github.io/resource-hints/ :: Resource Hints
+http://wave.webaim.org/ :: WAVE Web Accessibility Tool
+http://webaim.org/articles/visual/lowvision :: WebAIM: Visual Disabilities - Low Vision
+http://webaim.org/intro/ :: WebAIM: Introduction to Web Accessibility
+http://webaim.org/resources/contrastchecker/ :: WebAIM: Color Contrast Checker
+http://webaim.org/ :: WebAIM: Web Accessibility In Mind
+http://webpack.github.io/ :: webpack module bundler
+http://wiki.centos.org/HowTos/SetupRpmBuildEnvironment :: HowTos/SetupRpmBuildEnvironment - CentOS Wiki
+http://wiki.ecmascript.org/doku.php?id=harmony:proposals :: harmony:proposals [ES Wiki]
+http://wiki.illumos.org/display/illumos/illumos+Home :: illumos Home - illumos - illumos wiki
+http://wiki.nginx.org/3rdPartyModules :: 3rdPartyModules - Nginx Community
+http://wiki.nginx.org/Faq :: Faq - Nginx Community
+http://wiki.nginx.org/HttpAuthDigestModule :: HttpAuthDigestModule - Nginx Community
+http://winterdom.com/2008/02/programmingwithlargefonts :: Programming with Large Fonts | Winterdom
+http://www.20thingsilearned.com/en-US :: 20 Things I Learned About Browsers and the Web
+http://www.abhigupta.com/2010/06/how-to-auto-start-services-on-boot-in-centos-redhat/ :: How to auto start services on boot in Centos / Redhat? - Tweet - apache - centos - linux - unix - A Bit Pusher
+http://www.aboutmyip.com/AboutMyXApp/SubnetCalculator.jsp :: Subnet calculator
+http://www.alfredapp.com/ :: Alfred - Productivity App for Mac OS X
+http://www.amazon.com/gp/product/0596517742/ :: JavaScript: The Good Parts: Douglas Crockford: 9780596517748: Amazon.com: Books
+http://www.amazon.com/gp/product/0596805527/ :: JavaScript: The Definitive Guide: Activate Your Web Pages (Definitive Guides): David Flanagan: 8580001053509: Amazon.com: Books
+http://www.amcharts.com/ :: JavaScript Charts and Maps | amCharts
+http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html :: Common fonts to all versions of Windows &amp; Mac equivalents (Browser safe fonts) - Web design tips &amp; tricks
+http://www.angularjsbook.com/ :: -
+http://www.appsumo.com/creative-market/ :: $1200+ Creative Market design bundle for only $39 
+http://www.asciidraw.com/#Draw :: Asciiflow - ASCII Flow Diagram Tool
+http://www.atozcss.com/ ::  Home - A to Z CSS
+http://www.babylonjs.com/ :: Babylon.js
+http://www.beatsmusic.com/ :: Beats Music | Experience Music Like Never Before
+http://www.beingroot.com/articles/apache/socket-backlog-tuning-for-apache :: Socket backlog tuning for apache - Being root
+http://www.bluedashed.com/covers/ :: Covers - A JS / CSS Experiment
+http://www.bootply.com/ :: Bootstrap Editor and Playground for JavaScript, CSS, HTML5 and jQuery.
+http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html :: node.js Flame Graphs on Linux
+http://www.brendangregg.com/ :: Brendan Gregg's Homepage
+http://www.brendangregg.com/flamegraphs.html :: Flame Graphs
+http://www.bullseye.com/minimum.html :: Minimum Acceptable Code Coverage
+http://www.carbonfive.com/ :: Carbon Five
+http://www.chartjs.org/ :: -
+http://www.checkman.io/please/ :: Please JS
+http://www.cisco.com/web/about/ac123/ac147/archived_issues/ipj_1-2/switch_evolution.html :: Layer 2 and Layer 3 Switch Evolution - The Internet Protocol Journal - Volume 1, No. 2 - Cisco Systems 
+http://www.cisco.com/web/about/security/intelligence/unicast-rpf.html :: Understanding Unicast Reverse Path Forwarding - Cisco Systems 
+http://www.clicktale.com/ :: Clicktale | Improve Digital Customer Experience
+http://www.clicktorelease.com/code/css3dclouds/ :: CSS 3D Clouds
+http://www.codecademy.com/learn/learn-angularjs :: Learn AngularJS | Codecademy
+http://www.codecademy.com/learn :: Learn | Codecademy
+http://www.codecademy.com/ :: Learn to code | Codecademy
+http://www.codenomicon.com/ :: Vulnerability Management - Fuzzing - Fuzz Testing | Codenomicon
+http://www.colormatters.com/color-and-design/color-systems-rgb-and-cmyk :: Color Systems - RGB &amp; CMYK
+http://www.commandlinefu.com/ :: All commands | commandlinefu.com
+http://www.commandlinefu.com/commands/view/168/ps-with-parentchild-process-tree :: ps with parent/child process tree | commandlinefu.com
+http://www.creativebloq.com/ :: Creative Bloq - Your daily dose of design tips and inspiration | Creative Bloq
+http://www.creativebloq.com/css3/advanced-rwd-layout-techniques-71412175 :: Advanced RWD layout techniques | Web design | Creative Bloq
+http://www.creativebloq.com/web-design/build-real-time-app-socketio-11514083 :: Build a real-time app with Socket.IO | Web design | Creative Bloq
+http://www.css3.info/ :: CSS3 . Info - All you ever needed to know about CSS3
+http://www.css3.info/preview/rounded-border/ ::  Border-radius: create rounded corners with CSS! - CSS3 . Info
+http://www.cssmania.com/ :: CSS Galleries / CSSMania
+http://www.cssmatic.com/ :: The ultimate CSS tools for web designers | CSSmatic
+http://www.cyberciti.biz/faq/centos-rhel-7-redhat-linux-install-gcc-compiler-development-tools/ :: CentOS / RHEL 7: Install GCC (C and C++ Compiler) and Development Tools
+http://www.cyberciti.biz/faq/linux-command-line-run-in-background/ :: Linux: Start Command In Background
+http://www.cyberciti.biz/faq/linux-install-glances-monitoring-tool/ :: Linux: Keep An Eye On Your System With Glances Monitor
+http://www.datejs.com/ :: Datejs - An open-source JavaScript Date Library
+http://www.diveintopython.net/power_of_introspection/optional_arguments.html :: 4.2.&nbsp;Using Optional and Named Arguments
+http://www.ejschart.com/index.php :: Emprise Javascript Charts
+http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html :: Starbucks Does Not Use Two-Phase Commit - Enterprise Integration Patterns
+http://www.es6fiddle.net/ :: ES6 Fiddle
+http://www.evernote.com/ ::  The workspace for your life’s work | Evernote
+http://www.faqs.org/rfcs/rfc2616.html :: RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1 (RFC2616)
+http://www.fastcodesign.com/3033983/theres-finally-a-modern-typeface-for-programmers :: There's Finally A Modern Typeface For Programmers | Co.Design | business + design
+http://www.fileformat.info/ :: FileFormat.Info &middot; The Digital Rosetta Stone
+http://www.firewall.cx/networking-topics/vlan-networks/219-vlan-tagging.html :: VLAN Tagging - Understanding VLANs Ethernet Frames
+http://www.flatuicolorpicker.com/ :: flatuicolorpicker : Best Flat Colors For UI Design 
+http://www.flotcharts.org/ :: Flot: Attractive JavaScript plotting for jQuery
+http://www.formilux.org/archives/haproxy/1003/3259.html :: Hypermail
+http://www.fusioncharts.com/ :: JavaScript Charts, Graphs for Web, Mobile &amp; Apps - FusionCharts
+http://www.getlaura.com/how-to-enable-sessions-with-sinatra/ :: How to Enable Sessions with Sinatra | getLaura
+http://www.google.com/design/#resources :: Google Design
+http://www.google.com/doodles :: Google Doodles
+http://www.google.com/inbox/ ::  Inbox by Gmail - the inbox that works for you 
+http://www.gotldr.co/ :: TLDR
+http://www.grammarly.com/handbook/ :: Grammarly Handbook | English Grammar Rules
+http://www.graphenedb.com/ :: Neo4j graph database hosting with GrapheneDB | GrapheneDB
+http://www.groovy-lang.org/ :: The Groovy programming language
+http://www.hadermann.be/blog/134/recognising-a-bad-user-interface-at-first-glance/ :: Recognising a Bad User Interface at First Glance 
+http://www.hexinvaders.com/ :: Hex Invaders
+http://www.highcharts.com/ :: Interactive JavaScript charts for your webpage | Highcharts
+http://www.hpcloud.com/ :: HP Public Cloud - Enterprise Public Cloud Products &amp; Services
+http://www.html5rocks.com/en/ :: HTML5 Rocks - A resource for open web HTML5 developers
+http://www.html5rocks.com/en/tutorials/appcache/beginner/ :: A Beginner's Guide to Using the Application Cache - HTML5 Rocks
+http://www.html5rocks.com/en/tutorials/cors/ :: Using CORS - HTML5 Rocks
+http://www.html5rocks.com/en/tutorials/es6/promises/ :: JavaScript Promises: There and back again - HTML5 Rocks
+http://www.html5rocks.com/en/tutorials/eventsource/basics/ :: Stream Updates with Server-Sent Events - HTML5 Rocks
+http://www.html5rocks.com/en/tutorials/speed/animations/ :: Leaner, Meaner, Faster Animations with requestAnimationFrame - HTML5 Rocks
+http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/ :: High Performance Animations - HTML5 Rocks
+http://www.html5rocks.com/en/tutorials/speed/html5/ :: Improving the Performance of your HTML5 App - HTML5 Rocks
+http://www.html5rocks.com/en/tutorials/speed/quick/ :: Best Practices for a Faster Web App with HTML5 - HTML5 Rocks
+http://www.html5rocks.com/ :: HTML5 Rocks - A resource for open web HTML5 developers
+http://www.ibm.com/cloud-computing/us/en/softlayer.html :: IBM Cloud Computing: Overview - United States
+http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm ::  Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST) 
+http://www.ideacolorthemes.org/home/ :: Color Themes & Fonts
+http://www.ietf.org/rfc/rfc1808.txt :: An example HTML document
+http://www.imagemagick.org/script/index.php :: ImageMagick: Convert, Edit, Or Compose Bitmap Images
+http://www.ipaddressguide.com/cidr :: CIDR Utility Tool | IP Address Guide
+http://www.java2s.com/ :: Programming Tutorials and Source Code Examples
+http://www.joezimjs.com/javascript/plugging-into-socket-io-advanced/ :: Plugging Into Socket.IO: Advanced | Joe Zim's JavaScript Blog
+http://www.joyent.com/developers/node/debug/mdb :: MDB and Nodejs - Developer Center - Joyent
+http://www.json.org/JSONRequest.html :: JSONRequest
+http://www.juniper.net/documentation/en_US/junos12.3/topics/concept/l2-qfx-series-overview.html :: Overview of Layer 2 Networking - Technical Documentation - Support - Juniper Networks
+http://www.justinaguilar.com/animations/ :: CSS3 Animation Cheat Sheet - Justin Aguilar
+http://www.kegel.com/c10k.html :: The C10K problem
+http://www.keynote.com/solutions/testing/mobile-testing :: Mobile Device Testing for Apps and Websites | Keynote
+http://www.klocwork.com/products-services/klocwork/static-code-analysis ::  Faster delivery of secure, reliable, and conformant code | Klocwork 
+http://www.letscodejavascript.com/ :: Let’s Code: Test-Driven JavaScript
+http://www.libreoffice.org/ :: Home | LibreOffice - Free Office Suite - Fun Project - Fantastic People
+http://www.linuxcommand.org/man_pages/logrotate8.html :: logrotate
+http://www.linux-ha.org/wiki/Main_Page :: Linux-HA
+http://www.madogatari.jp/ :: MADOGATARI展［SHAFT 40th ANNIVERSARY］
+http://www.metabrew.com/article/a-million-user-comet-application-with-mochiweb-part-1 :: Richard Jones | A Million-user Comet Application with Mochiweb, Part 1
+http://www.microsoft.com/enterprise/microsoftcloud/platform/default.aspx :: Microsoft Cloud - Platform
+http://www.mobify.com/blog/beginners-guide-to-http-cache-headers/ :: A Beginner's Guide to HTTP Cache Headers | Mobify
+http://www.mockflow.com/ :: MockFlow - Online Wireframe Tool and Design Cloud 
+http://www.musingsfrommars.org/2006/03/ajax-dhtml-library-scorecard.html :: Musings from Mars &raquo; Ajax/DHTML Library Scorecard: How Cross Platform Are They?
+http://www.nagios.org/ :: Nagios Core. Nagios Open Source Project.
+http://www.nczonline.net/blog/2010/03/02/maintainable-javascript-dont-modify-objects-you-down-own/ :: Maintainable JavaScript: Don&#8217;t modify objects you don&#8217;t own - NCZOnline
+http://www.nczonline.net/blog/2013/07/09/the-case-for-setimmediate/ :: The case for setImmediate() - NCZOnline
+http://www.nczonline.net/blog/ :: Redirecting...
+http://www.networkinghowtos.com/howto/adding-users-to-a-htpasswd-file-for-nginx/ :: Adding users to a .htpasswd file for Nginx &#171; Networking How To&#039;s
+http://www.newtldlist.com/ :: New TLD List of Not .Com Domain Extension Endings 2015
+http://www.numion.com/calculators/ :: Bandwidth Calculators
+http://www.odata.org/ ::  OData - the Best Way to REST 
+http://www.opera.com/dragonfly/ :: Opera Dragonfly – Opera's built-in web developer tools
+http://www.owlnet.rice.edu/~elec539/Projects99/BACH/proj2/inverse.html ::  Inverse Filtering 
+http://www.pathname.com/fhs/ :: Filesystem Hierarchy Standard
+http://www.paulund.co.uk/creating-different-css3-box-shadows-effects :: CSS Box Shadows Effects
+http://www.paulund.co.uk/ :: Paulund | Tutorials &amp; Snippets
+http://www.perf.rocks/ :: Perf.Rocks
+http://www.peterhedenskog.com/blog/2015/04/open-source-performance-dashboard/ :: Open Source Web Performance Dashboard
+http://www.physicsandbox.com/projects/double-pendulum.html :: Double Pendulum
+http://www.producthunt.com/tech/section-io :: Section.io: Complete Varnish Cache Solution for your Website | Product Hunt
+http://www.psdbucket.com/ ::  Psd Bucket - Resources and Inspiration for Designers
+http://www.pubnub.com/products/publish-subscribe/ :: Publish Subscribe to Push Notifcations to Any Device
+http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html :: Tools don&#8217;t solve the web&#8217;s problems, they ARE the problem - QuirksBlog
+http://www.quirksmode.org/dom/innerhtml.html :: Javascript - Benchmark - W3C DOM vs. innerHTML
+http://www.quirksmode.org/ :: QuirksMode - for all your browser quirks
+http://www.quora.com/Does-bouncing-your-tea-bag-actually-do-anything-substantial/answer/Matt-Harbowy :: Matt Harbowy&#039;s answer to Does bouncing your tea bag actually do anything substantial? - Quora
+http://www.quora.com/How-do-I-scale-socket-io-servers-2 :: How to scale socket.io servers - Quora
+http://www.quora.com/ :: Quora - The best answer to any question
+http://www.rackspace.com/cloud/ :: Rackspace Managed Cloud Services—More than just infrastructure
+http://www.rackspace.com/en-us/cloud/load-balancing :: Load Balancing as a Service - Rackspace Cloud Load Balancers
+http://www.rackspace.com/knowledge_center/article/centos-adding-an-nginx-init-script :: CentOS - Adding an Nginx init script | Knowledge Center | Rackspace Hosting
+http://www.rackspace.com/knowledge_center/article/understanding-logrotate-utility :: Understanding logrotate utility | Knowledge Center | Rackspace Hosting
+http://www.raywenderlich.com/95181/whats-new-in-swift-1-2 :: What&#039;s New in Swift 1.2 - Ray Wenderlich
+http://www.reactive.io/tips/2009/01/11/the-difference-between-ruby-symbols-and-strings/ :: The Difference Between Ruby Symbols and Strings - Reactive.TIPS - The Official Blog of Reactive.IO
+http://www.reddit.com/ :: reddit: the front page of the internet
+http://www.relativewave.com/form/ :: RelativeWave - Form
+http://www.researchgate.net/post/What_are_the_advantages_and_disadvantages_of_functional_programming :: What are the advantages and disadvantages of functional programming? - ResearchGate
+http://www.restapitutorial.com/resources.html :: RESTful Web Services Resources
+http://www.revsys.com/writings/quicktips/ssh-tunnel.html :: HOWTO: SSH Tunneling Made Easy
+http://www.rfc-editor.org/rfc/rfc7540.txt :: -
+http://www.robohornet.org/ :: RoboHornet
+http://www.rorsecurity.info/ :: Ruby on Rails Security Project | Hand-picked Rails security resources
+http://www.rpm.org/max-rpm/ch-rpm-install.html :: -
+http://www.rubydoc.info/gems/simplecov/frames ::  File: README &mdash; Documentation for simplecov (0.10.0) 
+http://www.sencha.com/ :: Design, Develop, and Manage Enterprise Web Applications with Sencha | Sencha
+http://www.simplediagrams.com/ :: SimpleDiagrams | Desktop App for Creating Diagrams, Flowcharts and Hand-drawn Visualizations | SimpleDiagrams 
+http://www.sinatrarb.com/configuration.html :: Sinatra: Configuring Settings
+http://www.sinatrarb.com/faq.html :: Sinatra: Frequently Asked Questions
+http://www.sinatrarb.com/intro.html :: Sinatra: README
+http://www.sinatrarb.com/ :: Sinatra
+http://www.sitepoint.com/http-authentication-in-node-js/ :: HTTP Authentication in Node.js
+http://www.sitepoint.com/ :: SitePoint – Learn HTML, CSS, JavaScript, PHP, Ruby &amp; Responsive Design
+http://www.sitespeed.io/ :: Sitespeed.io - Analyze your website speed and performance
+http://www.sketchingwithcss.com/samplechapter/cheatsheet.html :: The Ultimate Flexbox Cheat Sheet
+http://www.slideshare.net/brendangregg/blazing-performance-with-flame-graphs :: Blazing Performance with Flame Graphs
+http://www.slideshare.net/g33ktalk/an-introduction-to-sensu :: An Introduction to Sensu by Bethany Erskine 
+http://www.slideshare.net/Nginx/nginx-high-availability-and-monitoring :: NGINX High Availability and Monitoring
+http://www.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/ :: Designing Better JavaScript APIs &ndash; Smashing Magazine
+http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/ :: Writing Fast, Memory-Efficient JavaScript &ndash; Smashing Magazine
+http://www.smashingmagazine.com/2014/07/08/breakpoints-and-the-future-websites/ :: Breakpoints And The Future Of Websites &ndash; Smashing Magazine
+http://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/ :: Size Matters: Balancing Line Length And Font Size In Responsive Web Design &ndash; Smashing Magazine
+http://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/ :: Laying Out A Flexible Future For Web Design With Flexbox &ndash; Smashing Magazine
+http://www.smashingmagazine.com/ :: Smashing Magazine &ndash; For Professional Web Designers and Developers
+http://www.sonarqube.org/ :: SonarQube™ 
+http://www.stylestats.org/ :: StyleStats - An evaluating tool for writing better CSS.
+http://www.subcide.com/experiments/fail-whale/ :: Pure CSS Twitter Fail Whale - By Steve Dennis
+http://www.sublimetext.com/3 :: Sublime Text - Download
+http://www.thinkplexx.com/learn/article/unix/command/chmod-permissions-flags-explained-600-0600-700-777-100-etc ::  Chmod permissions (flags) explained: 600, 0600, 700, 777, 100 etc..
+http://www.tokiwinter.com/building-a-highly-available-load-balancer-with-nginx-and-keepalived-on-centos/ :: Building a Highly-Available Load Balancer with Nginx and Keepalived on CentOS | Toki Winter
+http://www.typetoken.net/ ::  typetoken® | Showcasing &amp; discussing the world of typography, icons and visual language
+http://www.typography.com/ :: Hoefler &amp; Co.
+http://www.typographyserved.com/ :: Typography Served :: Gallery
+http://www.typophile.com/ :: ;) BRB
+http://www.uxbooth.com/ :: UX Booth | A User Experience Design Publication
+http://www.uxisnotui.com/ :: UX is not UI
+http://www.uxmatters.com/ :: UXmatters :: Insights and inspiration for the user experience community
+http://www.vmware.com/products/vcloud-suite :: vCloud Suite, vSphere-Based Private Cloud Features: VMware | United States
+http://www.vmware.com/ :: VMware Virtualization for Desktop &amp; Server, Application, Public &amp; Hybrid Clouds | United States
+http://www.vorlonjs.com/ :: Vorlon.JS 
+http://www.w3.org/community/webed/wiki/HTML/Elements :: HTML/Elements - Web Education Community Group
+http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html :: HTTP/1.1: Status Code Definitions
+http://www.w3.org/standards/ :: Standards - W3C
+http://www.w3.org/TR/WCAG20/ :: Web Content Accessibility Guidelines (WCAG) 2.0
+http://www.webdnstools.com/dnstools/articles/ip_address_subnets :: DNS Tools - Subnets
+http://www.webpagetest.org/ :: WebPagetest - Website Performance and Optimization Test
+http://www.webplatform.org/ :: Your Web, documented · WebPlatform.org
+http://www.weekendhacker.net/projects/ :: Projects - Weekendhacker
+http://www.weekendhacker.net/ ::  WeekendHacker 
+http://www.wikiwand.com/en/1%25_rule_(Internet_culture) :: 1% rule (Internet culture) - Wikiwand
+http://www.wikiwand.com/en/CAP_theorem :: CAP theorem - Wikiwand
+http://www.wikiwand.com/en/Clustered_file_system :: Clustered file system - Wikiwand
+http://www.wikiwand.com/en/Composition_over_inheritance :: Composition over inheritance - Wikiwand
+http://www.wikiwand.com/en/Denial-of-service_attack :: Denial-of-service attack - Wikiwand
+http://www.wikiwand.com/en/DTrace :: DTrace - Wikiwand
+http://www.wikiwand.com/en/ECMAScript :: ECMAScript - Wikiwand
+http://www.wikiwand.com/en/Finite-state_machine :: Finite-state machine - Wikiwand
+http://www.wikiwand.com/en/Gimbal_lock :: Gimbal lock - Wikiwand
+http://www.wikiwand.com/en/Information_security :: Information security - Wikiwand
+http://www.wikiwand.com/en/KnuthâMorrisâPratt_algorithm :: Wikiwand
+http://www.wikiwand.com/en/List_of_tools_for_static_code_analysis :: List of tools for static code analysis - Wikiwand
+http://www.wikiwand.com/en/Object-oriented_programming :: Object-oriented programming - Wikiwand
+http://www.wikiwand.com/en/Optimistic_concurrency_control :: Optimistic concurrency control - Wikiwand
+http://www.wikiwand.com/en/Pareidolia :: Pareidolia - Wikiwand
+http://www.wikiwand.com/en/Robustness_principle :: Robustness principle - Wikiwand
+http://www.wikiwand.com/en/Round-robin_DNS :: Round-robin DNS - Wikiwand
+http://www.wikiwand.com/en/Secure_Hash_Algorithm :: Secure Hash Algorithm - Wikiwand
+http://www.wikiwand.com/en/Single_sign-on :: Single sign-on - Wikiwand
+http://www.wikiwand.com/en/Strace :: strace - Wikiwand
+http://www.wikiwand.com/en/Strategy_pattern :: Strategy pattern - Wikiwand
+http://www.wikiwand.com/en/Thunk :: Thunk - Wikiwand
+http://www.wikiwand.com/en/Transport_Layer_Security :: Transport Layer Security - Wikiwand
+http://www.wikiwand.com/en/Usage_share_of_web_browsers :: Usage share of web browsers - Wikiwand
+http://www.wikiwand.com/en/Virtual_Router_Redundancy_Protocol :: Virtual Router Redundancy Protocol - Wikiwand
+http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-finding-a-potential-memory-leak-using-memwatch-part-2/ :: The node.js Profiling Guide that Hasn’t Existed - Finding a potential memory leak using memwatch - Part 2
+http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-finding-the-cause-of-a-memory-leak-using-heap-snapshots-part-3/ :: The node.js Profiling Guide that Hasn’t Existed - Finding The Cause of a Memory Leak Using Heap Snapshots - Part 3
+http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-profiling-node-js-applications-part-1/ :: The node.js Profiling Guide that Hasn’t Existed - Profiling node.js Applications - Part 1
+http://www.worldtimebuddy.com/ :: Time Converter and World Clock - Conversion at a Glance - Pick best time to schedule conference calls, webinars, online meetings and phone calls.
+http://www.worqx.com/color/index.htm :: Color Theory Tutorial, Concepts, Essays and Color Basics
+http://www.x.org/wiki/ :: X.Org
+http://www.yes-www.org/why-use-www/ :: Why use www? | www. is not deprecated
+http://www.zenoss.com/ :: Zenoss | Own IT.
+http://www.zingchart.com/ :: ZingChart: JavaScript charts with the features you need
+http://www.zytrax.com/books/dns/ch9/rr.html :: HOWTO - Configure Round Robin and Load Balancing
+http://yaml.org/spec/1.1/ ::  YAML�Ain&#8217;t�Markup�Language�(YAML&#8482;) Version�1.1 
+http://yehudakatz.com/2010/04/02/using-gemspecs-as-intended/ :: Using .gemspecs as Intended
+http://yehudakatz.com/2010/08/14/threads-in-ruby-enough-already/ :: Threads (in Ruby): Enough Already
+http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/ :: Understanding JavaScript Function Invocation and &quot;this&quot;
+http://yeoman.io/ :: The web's scaffolding tool for modern webapps | Yeoman
+http://zeromq.org/ :: Distributed Messaging - zeromq
+http://zguide.zeromq.org/page:all :: ØMQ - The Guide - ØMQ - The Guide
+http://ztrek.blogspot.in/2009/08/est-and-edt-pst-and-pdt-just-say-no.html :: Z Trek: The Alan Zeichick Weblog: EST and EDT, PST and PDT: Just say no!
+http://zurb.com/patterntap :: -

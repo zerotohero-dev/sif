@@ -1,0 +1,43 @@
+
+
+an easier to type command alias
+
+fn 'jquery|gist.github.com'
+
+store queries
+
+fn --alias gist 'gist.github.com'
+
+fn -a gist
+
+
+// search in file
+sif
+---------------------
+
+
+sif aliases -> will list all aliases
+sif add-alias 'egrepregexp'
+sif remove-alias <index>
+
+sif 'query'
+sif '@alias'
+
+
+-----
+
+sif @so
+sif @gist
+sif 'ubuntu|linux'
+sif 'ubuntu' 'linux'
+sif 'ubuntu|linux' 'debian'
+
+sif index http://url.com/
+
+sif purge
+
+sif https://www.npmjs.com/package/sif
+
+sif
+
+sif -- Sifts so fast that it's "t" drops off.
