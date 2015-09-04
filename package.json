@@ -1,7 +1,7 @@
 {
   "name": "sif",
-  "version": "0.1.0",
-  "description": "Sifts important data so fast that it's \"s\" drops off --- Sif is also known as a Norse goddes.",
+  "version": "0.1.1",
+  "description": "Sifts important data so fast that it's \"t\" drops off.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/v0lkan/sif#readme",
   "dependencies": {
+    "chalk": "^1.1.1",
     "commander": "^2.8.1"
   }
 }
