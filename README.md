@@ -58,3 +58,11 @@ and effectively.
 
 Although there are websites for this purpose, they are slow to respond, and the
 are slower to use than a terminal. --- command line FTW!
+
+--
+
+// TODO: processing a duplicate link should be visible in the report output so that
+you can decide to update or ignore it.
+
+// TODO: some of the stuff in "lib" (like the one that goes through links and gets meta information) 
+// can turn out to be additional side projects keep this in mind when writing them.

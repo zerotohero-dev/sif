@@ -43,7 +43,8 @@ program
 //console.log(program.options);
 ////console.log(program.commands);
 // TODO: if program.args does not contain any command, then display help.
-
+// TODO: find and fix multiple <::sif::> marks
+// TODO: find and fix links that have empty description (i.e. just an "-" as a description")
 // TODO: move files to /lib -- it makes readme unreadable in git.
 // TODO: remove spaces when adding a link
 // TODO: replace HTML entities from titles when adding a link.
