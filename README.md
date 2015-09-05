@@ -1,5 +1,3 @@
-# sif
-
 ```
    _,                           ,--.   ,---.
   /(_                    ,---.  `--'  /  .-'
@@ -17,6 +15,8 @@
    \  |  /
     '.| /
 ```
+
+## About `sif`
 
 TODO:// this README is in draft mode.
 
