@@ -1,6 +1,6 @@
 {
   "name": "sif",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Sifts important data so fast that it's \"t\" drops off.",
   "main": "index.js",
   "scripts": {

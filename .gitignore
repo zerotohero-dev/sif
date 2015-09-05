@@ -27,3 +27,6 @@ build/Release
 node_modules
 
 .idea
+workspace.xml
+sif.iml
+Generated_files.xml
