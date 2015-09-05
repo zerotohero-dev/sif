@@ -34,12 +34,9 @@ program
     .command('tag <index> <tag>', 'Adds a a tag <tag> for the data at <index>. Tags are single-word tokens with no spaces in them.')
     .command('purge', 'Removes ALL the indexed data, and ALL the aliases. This process is IRREVERSIBLE.')
     .command('update', 'Updates and re-sorts the index by fetching metadata for the newly-added items.')
-    .command('search', 'Performs a search. See README.md for details.', {isDefault: true})
+    .command('find <what>', 'Performs a search. See README.md for details.')
     .parse(process.argv);
 
-//console.log('a');
-//console.log('a');
-//console.log('a');
 //console.log('a');
 //console.log('a');
 //console.log(program.args);

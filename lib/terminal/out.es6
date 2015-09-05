@@ -41,6 +41,14 @@ let printHeader = (text) => {
 };
 
 let print = (commandName, text) => {
+    let parts = text.split(/\s*<::sif::>\s*/);
+
+    if (parts.length >= 2) {
+        console.log('  ' + chalk.white.bgGreen(commandName.toUpperCase()) + ': ' + chalk.underline.black.bgYellow(parts[0]) + ' ("' + chalk.cyan.bgBlack(parts[1]) + '").');
+
+        return;
+    }
+
     console.log('  ' + chalk.white.bgGreen(commandName.toUpperCase()) + ': ' + text);
 };
 

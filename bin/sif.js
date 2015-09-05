@@ -31,11 +31,8 @@ var _libTerminalOut = require('../lib/terminal/out');
 (0, _libTerminalOut.printBanner)();
 
 // TODO: get version from config.
-_commander2['default'].version('0.1.0').command('aliases', 'Lists all aliases.').command('alias <new> <query>', 'Adds a new alias <new> for <query>. An alias is a single-word token with no spaces in it.').command('rmalias <alias>', 'Removes the alias named <alias>.').command('tag <index> <tag>', 'Adds a a tag <tag> for the data at <index>. Tags are single-word tokens with no spaces in them.').command('purge', 'Removes ALL the indexed data, and ALL the aliases. This process is IRREVERSIBLE.').command('update', 'Updates and re-sorts the index by fetching metadata for the newly-added items.').command('search', 'Performs a search. See README.md for details.', { isDefault: true }).parse(process.argv);
+_commander2['default'].version('0.1.0').command('aliases', 'Lists all aliases.').command('alias <new> <query>', 'Adds a new alias <new> for <query>. An alias is a single-word token with no spaces in it.').command('rmalias <alias>', 'Removes the alias named <alias>.').command('tag <index> <tag>', 'Adds a a tag <tag> for the data at <index>. Tags are single-word tokens with no spaces in them.').command('purge', 'Removes ALL the indexed data, and ALL the aliases. This process is IRREVERSIBLE.').command('update', 'Updates and re-sorts the index by fetching metadata for the newly-added items.').command('find <what>', 'Performs a search. See README.md for details.').parse(process.argv);
 
-//console.log('a');
-//console.log('a');
-//console.log('a');
 //console.log('a');
 //console.log('a');
 //console.log(program.args);

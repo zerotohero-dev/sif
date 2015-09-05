@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/v0lkan/sif#readme",
   "dependencies": {
+    "byline": "^4.2.1",
     "chalk": "^1.1.1",
     "commander": "^2.8.1"
   }
