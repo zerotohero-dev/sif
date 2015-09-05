@@ -16,7 +16,7 @@
     '.| /
 ```
 
-## About `sif`
+## About
 
 TODO:// this README is in draft mode.
 
