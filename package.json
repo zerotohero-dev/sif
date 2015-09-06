@@ -1,6 +1,6 @@
 {
   "name": "sif",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Sifts important data so fast that it's \"t\" drops off.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "git+https://github.com/v0lkan/sif.git"
   },
   "keywords": [
+    "sif",
     "sift",
     "search",
     "file",

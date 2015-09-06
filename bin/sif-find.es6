@@ -33,6 +33,7 @@ import {
 } from '../lib/terminal/out';
 
 const DATA_FILE = join(__dirname, '../data/index.idx');
+const COMMAND = 'find';
 
 program.parse(process.argv);
 
@@ -52,11 +53,11 @@ filter.stdin.on('close', () => {});
 filter.stdout.pipe(lines);
 
 lines.on('data', (line) => {
-    print('find', line.toString());
+    print(COMAND, line.toString());
 });
 
 lines.on('end', () => {
-    print('find', 'Done.');
+    print(COMMAND, 'Done.');
 });
 
 child.stdout.on('end', () => {
@@ -64,11 +65,9 @@ child.stdout.on('end', () => {
     // Waits for buffer to flush before destroying the stream:
     filter.stdin.end();
 
-    // This will forcefully kill the stream w/o leaving time to flush
+    // `destroy()` will forcefully kill the stream w/o leaving time to flush
     // the buffer:
     // filter.stdin.destroy();
-    // ^ Avoid it; it's not documented.
+    //              ^ Avoid it; it's not documented.
 });
 
-//print('search', 'Command not implemented yet!');
-//blank();

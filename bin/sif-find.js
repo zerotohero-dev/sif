@@ -39,6 +39,7 @@ var _child_process = require('child_process');
 var _libTerminalOut = require('../lib/terminal/out');
 
 var DATA_FILE = (0, _path.join)(__dirname, '../data/index.idx');
+var COMMAND = 'find';
 
 _commander2['default'].parse(process.argv);
 
@@ -60,11 +61,11 @@ filter.stdin.on('close', function () {});
 filter.stdout.pipe(lines);
 
 lines.on('data', function (line) {
-    (0, _libTerminalOut.print)('find', line.toString());
+    (0, _libTerminalOut.print)(COMAND, line.toString());
 });
 
 lines.on('end', function () {
-    (0, _libTerminalOut.print)('find', 'Done.');
+    (0, _libTerminalOut.print)(COMMAND, 'Done.');
 });
 
 child.stdout.on('end', function () {
@@ -72,13 +73,10 @@ child.stdout.on('end', function () {
     // Waits for buffer to flush before destroying the stream:
     filter.stdin.end();
 
-    // This will forcefully kill the stream w/o leaving time to flush
+    // `destroy()` will forcefully kill the stream w/o leaving time to flush
     // the buffer:
     // filter.stdin.destroy();
-    // ^ Avoid it; it's not documented.
+    //              ^ Avoid it; it's not documented.
 });
-
-//print('search', 'Command not implemented yet!');
-//blank();
 
 //# sourceMappingURL=sif-find.js.map
