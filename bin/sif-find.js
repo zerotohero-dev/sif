@@ -3,21 +3,21 @@
 
 'use strict';
 
-/*    _,                           ,--.   ,---.
- *   /(_                    ,---.  `--'  /  .-'
- *  |   '-._       . ' .   (  .-'  ,--.  |  `-,
- *  \    ,-.)     -= * =- .-'  `)  |  |  |  .-'
- *   \((` .(       '/. '  `----'   `--'  `--'
- *    )\  _/       /         just like magic
- * .-'   '--.     /
- *',         \   /|
- * ';,_) _)'\ \,//    This program is distributed
- *  `\   (   '._/   under the terms of the MIT license.
- *   |  . '.
- *   |      \   Please see the `LICENSE.md` file for details.
- *   |  \|   |
- *    \  |  /    Send your comments and suggestions to…
- *     '.| /      <https://github.com/v0lkan/sif/issues>.
+/*    _,                            ,--.   ,---.
+ *   /(_                     ,---.  `--'  /  .-'
+ *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
+ *  \    ,-.)      -= * =- .-'  `)  |  |  |  .-'
+ *   \((` .(        '/. '  `----'   `--'  `--'
+ *    )\  _/        /         just like magic
+ * .-'   '--.      /
+ * \,         \   /|
+ *  ';,_) _)'\ \,//    This program is distributed
+ *   `\   (   '._/   under the terms of the MIT license.
+ *    |  . '.
+ *    |      \   Please see the `LICENSE.md` file for details.
+ *    |  \|   |
+ *     \  |  /    Send your comments and suggestions to…
+ *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -61,7 +61,7 @@ filter.stdin.on('close', function () {});
 filter.stdout.pipe(lines);
 
 lines.on('data', function (line) {
-    (0, _libTerminalOut.print)(COMAND, line.toString());
+    (0, _libTerminalOut.print)(COMMAND, line.toString());
 });
 
 lines.on('end', function () {
