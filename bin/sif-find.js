@@ -51,7 +51,7 @@ var filter = (0, _child_process.spawn)('egrep', ['-i', query]);
 var lines = _byline2['default'].createStream();
 
 child.stdout.on('data', function (line) {
-    filter.stdin.write(line);
+    return filter.stdin.write(line);
 });
 
 filter.stdin.on('finish', function () {});
