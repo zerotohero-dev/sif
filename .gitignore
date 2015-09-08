@@ -30,3 +30,6 @@ node_modules
 workspace.xml
 sif.iml
 Generated_files.xml
+__tmp_existing
+__tmp_processed
+index.idx.backup
