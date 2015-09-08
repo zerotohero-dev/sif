@@ -51,8 +51,12 @@ let print = (commandName, text) => {
     console.log('  ' + chalk.white.bgGreen(commandName.toUpperCase()) + ': ' + text);
 };
 
+let printError = (commandName, text) => {
+    print(commandName, chalk.red.bold('ERROR ->') + ' ' + chalk.black.bgRed(text) )
+};
+
 let printBlank = () => {
     console.log('');
 };
 
-export {print, printHeader, printBanner, printBlank};
+export {print, printHeader, printBanner, printBlank, printError};

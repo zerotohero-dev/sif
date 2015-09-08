@@ -52,29 +52,15 @@ _commander2['default'].parse(process.argv);
 
 // TODO: this file needs some cleanup.
 
+// TODO: it is possible that writeStream.write may return `false`; in that case we should wait for the flush event.
+
+// TODO: jshint -- does it matter anymore in es6?! -- maybe a blog post topic.
+// @see http://eslint.org/docs/user-guide/command-line-interface
+
+// TODO: integrate complexity analysis too.
+
+// TODO: add a progressbar.
 (0, _libTerminalOut.print)(COMMAND, 'Started updating the index… This may take a while. Please be patient…');
-
-var copyAssets = function copyAssets() {
-    var cat = (0, _child_process.spawn)('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
-    var sort = (0, _child_process.spawn)('sort', ['-u']);
-
-    var indexWriteStream = (0, _fs.createWriteStream)(INDEX_FILE, { encoding: 'utf8' });
-
-    sort.stdout.pipe(indexWriteStream);
-
-    cat.stdout.on('data', function (line) {
-        return sort.stdin.write(line);
-    });
-    cat.stdout.on('end', function () {
-        return sort.stdin.end();
-    });
-    sort.stdout.on('end', function () {
-        return indexWriteStream.end();
-    });
-    sort.stdout.on('end', function () {
-        return (0, _libTerminalOut.print)(COMMAND, 'Index file has been successfully updated.');
-    });
-};
 
 var backup = (0, _child_process.spawn)('cp', [INDEX_FILE, INDEX_FILE + '.backup']);
 
@@ -88,13 +74,38 @@ backup.stdout.on('end', function () {
     var remainingMetaDataRequests = 0;
     var inStreamEnded = false;
 
-    var maybeEndStreamsThenCopyAssets = null;
+    var maybeEndProcessedFileWriteStream = null;
 
-    maybeEndStreamsThenCopyAssets = function () {
+    maybeEndProcessedFileWriteStream = function () {
         if (inStreamEnded && remainingMetaDataRequests === 0) {
             (function () {
-                var maybeCopyAssets = null;
                 var counter = 2;
+
+                var copyAssets = function copyAssets() {
+                    var cat = (0, _child_process.spawn)('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
+                    var sort = (0, _child_process.spawn)('sort', ['-u']);
+
+                    var indexWriteStream = (0, _fs.createWriteStream)(INDEX_FILE, { encoding: 'utf8' });
+
+                    cat.stdout.on('data', function (line) {
+                        sort.stdin.write(line);
+                    });
+
+                    // rs | ws
+                    sort.stdout.pipe(indexWriteStream);
+
+                    sort.stdout.on('end', function () {
+                        (0, _libTerminalOut.print)(COMMAND, 'Done!');
+
+                        indexWriteStream.end();
+                    });
+
+                    cat.stdout.on('end', function () {
+                        sort.stdin.end();
+                    });
+                };
+
+                var maybeCopyAssets = null;
 
                 maybeCopyAssets = function () {
                     counter--;
@@ -106,14 +117,13 @@ backup.stdout.on('end', function () {
                     maybeCopyAssets = function () {};
                 };
 
-                // TODO: this part "begs" for promises.
                 tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
                 tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
 
                 tmpProcessedFileWriteStream.end();
                 tmpExistingFileWriteStream.end();
 
-                maybeEndStreamsThenCopyAssets = function () {};
+                maybeEndProcessedFileWriteStream = function () {};
             })();
         }
     };
@@ -142,7 +152,7 @@ backup.stdout.on('end', function () {
                     remainingMetaDataRequests--;
 
                     if (error || response.statusCode !== SUCCESS) {
-                        maybeEndStreamsThenCopyAssets();
+                        maybeEndProcessedFileWriteStream();
 
                         return;
                     }
@@ -159,7 +169,7 @@ backup.stdout.on('end', function () {
                         tmpExistingFileWriteStream.write(url + '\n');
                     }
 
-                    maybeEndStreamsThenCopyAssets();
+                    maybeEndProcessedFileWriteStream();
                 });
 
                 return {
@@ -177,7 +187,7 @@ backup.stdout.on('end', function () {
         inStreamEnded = true;
 
         // on `end`, all the data is consumed.
-        maybeEndStreamsThenCopyAssets();
+        maybeEndProcessedFileWriteStream();
     });
 });
 

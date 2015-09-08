@@ -70,6 +70,30 @@ backup.stdout.on('end', () => {
 
     maybeEndStreamsThenCopyAssets = () => {
         if (inStreamEnded && remainingMetaDataRequests === 0) {
+            let copyAssets = () => {
+                let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
+                let sort = spawn('sort', ['-u']);
+
+                let indexWriteStream = write(INDEX_FILE, {encoding: 'utf8'});
+
+                cat.stdout.on('data', (line) => {
+                    sort.stdin.write(line);
+                });
+
+                // rs | ws
+                sort.stdout.pipe(indexWriteStream);
+
+                sort.stdout.on('end', () => {
+                    print(COMMAND, 'Done!');
+
+                    indexWriteStream.end();
+                });
+
+                cat.stdout.on('end', () => {
+                    sort.stdin.end();
+                });
+            };
+
             let maybeCopyAssets = null;
             let counter = 2;
 

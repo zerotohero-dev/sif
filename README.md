@@ -66,3 +66,5 @@ you can decide to update or ignore it.
 
 // TODO: some of the stuff in "lib" (like the one that goes through links and gets meta information) 
 // can turn out to be additional side projects keep this in mind when writing them.
+
+// TODO: also write about the development process, how the js is transpiled etc.

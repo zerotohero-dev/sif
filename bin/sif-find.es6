@@ -44,7 +44,7 @@ let filter = spawn('egrep', ['-i', query]);
 
 let lines = byline.createStream();
 
-child.stdout.on('data', (line) => {filter.stdin.write(line)});
+child.stdout.on('data', (line) => filter.stdin.write(line));
 
 filter.stdin.on('finish', () => {});
 filter.stdin.on('error', () => {});
