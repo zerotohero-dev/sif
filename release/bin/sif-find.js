@@ -72,11 +72,6 @@ child.stdout.on('end', function () {
 
     // Waits for buffer to flush before destroying the stream:
     filter.stdin.end();
-
-    // `destroy()` will forcefully kill the stream w/o leaving time to flush
-    // the buffer:
-    // filter.stdin.destroy();
-    //              ^ Avoid it; it's not documented.
 });
 
 //# sourceMappingURL=sif-find.js.map
