@@ -37,11 +37,6 @@ program
     .command('find <what>', 'Performs a search. See README.md for details.')
     .parse(process.argv);
 
-//console.log('a');
-//console.log('a');
-//console.log(program.args);
-//console.log(program.options);
-////console.log(program.commands);
 // TODO: make this a command-line npm module.
 // TODO: use https://github.com/tj/node-progress to indicate progress when fetching metadata
 // TODO: notify if no internet connection when fetching metadata.

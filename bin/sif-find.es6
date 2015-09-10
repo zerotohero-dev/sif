@@ -65,4 +65,3 @@ child.stdout.on('end', () => {
     // Waits for buffer to flush before destroying the stream:
     filter.stdin.end();
 });
-
