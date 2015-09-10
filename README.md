@@ -29,6 +29,8 @@ The only way to see how different it is, is through actually using it.
 I've been privately using a bunch of shell scripts for a similar purpose;
 and now I decided to make it more usable.
 
+// TODO: add instructions about how to build sif for those who want to contribute.
+
 ## Usage Examples
 
 TODO:// to be updated.

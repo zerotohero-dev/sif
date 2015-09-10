@@ -1,33 +1,4 @@
-http://o2js.com/productivity/writing-has-never-been-easier <::sif::> Writing Has Never Been Easier
-http://o2js.com/ <::sif::> o2.js – A Coherent Solution to Your JavaScript Dilemma
-http://o2js.com/reference/personal/my-side-projects <::sif::> I Confess, I'm a Lousy Side Projector
-http://stackoverflow.com/questions/6287908/nodejs-express-fs-iterating-files-into-array-or-object-failing <::sif::> node.js - nodejs express fs iterating files into array or object failing - Stack Overflow
-http://stackoverflow.com/questions/29325665/node-js-file-write-in-loop-fails-randomly <::sif::> javascript - Node.js file write in loop fails randomly - Stack Overflow
-https://nodejs.org/api/process.html#process_process_stdout <::sif::> process Node.js v0.12.7 Manual &amp; Documentation
-https://zeplin.io/ <::sif::> Zeplin
-https://www.youtube.com/watch?v=XRYN2xt11Ek <::sif::> Netflix JavaScript Talks - Async JavaScript with Reactive Extensions - YouTube
-http://maxogden.com/node-streams.html <::sif::> Max Ogden Blogotronz
-https://github.com/tj/node-progress <::sif::> tj/node-progress · GitHub
-https://vimeo.com/96425312 <::sif::> Philip Roberts: Help, I&#039;m stuck in an event-loop. on Vimeo
-http://coppertino.com/ <::sif::> VOX Player for iPhone - play FLAC, MP3, CUE on iPhone
-https://github.com/substack/node-multimeter <::sif::> substack/node-multimeter · GitHub
-https://github.com/jahewson/node-byline <::sif::> jahewson/node-byline · GitHub
-https://github.com/v0lkan/sif <::sif::> v0lkan/sif · GitHub
-https://github.com/v0lkan/board <::sif::> v0lkan/board · GitHub
-https://github.com/chalk/chalk <::sif::> chalk/chalk · GitHub
-https://github.com/jahewson/node-byline <::sif::> jahewson/node-byline · GitHub
-https://github.com/onmodulus/commander.js <::sif::> onmodulus/commander.js · GitHub
-https://github.com/github/hub <::sif::> github/hub · GitHub
-https://github.com/v0lkan/sif/issues <::sif::> Issues · v0lkan/sif · GitHub
-https://frontendmasters.com <::sif::> Expert JavaScript and Front-End Web Development Training Videos
-https://github.com/request/request <::sif::> request/request · GitHub
-https://github.com/tj/commander.js <::sif::> tj/commander.js · GitHub
-http://www.smashingmagazine.com <::sif::> Smashing Magazine &ndash; For Professional Web Designers and Developers
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-6-with-yum <::sif::> How To Install nginx on CentOS 6 with yum | DigitalOcean
-https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-14-04 <::sif::> How to Install and Configure VNC on Ubuntu 14.04 | DigitalOcean
-https://linuxacademy.com/ <::sif::> Linux Training
-https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh <::sif::> How To Use SSHFS to Mount Remote File Systems Over SSH | DigitalOcean
-https://hub.docker.com/_/centos/ <::sif::> Docker Hub
+# skip if the link is in any <::sif::> line.
 http://24ways.org/2014/javascript-modules-the-es6-way/ <::sif::> JavaScript Modules the ES6 Way &#9670; 24 ways
 http://52weeksofux.com/ <::sif::> 52 Weeks of UX
 http://960.gs/ <::sif::> 960 Grid System
@@ -36,6 +7,7 @@ http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified <::sif::> OAuth 
 http://addyosmani.com/resources/essentialjsdesignpatterns/book/ <::sif::> Learning JavaScript Design Patterns
 http://aelgru.github.io/ <::sif::> Visual Experiments
 http://agilemanifesto.org/ <::sif::> Manifesto for Agile Software Development
+http://alistapart.com <::sif::> A List Apart: For People Who Make Websites
 http://alistapart.com/ <::sif::> A List Apart: For People Who Make Websites
 http://alistapart.com/article/application-cache-is-a-douchebag <::sif::> Application Cache is a Douchebag · An A List Apart Article
 http://anthonycalzadilla.com/css3-ATAT/index.html <::sif::> Pure CSS3 AT-AT Walker by: Anthony Calzadilla
@@ -137,6 +109,7 @@ http://commandlinepoweruser.com/ <::sif::> Command Line Power User
 http://compass-style.org/ <::sif::>  Compass Home | Compass Documentation
 http://computer.howstuffworks.com/lan-switch15.htm <::sif::> Routers and Layer 3 Switching - How LAN Switches Work
 http://confreaks.tv/ <::sif::>  Confreaks TV
+http://coppertino.com/ <::sif::> VOX Player for iPhone - play FLAC, MP3, CUE on iPhone
 http://cordobo.com/wp-content/uploads/pure-css-animated-3d-super-mario/ <::sif::> Pure CSS animated 3D Super Mario Icon - An experiment by Andreas Jacob
 http://cosplay.watch/ <::sif::> Cosplay Watch - Everything You Need For Cosplay
 http://css3pie.com/demos/ <::sif::> Demos and Example Sites &#8211; CSS3 PIE: CSS3 decorations for IE
@@ -199,6 +172,7 @@ http://ericleads.com/2012/09/stop-using-constructor-functions-in-javascript/ <::
 http://es6-features.org/ <::sif::> ECMAScript 6: New Features: Overview and Comparison
 http://es6katas.org/ <::sif::> Learn ECMAScript6 by doing it
 http://eslint.org/ <::sif::> ESLint - Pluggable JavaScript linter
+http://eslint.org/docs/user-guide/command-line-interface <::sif::> Documentation - ESLint - Pluggable JavaScript linter
 http://espadrine.github.io/New-In-A-Spec/es6/ <::sif::> What's New In A Spec
 http://esprima.org/ <::sif::> Esprima
 http://ethanschoonover.com/solarized <::sif::> Solarized - Ethan Schoonover
@@ -326,6 +300,7 @@ http://martinfowler.com/eaaDev/EventSourcing.html <::sif::> Event Sourcing
 http://mashable.com/ <::sif::> Mashable
 http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/ <::sif::> Memoizing recursive functions via the fixed-point Y combinator: Applying functional programming techniques to Javascript
 http://matthewlein.com/ceaser/ <::sif::> Ceaser - CSS Easing Animation Tool - Matthew Lein
+http://maxogden.com/node-streams.html <::sif::> Max Ogden Blogotronz
 http://mcavage.me/node-restify/ <::sif::> API Guide | restify
 http://mcavage.me/presentations/dtrace_conf_2012-04-03/ <::sif::> DTrace Your Node.js Applications
 http://merbist.com/2011/02/22/concurrency-in-ruby-explained/ <::sif::> Ruby concurrency explainined | Matt Aimonetti
@@ -365,6 +340,9 @@ http://nikhilm.github.io/uvbook/processes.html <::sif::> Processes &mdash; An In
 http://nikhilm.github.io/uvbook/threads.html <::sif::> Threads &mdash; An Introduction to libuv
 http://node-modules.com/ <::sif::> Better search for Node.js modules
 http://nvie.com/posts/a-successful-git-branching-model/ <::sif::> A successful Git branching model &raquo; nvie.com
+http://o2js.com/ <::sif::> o2.js – A Coherent Solution to Your JavaScript Dilemma
+http://o2js.com/productivity/writing-has-never-been-easier <::sif::> Writing Has Never Been Easier
+http://o2js.com/reference/personal/my-side-projects <::sif::> I Confess, I'm a Lousy Side Projector
 http://oauth.net/documentation/ <::sif::>  Documentation &mdash; OAuth
 http://ogp.me/ <::sif::> The Open Graph protocol
 http://okor.github.io/justice/ <::sif::> justice
@@ -459,6 +437,7 @@ http://stackoverflow.com/questions/20058566/node-js-and-ulimit <::sif::> ubuntu 
 http://stackoverflow.com/questions/2117771/is-it-possible-to-run-one-logrotate-check-manually <::sif::> logging - Is it possible to run one logrotate check manually? - Stack Overflow
 http://stackoverflow.com/questions/22544754/failed-to-build-gem-native-extension-installing-compass <::sif::> ruby - Failed to build gem native extension (installing Compass) - Stack Overflow
 http://stackoverflow.com/questions/2641489/what-is-a-thunk <::sif::> c++ - What is a &#39;thunk&#39;? - Stack Overflow
+http://stackoverflow.com/questions/29325665/node-js-file-write-in-loop-fails-randomly <::sif::> javascript - Node.js file write in loop fails randomly - Stack Overflow
 http://stackoverflow.com/questions/3044315/how-to-set-the-authorization-header-using-curl <::sif::> How to set the authorization header using curl - Stack Overflow
 http://stackoverflow.com/questions/30495905/accessing-host-machine-as-localhost-from-a-docker-container-thats-also-inside-a <::sif::> Accessing host machine as localhost from a Docker container that&#39;s also inside a boot2docker vm - Stack Overflow
 http://stackoverflow.com/questions/3559824/what-is-a-very-simple-authentication-scheme-for-sinatra-rack <::sif::> ruby - What is a very simple authentication scheme for Sinatra/Rack - Stack Overflow
@@ -470,6 +449,7 @@ http://stackoverflow.com/questions/512466/how-to-implement-an-abstract-class-in-
 http://stackoverflow.com/questions/5380826/thin-loaderror-no-such-file-to-load-thin-parser/28922667 <::sif::> ruby on rails 3 - Thin LoadError: no such file to load thin_parser - Stack Overflow
 http://stackoverflow.com/questions/5525795/does-javascript-guarantee-object-property-order <::sif::> Does JavaScript Guarantee Object Property Order? - Stack Overflow
 http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in <::sif::> Can a Bash script tell what directory it&#39;s stored in? - Stack Overflow
+http://stackoverflow.com/questions/6287908/nodejs-express-fs-iterating-files-into-array-or-object-failing <::sif::> node.js - nodejs express fs iterating files into array or object failing - Stack Overflow
 http://stackoverflow.com/questions/676249/deep-cloning-vs-setting-of-innerhtml-whats-faster <::sif::> javascript - Deep cloning vs setting of innerHTML: what&#39;s faster? - Stack Overflow
 http://stackoverflow.com/questions/6865194/fluid-width-with-equally-spaced-divs/6880421 <::sif::> css - Fluid width with equally spaced DIVs - Stack Overflow
 http://stackoverflow.com/questions/8423493/what-is-the-performance-of-objects-arrays-in-javascript-specifically-for-googl <::sif::> What is the performance of Objects/Arrays in JavaScript? (specifically for Google V8) - Stack Overflow
@@ -714,6 +694,7 @@ http://www.sketchingwithcss.com/samplechapter/cheatsheet.html <::sif::> The Ulti
 http://www.slideshare.net/Nginx/nginx-high-availability-and-monitoring <::sif::> NGINX High Availability and Monitoring
 http://www.slideshare.net/brendangregg/blazing-performance-with-flame-graphs <::sif::> Blazing Performance with Flame Graphs
 http://www.slideshare.net/g33ktalk/an-introduction-to-sensu <::sif::> An Introduction to Sensu by Bethany Erskine
+http://www.smashingmagazine.com <::sif::> Smashing Magazine &ndash; For Professional Web Designers and Developers
 http://www.smashingmagazine.com/ <::sif::> Smashing Magazine &ndash; For Professional Web Designers and Developers
 http://www.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/ <::sif::> Designing Better JavaScript APIs &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/ <::sif::> Writing Fast, Memory-Efficient JavaScript &ndash; Smashing Magazine
@@ -896,6 +877,7 @@ https://evernote.com/ <::sif::>  The workspace for your life’s work | Evernote
 https://facebook.github.io/react/docs/getting-started.html <::sif::> Getting Started | React
 https://flexibits.com/fantastical <::sif::> Flexibits | Fantastical 2 for Mac | Meet your Mac's new calendar.
 https://forgerock.org/openam/ <::sif::> OpenAM - Access Management &amp; SSO - Project Home Page
+https://frontendmasters.com <::sif::> Expert JavaScript and Front-End Web Development Training Videos
 https://frontendmasters.com/courses/jsnext-es6/ <::sif::> Learn the New JavaScript Features: JS.Next: ES6 / ES2015
 https://gist.github.com/danmactough/8190476 <::sif::> Isaac&#39;s description of process.nextTick vs. setImmediate · GitHub
 https://gist.github.com/debasishg/8172796 <::sif::> A collection of links for streaming algorithms and data structures · GitHub
@@ -943,6 +925,7 @@ https://github.com/bnoordhuis/node-heapdump <::sif::> bnoordhuis/node-heapdump �
 https://github.com/bnoordhuis/node-profiler <::sif::> bnoordhuis/node-profiler · GitHub
 https://github.com/bumptech/stud <::sif::> bumptech/stud · GitHub
 https://github.com/c4milo/node-webkit-agent <::sif::> c4milo/node-webkit-agent · GitHub
+https://github.com/chalk/chalk <::sif::> chalk/chalk · GitHub
 https://github.com/chjj/blessed <::sif::> chjj/blessed · GitHub
 https://github.com/chriso/cli <::sif::> chriso/cli · GitHub
 https://github.com/creationix/nvm <::sif::> creationix/nvm · GitHub
@@ -982,6 +965,7 @@ https://github.com/indexzero/winston <::sif::> indexzero/winston · GitHub
 https://github.com/isaacs/fast-list <::sif::> isaacs/fast-list · GitHub
 https://github.com/isaacs/node-supervisor <::sif::> petruisfan/node-supervisor · GitHub
 https://github.com/ivopetkov/responsively-lazy <::sif::> ivopetkov/responsively-lazy · GitHub
+https://github.com/jahewson/node-byline <::sif::> jahewson/node-byline · GitHub
 https://github.com/jariz/vibrant.js <::sif::> jariz/vibrant.js · GitHub
 https://github.com/jayway/JsonPath <::sif::> jayway/JsonPath · GitHub
 https://github.com/joeferner/node-sf <::sif::> joeferner/node-sf · GitHub
@@ -1012,6 +996,7 @@ https://github.com/nodejs/node-v0.x-archive/issues/8022 <::sif::> Outdated/Confu
 https://github.com/npm-dom <::sif::> npm-dom · GitHub
 https://github.com/npm/node-semver <::sif::> npm/node-semver · GitHub
 https://github.com/nwjs/nw.js/ <::sif::> nwjs/nw.js · GitHub
+https://github.com/onmodulus/commander.js <::sif::> onmodulus/commander.js · GitHub
 https://github.com/openvswitch/ovs/blob/master/WHY-OVS.md <::sif::> ovs/WHY-OVS.md at master · openvswitch/ovs · GitHub
 https://github.com/panitw/easy-rpm <::sif::> panitw/easy-rpm · GitHub
 https://github.com/pburtchaell/react-karma-webpack-example <::sif::> pburtchaell/react-karma-webpack-example · GitHub
@@ -1037,6 +1022,8 @@ https://github.com/socketio/socket.io <::sif::> socketio/socket.io · GitHub
 https://github.com/socketio/socket.io-client <::sif::> socketio/socket.io-client · GitHub
 https://github.com/strongloop <::sif::> StrongLoop, Inc. · GitHub
 https://github.com/strongloop/express <::sif::> strongloop/express · GitHub
+https://github.com/substack/node-multimeter <::sif::> substack/node-multimeter · GitHub
+https://github.com/substack/stream-handbook <::sif::> substack/stream-handbook · GitHub
 https://github.com/sw4/revert.css <::sif::> sw4/revert.css · GitHub
 https://github.com/swagger-api/swagger-ui <::sif::> swagger-api/swagger-ui · GitHub
 https://github.com/taskrabbit/node-resque <::sif::> taskrabbit/node-resque · GitHub
@@ -1045,11 +1032,15 @@ https://github.com/tiddolangerak/tracegl <::sif::> TiddoLangerak/tracegl · GitH
 https://github.com/timqian/jsCodeStructure <::sif::> timqian/jsCodeStructure · GitHub
 https://github.com/tj/cluster-live <::sif::> tj/cluster-live · GitHub
 https://github.com/tj/commander.js <::sif::> tj/commander.js · GitHub
+https://github.com/tj/node-progress <::sif::> tj/node-progress · GitHub
 https://github.com/tj/reds <::sif::> tj/reds · GitHub
 https://github.com/traceglMPL/tracegl <::sif::> traceglMPL/tracegl · GitHub
 https://github.com/trentm/node-bunyan <::sif::> trentm/node-bunyan · GitHub
 https://github.com/unisonweb/platform <::sif::> unisonweb/platform · GitHub
+https://github.com/v0lkan/board <::sif::> v0lkan/board · GitHub
 https://github.com/v0lkan/sensei <::sif::> v0lkan/sensei · GitHub
+https://github.com/v0lkan/sif <::sif::> v0lkan/sif · GitHub
+https://github.com/v0lkan/sif/issues <::sif::> Issues · v0lkan/sif · GitHub
 https://github.com/vigetlabs/grunt-complexity <::sif::> vigetlabs/grunt-complexity · GitHub
 https://github.com/w3c/ <::sif::> World Wide Web Consortium · GitHub
 https://github.com/werk85/node-html-to-text <::sif::> werk85/node-html-to-text · GitHub
@@ -1068,6 +1059,7 @@ https://help.github.com/articles/generating-ssh-keys/ <::sif::>  Generating SSH 
 https://help.github.com/articles/remove-sensitive-data/ <::sif::>  Remove sensitive data - User Documentation
 https://html5boilerplate.com/ <::sif::> HTML5 Boilerplate: The web&#8217;s most popular front-end template
 https://http2.github.io/faq/ <::sif::> HTTP/2 Frequently Asked Questions
+https://hub.docker.com/_/centos/ <::sif::> Docker Hub
 https://inbox.google.com <::sif::> Sign in - Google Accounts
 https://infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-code-optimization-and-cleanup <::sif::> Top 8 tools for Ruby on Rails code optimization and cleanup — Infinum
 https://intercityup.com/blog/how-to-expose-an-ssh-tunnel-to-localhost-in-a-docker-container-via-vagrant.html <::sif::> How to expose an SSH tunnel to localhost in a docker container via vagrant. - Intercity
@@ -1075,6 +1067,7 @@ https://iojs.org/en/index.html <::sif::> io.js - JavaScript I/O
 https://jakearchibald.github.io/isserviceworkerready/ <::sif::> Is ServiceWorker ready?
 https://kapeli.com/dash <::sif::> Dash for OS X - API Documentation Browser, Snippet Manager - Kapeli
 https://leanpub.com/understandinges6/read <::sif::> Read Understanding ECMAScript 6 | Leanpub
+https://linuxacademy.com/ <::sif::> Linux Training
 https://logging.apache.org/log4j/2.x/manual/async.html <::sif::> Log4j &#x2013; Log4j 2 Asynchronous Loggers for Low-Latency Logging - Apache Log4j 2
 https://lookback.io/ <::sif::> Understand users with Lookback
 https://lw.microstrategy.com/msdz/MSDL/901/docs/SSO_Typical_single_sign-on_workflow.htm <::sif::> Typical single sign-on workflow
@@ -1121,6 +1114,7 @@ https://nodejs.org/api/fs.html <::sif::> File System Node.js v0.12.7 Manual &amp
 https://nodejs.org/api/http.html <::sif::> HTTP Node.js v0.12.7 Manual &amp; Documentation
 https://nodejs.org/api/net.html <::sif::> net Node.js v0.12.7 Manual &amp; Documentation
 https://nodejs.org/api/process.html <::sif::> process Node.js v0.12.7 Manual &amp; Documentation
+https://nodejs.org/api/process.html#process_process_stdout <::sif::> process Node.js v0.12.7 Manual &amp; Documentation
 https://nodejs.org/api/repl.html <::sif::> REPL Node.js v0.12.7 Manual &amp; Documentation
 https://nodejs.org/api/stream.html <::sif::> Stream Node.js v0.12.7 Manual &amp; Documentation
 https://nodejs.org/api/timers.html <::sif::> Timers Node.js v0.12.7 Manual &amp; Documentation
@@ -1205,10 +1199,13 @@ https://www.contentful.com/ <::sif::> -
 https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html <::sif::> E.W. Dijkstra Archive: On the cruelty of really teaching computing science (EWD 1036)
 https://www.daniweb.com/software-development/python/threads/39004/what-does-__call__-method-do <::sif::> what does __call__() method do? - Python | DaniWeb
 https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04 <::sif::> How To Configure Sensu Monitoring, RabbitMQ, and Redis on Ubuntu 14.04 | DigitalOcean
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-14-04 <::sif::> How to Install and Configure VNC on Ubuntu 14.04 | DigitalOcean
 https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit <::sif::> How To Install And Run A Node.js App On Centos 6.4 64bit | DigitalOcean
 https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04 <::sif::> How To Install Git on Ubuntu 14.04 | DigitalOcean
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-6-with-yum <::sif::> How To Install nginx on CentOS 6 with yum | DigitalOcean
 https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-centos-6 <::sif::> How To Install Ruby on Rails on CentOS 6 | DigitalOcean
 https://www.digitalocean.com/community/tutorials/how-to-set-up-http-authentication-with-nginx-on-ubuntu-12-10 <::sif::> How To Set Up HTTP Authentication With Nginx On Ubuntu 12.10 | DigitalOcean
+https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh <::sif::> How To Use SSHFS to Mount Remote File Systems Over SSH | DigitalOcean
 https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking <::sif::> Understanding IP Addresses, Subnets, and CIDR Notation for Networking | DigitalOcean
 https://www.docker.com/ <::sif::> Docker - Build, Ship, and Run Any App, Anywhere
 https://www.dropbox.com/ <::sif::> Dropbox
@@ -1387,4 +1384,9 @@ https://www.youtube.com/watch?v=vE5kCqwoSUg <::sif::> HTML5DevConf May2014: Mark
 https://www.youtube.com/watch?v=vQUq5rWWn-s <::sif::> Surge 2012 ~ David Pacheco ~ When Node.js Goes Wrong. - YouTube
 https://www.youtube.com/watch?v=ya4UHuXNygM <::sif::> Crockford on JavaScript - Act III: Function the Ultimate - YouTube
 https://www.youtube.com/watch?v=ya4UHuXNygM&t=0m23s <::sif::> Crockford on JavaScript - Act III: Function the Ultimate - Why the NEW Keyword is a Code Smell - YouTube
-# skip if the link is in any <::sif::> line.
+https://zeplin.io/ <::sif::> Zeplin
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-centos-6
+http://dashing.io
+http://tecadmin.net/install-ruby-1-9-3-or-multiple-ruby-verson-on-centos-6-3-using-rvm/
+http://ask.xmodulo.com/upgrade-ruby-centos.html
+https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit
