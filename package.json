@@ -1,8 +1,8 @@
 {
   "name": "sif",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Sifts important data so fast that it's \"t\" drops off.",
-  "main": "index.js",
+  "main": "release/bin/sif.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

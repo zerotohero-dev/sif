@@ -38,15 +38,21 @@ program.parse(process.argv);
 
 // TODO: this file needs some cleanup.
 
-// TODO: it is possible that writeStream.write may return `false`; in that case we should wait for the flush event.
-
-// TODO: jshint -- does it matter anymore in es6?! -- maybe a blog post topic.
-// @see http://eslint.org/docs/user-guide/command-line-interface
-
-// TODO: integrate complexity analysis too.
-
-// TODO: add a progressbar.
 print(COMMAND, 'Started updating the index… This may take a while. Please be patient…');
+
+let copyAssets = () => {
+    let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
+    let sort = spawn('sort', ['-u']);
+
+    let indexWriteStream = write(INDEX_FILE, {encoding: 'utf8'});
+
+    sort.stdout.pipe(indexWriteStream);
+
+    cat.stdout.on('data', (line) => sort.stdin.write(line) );
+    cat.stdout.on('end', () => sort.stdin.end() );
+    sort.stdout.on('end', () => indexWriteStream.end() );
+    sort.stdout.on('end', () => print(COMMAND, 'Index file has been successfully updated.') )
+};
 
 let backup = spawn('cp', [INDEX_FILE, INDEX_FILE + '.backup']);
 
@@ -60,12 +66,10 @@ backup.stdout.on('end', () => {
     let remainingMetaDataRequests = 0;
     let inStreamEnded = false;
 
-    let maybeEndProcessedFileWriteStream = null;
+    let maybeEndStreamsThenCopyAssets = null;
 
-    maybeEndProcessedFileWriteStream = () => {
+    maybeEndStreamsThenCopyAssets = () => {
         if (inStreamEnded && remainingMetaDataRequests === 0) {
-            let counter = 2;
-
             let copyAssets = () => {
                 let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
                 let sort = spawn('sort', ['-u']);
@@ -91,6 +95,7 @@ backup.stdout.on('end', () => {
             };
 
             let maybeCopyAssets = null;
+            let counter = 2;
 
             maybeCopyAssets = () => {
                 counter--;
@@ -102,13 +107,14 @@ backup.stdout.on('end', () => {
                 maybeCopyAssets = () => {};
             };
 
+            // TODO: this part "begs" for promises.
             tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
             tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
 
             tmpProcessedFileWriteStream.end();
             tmpExistingFileWriteStream.end();
 
-            maybeEndProcessedFileWriteStream = () => {};
+            maybeEndStreamsThenCopyAssets = () => {};
         }
     };
 
@@ -135,7 +141,7 @@ backup.stdout.on('end', () => {
                 remainingMetaDataRequests--;
 
                 if (error || response.statusCode !== SUCCESS) {
-                    maybeEndProcessedFileWriteStream();
+                    maybeEndStreamsThenCopyAssets();
 
                     return;
                 }
@@ -152,7 +158,7 @@ backup.stdout.on('end', () => {
                     tmpExistingFileWriteStream.write(url + '\n');
                 }
 
-                maybeEndProcessedFileWriteStream();
+                maybeEndStreamsThenCopyAssets();
             });
 
             return;
@@ -165,6 +171,6 @@ backup.stdout.on('end', () => {
         inStreamEnded = true;
 
         // on `end`, all the data is consumed.
-        maybeEndProcessedFileWriteStream();
+        maybeEndStreamsThenCopyAssets();
     });
 });
