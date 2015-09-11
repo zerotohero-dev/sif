@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -30,6 +27,8 @@ var _chalk = require('chalk');
 var _chalk2 = _interopRequireDefault(_chalk);
 
 var printBanner = function printBanner() {
+
+    // TODO: move this to a banner.txt or something.
     console.log("     _,");
     console.log("    /(_");
     console.log("   |   '-._        . ' .");
