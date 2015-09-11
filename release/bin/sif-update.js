@@ -55,6 +55,8 @@ _commander2['default'].parse(process.argv);
 (0, _libTerminalOut.print)(COMMAND, 'Started updating the index… This may take a while. Please be patient…');
 
 var copyAssets = function copyAssets() {
+
+    // TODO: this is repeated; move it to a module.
     var cat = (0, _child_process.spawn)('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
     var sort = (0, _child_process.spawn)('sort', ['-u']);
 

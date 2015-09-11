@@ -19,6 +19,8 @@
 import chalk from 'chalk';
 
 let printBanner = () => {
+
+    // TODO: move this to a banner.txt or something.
     console.log("     _,");
     console.log("    /(_");
     console.log("   |   '-._        . ' .");

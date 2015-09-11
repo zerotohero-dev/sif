@@ -21,7 +21,10 @@
 
 import program from 'commander';
 import byline from 'byline';
-import {readFile} from 'fs';
+
+import {Promise} from 'bluebird';
+
+import {createReadStream as read} from 'fs';
 import {join} from 'path';
 import {spawn} from 'child_process';
 
@@ -33,35 +36,72 @@ import {
 } from '../lib/terminal/out';
 
 const DATA_FILE = join(__dirname, '../data/index.idx');
+const ALIASES_FILE = join(__dirname, '../data/aliases.dat');
 const COMMAND = 'find';
 
 program.parse(process.argv);
 
 let query = program.args.length ? program.args[0] : '*';
 
-let child = spawn('cat', [DATA_FILE]);
-let filter = spawn('egrep', ['-i', query]);
+let resolveAliasedQuery = (aliased) => {
+    return new Promise((resolve, reject) => {
+        void reject;
 
-let lines = byline.createStream();
+        let search = aliased.substring(1);
+        let lines = byline(read(ALIASES_FILE, {encoding: 'utf8'}));
 
-child.stdout.on('data', (line) => filter.stdin.write(line));
+        lines.on('data', (line) => {
+            console.log(line);
 
-filter.stdin.on('finish', () => {});
-filter.stdin.on('error', () => {});
-filter.stdin.on('close', () => {});
+            let tokens = line.split('=');
+            let alias = tokens[0];
+            let query = tokens[1];
 
-filter.stdout.pipe(lines);
+            console.log(search);
+            console.log(alias);
 
-lines.on('data', (line) => {
-    print(COMMAND, line.toString());
-});
+            if (search === alias) {resolve(query);}
+        });
 
-lines.on('end', () => {
-    print(COMMAND, 'Done.');
-});
+        lines.on('end', () => resolve(aliased) );
+    });
+};
 
-child.stdout.on('end', () => {
+let find = (query) => {
+    let child = spawn('cat', [DATA_FILE]);
+    let filter = spawn('egrep', ['-i', query]);
 
-    // Waits for buffer to flush before destroying the stream:
-    filter.stdin.end();
-});
+    let lines = byline.createStream();
+
+    child.stdout.on('data', (line) => filter.stdin.write(line));
+
+    filter.stdin.on('finish', () => {});
+    filter.stdin.on('error', () => {});
+    filter.stdin.on('close', () => {});
+
+    filter.stdout.pipe(lines);
+
+    lines.on('data', (line) => {
+        print(COMMAND, line.toString());
+    });
+
+    lines.on('end', () => {
+        print(COMMAND, 'Done.');
+    });
+
+    child.stdout.on('end', () => {
+
+        // Waits for buffer to flush before destroying the stream:
+        filter.stdin.end();
+    });
+};
+
+let isAliased  = (query) => {
+    return query[0] === '@';
+};
+
+// isAlias
+if (isAliased(query))
+    {resolveAliasedQuery(query).then(find);}
+else
+    {find(query);}

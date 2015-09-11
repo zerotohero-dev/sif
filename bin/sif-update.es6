@@ -41,6 +41,8 @@ program.parse(process.argv);
 print(COMMAND, 'Started updating the index… This may take a while. Please be patient…');
 
 let copyAssets = () => {
+
+    // TODO: this is repeated; move it to a module.
     let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
     let sort = spawn('sort', ['-u']);
 

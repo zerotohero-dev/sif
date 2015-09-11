@@ -29,7 +29,7 @@ banner();
 program
     .version('0.1.0')
     .command('aliases', 'Lists all aliases.')
-    .command('alias <new> <query>', 'Adds a new alias <new> for <query>. An alias is a single-word token with no spaces in it.')
+    .command('alias <shorthand> <query>', 'Adds a new alias <shorthand> for <query>. An alias is a single-word token with no spaces in it.')
     .command('rmalias <alias>', 'Removes the alias named <alias>.')
     .command('tag <index> <tag>', 'Adds a a tag <tag> for the data at <index>. Tags are single-word tokens with no spaces in them.')
     .command('purge', 'Removes ALL the indexed data, and ALL the aliases. This process is IRREVERSIBLE.')

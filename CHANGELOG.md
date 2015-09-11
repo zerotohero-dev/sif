@@ -1,3 +1,9 @@
+### sif 0.5.0
+
+* Implemented "aliases" feature; now you can save common queries and `sif find`
+them using their `@aliases`.
+* created a publish script.
+
 ### sif 0.4.0
 
 * Code cleanup

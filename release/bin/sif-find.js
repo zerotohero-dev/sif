@@ -30,6 +30,8 @@ var _byline = require('byline');
 
 var _byline2 = _interopRequireDefault(_byline);
 
+var _bluebird = require('bluebird');
+
 var _fs = require('fs');
 
 var _path = require('path');
@@ -39,39 +41,81 @@ var _child_process = require('child_process');
 var _libTerminalOut = require('../lib/terminal/out');
 
 var DATA_FILE = (0, _path.join)(__dirname, '../data/index.idx');
+var ALIASES_FILE = (0, _path.join)(__dirname, '../data/aliases.dat');
 var COMMAND = 'find';
 
 _commander2['default'].parse(process.argv);
 
 var query = _commander2['default'].args.length ? _commander2['default'].args[0] : '*';
 
-var child = (0, _child_process.spawn)('cat', [DATA_FILE]);
-var filter = (0, _child_process.spawn)('egrep', ['-i', query]);
+var resolveAliasedQuery = function resolveAliasedQuery(aliased) {
+    return new _bluebird.Promise(function (resolve, reject) {
+        void reject;
 
-var lines = _byline2['default'].createStream();
+        var search = aliased.substring(1);
+        var lines = (0, _byline2['default'])((0, _fs.createReadStream)(ALIASES_FILE, { encoding: 'utf8' }));
 
-child.stdout.on('data', function (line) {
-    return filter.stdin.write(line);
-});
+        lines.on('data', function (line) {
+            console.log(line);
 
-filter.stdin.on('finish', function () {});
-filter.stdin.on('error', function () {});
-filter.stdin.on('close', function () {});
+            var tokens = line.split('=');
+            var alias = tokens[0];
+            var query = tokens[1];
 
-filter.stdout.pipe(lines);
+            console.log(search);
+            console.log(alias);
 
-lines.on('data', function (line) {
-    (0, _libTerminalOut.print)(COMMAND, line.toString());
-});
+            if (search === alias) {
+                resolve(query);
+            }
+        });
 
-lines.on('end', function () {
-    (0, _libTerminalOut.print)(COMMAND, 'Done.');
-});
+        lines.on('end', function () {
+            return resolve(aliased);
+        });
+    });
+};
 
-child.stdout.on('end', function () {
+var find = function find(query) {
+    var child = (0, _child_process.spawn)('cat', [DATA_FILE]);
+    var filter = (0, _child_process.spawn)('egrep', ['-i', query]);
 
-    // Waits for buffer to flush before destroying the stream:
-    filter.stdin.end();
-});
+    var lines = _byline2['default'].createStream();
+
+    child.stdout.on('data', function (line) {
+        return filter.stdin.write(line);
+    });
+
+    filter.stdin.on('finish', function () {});
+    filter.stdin.on('error', function () {});
+    filter.stdin.on('close', function () {});
+
+    filter.stdout.pipe(lines);
+
+    lines.on('data', function (line) {
+        (0, _libTerminalOut.print)(COMMAND, line.toString());
+    });
+
+    lines.on('end', function () {
+        (0, _libTerminalOut.print)(COMMAND, 'Done.');
+    });
+
+    child.stdout.on('end', function () {
+
+        // Waits for buffer to flush before destroying the stream:
+        filter.stdin.end();
+    });
+};
+
+var isAliased = function isAliased(query) {
+    return query[0] === '@';
+};
+
+// isAlias
+if (isAliased(query)) {
+    resolveAliasedQuery(query).then(find);
+} else {
+    find(query);
+}
 
 //# sourceMappingURL=sif-find.js.map
