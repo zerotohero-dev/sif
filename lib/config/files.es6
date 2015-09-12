@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -19,11 +17,12 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-import program from 'commander';
+import {join} from 'path';
 
-import {print, printBlank as blank} from '../lib/terminal/out';
-
-program.parse(process.argv);
-
-print('aliases', 'Command not implemented yet!');
-blank();
+export default {
+    ALIASES_FILE: join(__dirname, '../../data/aliases.dat'),
+    ALIASES_TMP_FILE: join(__dirname, '../../tmp/__tmp_aliases'),
+    INDEX_FILE: join(__dirname, '../../data/index.idx'),
+    PROCESS_TMP_EXISTING_FILE: join(__dirname, '../../tmp/__tmp_existing'),
+    PROCESS_TMP_PROCESSED_FILE: join(__dirname, '../../tmp/__tmp_processed')
+};

@@ -22,17 +22,40 @@
 import program from 'commander';
 import byline from 'byline';
 import request from 'request';
+
 import {join} from 'path';
 import {spawn} from 'child_process';
 import {createReadStream as read, createWriteStream as write} from 'fs';
 
-import {printHeader as header, print, printBlank as blank, printError as error} from '../lib/terminal/out';
+import {
+    print,
+    printBlank as blank,
+    printError as error
+} from '../lib/terminal/out';
+
+import {
+    PROCESS_TMP_EXISTING_FILE,
+    PROCESS_TMP_PROCESSED_FILE,
+    INDEX_FILE
+} from '../lib/config/files';
+
+import {
+    noTitleForUrlFound
+} from '../lib/config/message';
+
+import {
+    DELIMITER,
+    DELIMITER_REPLACEMENT
+} from '../lib/config/constants';
+
+import {
+    MATCH_ALL_DELIMITERS,
+    MATCH_ALL_WHITESPACES,
+    MATCH_PAGE_TITLE
+} from '../lib/config/regexp';
 
 const COMMAND = 'update';
 const SUCCESS = 200;
-const INDEX_FILE = join(__dirname, '../data/index.idx');
-const TMP_EXISTING_FILE = join(__dirname, '__tmp_processed');
-const TMP_PROCESSED_FILE = join(__dirname, '__tmp_existing');
 
 program.parse(process.argv);
 
@@ -43,7 +66,10 @@ print(COMMAND, 'Started updating the index… This may take a while. Please be p
 let copyAssets = () => {
 
     // TODO: this is repeated; move it to a module.
-    let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
+    let cat = spawn('cat', [
+        PROCESS_TMP_EXISTING_FILE,
+        PROCESS_TMP_PROCESSED_FILE]
+    );
     let sort = spawn('sort', ['-u']);
 
     let indexWriteStream = write(INDEX_FILE, {encoding: 'utf8'});
@@ -52,17 +78,22 @@ let copyAssets = () => {
 
     cat.stdout.on('data', (line) => sort.stdin.write(line) );
     cat.stdout.on('end', () => sort.stdin.end() );
+
     sort.stdout.on('end', () => indexWriteStream.end() );
-    sort.stdout.on('end', () => print(COMMAND, 'Index file has been successfully updated.') )
+    sort.stdout.on('end',
+        () => print(COMMAND, 'Index file has been successfully updated.')
+    );
 };
 
 let backup = spawn('cp', [INDEX_FILE, INDEX_FILE + '.backup']);
 
+let writeArgs = {encoding: 'utf8'};
+
 backup.stdout.on('end', () => {
     let inStream = byline(read(INDEX_FILE, {encoding: 'utf8'}));
 
-    let tmpExistingFileWriteStream = write(TMP_EXISTING_FILE, {encoding: 'utf8'});
-    let tmpProcessedFileWriteStream = write(TMP_PROCESSED_FILE, {encoding: 'utf8'});
+    let tmpExistingFileWriteStream = write(PROCESS_TMP_EXISTING_FILE, writeArgs);
+    let tmpProcessedFileWriteStream = write(PROCESS_TMP_PROCESSED_FILE, writeArgs);
 
     // can be done with promises too.
     let remainingMetaDataRequests = 0;
@@ -76,7 +107,7 @@ backup.stdout.on('end', () => {
                 let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
                 let sort = spawn('sort', ['-u']);
 
-                let indexWriteStream = write(INDEX_FILE, {encoding: 'utf8'});
+                let indexWriteStream = write(INDEX_FILE, writeArgs);
 
                 cat.stdout.on('data', (line) => {
                     sort.stdin.write(line);
@@ -123,13 +154,16 @@ backup.stdout.on('end', () => {
     inStream.on('data', (line) => {
 
         // TODO: to a util library function.
-        let occurrences = line.split('<::sif::>').length - 1;
+        let occurrences = line.split(DELIMETER).length - 1;
         let needsProcessing = occurrences === 0;
         let alreadyProcessed = occurrences === 1;
         let malformed = !needsProcessing && !alreadyProcessed;
 
         if (malformed) {
-            error(COMMAND, `badly-formatted line: "${line.replace(/sif/g, '__sif__')}"`);
+            error(
+                COMMAND,
+                `badly-formatted line: "${line.replace(MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT)}"`
+            );
 
             return;
         }
@@ -148,16 +182,16 @@ backup.stdout.on('end', () => {
                     return;
                 }
 
-                let replaced = body.replace(/\s+/g, ' ');
-                let result = /<title>(.*?)<\/title>/i.exec(replaced);
+                let replaced = body.replace(MATCH_ALL_WHITESPACES, ' ');
+                let result = MATCH_PAGE_TITLE.exec(replaced);
                 let title = result[1];
 
                 if (title) {
-                    tmpProcessedFileWriteStream.write(url + ' <::sif::> ' + title + '\n');
+                    tmpProcessedFileWriteStream.write(`${url} ${DELIMITER} ${title}\n`);
                 } else {
-                    error(COMMAND, `no title found for: "${url}"; I'll leave it untouched. — Please file a bug at xxx to get it fixed.`);
+                    error(COMMAND, noTitleForUrlFound(url)) ;
 
-                    tmpExistingFileWriteStream.write(url + '\n');
+                    tmpExistingFileWriteStream.write(`${url}\n`);
                 }
 
                 maybeEndStreamsThenCopyAssets();
@@ -166,7 +200,7 @@ backup.stdout.on('end', () => {
             return;
         }
 
-        tmpExistingFileWriteStream.write(line.trim() + '\n');
+        tmpExistingFileWriteStream.write(`${line.trim()}\n`);
     });
 
     inStream.on('end', () => {

@@ -21,7 +21,7 @@
 
 import program from 'commander';
 
-import {printHeader as header, print, printBlank as blank} from '../lib/terminal/out';
+import {print, printBlank as blank} from '../lib/terminal/out';
 
 program.parse(process.argv);
 

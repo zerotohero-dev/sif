@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -19,11 +17,4 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-import program from 'commander';
-
-import {print, printBlank as blank} from '../lib/terminal/out';
-
-program.parse(process.argv);
-
-print('aliases', 'Command not implemented yet!');
-blank();
+let noTitleFoundForUrl = (url) => `no title found for: "${url}"; I'll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.`;

@@ -25,7 +25,6 @@ import {printBanner as banner} from '../lib/terminal/out';
 
 banner();
 
-// TODO: get version from config.
 program
     .version('0.1.0')
     .command('aliases', 'Lists all aliases.')
@@ -37,8 +36,3 @@ program
     .command('find <what>', 'Performs a search. See README.md for details.')
     .parse(process.argv);
 
-// TODO: make this a command-line npm module.
-// TODO: use https://github.com/tj/node-progress to indicate progress when fetching metadata
-// TODO: notify if no internet connection when fetching metadata.
-// TODO: report if unable to fetch some data.
-// TODO: when

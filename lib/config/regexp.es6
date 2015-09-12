@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -19,11 +17,9 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-import program from 'commander';
-
-import {print, printBlank as blank} from '../lib/terminal/out';
-
-program.parse(process.argv);
-
-print('aliases', 'Command not implemented yet!');
-blank();
+export default {
+    MATCH_DELIMITER: /\s*<::sif::>\s*/,
+    MATCH_ALL_DELIMITERS: /<::sif::>/g,
+    MATCH_PAGE_TITLE: /<title>(.*?)<\/title>/i,
+    MATCH_ALL_WHITESPACES: /\s+/g
+};
