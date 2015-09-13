@@ -21,9 +21,11 @@
 
 import program from 'commander';
 
-import {print, printBlank as blank} from '../lib/terminal/out';
+import { print, printBlank as blank } from '../lib/terminal/out';
 
-program.parse(process.argv);
+const COMMAND = 'aliases';
 
-print('aliases', 'Command not implemented yet!');
+program.parse( process.argv );
+
+print( COMMAND, 'Command not implemented yet!' );
 blank();

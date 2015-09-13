@@ -1,3 +1,7 @@
+### sif 0.5.1
+
+* Refactoring, code formatting, and bug fixes.
+
 ### sif 0.5.0
 
 * Implemented "aliases" feature; now you can save common queries and `sif find`

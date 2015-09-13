@@ -16,6 +16,7 @@
  *     \  |  /    Send your comments and suggestions to…
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
+
 Object.defineProperty(exports, '__esModule', {
     value: true
 });
@@ -25,6 +26,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 var _chalk = require('chalk');
 
 var _chalk2 = _interopRequireDefault(_chalk);
+
+var _configRegexp = require('../config/regexp');
 
 var printBanner = function printBanner() {
 
@@ -36,7 +39,7 @@ var printBanner = function printBanner() {
     console.log("    \\((` .(        '/. '");
     console.log("     )\\  _/        /");
     console.log("  .-'   '--.      /");
-    console.log("  \\,         \\   /|");
+    console.log("  \\,         \\   /| ");
     console.log("   ';,_) _)'\\ \\,//");
     console.log("");
 };
@@ -46,7 +49,7 @@ var printHeader = function printHeader(text) {
 };
 
 var print = function print(commandName, text) {
-    var parts = text.split(/\s*<::sif::>\s*/);
+    var parts = text.split(_configRegexp.MATCH_DELIMITER);
 
     if (parts.length >= 2) {
         console.log('  ' + _chalk2['default'].white.bgGreen(commandName.toUpperCase()) + ': ' + _chalk2['default'].underline.black.bgYellow(parts[0]) + ' ("' + _chalk2['default'].cyan.bgBlack(parts[1]) + '").');
@@ -62,13 +65,13 @@ var printError = function printError(commandName, text) {
 };
 
 var printBlank = function printBlank() {
-    console.log('');
+    return console.log('');
 };
 
 exports.print = print;
-exports.printHeader = printHeader;
-exports.printBanner = printBanner;
 exports.printBlank = printBlank;
 exports.printError = printError;
+exports.printHeader = printHeader;
+exports.printBanner = printBanner;
 
 //# sourceMappingURL=out.js.map

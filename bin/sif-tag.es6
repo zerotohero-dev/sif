@@ -21,9 +21,9 @@
 
 import program from 'commander';
 
-import {print, printBlank as blank} from '../lib/terminal/out';
+import { print, printBlank as blank } from '../lib/terminal/out';
 
-program.parse(process.argv);
+program.parse( process.argv );
 
 const COMMAND = 'tag';
 

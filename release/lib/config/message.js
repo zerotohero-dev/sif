@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -19,13 +17,8 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-import program from 'commander';
+var noTitleFoundForUrl = function noTitleFoundForUrl(url) {
+  return 'no title found for: "' + url + '"; I\'ll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.';
+};
 
-import { print, printBlank as blank } from '../lib/terminal/out';
-
-const COMMAND = 'purge';
-
-program.parse( process.argv );
-
-print( COMMAND, 'Command not implemented yet!' );
-blank();
+//# sourceMappingURL=message.js.map
