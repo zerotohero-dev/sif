@@ -23,7 +23,9 @@ import program from 'commander';
 
 import {print, printBlank as blank} from '../lib/terminal/out';
 
+const COMMAND = 'purge';
+
 program.parse(process.argv);
 
-print('purge', 'Command not implemented yet!');
+print( COMMAND, 'Command not implemented yet!' );
 blank();

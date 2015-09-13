@@ -23,9 +23,9 @@ import program from 'commander';
 import byline from 'byline';
 import request from 'request';
 
-import {join} from 'path';
-import {spawn} from 'child_process';
-import {createReadStream as read, createWriteStream as write} from 'fs';
+import { join } from 'path';
+import { spawn } from 'child_process';
+import { createReadStream as read, createWriteStream as write } from 'fs';
 
 import {
     print,
@@ -57,43 +57,43 @@ import {
 const COMMAND = 'update';
 const SUCCESS = 200;
 
-program.parse(process.argv);
+program.parse( process.argv );
 
 // TODO: this file needs some cleanup.
 
-print(COMMAND, 'Started updating the index… This may take a while. Please be patient…');
+print( COMMAND, 'Started updating the index… This may take a while. Please be patient…' );
 
 let copyAssets = () => {
 
     // TODO: this is repeated; move it to a module.
-    let cat = spawn('cat', [
+    let cat = spawn( 'cat', [
         PROCESS_TMP_EXISTING_FILE,
         PROCESS_TMP_PROCESSED_FILE]
     );
-    let sort = spawn('sort', ['-u']);
+    let sort = spawn( 'sort', [ '-u' ] );
 
-    let indexWriteStream = write(INDEX_FILE, {encoding: 'utf8'});
+    let indexWriteStream = write( INDEX_FILE, { encoding: 'utf8' } );
 
-    sort.stdout.pipe(indexWriteStream);
+    sort.stdout.pipe( indexWriteStream );
 
-    cat.stdout.on('data', (line) => sort.stdin.write(line) );
-    cat.stdout.on('end', () => sort.stdin.end() );
+    cat.stdout.on( 'data', ( line ) => sort.stdin.write( line ) );
+    cat.stdout.on( 'end', () => sort.stdin.end() );
 
-    sort.stdout.on('end', () => indexWriteStream.end() );
-    sort.stdout.on('end',
-        () => print(COMMAND, 'Index file has been successfully updated.')
+    sort.stdout.on( 'end', () => indexWriteStream.end() );
+    sort.stdout.on( 'end',
+        () => print( COMMAND, 'Index file has been successfully updated.' )
     );
 };
 
-let backup = spawn('cp', [INDEX_FILE, INDEX_FILE + '.backup']);
+let backup = spawn( 'cp', [ INDEX_FILE, INDEX_FILE + '.backup' ] );
 
-let writeArgs = {encoding: 'utf8'};
+let fsArgs = { encoding: 'utf8' };
 
-backup.stdout.on('end', () => {
-    let inStream = byline(read(INDEX_FILE, {encoding: 'utf8'}));
+backup.stdout.on( 'end', () => {
+    let inStream = byline( read( INDEX_FILE, fsArgs ) );
 
-    let tmpExistingFileWriteStream = write(PROCESS_TMP_EXISTING_FILE, writeArgs);
-    let tmpProcessedFileWriteStream = write(PROCESS_TMP_PROCESSED_FILE, writeArgs);
+    let tmpExistingFileWriteStream = write( PROCESS_TMP_EXISTING_FILE, fsArgs );
+    let tmpProcessedFileWriteStream = write( PROCESS_TMP_PROCESSED_FILE, fsArgs );
 
     // can be done with promises too.
     let remainingMetaDataRequests = 0;
@@ -102,21 +102,21 @@ backup.stdout.on('end', () => {
     let tryPersistTemporaryData = null;
 
     tryPersistTemporaryData = () => {
-        if (!inStreamEnded || remainingMetaDataRequests !== 0) {return;}
+        if ( !inStreamEnded || remainingMetaDataRequests !== 0 ) { return; }
 
         let copyAssets = () => {
-            let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
-            let sort = spawn('sort', ['-u']);
+            let cat = spawn( 'cat', [ TMP_EXISTING_FILE, TMP_PROCESSED_FILE ] );
+            let sort = spawn( 'sort', [ '-u' ] );
 
-            let indexWriteStream = write(INDEX_FILE, writeArgs);
+            let indexWriteStream = write( INDEX_FILE, writeArgs );
 
-            cat.stdout.pipe(sort.stdin);
-            sort.stdout.pipe(indexWriteStream);
+            cat.stdout.pipe( sort.stdin );
+            sort.stdout.pipe( indexWriteStream );
 
-            indexWriteStream.on('finish', () => print(COMMAND, 'Done!') );
+            indexWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
 
-            sort.stdout.on('end', () => indexWriteStream.end() );
-            cat.stdout.on('end', () => sort.stdin.end() );
+            sort.stdout.on( 'end', () => indexWriteStream.end() );
+            cat.stdout.on( 'end', () => sort.stdin.end() );
         };
 
         let maybeCopyAssets = null;
@@ -125,7 +125,7 @@ backup.stdout.on('end', () => {
         maybeCopyAssets = () => {
             counter--;
 
-            if (counter === 0) {
+            if ( counter === 0 ) {
                 copyAssets();
             }
 
@@ -133,8 +133,8 @@ backup.stdout.on('end', () => {
         };
 
         // TODO: this part "begs" for promises.
-        tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
-        tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
+        tmpProcessedFileWriteStream.on( 'finish', maybeCopyAssets );
+        tmpExistingFileWriteStream.on( 'finish', maybeCopyAssets );
 
         tmpProcessedFileWriteStream.end();
         tmpExistingFileWriteStream.end();
@@ -142,15 +142,15 @@ backup.stdout.on('end', () => {
         tryPersistTemporaryData = () => {};
     };
 
-    inStream.on('data', (line) => {
+    inStream.on( 'data', ( line ) => {
 
         // TODO: to a util library function.
-        let occurrences = line.split(DELIMETER).length - 1;
+        let occurrences = line.split( DELIMETER ).length - 1;
         let needsProcessing = occurrences === 0;
         let alreadyProcessed = occurrences === 1;
         let malformed = !needsProcessing && !alreadyProcessed;
 
-        if (malformed) {
+        if ( malformed ) {
             error(
                 COMMAND,
                 `badly-formatted line: "${line.replace(MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT)}"`
@@ -159,30 +159,30 @@ backup.stdout.on('end', () => {
             return;
         }
 
-        if (needsProcessing) {
+        if ( needsProcessing ) {
             remainingMetaDataRequests++;
 
             let url = line.trim();
 
-            request(url, (error, response, body) => {
+            request( url, ( error, response, body ) => {
                 remainingMetaDataRequests--;
 
-                if (error || response.statusCode !== SUCCESS) {
+                if ( error || response.statusCode !== SUCCESS ) {
                     tryPersistTemporaryData();
 
                     return;
                 }
 
-                let replaced = body.replace(MATCH_ALL_WHITESPACES, ' ');
-                let result = MATCH_PAGE_TITLE.exec(replaced);
-                let title = result[1];
+                let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
+                let result = MATCH_PAGE_TITLE.exec( replaced );
+                let title = result[ 1 ];
 
-                if (title) {
-                    tmpProcessedFileWriteStream.write(`${url} ${DELIMITER} ${title}\n`);
+                if ( title ) {
+                    tmpProcessedFileWriteStream.write( `${url} ${DELIMITER} ${title}\n` );
                 } else {
-                    error(COMMAND, noTitleForUrlFound(url)) ;
+                    error( COMMAND, noTitleForUrlFound( url ) ) ;
 
-                    tmpExistingFileWriteStream.write(`${url}\n`);
+                    tmpExistingFileWriteStream.write( `${url}\n` );
                 }
 
                 tryPersistTemporaryData();
@@ -191,10 +191,10 @@ backup.stdout.on('end', () => {
             return;
         }
 
-        tmpExistingFileWriteStream.write(`${line.trim()}\n`);
+        tmpExistingFileWriteStream.write( `${line.trim()}\n` );
     });
 
-    inStream.on('end', () => {
+    inStream.on( 'end', () => {
         inStreamEnded = true;
 
         // on `end`, all the data is consumed.

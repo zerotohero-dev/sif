@@ -93,25 +93,12 @@ tempStream.on('finish', () => {
 
     let sortedLines = byline(sort.stdout);
 
-    sortedLines.on('data', (line) => {
-        aliasWriteStream.write(`${line}\n`);
-       //console.log(line.toString());
-    });
+    sortedLines.on('data', (line) => aliasWriteStream.write(`${line.toString()}\n`, 'utf8') );
 
-    aliasWriteStream.on('finish', () => {
-        print('alias', 'Done!');
-    })
+    aliasWriteStream.on('finish', () => print('alias', 'Done!') );
 
-
-    //cat.stdout.on('data', (line) => console.log('line', line.toString()) );
-    //
     cat.stdout.on('end', () => sort.stdin.end() );
-    //
-    //cat.stdout.on('end', () => { console.log('ended'); });
-    //
     sort.stdout.on('end', () => aliasWriteStream.end() );
-    //
-    //sort.stdout.pipe(aliasWriteStream);
 });
 
 lines.on('end', () => {

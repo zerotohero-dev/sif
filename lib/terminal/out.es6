@@ -24,33 +24,33 @@ import {MATCH_DELIMITER} from '../config/regexp';
 let printBanner = () => {
 
     // TODO: move this to a banner.txt or something.
-    console.log("     _,");
-    console.log("    /(_");
-    console.log("   |   '-._        . ' .");
-    console.log("   \\    ,-.)      -= * =-");
-    console.log("    \\((` .(        '/. '");
-    console.log("     )\\  _/        /");
-    console.log("  .-'   '--.      /");
-    console.log("  \\,         \\   /|");
-    console.log("   ';,_) _)'\\ \\,//");
-    console.log("");
+    console.log( "     _,");
+    console.log( "    /(_");
+    console.log( "   |   '-._        . ' ." );
+    console.log( "   \\    ,-.)      -= * =-" );
+    console.log( "    \\((` .(        '/. '" );
+    console.log( "     )\\  _/        /" );
+    console.log( "  .-'   '--.      /" );
+    console.log( "  \\,         \\   /| ");
+    console.log( "   ';,_) _)'\\ \\,//" );
+    console.log( "" );
 };
 
-let printHeader = (text) => {
+let printHeader = ( text ) => {
     console.log(
         chalk.white.bgGreen(text.toUpperCase())
     );
 };
 
-let print = (commandName, text) => {
-    let parts = text.split(MATCH_DELIMITER);
+let print = ( commandName, text ) => {
+    let parts = text.split( MATCH_DELIMITER );
 
-    if (parts.length >= 2) {
+    if ( parts.length >= 2 ) {
         console.log(
             '  ' +
-            chalk.white.bgGreen(commandName.toUpperCase()) + ': ' +
-            chalk.underline.black.bgYellow(parts[0]) +
-            ' ("' + chalk.cyan.bgBlack(parts[1]) + '").'
+            chalk.white.bgGreen( commandName.toUpperCase() ) + ': ' +
+            chalk.underline.black.bgYellow( parts[ 0 ] ) +
+            ' ("' + chalk.cyan.bgBlack( parts[ 1 ] ) + '").'
         );
 
         return;
@@ -58,20 +58,20 @@ let print = (commandName, text) => {
 
     console.log(
         '  ' +
-        chalk.white.bgGreen(commandName.toUpperCase()) +
+        chalk.white.bgGreen( commandName.toUpperCase() ) +
         ': ' +
         text
     );
 };
 
-let printError = (commandName, text) => {
-    print(commandName,
-        chalk.red.bold('ERROR ->') +
+let printError = ( commandName, text ) => {
+    print( commandName,
+        chalk.red.bold( 'ERROR ->' ) +
         ' ' +
-        chalk.black.bgRed(text)
+        chalk.black.bgRed( text )
     );
 };
 
-let printBlank = () => console.log('');
+let printBlank = () => console.log( '' );
 
-export {print, printBlank, printError, printHeader, printBanner};
+export { print, printBlank, printError, printHeader, printBanner };
