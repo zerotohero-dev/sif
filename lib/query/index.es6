@@ -19,6 +19,7 @@
 
 import byline from 'byline';
 import { createStream as createLineStream } from 'byline';
+import { createReadStream as read } from 'fs';
 import { spawn } from 'child_process';
 import { Promise } from 'bluebird';
 
@@ -31,7 +32,6 @@ import {
     ALIAS_PREFIX,
     ALIAS_DELIMITER
 } from '../config/constants';
-
 
 let fsOptions = { encoding: 'utf8' };
 

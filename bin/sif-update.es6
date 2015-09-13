@@ -87,13 +87,13 @@ let copyAssets = () => {
 
 let backup = spawn( 'cp', [ INDEX_FILE, INDEX_FILE + '.backup' ] );
 
-let fsArgs = { encoding: 'utf8' };
+let fsOptions = { encoding: 'utf8' };
 
 backup.stdout.on( 'end', () => {
-    let inStream = byline( read( INDEX_FILE, fsArgs ) );
+    let inStream = byline( read( INDEX_FILE, fsOptions ) );
 
-    let tmpExistingFileWriteStream = write( PROCESS_TMP_EXISTING_FILE, fsArgs );
-    let tmpProcessedFileWriteStream = write( PROCESS_TMP_PROCESSED_FILE, fsArgs );
+    let tmpExistingFileWriteStream = write( PROCESS_TMP_EXISTING_FILE, fsOptions );
+    let tmpProcessedFileWriteStream = write( PROCESS_TMP_PROCESSED_FILE, fsOptions );
 
     // can be done with promises too.
     let remainingMetaDataRequests = 0;
@@ -105,10 +105,10 @@ backup.stdout.on( 'end', () => {
         if ( !inStreamEnded || remainingMetaDataRequests !== 0 ) { return; }
 
         let copyAssets = () => {
-            let cat = spawn( 'cat', [ TMP_EXISTING_FILE, TMP_PROCESSED_FILE ] );
+            let cat = spawn( 'cat', [ PROCESS_TMP_EXISTING_FILE, PROCESS_TMP_PROCESSED_FILE ] );
             let sort = spawn( 'sort', [ '-u' ] );
 
-            let indexWriteStream = write( INDEX_FILE, writeArgs );
+            let indexWriteStream = write( INDEX_FILE, fsOptions );
 
             cat.stdout.pipe( sort.stdin );
             sort.stdout.pipe( indexWriteStream );
@@ -145,7 +145,7 @@ backup.stdout.on( 'end', () => {
     inStream.on( 'data', ( line ) => {
 
         // TODO: to a util library function.
-        let occurrences = line.split( DELIMETER ).length - 1;
+        let occurrences = line.split( DELIMITER ).length - 1;
         let needsProcessing = occurrences === 0;
         let alreadyProcessed = occurrences === 1;
         let malformed = !needsProcessing && !alreadyProcessed;
@@ -153,7 +153,7 @@ backup.stdout.on( 'end', () => {
         if ( malformed ) {
             error(
                 COMMAND,
-                `badly-formatted line: "${line.replace(MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT)}"`
+                `badly-formatted line: "${line.replace( MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT )}"`
             );
 
             return;
@@ -164,10 +164,10 @@ backup.stdout.on( 'end', () => {
 
             let url = line.trim();
 
-            request( url, ( error, response, body ) => {
+            request( url, ( err, response, body ) => {
                 remainingMetaDataRequests--;
 
-                if ( error || response.statusCode !== SUCCESS ) {
+                if ( err || response.statusCode !== SUCCESS ) {
                     tryPersistTemporaryData();
 
                     return;
@@ -175,12 +175,21 @@ backup.stdout.on( 'end', () => {
 
                 let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
                 let result = MATCH_PAGE_TITLE.exec( replaced );
+
+                if ( !result ) {
+                    error( COMMAND, `Cannot find title in ${url}.` );
+
+                    tryPersistTemporaryData();
+
+                    return;
+                }
+
                 let title = result[ 1 ];
 
                 if ( title ) {
                     tmpProcessedFileWriteStream.write( `${url} ${DELIMITER} ${title}\n` );
                 } else {
-                    error( COMMAND, noTitleForUrlFound( url ) ) ;
+                    err( COMMAND, noTitleForUrlFound( url ) ) ;
 
                     tmpExistingFileWriteStream.write( `${url}\n` );
                 }
