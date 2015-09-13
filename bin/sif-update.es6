@@ -99,56 +99,47 @@ backup.stdout.on('end', () => {
     let remainingMetaDataRequests = 0;
     let inStreamEnded = false;
 
-    let maybeEndStreamsThenCopyAssets = null;
+    let tryPersistTemporaryData = null;
 
-    maybeEndStreamsThenCopyAssets = () => {
-        if (inStreamEnded && remainingMetaDataRequests === 0) {
-            let copyAssets = () => {
-                let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
-                let sort = spawn('sort', ['-u']);
+    tryPersistTemporaryData = () => {
+        if (!inStreamEnded || remainingMetaDataRequests !== 0) {return;}
 
-                let indexWriteStream = write(INDEX_FILE, writeArgs);
+        let copyAssets = () => {
+            let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
+            let sort = spawn('sort', ['-u']);
 
-                cat.stdout.on('data', (line) => {
-                    sort.stdin.write(line);
-                });
+            let indexWriteStream = write(INDEX_FILE, writeArgs);
 
-                // rs | ws
-                sort.stdout.pipe(indexWriteStream);
+            cat.stdout.pipe(sort.stdin);
+            sort.stdout.pipe(indexWriteStream);
 
-                sort.stdout.on('end', () => {
-                    print(COMMAND, 'Done!');
+            indexWriteStream.on('finish', () => print(COMMAND, 'Done!') );
 
-                    indexWriteStream.end();
-                });
+            sort.stdout.on('end', () => indexWriteStream.end() );
+            cat.stdout.on('end', () => sort.stdin.end() );
+        };
 
-                cat.stdout.on('end', () => {
-                    sort.stdin.end();
-                });
-            };
+        let maybeCopyAssets = null;
+        let counter = 2;
 
-            let maybeCopyAssets = null;
-            let counter = 2;
+        maybeCopyAssets = () => {
+            counter--;
 
-            maybeCopyAssets = () => {
-                counter--;
+            if (counter === 0) {
+                copyAssets();
+            }
 
-                if (counter === 0) {
-                    copyAssets();
-                }
+            maybeCopyAssets = () => {};
+        };
 
-                maybeCopyAssets = () => {};
-            };
+        // TODO: this part "begs" for promises.
+        tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
+        tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
 
-            // TODO: this part "begs" for promises.
-            tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
-            tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
+        tmpProcessedFileWriteStream.end();
+        tmpExistingFileWriteStream.end();
 
-            tmpProcessedFileWriteStream.end();
-            tmpExistingFileWriteStream.end();
-
-            maybeEndStreamsThenCopyAssets = () => {};
-        }
+        tryPersistTemporaryData = () => {};
     };
 
     inStream.on('data', (line) => {
@@ -177,7 +168,7 @@ backup.stdout.on('end', () => {
                 remainingMetaDataRequests--;
 
                 if (error || response.statusCode !== SUCCESS) {
-                    maybeEndStreamsThenCopyAssets();
+                    tryPersistTemporaryData();
 
                     return;
                 }
@@ -194,7 +185,7 @@ backup.stdout.on('end', () => {
                     tmpExistingFileWriteStream.write(`${url}\n`);
                 }
 
-                maybeEndStreamsThenCopyAssets();
+                tryPersistTemporaryData();
             });
 
             return;
@@ -207,6 +198,6 @@ backup.stdout.on('end', () => {
         inStreamEnded = true;
 
         // on `end`, all the data is consumed.
-        maybeEndStreamsThenCopyAssets();
+        tryPersistTemporaryData();
     });
 });

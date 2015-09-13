@@ -26,10 +26,9 @@ import {join} from 'path';
 import {spawn} from 'child_process';
 import {createReadStream as read, createWriteStream as write} from 'fs';
 
-import {printError as error} from '../lib/terminal/out';
+import {printError as error, print} from '../lib/terminal/out';
 
 import {ALIASES_FILE, ALIASES_TMP_FILE} from '../lib/config/files';
-
 import {ALIAS_DELIMITER} from '../lib/config/constants';
 
 program.parse(process.argv);
@@ -46,7 +45,6 @@ let shorthand = args[0];
 let query = args[1];
 
 let cat = spawn('cat', [ALIASES_FILE]);
-
 let lines = byline(cat.stdout);
 
 let processed = false;
@@ -76,23 +74,57 @@ lines.on('data', (line) => {
 tempStream.on('finish', () => {
     let aliasWriteStream = write(ALIASES_FILE, {encoding: 'utf8'});
 
+    //console.log(ALIASES_TMP_FILE);
+
     let cat = spawn('cat', [ALIASES_TMP_FILE]);
+
+    cat.stdout.on('data', (line) => {
+        //console.log(';;;;;;;;');
+        //console.log('###', line.toString().split('\n'));
+        //console.log(';;;;;;;;');
+    });
+
+
     let sort = spawn('sort', ['-u']);
 
-    cat.stdout.on('data', (line) => sort.stdin.write(line) );
+    cat.stdout.pipe(sort.stdin);
+
+    //cat.stdout.on('data', (buffer) => sort.stdin.write(buffer) );
+
+    let sortedLines = byline(sort.stdout);
+
+    sortedLines.on('data', (line) => {
+        aliasWriteStream.write(`${line}\n`);
+       //console.log(line.toString());
+    });
+
+    aliasWriteStream.on('finish', () => {
+        print('alias', 'Done!');
+    })
+
+
+    //cat.stdout.on('data', (line) => console.log('line', line.toString()) );
+    //
     cat.stdout.on('end', () => sort.stdin.end() );
-
+    //
+    //cat.stdout.on('end', () => { console.log('ended'); });
+    //
     sort.stdout.on('end', () => aliasWriteStream.end() );
-
-    sort.stdout.pipe(aliasWriteStream);
+    //
+    //sort.stdout.pipe(aliasWriteStream);
 });
 
 lines.on('end', () => {
+    //console.log('ENDED!!!!! fiuxme');
+
     if (processed) {
+        //console.log('processed, so ending.')
         tempStream.end();
 
         return;
     }
+
+    //console.log('not processed, so appending.');
 
     tempStream.end(`${shorthand}${ALIAS_DELIMITER}${query}\n`);
 });

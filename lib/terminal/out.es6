@@ -19,7 +19,7 @@
 
 import chalk from 'chalk';
 
-import {MATCH_DELIMETER} from '../config/regexp';
+import {MATCH_DELIMITER} from '../config/regexp';
 
 let printBanner = () => {
 
