@@ -21,9 +21,11 @@
 
 import program from 'commander';
 
-import {printHeader as header, print, printBlank as blank} from '../lib/terminal/out';
+import { print, printBlank as blank } from '../lib/terminal/out';
 
-program.parse(process.argv);
+program.parse( process.argv );
 
-print('tag', 'Command not implemented yet!');
+const COMMAND = 'tag';
+
+print( COMMAND, 'Command not implemented yet!' );
 blank();

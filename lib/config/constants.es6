@@ -16,3 +16,10 @@
  *     \  |  /    Send your comments and suggestions to…
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
+
+export default {
+    DELIMITER: '<::sif::>',
+    DELIMITER_REPLACEMENT: '__sif__',
+    ALIAS_PREFIX: '@',
+    ALIAS_DELIMITER: '='
+};

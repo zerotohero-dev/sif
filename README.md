@@ -70,3 +70,9 @@ you can decide to update or ignore it.
 // can turn out to be additional side projects keep this in mind when writing them.
 
 // TODO: also write about the development process, how the js is transpiled etc.
+
+REMARK:
+sif runs in unix-like environments; why? because I wanted to leverage the already
+superb file searching and sorting capabilities of unix. -- `egrep` and `sort`
+can be implemented in pure JavaScript (as streams) too; I'll leave it in the 
+"icebox" for issues to consider later.

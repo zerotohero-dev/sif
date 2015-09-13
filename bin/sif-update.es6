@@ -22,157 +22,191 @@
 import program from 'commander';
 import byline from 'byline';
 import request from 'request';
-import {join} from 'path';
-import {spawn} from 'child_process';
-import {createReadStream as read, createWriteStream as write} from 'fs';
 
-import {printHeader as header, print, printBlank as blank, printError as error} from '../lib/terminal/out';
+import { join } from 'path';
+import { spawn } from 'child_process';
+import { createReadStream as read, createWriteStream as write } from 'fs';
+
+import {
+    print,
+    printBlank as blank,
+    printError as error
+} from '../lib/terminal/out';
+
+import {
+    PROCESS_TMP_EXISTING_FILE,
+    PROCESS_TMP_PROCESSED_FILE,
+    INDEX_FILE
+} from '../lib/config/files';
+
+import {
+    noTitleForUrlFound
+} from '../lib/config/message';
+
+import {
+    DELIMITER,
+    DELIMITER_REPLACEMENT
+} from '../lib/config/constants';
+
+import {
+    MATCH_ALL_DELIMITERS,
+    MATCH_ALL_WHITESPACES,
+    MATCH_PAGE_TITLE
+} from '../lib/config/regexp';
 
 const COMMAND = 'update';
 const SUCCESS = 200;
-const INDEX_FILE = join(__dirname, '../data/index.idx');
-const TMP_EXISTING_FILE = join(__dirname, '__tmp_processed');
-const TMP_PROCESSED_FILE = join(__dirname, '__tmp_existing');
 
-program.parse(process.argv);
+program.parse( process.argv );
 
 // TODO: this file needs some cleanup.
 
-print(COMMAND, 'Started updating the index… This may take a while. Please be patient…');
+print( COMMAND, 'Started updating the index… This may take a while. Please be patient…' );
 
 let copyAssets = () => {
 
     // TODO: this is repeated; move it to a module.
-    let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
-    let sort = spawn('sort', ['-u']);
+    let cat = spawn( 'cat', [
+        PROCESS_TMP_EXISTING_FILE,
+        PROCESS_TMP_PROCESSED_FILE]
+    );
+    let sort = spawn( 'sort', [ '-u' ] );
 
-    let indexWriteStream = write(INDEX_FILE, {encoding: 'utf8'});
+    let indexWriteStream = write( INDEX_FILE, { encoding: 'utf8' } );
 
-    sort.stdout.pipe(indexWriteStream);
+    sort.stdout.pipe( indexWriteStream );
 
-    cat.stdout.on('data', (line) => sort.stdin.write(line) );
-    cat.stdout.on('end', () => sort.stdin.end() );
-    sort.stdout.on('end', () => indexWriteStream.end() );
-    sort.stdout.on('end', () => print(COMMAND, 'Index file has been successfully updated.') )
+    cat.stdout.on( 'data', ( line ) => sort.stdin.write( line ) );
+    cat.stdout.on( 'end', () => sort.stdin.end() );
+
+    sort.stdout.on( 'end', () => indexWriteStream.end() );
+    sort.stdout.on( 'end',
+        () => print( COMMAND, 'Index file has been successfully updated.' )
+    );
 };
 
-let backup = spawn('cp', [INDEX_FILE, INDEX_FILE + '.backup']);
+let backup = spawn( 'cp', [ INDEX_FILE, INDEX_FILE + '.backup' ] );
 
-backup.stdout.on('end', () => {
-    let inStream = byline(read(INDEX_FILE, {encoding: 'utf8'}));
+let fsOptions = { encoding: 'utf8' };
 
-    let tmpExistingFileWriteStream = write(TMP_EXISTING_FILE, {encoding: 'utf8'});
-    let tmpProcessedFileWriteStream = write(TMP_PROCESSED_FILE, {encoding: 'utf8'});
+backup.stdout.on( 'end', () => {
+    let inStream = byline( read( INDEX_FILE, fsOptions ) );
+
+    let tmpExistingFileWriteStream = write( PROCESS_TMP_EXISTING_FILE, fsOptions );
+    let tmpProcessedFileWriteStream = write( PROCESS_TMP_PROCESSED_FILE, fsOptions );
 
     // can be done with promises too.
     let remainingMetaDataRequests = 0;
     let inStreamEnded = false;
 
-    let maybeEndStreamsThenCopyAssets = null;
+    let tryPersistTemporaryData = null;
 
-    maybeEndStreamsThenCopyAssets = () => {
-        if (inStreamEnded && remainingMetaDataRequests === 0) {
-            let copyAssets = () => {
-                let cat = spawn('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
-                let sort = spawn('sort', ['-u']);
+    tryPersistTemporaryData = () => {
+        if ( !inStreamEnded || remainingMetaDataRequests !== 0 ) { return; }
 
-                let indexWriteStream = write(INDEX_FILE, {encoding: 'utf8'});
+        let copyAssets = () => {
+            let cat = spawn( 'cat', [ PROCESS_TMP_EXISTING_FILE, PROCESS_TMP_PROCESSED_FILE ] );
+            let sort = spawn( 'sort', [ '-u' ] );
 
-                cat.stdout.on('data', (line) => {
-                    sort.stdin.write(line);
-                });
+            let indexWriteStream = write( INDEX_FILE, fsOptions );
 
-                // rs | ws
-                sort.stdout.pipe(indexWriteStream);
+            cat.stdout.pipe( sort.stdin );
+            sort.stdout.pipe( indexWriteStream );
 
-                sort.stdout.on('end', () => {
-                    print(COMMAND, 'Done!');
+            indexWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
 
-                    indexWriteStream.end();
-                });
+            sort.stdout.on( 'end', () => indexWriteStream.end() );
+            cat.stdout.on( 'end', () => sort.stdin.end() );
+        };
 
-                cat.stdout.on('end', () => {
-                    sort.stdin.end();
-                });
-            };
+        let maybeCopyAssets = null;
+        let counter = 2;
 
-            let maybeCopyAssets = null;
-            let counter = 2;
+        maybeCopyAssets = () => {
+            counter--;
 
-            maybeCopyAssets = () => {
-                counter--;
+            if ( counter === 0 ) {
+                copyAssets();
+            }
 
-                if (counter === 0) {
-                    copyAssets();
-                }
+            maybeCopyAssets = () => {};
+        };
 
-                maybeCopyAssets = () => {};
-            };
+        // TODO: this part "begs" for promises.
+        tmpProcessedFileWriteStream.on( 'finish', maybeCopyAssets );
+        tmpExistingFileWriteStream.on( 'finish', maybeCopyAssets );
 
-            // TODO: this part "begs" for promises.
-            tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
-            tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
+        tmpProcessedFileWriteStream.end();
+        tmpExistingFileWriteStream.end();
 
-            tmpProcessedFileWriteStream.end();
-            tmpExistingFileWriteStream.end();
-
-            maybeEndStreamsThenCopyAssets = () => {};
-        }
+        tryPersistTemporaryData = () => {};
     };
 
-    inStream.on('data', (line) => {
+    inStream.on( 'data', ( line ) => {
 
         // TODO: to a util library function.
-        let occurrences = line.split('<::sif::>').length - 1;
+        let occurrences = line.split( DELIMITER ).length - 1;
         let needsProcessing = occurrences === 0;
         let alreadyProcessed = occurrences === 1;
         let malformed = !needsProcessing && !alreadyProcessed;
 
-        if (malformed) {
-            error(COMMAND, `badly-formatted line: "${line.replace(/sif/g, '__sif__')}"`);
+        if ( malformed ) {
+            error(
+                COMMAND,
+                `badly-formatted line: "${line.replace( MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT )}"`
+            );
 
             return;
         }
 
-        if (needsProcessing) {
+        if ( needsProcessing ) {
             remainingMetaDataRequests++;
 
             let url = line.trim();
 
-            request(url, (error, response, body) => {
+            request( url, ( err, response, body ) => {
                 remainingMetaDataRequests--;
 
-                if (error || response.statusCode !== SUCCESS) {
-                    maybeEndStreamsThenCopyAssets();
+                if ( err || response.statusCode !== SUCCESS ) {
+                    tryPersistTemporaryData();
 
                     return;
                 }
 
-                let replaced = body.replace(/\s+/g, ' ');
-                let result = /<title>(.*?)<\/title>/i.exec(replaced);
-                let title = result[1];
+                let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
+                let result = MATCH_PAGE_TITLE.exec( replaced );
 
-                if (title) {
-                    tmpProcessedFileWriteStream.write(url + ' <::sif::> ' + title + '\n');
-                } else {
-                    error(COMMAND, `no title found for: "${url}"; I'll leave it untouched. — Please file a bug at xxx to get it fixed.`);
+                if ( !result ) {
+                    error( COMMAND, `Cannot find title in ${url}.` );
 
-                    tmpExistingFileWriteStream.write(url + '\n');
+                    tryPersistTemporaryData();
+
+                    return;
                 }
 
-                maybeEndStreamsThenCopyAssets();
+                let title = result[ 1 ];
+
+                if ( title ) {
+                    tmpProcessedFileWriteStream.write( `${url} ${DELIMITER} ${title}\n` );
+                } else {
+                    err( COMMAND, noTitleForUrlFound( url ) ) ;
+
+                    tmpExistingFileWriteStream.write( `${url}\n` );
+                }
+
+                tryPersistTemporaryData();
             });
 
             return;
         }
 
-        tmpExistingFileWriteStream.write(line.trim() + '\n');
+        tmpExistingFileWriteStream.write( `${line.trim()}\n` );
     });
 
-    inStream.on('end', () => {
+    inStream.on( 'end', () => {
         inStreamEnded = true;
 
         // on `end`, all the data is consumed.
-        maybeEndStreamsThenCopyAssets();
+        tryPersistTemporaryData();
     });
 });

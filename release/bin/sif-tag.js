@@ -30,7 +30,9 @@ var _libTerminalOut = require('../lib/terminal/out');
 
 _commander2['default'].parse(process.argv);
 
-(0, _libTerminalOut.print)('tag', 'Command not implemented yet!');
+var COMMAND = 'tag';
+
+(0, _libTerminalOut.print)(COMMAND, 'Command not implemented yet!');
 (0, _libTerminalOut.printBlank)();
 
 //# sourceMappingURL=sif-tag.js.map

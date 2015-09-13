@@ -10,11 +10,13 @@ http://agilemanifesto.org/ <::sif::> Manifesto for Agile Software Development
 http://alistapart.com <::sif::> A List Apart: For People Who Make Websites
 http://alistapart.com/ <::sif::> A List Apart: For People Who Make Websites
 http://alistapart.com/article/application-cache-is-a-douchebag <::sif::> Application Cache is a Douchebag · An A List Apart Article
+http://ant.apache.org/ <::sif::> Apache Ant - Welcome
 http://anthonycalzadilla.com/css3-ATAT/index.html <::sif::> Pure CSS3 AT-AT Walker by: Anthony Calzadilla
 http://appium.io/ <::sif::> -
 http://appstorm.net/ <::sif::>  AppStorm &#8211; App Review Network
 http://archive.org/web/ <::sif::> Internet Archive: Wayback Machine
 http://aroc.github.io/side-comments-demo/ <::sif::> Side Comments - Medium.com style commenting
+http://ask.xmodulo.com/upgrade-ruby-centos.html <::sif::> How to upgrade Ruby on CentOS - Ask Xmodulo
 http://askubuntu.com/ <::sif::> Ask Ubuntu
 http://askubuntu.com/questions/148171/dropbox-error-echo-100000-sudo-tee-proc-sys-fs-inotify-max-user-watches <::sif::> directory - Dropbox error - &#39;echo 100000 | sudo tee / proc/sys/fs/inotify/max_user_watches&#39; - Ask Ubuntu
 http://askubuntu.com/questions/462112/nofile-ulimit-n-on-ubuntu-14-04-lts <::sif::> nofile ulimit -n on Ubuntu 14.04 LTS - Ask Ubuntu
@@ -89,6 +91,7 @@ http://chriskempson.github.io/base16/ <::sif::> Base16
 http://christianheilmann.com/ <::sif::> Christian Heilmann
 http://christianheilmann.com/2012/04/16/of-parser-fetishists-and-semi-colons/ <::sif::>  Of parser-fetishists and semi-colons | Christian Heilmann
 http://code.macournoyer.com/thin/ <::sif::> Thin - yet another web server
+http://code.runnable.com/U07z_Y_j9rZk1tTx/handlebars-template-examples-with-express-4-for-node-js <::sif::> Handlebars template examples with Express 4 for Node.js Code Example - Runnable
 http://code.runnable.com/UWw3g0PKxoAWAA6K/how-to-serve-static-files-in-express-for-node-js <::sif::> How to serve static files in Express for Node.js Code Example - Runnable
 http://codebeautify.org/ <::sif::> Free Online Tools For Developers - To Beautify, Validate, Minify, Analyse and Convert your JSON, XML, JavaScript, CSS, HTML, Excel
 http://codeorchestra.com/ <::sif::> COLT.IO: Development tool for angular.js, node-webkit, node.js, phonegap
@@ -104,6 +107,7 @@ http://codepen.io/maccadb7/pen/nbHEg <::sif::> Modal - Pure CSS (no Javascript)
 http://codepen.io/thebabydino/full/doBLxx/ <::sif::> CodePen - Nightly Sea Creatures
 http://codyhouse.co/demo/back-to-top/index.html <::sif::> Back To Top | Cody
 http://codyhouse.co/demo/smart-fixed-navigation/index.html <::sif::> Smart Fixed Navigation
+http://colorschemedesigner.com/csd-3.5/ <::sif::> Color Scheme Designer 3
 http://com.hemiola.com/2009/11/23/memory-leaks-in-ie8/ <::sif::> Memory Leaks in IE8 and IE9 (Fixed in IE10) | Baffling Browsers
 http://commandlinepoweruser.com/ <::sif::> Command Line Power User
 http://compass-style.org/ <::sif::>  Compass Home | Compass Documentation
@@ -121,6 +125,7 @@ http://cwe.mitre.org/data/definitions/398 <::sif::> CWE - CWE-398: Indicator of 
 http://cwe.mitre.org/index.html <::sif::> CWE - Common Weakness Enumeration
 http://d3js.org/ <::sif::> D3.js - Data-Driven Documents
 http://daneden.github.io/animate.css/ <::sif::> Animate.css
+http://dashing.io <::sif::> Dashing - The exceptionally handsome dashboard framework.
 http://dashing.io/ <::sif::> Dashing - The exceptionally handsome dashboard framework.
 http://davidandsuzi.com/using-react-for-faster-renders-and-isomorphism-in-angular/ <::sif::> David and Suzi | Using React for Faster Renders and Isomosphism in Angular
 http://davidwalsh.name/es6-generators <::sif::> The Basics Of ES6 Generators
@@ -139,6 +144,7 @@ http://docs.openstack.org/ <::sif::>  OpenStack Docs: Current
 http://docs.openstack.org/developer/devstack/ <::sif::> DevStack - an OpenStack Community Production &mdash; DevStack 0.0.1.dev6499 documentation
 http://docs.openstack.org/openstack-ops/content/logging_monitoring.html <::sif::> Chapter 13. Logging and Monitoring - OpenStack Operations Guide
 http://docs.oracle.com/cd/E13214_01/wli/docs70/diuser/wlxtover.htm <::sif::> Introduction to Data Translation
+http://docs.oracle.com/cd/E17802_01/webservices/webservices/docs/2.0/tutorial/doc/ <::sif::> The Java(TM) Web Services Tutorial
 http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html <::sif::> What Every Computer Scientist Should Know About Floating-Point Arithmetic
 http://docs.oracle.com/cd/E39820_01/doc.11121/gateway_docs/content/oauth_flows.html <::sif::> API Gateway OAuth 2.0 Authentication Flows
 http://docs.oracle.com/en/ <::sif::> Oracle Help Center
@@ -177,6 +183,7 @@ http://espadrine.github.io/New-In-A-Spec/es6/ <::sif::> What's New In A Spec
 http://esprima.org/ <::sif::> Esprima
 http://ethanschoonover.com/solarized <::sif::> Solarized - Ethan Schoonover
 http://example.com/ <::sif::> Example Domain
+http://excellencenodejsblog.com/getting-started-express-4-x-template-engine/ <::sif::> Getting Started With Express 4.x View - Template Engine - Tutorial 3
 http://explainshell.com/ <::sif::> explainshell.com - match command-line arguments to their help text
 http://expressjs.com/ <::sif::> Express - Node.js web application framework
 http://expressjs.com/4x/api.html <::sif::> Express 4.x - API Reference
@@ -184,6 +191,7 @@ http://expressjs.com/api.html <::sif::> Express 4.x - API Reference
 http://expressjs.com/starter/hello-world.html <::sif::> Express "Hello World" example
 http://fastly.github.io/epoch/ <::sif::> Epoch by Fastly
 http://five.sentenc.es/ <::sif::> Sentenc.es - A Disciplined Way To Deal With Email
+http://flexboxin5.com/ <::sif::> flexbox in 5 minutes
 http://flipclockjs.com/ <::sif::> FlipClock.js
 http://flowtype.org/ <::sif::> Flow | Flow | A static type checker for JavaScript
 http://forecastfont.iconvau.lt/ <::sif::> Forecast Font
@@ -334,6 +342,7 @@ http://nginx.org/en/docs/ <::sif::> nginx documentation
 http://nginx.org/en/docs/beginners_guide.html <::sif::> Beginner’s Guide
 http://nginx.org/en/docs/http/load_balancing.html <::sif::> Using nginx as HTTP load balancer
 http://nginx.org/en/docs/http/ngx_http_auth_basic_module.html <::sif::> Module ngx_http_auth_basic_module
+http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#break <::sif::> Module ngx_http_rewrite_module
 http://nginx.org/en/docs/http/ngx_http_upstream_module.html <::sif::> Module ngx_http_upstream_module
 http://nikhilm.github.io/uvbook/ <::sif::> Table of Contents &mdash; An Introduction to libuv
 http://nikhilm.github.io/uvbook/processes.html <::sif::> Processes &mdash; An Introduction to libuv
@@ -397,6 +406,7 @@ http://semver.org/ <::sif::> Semantic Versioning 2.0.0
 http://sensuapp.org/ <::sif::> Sensu | Monitoring for today's infrastructure.
 http://sensuapp.org/docs/latest <::sif::> Sensu | Table of contents
 http://serverfault.com/ <::sif::> Server Fault
+http://serverfault.com/questions/131474/nginx-url-rewriting-difference-between-break-and-last <::sif::> rewrite - nginx url rewriting: difference between break and last - Server Fault
 http://serverfault.com/questions/204025/ordering-1-nginx-2-varnish-3-haproxy-4-webserver <::sif::> web - Ordering: 1. nginx 2. varnish 3. haproxy 4. webserver? - Server Fault
 http://serverfault.com/questions/276170/alternatives-to-heartbeat-pacemaker-and-corosync <::sif::> linux - Alternatives to Heartbeat, Pacemaker and CoroSync? - Server Fault
 http://serverfault.com/questions/339200/haproxy-as-load-balancer-and-nginx-as-webserver <::sif::> apache 2.2 - haproxy as load-balancer and nginx as webserver? - Server Fault
@@ -434,6 +444,7 @@ http://stackoverflow.com/questions/18561352/server-sent-events-cross-domain-safa
 http://stackoverflow.com/questions/19072070/how-can-i-find-where-gem-files-are-installed <::sif::> ruby - How can I find where gem files are installed? - Stack Overflow
 http://stackoverflow.com/questions/1911015/how-to-debug-node-js-applications/16512303 <::sif::> javascript - How to debug Node.js applications - Stack Overflow
 http://stackoverflow.com/questions/20058566/node-js-and-ulimit <::sif::> ubuntu - Node.js and ulimit - Stack Overflow
+http://stackoverflow.com/questions/20351637/how-to-create-a-simple-http-proxy-in-node-js <::sif::> javascript - How to create a simple http proxy in node.js? - Stack Overflow
 http://stackoverflow.com/questions/2117771/is-it-possible-to-run-one-logrotate-check-manually <::sif::> logging - Is it possible to run one logrotate check manually? - Stack Overflow
 http://stackoverflow.com/questions/22544754/failed-to-build-gem-native-extension-installing-compass <::sif::> ruby - Failed to build gem native extension (installing Compass) - Stack Overflow
 http://stackoverflow.com/questions/2641489/what-is-a-thunk <::sif::> c++ - What is a &#39;thunk&#39;? - Stack Overflow
@@ -441,6 +452,7 @@ http://stackoverflow.com/questions/29325665/node-js-file-write-in-loop-fails-ran
 http://stackoverflow.com/questions/3044315/how-to-set-the-authorization-header-using-curl <::sif::> How to set the authorization header using curl - Stack Overflow
 http://stackoverflow.com/questions/30495905/accessing-host-machine-as-localhost-from-a-docker-container-thats-also-inside-a <::sif::> Accessing host machine as localhost from a Docker container that&#39;s also inside a boot2docker vm - Stack Overflow
 http://stackoverflow.com/questions/3559824/what-is-a-very-simple-authentication-scheme-for-sinatra-rack <::sif::> ruby - What is a very simple authentication scheme for Sinatra/Rack - Stack Overflow
+http://stackoverflow.com/questions/3740443/how-insecure-is-a-salted-sha1-compared-to-a-salted-sha512 <::sif::> php - How insecure is a salted SHA1 compared to a salted SHA512 - Stack Overflow
 http://stackoverflow.com/questions/383402/is-javascripts-new-keyword-considered-harmful <::sif::> Is JavaScript&#39;s &quot;new&quot; keyword considered harmful? - Stack Overflow
 http://stackoverflow.com/questions/4437291/what-is-java-interface-equivalent-in-ruby <::sif::> What is java interface equivalent in Ruby? - Stack Overflow
 http://stackoverflow.com/questions/466521/how-many-files-can-i-put-in-a-directory <::sif::> filesystems - How many files can I put in a directory? - Stack Overflow
@@ -452,6 +464,8 @@ http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-i
 http://stackoverflow.com/questions/6287908/nodejs-express-fs-iterating-files-into-array-or-object-failing <::sif::> node.js - nodejs express fs iterating files into array or object failing - Stack Overflow
 http://stackoverflow.com/questions/676249/deep-cloning-vs-setting-of-innerhtml-whats-faster <::sif::> javascript - Deep cloning vs setting of innerHTML: what&#39;s faster? - Stack Overflow
 http://stackoverflow.com/questions/6865194/fluid-width-with-equally-spaced-divs/6880421 <::sif::> css - Fluid width with equally spaced DIVs - Stack Overflow
+http://stackoverflow.com/questions/699576/validating-parameters-to-a-bash-script <::sif::> validation - Validating parameters to a bash script - Stack Overflow
+http://stackoverflow.com/questions/8386685/is-copyfiles-a-standard-ant-task <::sif::> netbeans - Is &#39;copyfiles&#39; a standard ant task? - Stack Overflow
 http://stackoverflow.com/questions/8423493/what-is-the-performance-of-objects-arrays-in-javascript-specifically-for-googl <::sif::> What is the performance of Objects/Arrays in JavaScript? (specifically for Google V8) - Stack Overflow
 http://stackoverflow.com/questions/849308/pull-push-from-multiple-remote-locations <::sif::> git - pull/push from multiple remote locations - Stack Overflow
 http://stackoverflow.com/questions/9289243/read-and-write-atomic-operation-implementation-in-the-linux-kernel <::sif::> c - Read and Write atomic operation implementation in the Linux Kernel - Stack Overflow
@@ -470,6 +484,7 @@ http://sysmagazine.com/posts/123154/ <::sif::> One million simultaneous connecti
 http://sysmagazine.com/posts/205804/ <::sif::> Sensu — freymvork for monitoring — IT daily blog, news, magazine, technologies
 http://tagtree.io/courses/expert-es6/do <::sif::> Tagtree course: Expert ES6 | active
 http://tc39wiki.calculist.org/es6/arrow-functions/ <::sif::> ECMAScript Wiki - Arrow Functions
+http://tecadmin.net/install-ruby-1-9-3-or-multiple-ruby-verson-on-centos-6-3-using-rvm/ <::sif::> Install Ruby 1.9.3 (or Multiple Version) on CentOS, RedHat using RVM
 http://tech.ticketmaster.com/2015/06/30/what-ticketmaster-is-doing-about-technical-debt/ <::sif::> What Ticketmaster is doing about technical debt | Ticketmaster Technology
 http://techblog.netflix.com/ <::sif::> The Netflix Tech Blog
 http://techblog.netflix.com/2012/02/fault-tolerance-in-high-volume.html <::sif::> The Netflix Tech Blog: Fault Tolerance in a High Volume, Distributed System
@@ -556,12 +571,14 @@ http://www.brendangregg.com/blog/2014-09-17/node-flame-graphs-on-linux.html <::s
 http://www.brendangregg.com/flamegraphs.html <::sif::> Flame Graphs
 http://www.bullseye.com/minimum.html <::sif::> Minimum Acceptable Code Coverage
 http://www.carbonfive.com/ <::sif::> Carbon Five
+http://www.catonmat.net/http-proxy-in-nodejs/ <::sif::> A HTTP Proxy Server in 20 Lines of node.js Code - good coders code, great coders reuse
 http://www.chartjs.org/ <::sif::> -
 http://www.checkman.io/please/ <::sif::> Please JS
 http://www.cisco.com/web/about/ac123/ac147/archived_issues/ipj_1-2/switch_evolution.html <::sif::> Layer 2 and Layer 3 Switch Evolution - The Internet Protocol Journal - Volume 1, No. 2 - Cisco Systems
 http://www.cisco.com/web/about/security/intelligence/unicast-rpf.html <::sif::> Understanding Unicast Reverse Path Forwarding - Cisco Systems
 http://www.clicktale.com/ <::sif::> Clicktale | Improve Digital Customer Experience
 http://www.clicktorelease.com/code/css3dclouds/ <::sif::> CSS 3D Clouds
+http://www.cocoawithlove.com/2009/06/method-names-in-objective-c.html <::sif::> Cocoa with Love: Method names in Objective-C
 http://www.codecademy.com/ <::sif::> Learn to code | Codecademy
 http://www.codecademy.com/learn <::sif::> Learn | Codecademy
 http://www.codecademy.com/learn/learn-angularjs <::sif::> Learn AngularJS | Codecademy
@@ -646,9 +663,11 @@ http://www.nczonline.net/blog/2010/03/02/maintainable-javascript-dont-modify-obj
 http://www.nczonline.net/blog/2013/07/09/the-case-for-setimmediate/ <::sif::> The case for setImmediate() - NCZOnline
 http://www.networkinghowtos.com/howto/adding-users-to-a-htpasswd-file-for-nginx/ <::sif::> Adding users to a .htpasswd file for Nginx &#171; Networking How To&#039;s
 http://www.newtldlist.com/ <::sif::> New TLD List of Not .Com Domain Extension Endings 2015
+http://www.nginxtips.com/nginx-location-directive/ <::sif::> How to use the Nginx Location Directive
 http://www.numion.com/calculators/ <::sif::> Bandwidth Calculators
 http://www.odata.org/ <::sif::>  OData - the Best Way to REST
 http://www.opera.com/dragonfly/ <::sif::> Opera Dragonfly – Opera's built-in web developer tools
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html <::sif::> Java SE Development Kit 8 - Downloads
 http://www.owlnet.rice.edu/~elec539/Projects99/BACH/proj2/inverse.html <::sif::>  Inverse Filtering
 http://www.pathname.com/fhs/ <::sif::> Filesystem Hierarchy Standard
 http://www.paulund.co.uk/ <::sif::> Paulund | Tutorials &amp; Snippets
@@ -691,6 +710,7 @@ http://www.sitepoint.com/ <::sif::> SitePoint – Learn HTML, CSS, JavaScript, P
 http://www.sitepoint.com/http-authentication-in-node-js/ <::sif::> HTTP Authentication in Node.js
 http://www.sitespeed.io/ <::sif::> Sitespeed.io - Analyze your website speed and performance
 http://www.sketchingwithcss.com/samplechapter/cheatsheet.html <::sif::> The Ultimate Flexbox Cheat Sheet
+http://www.sketchingwithcss.com/samplechapter/cheatsheet.html#create <::sif::> The Ultimate Flexbox Cheat Sheet
 http://www.slideshare.net/Nginx/nginx-high-availability-and-monitoring <::sif::> NGINX High Availability and Monitoring
 http://www.slideshare.net/brendangregg/blazing-performance-with-flame-graphs <::sif::> Blazing Performance with Flame Graphs
 http://www.slideshare.net/g33ktalk/an-introduction-to-sensu <::sif::> An Introduction to Sensu by Bethany Erskine
@@ -698,6 +718,7 @@ http://www.smashingmagazine.com <::sif::> Smashing Magazine &ndash; For Professi
 http://www.smashingmagazine.com/ <::sif::> Smashing Magazine &ndash; For Professional Web Designers and Developers
 http://www.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/ <::sif::> Designing Better JavaScript APIs &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/ <::sif::> Writing Fast, Memory-Efficient JavaScript &ndash; Smashing Magazine
+http://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/ <::sif::> Designing CSS Layouts With Flexbox Is As Easy As Pie &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2014/07/08/breakpoints-and-the-future-websites/ <::sif::> Breakpoints And The Future Of Websites &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/ <::sif::> Size Matters: Balancing Line Length And Font Size In Responsive Web Design &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/ <::sif::> Laying Out A Flexible Future For Web Design With Flexbox &ndash; Smashing Magazine
@@ -741,6 +762,8 @@ http://www.wikiwand.com/en/List_of_tools_for_static_code_analysis <::sif::> List
 http://www.wikiwand.com/en/Object-oriented_programming <::sif::> Object-oriented programming - Wikiwand
 http://www.wikiwand.com/en/Optimistic_concurrency_control <::sif::> Optimistic concurrency control - Wikiwand
 http://www.wikiwand.com/en/Pareidolia <::sif::> Pareidolia - Wikiwand
+http://www.wikiwand.com/en/Preimage_attack <::sif::> Preimage attack - Wikiwand
+http://www.wikiwand.com/en/Rainbow_table <::sif::> Rainbow table - Wikiwand
 http://www.wikiwand.com/en/Robustness_principle <::sif::> Robustness principle - Wikiwand
 http://www.wikiwand.com/en/Round-robin_DNS <::sif::> Round-robin DNS - Wikiwand
 http://www.wikiwand.com/en/Secure_Hash_Algorithm <::sif::> Secure Hash Algorithm - Wikiwand
@@ -805,13 +828,16 @@ https://changelog.com/winston-a-multi-transport-async-logging-library-for-node/ 
 https://cloud.google.com/ <::sif::> Google Cloud Computing, Hosting Services &amp; Cloud Support &mdash; Google Cloud Platform
 https://code.google.com/p/v8-wiki/wiki/V8Profiler <::sif::> V8Profiler - v8-wiki - How to profile V8 using the built-in profiler. - V8 JavaScript Engine Wiki - Google Project Hosting
 https://code.google.com/p/v8/issues/detail?id=847 <::sif::> Issue 847 - v8 - 1gb memory limit - V8 JavaScript Engine - Google Project Hosting
+https://codinginthetrenches.com/2013/12/14/nginx-ipv6only-setting-gotcha/ <::sif::> Nginx ipv6only setting gotcha | Coding in the Trenches
 https://console.ng.bluemix.net/ <::sif::> -
 https://consul.io/ <::sif::> Consul by HashiCorp
 https://consul.io/docs/ <::sif::> Documentation - Consul by HashiCorp
+https://coolors.co/browser <::sif::> Coolors - The super fast color schemes generator!
 https://css-tricks.com/ <::sif::> -
 https://css-tricks.com/building-a-circular-navigation-with-css-clip-paths/ <::sif::> Building A Circular Navigation with CSS Clip Paths | CSS-Tricks
 https://css-tricks.com/on-target/ <::sif::> On :target | CSS-Tricks
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <::sif::> -
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <::sif::> A Complete Guide to Flexbox | CSS-Tricks
 https://css-tricks.com/snippets/css/keyframe-animation-syntax/ <::sif::> -
 https://css-tricks.com/snippets/css/style-placeholder-text/ <::sif::> -
 https://cssanimation.rocks/ <::sif::> CSS Animation
@@ -830,6 +856,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Touch_events <::sif::> Touch ev
 https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate <::sif::> Window.setImmediate() - Web API Interfaces | MDN
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3 <::sif::> CSS3 - CSS | MDN
 https://developer.mozilla.org/en-US/docs/Web/CSS/opacity <::sif::> opacity - CSS | MDN
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Sending_and_retrieving_form_data <::sif::> Sending form data - Web developer guide | MDN
 https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5 <::sif::> HTML5 - Web developer guide | MDN
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS <::sif::> HTTP access control (CORS) - HTTP | MDN
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript <::sif::> A re-introduction to JavaScript (JS tutorial) - JavaScript | MDN
@@ -850,7 +877,9 @@ https://developers.google.com/web/fundamentals/ <::sif::> Web Fundamentals — G
 https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching <::sif::> HTTP caching — Web Fundamentals
 https://developers.openshift.com/ <::sif::> -
 https://docs.docker.com/reference/commandline/cli/ <::sif::> Using the command line
+https://docs.docker.com/reference/commandline/commit/ <::sif::> commit 
 https://docs.docker.com/userguide/dockerizing/ <::sif::> Dockerizing applications: A &#39;Hello world&#39;
+https://docs.docker.com/userguide/dockervolumes/ <::sif::> Managing data in containers 
 https://docs.google.com/presentation/d/1r7QXGYOLCh4fcUq0jDdDwKJWNqWK1o4xMtYpKZCJYjM/present?slide=id.p19 <::sif::> HTTP/2 is here, let&#39;s optimize! - Velocity SC 2015 - Google Slides
 https://docs.jboss.org/ <::sif::> Dashboard - JBoss.org Documentation
 https://docs.jboss.org/jbossas/docs/Server_Configuration_Guide/4/html/TransactionJTA_Overview-Pessimistic_and_optimistic_locking.html <::sif::> 6.1.1. Pessimistic and optimistic locking
@@ -940,7 +969,9 @@ https://github.com/dthree/vantage <::sif::> dthree/vantage · GitHub
 https://github.com/dtrace4linux/linux <::sif::> dtrace4linux/linux · GitHub
 https://github.com/dumbmatter/fakeIndexedDB <::sif::> dumbmatter/fakeIndexedDB · GitHub
 https://github.com/ericdouglas/ES6-Learning <::sif::> ericdouglas/ES6-Learning · GitHub
+https://github.com/ericf/express-handlebars <::sif::> ericf/express-handlebars · GitHub
 https://github.com/eventmachine/eventmachine <::sif::> eventmachine/eventmachine · GitHub
+https://github.com/expressjs/body-parser <::sif::> expressjs/body-parser · GitHub
 https://github.com/fanout/zurl <::sif::> fanout/zurl · GitHub
 https://github.com/fent/socket.io-clusterhub <::sif::> fent/socket.io-clusterhub · GitHub
 https://github.com/fergiemcdowall/norch <::sif::> fergiemcdowall/norch · GitHub
@@ -968,6 +999,7 @@ https://github.com/ivopetkov/responsively-lazy <::sif::> ivopetkov/responsively-
 https://github.com/jahewson/node-byline <::sif::> jahewson/node-byline · GitHub
 https://github.com/jariz/vibrant.js <::sif::> jariz/vibrant.js · GitHub
 https://github.com/jayway/JsonPath <::sif::> jayway/JsonPath · GitHub
+https://github.com/jfromaniello/express-unless <::sif::> jfromaniello/express-unless · GitHub
 https://github.com/joeferner/node-sf <::sif::> joeferner/node-sf · GitHub
 https://github.com/joyent <::sif::> Joyent · GitHub
 https://github.com/joyent/nhttpsnoop <::sif::> joyent/nhttpsnoop · GitHub
@@ -1001,6 +1033,7 @@ https://github.com/openvswitch/ovs/blob/master/WHY-OVS.md <::sif::> ovs/WHY-OVS.
 https://github.com/panitw/easy-rpm <::sif::> panitw/easy-rpm · GitHub
 https://github.com/pburtchaell/react-karma-webpack-example <::sif::> pburtchaell/react-karma-webpack-example · GitHub
 https://github.com/petkaantonov/bluebird <::sif::> petkaantonov/bluebird · GitHub
+https://github.com/petkaantonov/bluebird/blob/master/API.md <::sif::> bluebird/API.md at master · petkaantonov/bluebird · GitHub
 https://github.com/petkaantonov/bluebird/wiki/Optimization-killers <::sif::> Optimization killers · petkaantonov/bluebird Wiki · GitHub
 https://github.com/pheuter/essential-react <::sif::> pheuter/essential-react · GitHub
 https://github.com/pocketjoso/penthouse <::sif::> pocketjoso/penthouse · GitHub
@@ -1012,6 +1045,7 @@ https://github.com/rietveld-codereview/rietveld <::sif::> rietveld-codereview/ri
 https://github.com/rlidwka/sinopia <::sif::> rlidwka/sinopia · GitHub
 https://github.com/rmustacc/node-ctype <::sif::> rmustacc/node-ctype · GitHub
 https://github.com/saltstack/salt <::sif::> saltstack/salt · GitHub
+https://github.com/samizdatco/nginx-http-auth-digest/blob/master/htdigest.py <::sif::> nginx-http-auth-digest/htdigest.py at master · samizdatco/nginx-http-auth-digest · GitHub
 https://github.com/sensu/uchiwa <::sif::> sensu/uchiwa · GitHub
 https://github.com/shaneGirish/bcrypt-nodejs <::sif::> shaneGirish/bcrypt-nodejs · GitHub
 https://github.com/shipitjs/shipit <::sif::> shipitjs/shipit · GitHub
@@ -1047,7 +1081,9 @@ https://github.com/werk85/node-html-to-text <::sif::> werk85/node-html-to-text �
 https://github.com/winstonjs/winston <::sif::> winstonjs/winston · GitHub
 https://github.com/yeoman/generator <::sif::> yeoman/generator · GitHub
 https://github.com/young-steveo/bottlejs <::sif::> young-steveo/bottlejs · GitHub
+https://glassfish.java.net/ <::sif::> GlassFish Server
 https://gomockingbird.com/ <::sif::> Mockingbird: website wireframes
+https://google-styleguide.googlecode.com/svn/trunk/cppguide.html <::sif::> Google C++ Style Guide
 https://gradle.org/building-a-continuous-delivery-pipeline-with-gradle-and-jenkins/ <::sif::> Building a Continuous Delivery Pipeline with Gradle and Jenkins - Gradle
 https://groups.google.com/forum/ <::sif::> Google Groups
 https://guidgenerator.com/ <::sif::>  Online GUID Generator
@@ -1127,6 +1163,7 @@ https://prerender.io/ <::sif::> Prerender - AngularJS SEO, BackboneJS SEO, or Em
 https://puppetlabs.com/puppet/what-is-puppet <::sif::> What is Puppet? | Puppet Labs
 https://pypi.python.org/pypi <::sif::> PyPI - the Python Package Index : Python Package Index
 https://pypi.python.org/pypi/nodeenv <::sif::> nodeenv 0.13.4 : Python Package Index
+https://raymii.org/s/tutorials/NGINX_proxy_folder_to_different_root.html <::sif::> NGINX: Proxy folders to different root - Raymii.org
 https://redislabs.com/redis-cloud <::sif::> Redis Cloud - Fully-Managed Redis Service
 https://rtcamp.com/tutorials/linux/sysctl-conf/ <::sif::> sysctl.conf - tweaking for high concurrancy &amp; security
 https://rtyley.github.io/bfg-repo-cleaner/ <::sif::> BFG Repo-Cleaner by rtyley
@@ -1135,6 +1172,7 @@ https://rubygems.org/gems/sprockets/versions/3.2.0 <::sif::> sprockets | RubyGem
 https://rubymonk.com/learning/books/1-ruby-primer/chapters/5-strings/lessons/31-string-basics <::sif::>  RubyMonk - Ruby Primer - String Basics
 https://runnable.io/ <::sif::> Runnable
 https://saucelabs.com/ <::sif::> Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More
+https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties <::sif::> A Visual Guide to CSS3 Flexbox Properties | Scotch
 https://scotch.io/tutorials/scraping-the-web-with-node-js <::sif::> Scraping the Web With Node.js | Scotch
 https://scriptstoprograms.wordpress.com/2011/09/27/javascript-shared-state/ <::sif::> JavaScript: a concurrent language with shared mutable state | Scripts to Programs
 https://sendgrid.com/ <::sif::> Email Delivery &amp; Transactional Email Service | SendGrid
@@ -1207,6 +1245,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on
 https://www.digitalocean.com/community/tutorials/how-to-set-up-http-authentication-with-nginx-on-ubuntu-12-10 <::sif::> How To Set Up HTTP Authentication With Nginx On Ubuntu 12.10 | DigitalOcean
 https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh <::sif::> How To Use SSHFS to Mount Remote File Systems Over SSH | DigitalOcean
 https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking <::sif::> Understanding IP Addresses, Subnets, and CIDR Notation for Networking | DigitalOcean
+https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms <::sif::> Understanding Nginx Server and Location Block Selection Algorithms | DigitalOcean
 https://www.docker.com/ <::sif::> Docker - Build, Ship, and Run Any App, Anywhere
 https://www.dropbox.com/ <::sif::> Dropbox
 https://www.elastic.co/ <::sif::> Elastic · Revealing Insights from Data (Formerly Elasticsearch)
@@ -1284,6 +1323,7 @@ https://www.reviewboard.org/ <::sif::> Take the pain out of code review | Review
 https://www.ruby-lang.org/en/ <::sif::> Ruby Programming Language
 https://www.ruby-lang.org/en/documentation/installation/ <::sif::> Installing Ruby
 https://www.ruby-toolbox.com/ <::sif::> The Ruby Toolbox - Know Your Options!
+https://www.schneier.com/blog/archives/2012/10/when_will_we_se.html <::sif::> When Will We See Collisions for SHA-1? - Schneier on Security
 https://www.scriptrock.com/blog/comparing-containers-generating-dockerfiles-guardrail <::sif::> Comparing Containers and Generating Dockerfiles with GuardRail
 https://www.serfdom.io/intro/vs-custom.html <::sif::> Serf vs. Custom Solutions - Serf by HashiCorp
 https://www.textmaster.com/ <::sif::> TextMaster | Translation Service | Web Content Writing
@@ -1295,6 +1335,8 @@ https://www.virtualbox.org/ <::sif::>  Oracle VM VirtualBox
 https://www.webplatform.org/ <::sif::> Your Web, documented · WebPlatform.org
 https://www.wikiwand.com/en/0.0.0.0 <::sif::> 0.0.0.0 - Wikiwand
 https://www.wikiwand.com/en/ARP_spoofing <::sif::> ARP spoofing - Wikiwand
+https://www.wikiwand.com/en/Basic_access_authentication <::sif::> Basic access authentication - Wikiwand
+https://www.wikiwand.com/en/Bcrypt <::sif::> bcrypt - Wikiwand
 https://www.wikiwand.com/en/Blinkenlights <::sif::> Blinkenlights - Wikiwand
 https://www.wikiwand.com/en/Cgroups <::sif::> cgroups - Wikiwand
 https://www.wikiwand.com/en/Comparison_of_continuous_integration_software <::sif::> Comparison of continuous integration software - Wikiwand
@@ -1328,6 +1370,7 @@ https://www.wikiwand.com/en/Opera_(web_browser) <::sif::> Opera (web browser) - 
 https://www.wikiwand.com/en/Operational_transformation <::sif::> Operational transformation - Wikiwand
 https://www.wikiwand.com/en/Patch_cable <::sif::> Patch cable - Wikiwand
 https://www.wikiwand.com/en/ReDoS <::sif::> ReDoS - Wikiwand
+https://www.wikiwand.com/en/SHA-1 <::sif::> SHA-1 - Wikiwand
 https://www.wikiwand.com/en/SSL_termination_proxy <::sif::> TLS termination proxy - Wikiwand
 https://www.wikiwand.com/en/SYN_flood <::sif::> SYN flood - Wikiwand
 https://www.wikiwand.com/en/Salt_(software) <::sif::> Salt (software) - Wikiwand
@@ -1384,9 +1427,5 @@ https://www.youtube.com/watch?v=vE5kCqwoSUg <::sif::> HTML5DevConf May2014: Mark
 https://www.youtube.com/watch?v=vQUq5rWWn-s <::sif::> Surge 2012 ~ David Pacheco ~ When Node.js Goes Wrong. - YouTube
 https://www.youtube.com/watch?v=ya4UHuXNygM <::sif::> Crockford on JavaScript - Act III: Function the Ultimate - YouTube
 https://www.youtube.com/watch?v=ya4UHuXNygM&t=0m23s <::sif::> Crockford on JavaScript - Act III: Function the Ultimate - Why the NEW Keyword is a Code Smell - YouTube
+https://xkcd.com/323/ <::sif::> xkcd: Ballmer Peak
 https://zeplin.io/ <::sif::> Zeplin
-https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-centos-6
-http://dashing.io
-http://tecadmin.net/install-ruby-1-9-3-or-multiple-ruby-verson-on-centos-6-3-using-rvm/
-http://ask.xmodulo.com/upgrade-ruby-centos.html
-https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit
