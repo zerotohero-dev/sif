@@ -17,4 +17,15 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+exports['default'] = {
+  DELIMITER: '<::sif::>',
+  DELIMITER_REPLACEMENT: '__sif__',
+  ALIAS_PREFIX: '@',
+  ALIAS_DELIMITER: '='
+};
+module.exports = exports['default'];
+
 //# sourceMappingURL=constants.js.map

@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -20,19 +17,19 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 
-var _commander = require('commander');
+var _path = require('path');
 
-var _commander2 = _interopRequireDefault(_commander);
+exports['default'] = {
+  ALIASES_FILE: (0, _path.join)(__dirname, '../../data/aliases.dat'),
+  ALIASES_TMP_FILE: (0, _path.join)(__dirname, '../../tmp/__tmp_aliases'),
+  INDEX_FILE: (0, _path.join)(__dirname, '../../data/index.idx'),
+  PROCESS_TMP_EXISTING_FILE: (0, _path.join)(__dirname, '../../tmp/__tmp_existing'),
+  PROCESS_TMP_PROCESSED_FILE: (0, _path.join)(__dirname, '../../tmp/__tmp_processed')
+};
+module.exports = exports['default'];
 
-var _libTerminalOut = require('../lib/terminal/out');
-
-_commander2['default'].parse(process.argv);
-
-var COMMAND = 'tag';
-
-(0, _libTerminalOut.print)(COMMAND, 'Command not implemented yet!');
-(0, _libTerminalOut.printBlank)();
-
-//# sourceMappingURL=sif-tag.js.map
+//# sourceMappingURL=files.js.map

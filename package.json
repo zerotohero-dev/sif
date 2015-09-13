@@ -1,6 +1,6 @@
 {
   "name": "sif",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Sifts important data so fast that it's \"t\" drops off.",
   "main": "release/bin/sif.js",
   "scripts": {

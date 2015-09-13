@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -20,19 +17,8 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+var noTitleFoundForUrl = function noTitleFoundForUrl(url) {
+  return 'no title found for: "' + url + '"; I\'ll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.';
+};
 
-var _commander = require('commander');
-
-var _commander2 = _interopRequireDefault(_commander);
-
-var _libTerminalOut = require('../lib/terminal/out');
-
-_commander2['default'].parse(process.argv);
-
-var COMMAND = 'tag';
-
-(0, _libTerminalOut.print)(COMMAND, 'Command not implemented yet!');
-(0, _libTerminalOut.printBlank)();
-
-//# sourceMappingURL=sif-tag.js.map
+//# sourceMappingURL=message.js.map

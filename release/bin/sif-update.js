@@ -42,11 +42,16 @@ var _fs = require('fs');
 
 var _libTerminalOut = require('../lib/terminal/out');
 
+var _libConfigFiles = require('../lib/config/files');
+
+var _libConfigMessage = require('../lib/config/message');
+
+var _libConfigConstants = require('../lib/config/constants');
+
+var _libConfigRegexp = require('../lib/config/regexp');
+
 var COMMAND = 'update';
 var SUCCESS = 200;
-var INDEX_FILE = (0, _path.join)(__dirname, '../data/index.idx');
-var TMP_EXISTING_FILE = (0, _path.join)(__dirname, '__tmp_processed');
-var TMP_PROCESSED_FILE = (0, _path.join)(__dirname, '__tmp_existing');
 
 _commander2['default'].parse(process.argv);
 
@@ -57,10 +62,10 @@ _commander2['default'].parse(process.argv);
 var copyAssets = function copyAssets() {
 
     // TODO: this is repeated; move it to a module.
-    var cat = (0, _child_process.spawn)('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
+    var cat = (0, _child_process.spawn)('cat', [_libConfigFiles.PROCESS_TMP_EXISTING_FILE, _libConfigFiles.PROCESS_TMP_PROCESSED_FILE]);
     var sort = (0, _child_process.spawn)('sort', ['-u']);
 
-    var indexWriteStream = (0, _fs.createWriteStream)(INDEX_FILE, { encoding: 'utf8' });
+    var indexWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.INDEX_FILE, { encoding: 'utf8' });
 
     sort.stdout.pipe(indexWriteStream);
 
@@ -70,6 +75,7 @@ var copyAssets = function copyAssets() {
     cat.stdout.on('end', function () {
         return sort.stdin.end();
     });
+
     sort.stdout.on('end', function () {
         return indexWriteStream.end();
     });
@@ -78,114 +84,122 @@ var copyAssets = function copyAssets() {
     });
 };
 
-var backup = (0, _child_process.spawn)('cp', [INDEX_FILE, INDEX_FILE + '.backup']);
+var backup = (0, _child_process.spawn)('cp', [_libConfigFiles.INDEX_FILE, _libConfigFiles.INDEX_FILE + '.backup']);
+
+var fsOptions = { encoding: 'utf8' };
 
 backup.stdout.on('end', function () {
-    var inStream = (0, _byline2['default'])((0, _fs.createReadStream)(INDEX_FILE, { encoding: 'utf8' }));
+    var inStream = (0, _byline2['default'])((0, _fs.createReadStream)(_libConfigFiles.INDEX_FILE, fsOptions));
 
-    var tmpExistingFileWriteStream = (0, _fs.createWriteStream)(TMP_EXISTING_FILE, { encoding: 'utf8' });
-    var tmpProcessedFileWriteStream = (0, _fs.createWriteStream)(TMP_PROCESSED_FILE, { encoding: 'utf8' });
+    var tmpExistingFileWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.PROCESS_TMP_EXISTING_FILE, fsOptions);
+    var tmpProcessedFileWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.PROCESS_TMP_PROCESSED_FILE, fsOptions);
 
     // can be done with promises too.
     var remainingMetaDataRequests = 0;
     var inStreamEnded = false;
 
-    var maybeEndStreamsThenCopyAssets = null;
+    var tryPersistTemporaryData = null;
 
-    maybeEndStreamsThenCopyAssets = function () {
-        if (inStreamEnded && remainingMetaDataRequests === 0) {
-            (function () {
-                var copyAssets = function copyAssets() {
-                    var cat = (0, _child_process.spawn)('cat', [TMP_EXISTING_FILE, TMP_PROCESSED_FILE]);
-                    var sort = (0, _child_process.spawn)('sort', ['-u']);
-
-                    var indexWriteStream = (0, _fs.createWriteStream)(INDEX_FILE, { encoding: 'utf8' });
-
-                    cat.stdout.on('data', function (line) {
-                        sort.stdin.write(line);
-                    });
-
-                    // rs | ws
-                    sort.stdout.pipe(indexWriteStream);
-
-                    sort.stdout.on('end', function () {
-                        (0, _libTerminalOut.print)(COMMAND, 'Done!');
-
-                        indexWriteStream.end();
-                    });
-
-                    cat.stdout.on('end', function () {
-                        sort.stdin.end();
-                    });
-                };
-
-                var maybeCopyAssets = null;
-                var counter = 2;
-
-                maybeCopyAssets = function () {
-                    counter--;
-
-                    if (counter === 0) {
-                        copyAssets();
-                    }
-
-                    maybeCopyAssets = function () {};
-                };
-
-                // TODO: this part "begs" for promises.
-                tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
-                tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
-
-                tmpProcessedFileWriteStream.end();
-                tmpExistingFileWriteStream.end();
-
-                maybeEndStreamsThenCopyAssets = function () {};
-            })();
+    tryPersistTemporaryData = function () {
+        if (!inStreamEnded || remainingMetaDataRequests !== 0) {
+            return;
         }
+
+        var copyAssets = function copyAssets() {
+            var cat = (0, _child_process.spawn)('cat', [_libConfigFiles.PROCESS_TMP_EXISTING_FILE, _libConfigFiles.PROCESS_TMP_PROCESSED_FILE]);
+            var sort = (0, _child_process.spawn)('sort', ['-u']);
+
+            var indexWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.INDEX_FILE, fsOptions);
+
+            cat.stdout.pipe(sort.stdin);
+            sort.stdout.pipe(indexWriteStream);
+
+            indexWriteStream.on('finish', function () {
+                return (0, _libTerminalOut.print)(COMMAND, 'Done!');
+            });
+
+            sort.stdout.on('end', function () {
+                return indexWriteStream.end();
+            });
+            cat.stdout.on('end', function () {
+                return sort.stdin.end();
+            });
+        };
+
+        var maybeCopyAssets = null;
+        var counter = 2;
+
+        maybeCopyAssets = function () {
+            counter--;
+
+            if (counter === 0) {
+                copyAssets();
+            }
+
+            maybeCopyAssets = function () {};
+        };
+
+        // TODO: this part "begs" for promises.
+        tmpProcessedFileWriteStream.on('finish', maybeCopyAssets);
+        tmpExistingFileWriteStream.on('finish', maybeCopyAssets);
+
+        tmpProcessedFileWriteStream.end();
+        tmpExistingFileWriteStream.end();
+
+        tryPersistTemporaryData = function () {};
     };
 
     inStream.on('data', function (line) {
 
         // TODO: to a util library function.
-        var occurrences = line.split('<::sif::>').length - 1;
+        var occurrences = line.split(_libConfigConstants.DELIMITER).length - 1;
         var needsProcessing = occurrences === 0;
         var alreadyProcessed = occurrences === 1;
         var malformed = !needsProcessing && !alreadyProcessed;
 
         if (malformed) {
-            (0, _libTerminalOut.printError)(COMMAND, 'badly-formatted line: "' + line.replace(/sif/g, '__sif__') + '"');
+            (0, _libTerminalOut.printError)(COMMAND, 'badly-formatted line: "' + line.replace(_libConfigRegexp.MATCH_ALL_DELIMITERS, _libConfigConstants.DELIMITER_REPLACEMENT) + '"');
 
             return;
         }
 
         if (needsProcessing) {
-            var _ret2 = (function () {
+            var _ret = (function () {
                 remainingMetaDataRequests++;
 
                 var url = line.trim();
 
-                (0, _request2['default'])(url, function (error, response, body) {
+                (0, _request2['default'])(url, function (err, response, body) {
                     remainingMetaDataRequests--;
 
-                    if (error || response.statusCode !== SUCCESS) {
-                        maybeEndStreamsThenCopyAssets();
+                    if (err || response.statusCode !== SUCCESS) {
+                        tryPersistTemporaryData();
 
                         return;
                     }
 
-                    var replaced = body.replace(/\s+/g, ' ');
-                    var result = /<title>(.*?)<\/title>/i.exec(replaced);
+                    var replaced = body.replace(_libConfigRegexp.MATCH_ALL_WHITESPACES, ' ');
+                    var result = _libConfigRegexp.MATCH_PAGE_TITLE.exec(replaced);
+
+                    if (!result) {
+                        (0, _libTerminalOut.printError)(COMMAND, 'Cannot find title in ' + url + '.');
+
+                        tryPersistTemporaryData();
+
+                        return;
+                    }
+
                     var title = result[1];
 
                     if (title) {
-                        tmpProcessedFileWriteStream.write(url + ' <::sif::> ' + title + '\n');
+                        tmpProcessedFileWriteStream.write(url + ' ' + _libConfigConstants.DELIMITER + ' ' + title + '\n');
                     } else {
-                        error(COMMAND, 'no title found for: "' + url + '"; I\'ll leave it untouched. — Please file a bug at xxx to get it fixed.');
+                        err(COMMAND, (0, _libConfigMessage.noTitleForUrlFound)(url));
 
                         tmpExistingFileWriteStream.write(url + '\n');
                     }
 
-                    maybeEndStreamsThenCopyAssets();
+                    tryPersistTemporaryData();
                 });
 
                 return {
@@ -193,7 +207,7 @@ backup.stdout.on('end', function () {
                 };
             })();
 
-            if (typeof _ret2 === 'object') return _ret2.v;
+            if (typeof _ret === 'object') return _ret.v;
         }
 
         tmpExistingFileWriteStream.write(line.trim() + '\n');
@@ -203,7 +217,7 @@ backup.stdout.on('end', function () {
         inStreamEnded = true;
 
         // on `end`, all the data is consumed.
-        maybeEndStreamsThenCopyAssets();
+        tryPersistTemporaryData();
     });
 });
 

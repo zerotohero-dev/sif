@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-
-
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -20,19 +17,15 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+exports['default'] = {
+  MATCH_DELIMITER: /\s*<::sif::>\s*/,
+  MATCH_ALL_DELIMITERS: /<::sif::>/g,
+  MATCH_PAGE_TITLE: /<title>(.*?)<\/title>/i,
+  MATCH_ALL_WHITESPACES: /\s+/g
+};
+module.exports = exports['default'];
 
-var _commander = require('commander');
-
-var _commander2 = _interopRequireDefault(_commander);
-
-var _libTerminalOut = require('../lib/terminal/out');
-
-_commander2['default'].parse(process.argv);
-
-var COMMAND = 'tag';
-
-(0, _libTerminalOut.print)(COMMAND, 'Command not implemented yet!');
-(0, _libTerminalOut.printBlank)();
-
-//# sourceMappingURL=sif-tag.js.map
+//# sourceMappingURL=regexp.js.map
