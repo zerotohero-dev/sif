@@ -877,9 +877,9 @@ https://developers.google.com/web/fundamentals/ <::sif::> Web Fundamentals — G
 https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching <::sif::> HTTP caching — Web Fundamentals
 https://developers.openshift.com/ <::sif::> -
 https://docs.docker.com/reference/commandline/cli/ <::sif::> Using the command line
-https://docs.docker.com/reference/commandline/commit/ <::sif::> commit 
+https://docs.docker.com/reference/commandline/commit/ <::sif::> commit
 https://docs.docker.com/userguide/dockerizing/ <::sif::> Dockerizing applications: A &#39;Hello world&#39;
-https://docs.docker.com/userguide/dockervolumes/ <::sif::> Managing data in containers 
+https://docs.docker.com/userguide/dockervolumes/ <::sif::> Managing data in containers
 https://docs.google.com/presentation/d/1r7QXGYOLCh4fcUq0jDdDwKJWNqWK1o4xMtYpKZCJYjM/present?slide=id.p19 <::sif::> HTTP/2 is here, let&#39;s optimize! - Velocity SC 2015 - Google Slides
 https://docs.jboss.org/ <::sif::> Dashboard - JBoss.org Documentation
 https://docs.jboss.org/jbossas/docs/Server_Configuration_Guide/4/html/TransactionJTA_Overview-Pessimistic_and_optimistic_locking.html <::sif::> 6.1.1. Pessimistic and optimistic locking
@@ -1429,3 +1429,6 @@ https://www.youtube.com/watch?v=ya4UHuXNygM <::sif::> Crockford on JavaScript - 
 https://www.youtube.com/watch?v=ya4UHuXNygM&t=0m23s <::sif::> Crockford on JavaScript - Act III: Function the Ultimate - Why the NEW Keyword is a Code Smell - YouTube
 https://xkcd.com/323/ <::sif::> xkcd: Ballmer Peak
 https://zeplin.io/ <::sif::> Zeplin
+http://www.ediy.com.my/index.php/blog/item/102-raspberry-pi-running-midori-browser-without-a-desktop
+https://docs.npmjs.com/files/package.json
+https://docs.npmjs.com/

@@ -1,3 +1,7 @@
+### sif 0.6.2
+
+* `sif` can now be installed as a global executable.
+
 ### sif 0.5.1
 
 * Refactoring, code formatting, and bug fixes.
