@@ -4,7 +4,9 @@
   "description": "Sifts important data so fast that it's \"t\" drops off.",
   "main": "release/bin/sif.js",
   "preferGlobal": true,
-  "bin": { "sif": "./release/bin/sif.js"},
+  "bin": {
+    "sif": "./release/bin/sif.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "./prepublish.sh"
@@ -18,7 +20,9 @@
     "doc": ".",
     "example": "."
   },
-  "os": [ "!win32" ],
+  "os": [
+    "!win32"
+  ],
   "keywords": [
     "sif",
     "sift",
@@ -51,6 +55,7 @@
     "byline": "^4.2.1",
     "chalk": "^1.1.1",
     "commander": "^2.8.1",
+    "prompt": "^0.2.14",
     "request": "^2.61.0"
   }
 }

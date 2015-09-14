@@ -20,12 +20,35 @@
  */
 
 import program from 'commander';
-
+import chalk;
 import { print, printBlank as blank } from '../lib/terminal/out';
+
+import {start, get} from 'prompt';
 
 const COMMAND = 'purge';
 
 program.parse( process.argv );
 
-print( COMMAND, 'Command not implemented yet!' );
-blank();
+let schema = {
+    properties: {
+        answer: {
+            description: chalk.black.bgWhite('This will IRREVERSIBLY delete everything. — Are you absolutely sure? [y/n]'),
+            pattern: /^(yes|no)$/i,
+            message: 'Please reply with "yes" or "no".',
+            required: true
+        }
+    }
+};
+
+start();
+
+get(schema, (err, result) => {
+    let answer = result.answer;
+
+    if ( answer.toLowerCase() === 'yes' ) {
+
+    }
+});
+
+//print( COMMAND, 'Command not implemented yet!' );
+//blank();
