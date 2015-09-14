@@ -23,7 +23,7 @@ Object.defineProperty(exports, '__esModule', {
 exports['default'] = {
   MATCH_DELIMITER: /\s*<::sif::>\s*/,
   MATCH_ALL_DELIMITERS: /<::sif::>/g,
-  MATCH_PAGE_TITLE: /<title>(.*?)<\/title>/i,
+  MATCH_PAGE_TITLE: /<title.*?>(.*?)<\/title.*?>/i,
   MATCH_ALL_WHITESPACES: /\s+/g
 };
 module.exports = exports['default'];

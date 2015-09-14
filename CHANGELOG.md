@@ -1,3 +1,10 @@
+### sif 0.6.3
+
+* Certain gzip-encoded requests were not being parsed correctly; the issue
+has been fixed.
+* Other minor bugfixes.
+* Cleaned up `index.dat`.
+
 ### sif 0.6.2
 
 * `sif` can now be installed as a global executable.

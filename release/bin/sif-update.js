@@ -169,7 +169,10 @@ backup.stdout.on('end', function () {
 
                 var url = line.trim();
 
-                (0, _request2['default'])(url, function (err, response, body) {
+                // {gzip: true} to add an `Accept-Encoding` header to the request.
+                // Although `request` library does automatic gzip decoding, certain websites
+                // get confused if the header is not present in the initial request.
+                (0, _request2['default'])({ method: 'GET', 'uri': url, gzip: true }, function (err, response, body) {
                     remainingMetaDataRequests--;
 
                     if (err || response.statusCode !== SUCCESS) {
@@ -184,6 +187,11 @@ backup.stdout.on('end', function () {
                     if (!result) {
                         (0, _libTerminalOut.printError)(COMMAND, 'Cannot find title in ' + url + '.');
 
+                        // For debugging purposes:
+                        // console.log(replaced);
+
+                        tmpExistingFileWriteStream.write(url + '\n');
+
                         tryPersistTemporaryData();
 
                         return;
@@ -194,7 +202,7 @@ backup.stdout.on('end', function () {
                     if (title) {
                         tmpProcessedFileWriteStream.write(url + ' ' + _libConfigConstants.DELIMITER + ' ' + title + '\n');
                     } else {
-                        err(COMMAND, (0, _libConfigMessage.noTitleForUrlFound)(url));
+                        (0, _libTerminalOut.printError)(COMMAND, (0, _libConfigMessage.noTitleFoundForUrl)(url));
 
                         tmpExistingFileWriteStream.write(url + '\n');
                     }
