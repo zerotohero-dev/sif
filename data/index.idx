@@ -12,7 +12,7 @@ http://alistapart.com/ <::sif::> A List Apart: For People Who Make Websites
 http://alistapart.com/article/application-cache-is-a-douchebag <::sif::> Application Cache is a Douchebag · An A List Apart Article
 http://ant.apache.org/ <::sif::> Apache Ant - Welcome
 http://anthonycalzadilla.com/css3-ATAT/index.html <::sif::> Pure CSS3 AT-AT Walker by: Anthony Calzadilla
-http://appium.io/ <::sif::> -
+http://appium.io/ <::sif::> Appium: Mobile App Automation Made Awesome.
 http://appstorm.net/ <::sif::>  AppStorm &#8211; App Review Network
 http://archive.org/web/ <::sif::> Internet Archive: Wayback Machine
 http://aroc.github.io/side-comments-demo/ <::sif::> Side Comments - Medium.com style commenting
@@ -69,7 +69,7 @@ http://bootsnipp.com/ <::sif::> Home of free code snippets for Bootstrap | Boots
 http://bost.ocks.org/mike/algorithms/ <::sif::> Visualizing Algorithms
 http://bower.io/ <::sif::> Bower
 http://boz.com/articles/be-kind.html <::sif::> Be Kind
-http://brackets.io/ <::sif::> -
+http://brackets.io/ <::sif::> Brackets - A modern, open source code editor that understands web design.
 http://bradfrost.com/blog/ <::sif::>  Brad Frost | Web Design, Speaking, Consulting, Music, and Art
 http://bradfrost.com/blog/post/float-label-pattern/ <::sif::>  Float Label Pattern | Brad Frost
 http://browserify.org/ <::sif::> Browserify
@@ -287,7 +287,7 @@ http://linkedin.github.io/dustjs/test/test.html <::sif::> dust
 http://linux.die.net/man/2/listen <::sif::> listen(2): listen for connections on socket - Linux man page
 http://linux.die.net/man/3/write <::sif::> write(3): on file - Linux man page
 http://linuxcommand.org/lts0080.php <::sif::> Learning the shell - Lesson 8: Job Control
-http://logging.apache.org/log4j/ <::sif::> -
+http://logging.apache.org/log4j/
 http://lorempixel.com/ <::sif::> lorempixel - placeholder images for every case
 http://lunrjs.com/ <::sif::> lunr.js - A bit like Solr, but much smaller and not as bright
 http://mac.appstorm.net/ <::sif::>  Mac.AppStorm
@@ -557,7 +557,7 @@ http://www.amazon.com/gp/product/0596517742/ <::sif::> JavaScript: The Good Part
 http://www.amazon.com/gp/product/0596805527/ <::sif::> JavaScript: The Definitive Guide: Activate Your Web Pages (Definitive Guides): David Flanagan: 8580001053509: Amazon.com: Books
 http://www.amcharts.com/ <::sif::> JavaScript Charts and Maps | amCharts
 http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html <::sif::> Common fonts to all versions of Windows &amp; Mac equivalents (Browser safe fonts) - Web design tips &amp; tricks
-http://www.angularjsbook.com/ <::sif::> -
+http://www.angularjsbook.com/ <::sif::> Angular Basics by ScriptyBooks, a free book on AngularJS
 http://www.appsumo.com/creative-market/ <::sif::> $1200+ Creative Market design bundle for only $39
 http://www.asciidraw.com/#Draw <::sif::> Asciiflow - ASCII Flow Diagram Tool
 http://www.atozcss.com/ <::sif::>  Home - A to Z CSS
@@ -572,7 +572,7 @@ http://www.brendangregg.com/flamegraphs.html <::sif::> Flame Graphs
 http://www.bullseye.com/minimum.html <::sif::> Minimum Acceptable Code Coverage
 http://www.carbonfive.com/ <::sif::> Carbon Five
 http://www.catonmat.net/http-proxy-in-nodejs/ <::sif::> A HTTP Proxy Server in 20 Lines of node.js Code - good coders code, great coders reuse
-http://www.chartjs.org/ <::sif::> -
+http://www.chartjs.org/ <::sif::> Chart.js | Open source HTML5 Charts for your website
 http://www.checkman.io/please/ <::sif::> Please JS
 http://www.cisco.com/web/about/ac123/ac147/archived_issues/ipj_1-2/switch_evolution.html <::sif::> Layer 2 and Layer 3 Switch Evolution - The Internet Protocol Journal - Volume 1, No. 2 - Cisco Systems
 http://www.cisco.com/web/about/security/intelligence/unicast-rpf.html <::sif::> Understanding Unicast Reverse Path Forwarding - Cisco Systems
@@ -696,10 +696,10 @@ http://www.relativewave.com/form/ <::sif::> RelativeWave - Form
 http://www.researchgate.net/post/What_are_the_advantages_and_disadvantages_of_functional_programming <::sif::> What are the advantages and disadvantages of functional programming? - ResearchGate
 http://www.restapitutorial.com/resources.html <::sif::> RESTful Web Services Resources
 http://www.revsys.com/writings/quicktips/ssh-tunnel.html <::sif::> HOWTO: SSH Tunneling Made Easy
-http://www.rfc-editor.org/rfc/rfc7540.txt <::sif::> -
+http://www.rfc-editor.org/rfc/rfc7540.txt
 http://www.robohornet.org/ <::sif::> RoboHornet
 http://www.rorsecurity.info/ <::sif::> Ruby on Rails Security Project | Hand-picked Rails security resources
-http://www.rpm.org/max-rpm/ch-rpm-install.html <::sif::> -
+http://www.rpm.org/max-rpm/ch-rpm-install.html <::sif::> Using RPM to Install Packages
 http://www.rubydoc.info/gems/simplecov/frames <::sif::>  File: README &mdash; Documentation for simplecov (0.10.0)
 http://www.sencha.com/ <::sif::> Design, Develop, and Manage Enterprise Web Applications with Sencha | Sencha
 http://www.simplediagrams.com/ <::sif::> SimpleDiagrams | Desktop App for Creating Diagrams, Flowcharts and Hand-drawn Visualizations | SimpleDiagrams
@@ -793,7 +793,7 @@ http://yeoman.io/ <::sif::> The web's scaffolding tool for modern webapps | Yeom
 http://zeromq.org/ <::sif::> Distributed Messaging - zeromq
 http://zguide.zeromq.org/page:all <::sif::> ØMQ - The Guide - ØMQ - The Guide
 http://ztrek.blogspot.in/2009/08/est-and-edt-pst-and-pdt-just-say-no.html <::sif::> Z Trek: The Alan Zeichick Weblog: EST and EDT, PST and PDT: Just say no!
-http://zurb.com/patterntap <::sif::> -
+http://zurb.com/patterntap <::sif::> ZURB U | Library
 https://access.redhat.com/documentation/en-US/Red_Hat_Certificate_System/8.0/html/Install_Guide/chkconfig.html <::sif::> 9.3. Starting the Subsystem Automatically
 https://access.redhat.com/documentation/en-US/Red_Hat_Network_Satellite/5.3/html/Deployment_Guide/satops-rpm-building.html <::sif::> 2.5. RPM Building
 https://access.redhat.com/documentation/en-US/index.html <::sif::> Product Documentation
@@ -830,17 +830,16 @@ https://cloud.google.com/ <::sif::> Google Cloud Computing, Hosting Services &am
 https://code.google.com/p/v8-wiki/wiki/V8Profiler <::sif::> V8Profiler - v8-wiki - How to profile V8 using the built-in profiler. - V8 JavaScript Engine Wiki - Google Project Hosting
 https://code.google.com/p/v8/issues/detail?id=847 <::sif::> Issue 847 - v8 - 1gb memory limit - V8 JavaScript Engine - Google Project Hosting
 https://codinginthetrenches.com/2013/12/14/nginx-ipv6only-setting-gotcha/ <::sif::> Nginx ipv6only setting gotcha | Coding in the Trenches
-https://console.ng.bluemix.net/ <::sif::> -
+https://console.ng.bluemix.net/ <::sif::> IBM Bluemix - Next-Generation Cloud App Development Platform
 https://consul.io/ <::sif::> Consul by HashiCorp
 https://consul.io/docs/ <::sif::> Documentation - Consul by HashiCorp
 https://coolors.co/browser <::sif::> Coolors - The super fast color schemes generator!
-https://css-tricks.com/ <::sif::> -
+https://css-tricks.com/ <::sif::> CSS-Tricks
 https://css-tricks.com/building-a-circular-navigation-with-css-clip-paths/ <::sif::> Building A Circular Navigation with CSS Clip Paths | CSS-Tricks
 https://css-tricks.com/on-target/ <::sif::> On :target | CSS-Tricks
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <::sif::> -
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <::sif::> A Complete Guide to Flexbox | CSS-Tricks
-https://css-tricks.com/snippets/css/keyframe-animation-syntax/ <::sif::> -
-https://css-tricks.com/snippets/css/style-placeholder-text/ <::sif::> -
+https://css-tricks.com/snippets/css/keyframe-animation-syntax/ <::sif::> Keyframe Animation Syntax | CSS-Tricks
+https://css-tricks.com/snippets/css/style-placeholder-text/ <::sif::> Style Placeholder Text | CSS-Tricks
 https://cssanimation.rocks/ <::sif::> CSS Animation
 https://cssanimation.rocks/buffer/ <::sif::> Buffer's loading animation - CSS Animation
 https://dev.opera.com/ <::sif::> Dev.Opera
@@ -876,7 +875,7 @@ https://developers.google.com/speed/pagespeed/?csw=1 <::sif::> PageSpeed Tools &
 https://developers.google.com/speed/pagespeed/insights/ <::sif::> PageSpeed Insights
 https://developers.google.com/web/fundamentals/ <::sif::> Web Fundamentals — Google Developers
 https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching <::sif::> HTTP caching — Web Fundamentals
-https://developers.openshift.com/ <::sif::> -
+https://developers.openshift.com/ <::sif::>  Home | OpenShift Developers
 https://docs.docker.com/reference/commandline/cli/ <::sif::> Using the command line
 https://docs.docker.com/reference/commandline/commit/ <::sif::> commit
 https://docs.docker.com/userguide/dockerizing/ <::sif::> Dockerizing applications: A &#39;Hello world&#39;
@@ -901,7 +900,7 @@ https://dribbble.com/ <::sif::> Dribbble - Show and tell for designers
 https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Classes <::sif::> Ruby Programming/Syntax/Classes - Wikibooks, open books for an open world
 https://engineering.gosquared.com/error-handling-using-domains-node-js <::sif::> Crash safety using domains in Node.js - GoSquared Engineering
 https://engineering.linkedin.com/nodejs/blazing-fast-nodejs-10-performance-tips-linkedin-mobile <::sif::> Blazing fast node.js: 10 performance tips from LinkedIn Mobile | LinkedIn Engineering
-https://ericelliottjs.com/ <::sif::> Learn JavaScript -
+https://ericelliottjs.com/ <::sif::> Learn JavaScript
 https://ericelliottjs.com/product/programming-javascript-applications-paper-ebook-bundle/ <::sif::> Programming JavaScript Applications Paper &#038; eBook Bundle &#8211; Learn JavaScript
 https://esdiscuss.org/topic/finding-a-safety-syntax-for-classes <::sif::> Finding a &quot;safety syntax&quot; for classes
 https://evernote.com/ <::sif::>  The workspace for your life’s work | Evernote
@@ -1109,7 +1108,7 @@ https://linuxacademy.com/ <::sif::> Linux Training
 https://logging.apache.org/log4j/2.x/manual/async.html <::sif::> Log4j &#x2013; Log4j 2 Asynchronous Loggers for Low-Latency Logging - Apache Log4j 2
 https://lookback.io/ <::sif::> Understand users with Lookback
 https://lw.microstrategy.com/msdz/MSDL/901/docs/SSO_Typical_single_sign-on_workflow.htm <::sif::> Typical single sign-on workflow
-https://mailgun.com/app/dashboard <::sif::> -
+https://mailgun.com/app/dashboard <::sif::> Mailgun Dashboard
 https://mathiasbynens.be/demo/url-regex <::sif::> In search of the perfect URL validation regex
 https://medium.com/ <::sif::> Medium
 https://medium.com/@addyosmani/javascript-application-architecture-on-the-road-to-2015-d8125811101b <::sif::> JavaScript Application Architecture On The Road To 2015 — Google Developers — Medium
@@ -1159,7 +1158,7 @@ https://nodejs.org/api/timers.html <::sif::> Timers Node.js v0.12.7 Manual &amp;
 https://oav.net/mirrors/cidr.html <::sif::> CIDR SUBNET MASK CHEATSHEET & ICMP TYPE CODES
 https://pattle.github.io/simpsons-in-css/ <::sif::> The Simpsons in CSS
 https://people.mozilla.org/~jorendorff/es6-draft.html <::sif::> ECMAScript Language Specification ECMA-262 6th Edition &ndash; DRAFT
-https://plex.tv/ <::sif::> -
+https://plex.tv/ <::sif::> Plex: Your media on all your devices
 https://popcorntime.io/ <::sif::> Popcorn Time - Watch movies and TV shows instantly!
 https://prerender.io/ <::sif::> Prerender - AngularJS SEO, BackboneJS SEO, or EmberJS SEO
 https://puppetlabs.com/puppet/what-is-puppet <::sif::> What is Puppet? | Puppet Labs
@@ -1201,8 +1200,8 @@ https://strongloop.com/strongblog/improve-the-performance-of-the-node-js-https-s
 https://strongloop.com/strongblog/node-js-event-loop/ <::sif::> StrongLoop | Understanding the Node.js Event Loop
 https://strongloop.com/strongblog/node-js-performance-event-loop-monitoring/ <::sif::> StrongLoop | Node.js Performance Tip of the Week: Event Loop Monitoring
 https://strongloop.com/strongblog/node-js-react-isomorphic-javascript-why-it-matters/ <::sif::> StrongLoop | How to Implement Node + React Isomorphic JavaScript &amp; Why it Matters
-https://support.microsoft.com/en-us/kb/253169 <::sif::> -
-https://support.microsoft.com/en-us/kb/830555 <::sif::> -
+https://support.microsoft.com/en-us/kb/253169 <::sif::> Traffic That Can--and Cannot--Be Secured by IPSec
+https://support.microsoft.com/en-us/kb/830555 <::sif::> Circular references to DOM objects on an HTML page cause a memory leak
 https://taiga.io/ <::sif::> Taiga.Io | Agile, Open Source, Free Project Management System
 https://technet.microsoft.com/en-us/library/ms189132(v=sql.105).aspx <::sif::> Types of Concurrency Control
 https://the-pastry-box-project.net/ed-finkler/2014-july-6 <::sif::> The Developer's Dystopian Future
@@ -1228,14 +1227,14 @@ https://www.atlassian.com/software/crucible/overview <::sif::> Peer Code Review 
 https://www.atlassian.com/software/stash <::sif::> Enterprise Git Repository Management | Atlassian
 https://www.behance.net/ <::sif::> Online Portfolios on Behance
 https://www.box.com/ <::sif::>  Box | Secure Content & Online File Sharing for Businesses
-https://www.centos.org/docs/2/rhl-gsg-en-7.2/s1-zip-tar.html <::sif::> -
+https://www.centos.org/docs/2/rhl-gsg-en-7.2/s1-zip-tar.html <::sif::> File Compression and Archiving with Gzip, Zip, and Tar
 https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-services-chkconfig.html <::sif::> 15.5. chkconfig
 https://www.chef.io/chef/ <::sif::> Chef | IT automation for speed and awesomeness | Chef
 https://www.chromestatus.com/features <::sif::> Chrome Platform Status
 https://www.codeschool.com/ <::sif::> Learn to Code by Doing - Code School
 https://www.codeschool.com/blog/ <::sif::> Code School Blog - Supplement your learning by reading posts on educational strategy, technical tips, course previews, and all the haps at Code School.
 https://www.codeschool.com/paths/javascript <::sif::> JavaScript - Code School
-https://www.contentful.com/ <::sif::> -
+https://www.contentful.com/ <::sif::> Reach any screen. API-first CMS for multi-device publishing - Contentful
 https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html <::sif::> E.W. Dijkstra Archive: On the cruelty of really teaching computing science (EWD 1036)
 https://www.daniweb.com/software-development/python/threads/39004/what-does-__call__-method-do <::sif::> what does __call__() method do? - Python | DaniWeb
 https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04 <::sif::> How To Configure Sensu Monitoring, RabbitMQ, and Redis on Ubuntu 14.04 | DigitalOcean
@@ -1253,7 +1252,7 @@ https://www.dropbox.com/ <::sif::> Dropbox
 https://www.elastic.co/ <::sif::> Elastic · Revealing Insights from Data (Formerly Elasticsearch)
 https://www.elastic.co/found <::sif::>  Hosted Elasticsearch | Elastic
 https://www.elastic.co/products/kibana <::sif::>  Kibana: Explore, Visualize, Discover Data | Elastic
-https://www.facebook.com/ <::sif::> -
+https://www.facebook.com/ <::sif::> Update Your Browser | Facebook
 https://www.flickr.com/ <::sif::> Flickr, a Yahoo company | Flickr - Photo Sharing!
 https://www.flickr.com/groups/_typography/ <::sif::> Typography * | Flickr - Photo Sharing!
 https://www.fpcomplete.com/school/starting-with-haskell?show=tutorials <::sif::> Starting with Haskell - School of Haskell | FP Complete
@@ -1293,12 +1292,12 @@ https://www.linkedin.com/ <::sif::> World&#39;s Largest Professional Network | L
 https://www.linkedin.com/grp/post/49301-103760767 <::sif::> What does net.core.somaxconn exact means? | LinkedIn
 https://www.linode.com/ <::sif::> SSD Cloud Hosting - Linode
 https://www.linode.com/docs/tools-reference/tools/load-testing-with-siege <::sif::> Load Testing Web Servers with Siege - Linode Guides & Tutorials
-https://www.linode.com/docs/websites/nginx/basic-nginx-configuration/ <::sif::> -
+https://www.linode.com/docs/websites/nginx/basic-nginx-configuration/
 https://www.lucidchart.com/techblog/2015/07/21/selenium-7-things-you-need-to-know-2/ <::sif::> Selenium: 7 Things You Need To Know - Lucidchart
 https://www.meteor.com/ <::sif::> Meteor
 https://www.meteor.com/blog/2013/08/13/an-interesting-kind-of-javascript-memory-leak <::sif::> An interesting kind of JavaScript memory leak
 https://www.mnot.net/cache_docs/ <::sif::> Caching Tutorial for Web Authors and Webmasters
-https://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ <::sif::> -
+https://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ <::sif::>  Choosing an SSO Strategy: SAML vs OAuth2 | Mutually Human
 https://www.nczonline.net/blog/2014/04/22/creating-defensive-objects-with-es6-proxies/ <::sif::> Creating defensive objects with ES6 proxies - NCZOnline
 https://www.nginx.com/blog/nginx-nodejs-websockets-socketio/ <::sif::> Using NGINX with Node.js and Socket.IO, the WebSocket API
 https://www.nginx.com/blog/websocket-nginx/ <::sif::> NGINX as a WebSocket Proxy - NGINX

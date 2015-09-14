@@ -17,4 +17,7 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-let noTitleFoundForUrl = ( url ) => `no title found for: "${url}"; I'll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.`;
+
+export default {
+    noTitleFoundForUrl: ( url ) => `no title found for: "${url}"; I'll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.`
+};

@@ -40,7 +40,7 @@ import {
 } from '../lib/config/files';
 
 import {
-    noTitleForUrlFound
+    noTitleFoundForUrl
 } from '../lib/config/message';
 
 import {
@@ -164,7 +164,10 @@ backup.stdout.on( 'end', () => {
 
             let url = line.trim();
 
-            request( url, ( err, response, body ) => {
+            // {gzip: true} to add an `Accept-Encoding` header to the request.
+            // Although `request` library does automatic gzip decoding, certain websites
+            // get confused if the header is not present in the initial request.
+            request( {method: 'GET', 'uri': url, gzip: true}, ( err, response, body ) => {
                 remainingMetaDataRequests--;
 
                 if ( err || response.statusCode !== SUCCESS ) {
@@ -179,6 +182,11 @@ backup.stdout.on( 'end', () => {
                 if ( !result ) {
                     error( COMMAND, `Cannot find title in ${url}.` );
 
+                    // For debugging purposes:
+                    // console.log(replaced);
+
+                    tmpExistingFileWriteStream.write( `${url}\n` );
+
                     tryPersistTemporaryData();
 
                     return;
@@ -189,7 +197,7 @@ backup.stdout.on( 'end', () => {
                 if ( title ) {
                     tmpProcessedFileWriteStream.write( `${url} ${DELIMITER} ${title}\n` );
                 } else {
-                    err( COMMAND, noTitleForUrlFound( url ) ) ;
+                    error( COMMAND, noTitleFoundForUrl( url ) ) ;
 
                     tmpExistingFileWriteStream.write( `${url}\n` );
                 }
