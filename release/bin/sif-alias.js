@@ -44,10 +44,14 @@ var _libConfigConstants = require('../lib/config/constants');
 
 _commander2['default'].parse(process.argv);
 
+var COMMAND = 'alias';
+
 var args = _commander2['default'].args;
 
+var fsOptions = { encoding: 'utf8' };
+
 if (args.length < 2) {
-    (0, _libTerminalOut.printError)('alias', 'Invalid arguments. — Usage: "sif alias <shorthand> <query>".');
+    (0, _libTerminalOut.printError)(COMMAND, 'Invalid arguments. — Usage: "sif alias <shorthand> <query>".');
 
     process.exit(1);
 }
@@ -60,7 +64,7 @@ var lines = (0, _byline2['default'])(cat.stdout);
 
 var processed = false;
 
-var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_TMP_FILE, { encoding: 'utf8' });
+var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_TMP_FILE, fsOptions);
 
 lines.on('data', function (line) {
     var currentLine = line.toString();
@@ -85,32 +89,21 @@ lines.on('data', function (line) {
 });
 
 tempStream.on('finish', function () {
-    var aliasWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_FILE, { encoding: 'utf8' });
-
-    //console.log(ALIASES_TMP_FILE);
+    var aliasWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_FILE, fsOptions);
 
     var cat = (0, _child_process.spawn)('cat', [_libConfigFiles.ALIASES_TMP_FILE]);
-
-    cat.stdout.on('data', function (line) {
-        //console.log(';;;;;;;;');
-        //console.log('###', line.toString().split('\n'));
-        //console.log(';;;;;;;;');
-    });
-
     var sort = (0, _child_process.spawn)('sort', ['-u']);
 
     cat.stdout.pipe(sort.stdin);
 
-    //cat.stdout.on('data', (buffer) => sort.stdin.write(buffer) );
-
     var sortedLines = (0, _byline2['default'])(sort.stdout);
 
     sortedLines.on('data', function (line) {
-        return aliasWriteStream.write(line.toString() + '\n', 'utf8');
+        return aliasWriteStream.write(line.toString() + '\n');
     });
 
     aliasWriteStream.on('finish', function () {
-        return (0, _libTerminalOut.print)('alias', 'Done!');
+        return (0, _libTerminalOut.print)(COMMAND, 'Done!');
     });
 
     cat.stdout.on('end', function () {
@@ -122,16 +115,11 @@ tempStream.on('finish', function () {
 });
 
 lines.on('end', function () {
-    //console.log('ENDED!!!!! fiuxme');
-
     if (processed) {
-        //console.log('processed, so ending.')
         tempStream.end();
 
         return;
     }
-
-    //console.log('not processed, so appending.');
 
     tempStream.end('' + shorthand + _libConfigConstants.ALIAS_DELIMITER + query + '\n');
 });

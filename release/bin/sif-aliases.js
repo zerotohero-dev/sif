@@ -28,9 +28,11 @@ var _commander2 = _interopRequireDefault(_commander);
 
 var _libTerminalOut = require('../lib/terminal/out');
 
+var COMMAND = 'aliases';
+
 _commander2['default'].parse(process.argv);
 
-(0, _libTerminalOut.print)('aliases', 'Command not implemented yet!');
+(0, _libTerminalOut.print)(COMMAND, 'Command not implemented yet!');
 (0, _libTerminalOut.printBlank)();
 
 //# sourceMappingURL=sif-aliases.js.map

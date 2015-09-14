@@ -1,15 +1,24 @@
 {
   "name": "sif",
-  "version": "0.5.1",
+  "version": "0.6.2",
   "description": "Sifts important data so fast that it's \"t\" drops off.",
   "main": "release/bin/sif.js",
+  "preferGlobal": true,
+  "bin": { "sif": "./release/bin/sif.js"},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "./prepublish.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/v0lkan/sif.git"
   },
+  "directories": {
+    "lib": "./bin",
+    "doc": ".",
+    "example": "."
+  },
+  "os": [ "!win32" ],
   "keywords": [
     "sif",
     "sift",
@@ -22,14 +31,21 @@
     "command",
     "line",
     "gtd",
-    "utility"
+    "utility",
+    "util",
+    "cli"
   ],
-  "author": "Volkan Ozcelik",
+  "author": {
+    "name": "Volkan Ozcelik",
+    "email": "me@volkan.io",
+    "url": "http://volkan.io"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/v0lkan/sif/issues"
+    "url": "https://github.com/v0lkan/sif/issues",
+    "email": "me@volkan.io"
   },
-  "homepage": "https://github.com/v0lkan/sif#readme",
+  "homepage": "https://github.com/v0lkan/sif/blob/master/README.md",
   "dependencies": {
     "bluebird": "^2.10.0",
     "byline": "^4.2.1",
