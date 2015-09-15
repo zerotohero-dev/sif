@@ -17,9 +17,13 @@
 #      '.| /      <https://github.com/v0lkan/sif/issues>.
 #
 
+echo "Starting transpilation…"
+
 PD=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 cd $PD/..
 
 find . -name "*.es6" -type f -exec sh -c './devbin/transpile.sh ${0}' {} \;
+
+echo "Finished transpilation."
 

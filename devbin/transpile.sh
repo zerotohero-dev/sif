@@ -26,4 +26,8 @@ EXTENSION="${FILENAME##*.}"
 FILENAME="${FILENAME%.*}"
 DIR=$( dirname "$1" )
 
+echo "babel --source-maps --out-file $DIR/$FILENAME.js $1"
+
 babel --source-maps --out-file "$DIR/$FILENAME.js" $1
+
+echo "Done."
