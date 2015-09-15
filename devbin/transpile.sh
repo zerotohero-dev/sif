@@ -17,10 +17,13 @@
 #      '.| /      <https://github.com/v0lkan/sif/issues>.
 #
 
-cp -r lib release
-cp -r data release
-cp -r bin release
+PD=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-find release -name "*.es6" -delete
-find release -name "*.js.map" -delete
-find release -name "__tmp*" -delete
+cd $PD/..
+
+FILENAME=$( basename "$1" )
+EXTENSION="${FILENAME##*.}"
+FILENAME="${FILENAME%.*}"
+DIR=$( dirname "$1" )
+
+babel --source-maps --out-file "$DIR/$FILENAME.js" $1

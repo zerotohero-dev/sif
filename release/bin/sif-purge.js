@@ -28,11 +28,30 @@ var _commander2 = _interopRequireDefault(_commander);
 
 var _libTerminalOut = require('../lib/terminal/out');
 
+var _prompt = require('prompt');
+
 var COMMAND = 'purge';
 
 _commander2['default'].parse(process.argv);
 
-(0, _libTerminalOut.print)(COMMAND, 'Command not implemented yet!');
-(0, _libTerminalOut.printBlank)();
+var schema = {
+    properties: {
+        answer: {
+            description: 'This will IRREVERSIBLY delete everything. — Are you absolutely sure? [y/n]',
+            pattern: /^(yes|y|no|n)$/i,
+            message: 'Please reply with "yes" or "no".',
+            required: true
+        }
+    }
+};
+
+(0, _prompt.start)();
+
+(0, _prompt.get)(schema, function (err, result) {
+    console.log(result);
+});
+
+//print( COMMAND, 'Command not implemented yet!' );
+//blank();
 
 //# sourceMappingURL=sif-purge.js.map

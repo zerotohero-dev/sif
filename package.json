@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./prepublish.sh"
+    "prepublish": "./devbin/prepublish.sh",
+    "transpile": "./devbin/batch-transpile.sh"
   },
   "repository": {
     "type": "git",
