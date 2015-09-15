@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #    _,                            ,--.   ,---.
 #   /(_                     ,---.  `--'  /  .-'
 #  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -15,32 +17,23 @@
 #      '.| /      <https://github.com/v0lkan/sif/issues>.
 #
 
-## CI/CD
-lib-cov
-coverage
-.grunt
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+echo "Prepublish… Starting transpile."
+cd $DIR/..
 
-## Dependency directory
-node_modules
+./devbin/batch-transpile.sh
 
-## JetBrains-Generated
-.idea
-workspace.xml
-sif.iml
-Generated_files.xml
+echo "Transpilation done. Starting copying files…"
 
-## Temporary Files
-__tmp_existing
-__tmp_aliases
-__tmp_processed
-index.idx.backup
+cp -r bin release
+cp -r data release
+cp -r lib release
 
-## Generated Files
-bin/**/*.js
-bin/**/*.js.map
-lib/**/*.js
-lib/**/*.js.map
+echo "Finished copying files. Starting cleanup."
 
-## Vim-specific
-*.swp
-*.vim
+find release -name "*.es6" -delete
+find release -name "*.js.map" -delete
+find release -name "__tmp*" -delete
+
+echo "Finished cleanup. All done!"
+

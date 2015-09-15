@@ -1,3 +1,9 @@
+### sif 0.7.0
+
+* Implemented `purge` functionality.
+* Updated npm scripts; `npm publish` now does a transpilation before publishing
+things.
+
 ### sif 0.6.3
 
 * Certain gzip-encoded requests were not being parsed correctly; the issue

@@ -17,10 +17,13 @@
 #      '.| /      <https://github.com/v0lkan/sif/issues>.
 #
 
-cp -r lib release
-cp -r data release
-cp -r bin release
+echo "Starting transpilation…"
 
-find release -name "*.es6" -delete
-find release -name "*.js.map" -delete
-find release -name "__tmp*" -delete
+PD=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+cd $PD/..
+
+find . -name "*.es6" -type f -exec sh -c './devbin/transpile.sh ${0}' {} \;
+
+echo "Finished transpilation."
+

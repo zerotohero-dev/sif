@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #    _,                            ,--.   ,---.
 #   /(_                     ,---.  `--'  /  .-'
 #  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -15,32 +17,6 @@
 #      '.| /      <https://github.com/v0lkan/sif/issues>.
 #
 
-## CI/CD
-lib-cov
-coverage
-.grunt
+# `source` this for development purposes.
 
-## Dependency directory
-node_modules
-
-## JetBrains-Generated
-.idea
-workspace.xml
-sif.iml
-Generated_files.xml
-
-## Temporary Files
-__tmp_existing
-__tmp_aliases
-__tmp_processed
-index.idx.backup
-
-## Generated Files
-bin/**/*.js
-bin/**/*.js.map
-lib/**/*.js
-lib/**/*.js.map
-
-## Vim-specific
-*.swp
-*.vim
+alias s=./bin/sif.js

@@ -21,11 +21,43 @@
 
 import program from 'commander';
 
+import { createWriteStream as write } from 'fs';
+import { start, get } from 'prompt';
+
 import { print, printBlank as blank } from '../lib/terminal/out';
+
+import {
+    ALIASES_FILE,
+    INDEX_FILE
+} from '../lib/config/files'
 
 const COMMAND = 'purge';
 
 program.parse( process.argv );
 
-print( COMMAND, 'Command not implemented yet!' );
-blank();
+let schema = {
+    properties: {
+        answer: {
+            description: 'This will IRREVERSIBLY delete everything. — Are you absolutely sure? [yes/no]',
+            pattern: /^(yes|no)$/i,
+            message: 'Please reply with "yes" or "no".',
+            required: true
+        }
+    }
+};
+
+start();
+
+get( schema, ( err, result ) => {
+    let answer = result.answer;
+
+    if ( answer.toLowerCase() === 'yes' ) {
+        write( ALIASES_FILE ).write( '' );
+        write( INDEX_FILE ).write( '' );
+
+        print( COMMAND, 
+            'Wiped everything! It\'s as clean as a baby\'s butt.' 
+        );
+    }
+} );
+
