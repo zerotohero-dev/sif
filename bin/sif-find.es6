@@ -30,7 +30,7 @@ const COMMAND = 'find';
 program.parse(process.argv);
 
 search(
-    program.args.length ? program.args[0] : '*',
-    (found) => print(COMMAND, found),
-    () => print(COMMAND, 'Done.')
+    program.args.length ? program.args[ 0 ] : '*',
+    ( found ) => print( COMMAND, found ),
+    () => print( COMMAND, 'Done.')
 );

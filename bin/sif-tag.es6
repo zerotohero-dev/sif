@@ -21,11 +21,15 @@
 
 import program from 'commander';
 
-import { print, printBlank as blank } from '../lib/terminal/out';
+import { print, error } from '../lib/terminal/out';
 
 program.parse( process.argv );
 
 const COMMAND = 'tag';
 
-print( COMMAND, 'Command not implemented yet!' );
-blank();
+if ( program.args.length === 0 ) {
+
+    exit(1);
+}
+
+
