@@ -208,6 +208,7 @@ http://getfirebug.com/ <::sif::> Firebug
 http://getskeleton.com/ <::sif::> Skeleton: Responsive CSS Boilerplate
 http://gionkunz.github.io/chartist-js/ <::sif::> Chartist - Simple responsive charts
 http://git-scm.com/docs/git-revert <::sif::> Git - git-revert Documentation
+http://git.wincent.com/command-t.git/blob_plain/HEAD:/doc/command-t.txt
 http://githubengineering.com/exception-monitoring-and-response/ <::sif::>  Exception Monitoring and Response - GitHub Engineering
 http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html <::sif::> git ready &raquo; squashing commits with rebase
 http://gradle.org/ <::sif::> Gradle l Endgame Open-Source Enterprise Build Automation
@@ -447,6 +448,7 @@ http://stackoverflow.com/questions/1911015/how-to-debug-node-js-applications/165
 http://stackoverflow.com/questions/20058566/node-js-and-ulimit <::sif::> ubuntu - Node.js and ulimit - Stack Overflow
 http://stackoverflow.com/questions/20351637/how-to-create-a-simple-http-proxy-in-node-js <::sif::> javascript - How to create a simple http proxy in node.js? - Stack Overflow
 http://stackoverflow.com/questions/2117771/is-it-possible-to-run-one-logrotate-check-manually <::sif::> logging - Is it possible to run one logrotate check manually? - Stack Overflow
+http://stackoverflow.com/questions/2197461/how-to-set-an-alias-inside-a-bash-shell-script-so-that-is-it-visible-from-the-ou <::sif::> How to set an alias inside a bash shell script so that is it visible from the outside? - Stack Overflow
 http://stackoverflow.com/questions/22544754/failed-to-build-gem-native-extension-installing-compass <::sif::> ruby - Failed to build gem native extension (installing Compass) - Stack Overflow
 http://stackoverflow.com/questions/2641489/what-is-a-thunk <::sif::> c++ - What is a &#39;thunk&#39;? - Stack Overflow
 http://stackoverflow.com/questions/29325665/node-js-file-write-in-loop-fails-randomly <::sif::> javascript - Node.js file write in loop fails randomly - Stack Overflow
@@ -530,11 +532,14 @@ http://uxmovement.com/navigation/why-hover-menus-do-users-more-harm-than-good/ <
 http://uxmyths.com/ <::sif::> UX Myths
 http://validator.w3.org/ <::sif::> The W3C Markup Validation Service
 http://vim.wikia.com/wiki/All_the_right_moves <::sif::> All the right moves - Vim Tips Wiki
+http://vim.wikia.com/wiki/Change_font <::sif::> Change font - Vim Tips Wiki
 http://vim.wikia.com/wiki/Search_and_replace <::sif::> Search and replace - Vim Tips Wiki
 http://vim.wikia.com/wiki/Vim_Tips_Wiki <::sif::> Vim Tips Wiki
+http://vimawesome.com <::sif::> Vim Awesome
 http://vimawesome.com/ <::sif::> Vim Awesome
 http://vimcolors.com/ <::sif::> Vim Colors
 http://vimdoc.sourceforge.net/htmldoc/scroll.html <::sif::> Vim documentation: scroll
+http://vimr.org <::sif::> VimR — Refined Vim Experience For OS X
 http://vision.is.tohoku.ac.jp/~kyamagu/ <::sif::> Kota Yamaguchi
 http://w3c.github.io/resource-hints/ <::sif::> Resource Hints
 http://wave.webaim.org/ <::sif::> WAVE Web Accessibility Tool
@@ -933,6 +938,7 @@ https://github.com/ <::sif::> GitHub · Where software is built
 https://github.com/CSSLint/csslint <::sif::> CSSLint/csslint · GitHub
 https://github.com/CrossEye/ramda <::sif::> CrossEye/ramda · GitHub
 https://github.com/JustinTulloss/zeromq.node <::sif::> JustinTulloss/zeromq.node · GitHub
+https://github.com/Lokaltog/vim-powerline <::sif::> Lokaltog/vim-powerline · GitHub
 https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills <::sif::> HTML5 Cross Browser Polyfills · Modernizr/Modernizr Wiki · GitHub
 https://github.com/Nathanaela/v8-natives <::sif::> NathanaelA/v8-Natives · GitHub
 https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey <::sif::> Chaos Monkey · Netflix/SimianArmy Wiki · GitHub
@@ -940,6 +946,7 @@ https://github.com/PaperElectron/Sundry <::sif::> PaperElectron/Sundry · GitHub
 https://github.com/Reactive-Extensions/RxJS <::sif::> Reactive-Extensions/RxJS · GitHub
 https://github.com/ReactiveX/RxJava <::sif::> ReactiveX/RxJava · GitHub
 https://github.com/Unitech/pm2 <::sif::> Unitech/PM2 · GitHub
+https://github.com/VundleVim/Vundle.vim <::sif::> VundleVim/Vundle.vim · GitHub
 https://github.com/Yalantis/PullToMakeSoup <::sif::> Yalantis/PullToMakeSoup · GitHub
 https://github.com/YuzuJS/setImmediate <::sif::> YuzuJS/setImmediate · GitHub
 https://github.com/ageitgey/node-unfluff <::sif::> ageitgey/node-unfluff · GitHub
@@ -954,6 +961,7 @@ https://github.com/batmanjs/batman <::sif::> batmanjs/batman · GitHub
 https://github.com/bendc/sprint <::sif::> bendc/sprint · GitHub
 https://github.com/bevacqua/woofmark/blob/master/readme.markdown <::sif::> woofmark/readme.markdown at master · bevacqua/woofmark · GitHub
 https://github.com/bevry/caterpillar <::sif::> bevry/caterpillar · GitHub
+https://github.com/blueshirts/darcula <::sif::> blueshirts/darcula · GitHub
 https://github.com/bnoordhuis/node-heapdump <::sif::> bnoordhuis/node-heapdump · GitHub
 https://github.com/bnoordhuis/node-profiler <::sif::> bnoordhuis/node-profiler · GitHub
 https://github.com/bumptech/stud <::sif::> bumptech/stud · GitHub
@@ -974,6 +982,7 @@ https://github.com/dtrace4linux/linux <::sif::> dtrace4linux/linux · GitHub
 https://github.com/dumbmatter/fakeIndexedDB <::sif::> dumbmatter/fakeIndexedDB · GitHub
 https://github.com/ericdouglas/ES6-Learning <::sif::> ericdouglas/ES6-Learning · GitHub
 https://github.com/ericf/express-handlebars <::sif::> ericf/express-handlebars · GitHub
+https://github.com/ervandew/supertab <::sif::> ervandew/supertab · GitHub
 https://github.com/eventmachine/eventmachine <::sif::> eventmachine/eventmachine · GitHub
 https://github.com/expressjs/body-parser <::sif::> expressjs/body-parser · GitHub
 https://github.com/fanout/zurl <::sif::> fanout/zurl · GitHub
@@ -997,6 +1006,7 @@ https://github.com/hgarc014/git-game <::sif::> git-game/git-game · GitHub
 https://github.com/hueniverse/iron <::sif::> hueniverse/iron · GitHub
 https://github.com/indexzero/http-server <::sif::> indexzero/http-server · GitHub
 https://github.com/indexzero/winston <::sif::> indexzero/winston · GitHub
+https://github.com/isRuslan/vim-es6 <::sif::> isRuslan/vim-es6 · GitHub
 https://github.com/isaacs/fast-list <::sif::> isaacs/fast-list · GitHub
 https://github.com/isaacs/node-supervisor <::sif::> petruisfan/node-supervisor · GitHub
 https://github.com/ivopetkov/responsively-lazy <::sif::> ivopetkov/responsively-lazy · GitHub
@@ -1004,6 +1014,7 @@ https://github.com/jahewson/node-byline <::sif::> jahewson/node-byline · GitHub
 https://github.com/jariz/vibrant.js <::sif::> jariz/vibrant.js · GitHub
 https://github.com/jayway/JsonPath <::sif::> jayway/JsonPath · GitHub
 https://github.com/jfromaniello/express-unless <::sif::> jfromaniello/express-unless · GitHub
+https://github.com/jlanzarotta/bufexplorer <::sif::> jlanzarotta/bufexplorer · GitHub
 https://github.com/joeferner/node-sf <::sif::> joeferner/node-sf · GitHub
 https://github.com/joyent <::sif::> Joyent · GitHub
 https://github.com/joyent/nhttpsnoop <::sif::> joyent/nhttpsnoop · GitHub
@@ -1019,12 +1030,14 @@ https://github.com/kriskowal/q <::sif::> kriskowal/q · GitHub
 https://github.com/linkedin/dustjs/wiki/Dust-Tutorial <::sif::> Dust Tutorial · linkedin/dustjs Wiki · GitHub
 https://github.com/lloyd/node-memwatch <::sif::> lloyd/node-memwatch · GitHub
 https://github.com/lucagrulla/node-tail <::sif::> lucagrulla/node-tail · GitHub
+https://github.com/luochen1990/rainbow <::sif::> luochen1990/rainbow · GitHub
 https://github.com/mateodelnorte/servicebus <::sif::> mateodelnorte/servicebus · GitHub
 https://github.com/mateodelnorte/sourced <::sif::> mateodelnorte/sourced · GitHub
 https://github.com/mochajs/mocha <::sif::> mochajs/mocha · GitHub
 https://github.com/mozilla-services/heka/wiki/Sample--etc-init.d-hekad-file <::sif::> Sample etc init.d hekad file · mozilla-services/heka Wiki · GitHub
 https://github.com/mranney/node_redis <::sif::> NodeRedis/node_redis · GitHub
 https://github.com/msemenistyi/hypnos <::sif::> msemenistyi/hypnos · GitHub
+https://github.com/nathanaelkane/vim-indent-guides <::sif::> nathanaelkane/vim-indent-guides · GitHub
 https://github.com/node-inspector/node-inspector <::sif::> node-inspector/node-inspector · GitHub
 https://github.com/node-inspector/v8-profiler <::sif::> node-inspector/v8-profiler · GitHub
 https://github.com/nodejitsu/node-http-proxy <::sif::> nodejitsu/node-http-proxy · GitHub
@@ -1072,6 +1085,7 @@ https://github.com/tj/cluster-live <::sif::> tj/cluster-live · GitHub
 https://github.com/tj/commander.js <::sif::> tj/commander.js · GitHub
 https://github.com/tj/node-progress <::sif::> tj/node-progress · GitHub
 https://github.com/tj/reds <::sif::> tj/reds · GitHub
+https://github.com/tpope/vim-surround <::sif::> tpope/vim-surround · GitHub
 https://github.com/traceglMPL/tracegl <::sif::> traceglMPL/tracegl · GitHub
 https://github.com/trentm/node-bunyan <::sif::> trentm/node-bunyan · GitHub
 https://github.com/unisonweb/platform <::sif::> unisonweb/platform · GitHub

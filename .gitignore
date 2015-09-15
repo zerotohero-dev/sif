@@ -40,3 +40,7 @@ bin/**/*.js
 bin/**/*.js.map
 lib/**/*.js
 lib/**/*.js.map
+
+## Vim-specific
+*.swp
+*.vim
