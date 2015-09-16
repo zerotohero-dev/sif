@@ -34,6 +34,6 @@ program
     .command('rmtag <query> [tag1 tag2...]', 'Removes tags from all the results that match the search query <query>.')
     .command('purge', 'Removes ALL the indexed data, and ALL the aliases. This process is IRREVERSIBLE.')
     .command('update', 'Updates and re-sorts the index by fetching metadata for the newly-added items.')
-    .command('find <what>', 'Performs a search. See README.md for details.')
+    .command('find <what> [options]', 'Performs a search. See README.md for details.')
     .parse(process.argv);
 

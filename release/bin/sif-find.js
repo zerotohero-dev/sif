@@ -32,12 +32,30 @@ var _libQuery = require('../lib/query');
 
 var COMMAND = 'find';
 
-_commander2['default'].option('-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.').parse(process.argv);
+_commander2['default']
+// TODO: add this `usage` block to all the subcommands.
+.usage('<what> [options]')
+//    .command('<what>')
+.option('-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.')
+//    .action(() => {
+//        console.log('action');
+//        console.log('action');
+//        console.log('action');
+//        console.log('action');
+//        //console.log('options', what, options);
+//    })
+.parse(process.argv);
 
-(0, _libQuery.find)(_commander2['default'].args.length ? _commander2['default'].args[0] : '*', _commander2['default'].invert, function (found) {
-    return (0, _libTerminalOut.print)(COMMAND, found);
-}, function () {
-    return (0, _libTerminalOut.print)(COMMAND, 'Done.');
-});
+//console.log(program.commands[0].invert);
+//console.log(program.commands[0].args);
+
+console.log(_commander2['default']);
+
+//search(
+//    program.args.length ? program.args[ 0 ] : '*',
+//   program.invert,
+// ( found ) => print( COMMAND, found ),
+//   () => print( COMMAND, 'Done.')
+//);
 
 //# sourceMappingURL=sif-find.js.map
