@@ -167,6 +167,7 @@ backup.stdout.on('end', function () {
 
         if (needsProcessing) {
             var _ret = (function () {
+
                 console.log('needs processing ' + line.toString());
 
                 remainingMetaDataRequests++;

@@ -58,9 +58,17 @@ let resolveAliasedQuery = ( aliased ) => {
     } );
 };
 
-let searchForQuery = ( query, notifyData, notifyEnd ) => {
+let searchForQuery = ( query, inverted, notifyData, notifyEnd ) => {
+    let eGrepOptions = [ '-i' ];
+
+    if (inverted) {
+        eGrepOptions.push( '-v' );
+    }
+
+    eGrepOptions.push( query );
+
     let child = spawn( 'cat', [ INDEX_FILE ] );
-    let filter = spawn( 'egrep', [ '-i', query ] );
+    let filter = spawn( 'egrep', eGrepOptions );
 
     let lines = createLineStream();
 
@@ -77,10 +85,11 @@ let searchForQuery = ( query, notifyData, notifyEnd ) => {
     } );
 };
 
-let find = ( query, notifyData, notifyEnd ) => {
+let find = ( query, inverted, notifyData, notifyEnd ) => {
     resolveAliasedQuery( query ).then(
-        ( query ) => searchForQuery( query, notifyData, notifyEnd )
+        ( query ) => searchForQuery( query, inverted, notifyData, notifyEnd )
     );
 };
 
 export { find };
+

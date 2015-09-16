@@ -34,7 +34,7 @@ var COMMAND = 'find';
 
 _commander2['default'].option('-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.').parse(process.argv);
 
-(0, _libQuery.find)(_commander2['default'].args.length ? _commander2['default'].args[0] : '*', option.invert, function (found) {
+(0, _libQuery.find)(_commander2['default'].args.length ? _commander2['default'].args[0] : '*', _commander2['default'].invert, function (found) {
     return (0, _libTerminalOut.print)(COMMAND, found);
 }, function () {
     return (0, _libTerminalOut.print)(COMMAND, 'Done.');

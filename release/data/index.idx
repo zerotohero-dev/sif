@@ -7,8 +7,7 @@ http://addyosmani.com/blog/mutation-observers/ <::sif::> Detect, Undo And Redo D
 http://addyosmani.com/resources/essentialjsdesignpatterns/book/ <::sif::> Learning JavaScript Design Patterns <::tags::>
 http://aelgru.github.io/ <::sif::> Visual Experiments <::tags::>
 http://agilemanifesto.org/ <::sif::> Manifesto for Agile Software Development <::tags::>
-http://alistapart.com <::sif::> A List Apart: For People Who Make Websites <::tags::>
-http://alistapart.com/ <::sif::> A List Apart: For People Who Make Websites
+http://alistapart.com/ <::sif::> A List Apart: For People Who Make Websites <::tags::>
 http://alistapart.com/article/application-cache-is-a-douchebag <::sif::> Application Cache is a Douchebag · An A List Apart Article <::tags::>
 http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity <::sif::> Designing Safer Web Animation For Motion Sensitivity · An A List Apart Article <::tags::>
 http://ant.apache.org/ <::sif::> Apache Ant - Welcome <::tags::>
@@ -144,7 +143,7 @@ http://dialelo.github.io/application-architecture-with-react-rethinking-flux.htm
 http://discuss.joelonsoftware.com/default.asp?joel.3.219431.12& <::sif::> The Joel on Software Discussion Group (CLOSED) - Why I Hate Frameworks <::tags::>
 http://diveintohtml5.info/ <::sif::> Dive Into HTML5 <::tags::>
 http://diveintohtml5.info/offline.html <::sif::> Offline Web Applications - Dive Into HTML5 <::tags::>
-http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html <::sif::> Choosing a Routing Policy - Amazon Route&nbsp;53
+http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html <::sif::> Choosing a Routing Policy - Amazon Route&nbsp;53 <::tags::>
 http://docs.libuv.org/en/v1.x/ <::sif::> Welcome to the libuv API documentation &mdash; libuv API documentation <::tags::>
 http://docs.openstack.org/ <::sif::>  OpenStack Docs: Current <::tags::>
 http://docs.openstack.org/developer/devstack/ <::sif::> DevStack - an OpenStack Community Production &mdash; DevStack 0.0.1.dev6499 documentation <::tags::>
@@ -214,7 +213,7 @@ http://getfirebug.com/ <::sif::> Firebug <::tags::>
 http://getskeleton.com/ <::sif::> Skeleton: Responsive CSS Boilerplate <::tags::>
 http://gionkunz.github.io/chartist-js/ <::sif::> Chartist - Simple responsive charts <::tags::>
 http://git-scm.com/docs/git-revert <::sif::> Git - git-revert Documentation <::tags::>
-http://git.wincent.com/command-t.git/blob_plain/HEAD:/doc/command-t.txt <::tags::>
+http://git.wincent.com/command-t.git/blob_plain/HEAD:/doc/command-t.txt <::sif::> Command-T: A vim Plugin to Intelligently Find Things <::tags::>
 http://githubengineering.com/exception-monitoring-and-response/ <::sif::>  Exception Monitoring and Response - GitHub Engineering <::tags::>
 http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html <::sif::> git ready &raquo; squashing commits with rebase <::tags::>
 http://gogs.io <::sif::> Gogs: Go Git Service - A painless self-hosted Git service <::tags::>
@@ -296,7 +295,7 @@ http://linkedin.github.io/dustjs/test/test.html <::sif::> dust <::tags::>
 http://linux.die.net/man/2/listen <::sif::> listen(2): listen for connections on socket - Linux man page <::tags::>
 http://linux.die.net/man/3/write <::sif::> write(3): on file - Linux man page <::tags::>
 http://linuxcommand.org/lts0080.php <::sif::> Learning the shell - Lesson 8: Job Control <::tags::>
-http://logging.apache.org/log4j/ <::tags::>
+http://logging.apache.org/log4j/ <::sif::> Apache log4j — A logging library <::tags::>
 http://lorempixel.com/ <::sif::> lorempixel - placeholder images for every case <::tags::>
 http://lunrjs.com/ <::sif::> lunr.js - A bit like Solr, but much smaller and not as bright <::tags::>
 http://mac.appstorm.net/ <::sif::>  Mac.AppStorm <::tags::>
@@ -515,7 +514,7 @@ http://thesecretlivesofdata.com/raft/ <::sif::> Raft <::tags::>
 http://thetrendythings.com/read/13256 <::sif::> CPU Flame Graphs <::tags::>
 http://thlorenz.com/ <::sif::> thlorenz.com home <::tags::>
 http://thlorenz.com/v8-perf/ <::sif::> v8-perf <::tags::>
-http://thumbor.org <::tags::>
+http://thumbor.org <::sif::> open-source smart on-demand image cropping, resizing and filters <::tags::>
 http://tjholowaychuk.tumblr.com/ <::sif::> TJ Holowaychuk <::tags::>
 http://tjholowaychuk.tumblr.com/post/543349452/apachebench-gnuplot-graphing-benchmarks <::sif::> ApacheBench GnuPlot Graphing Benchmarks - TJ Holowaychuk <::tags::>
 http://toddfredrich.com/ <::sif::> ToddFredrich.com - RESTful/Platform APIs and Examples, Tutorials and the Software Craft. Mostly...ToddFredrich.com <::tags::>
@@ -726,7 +725,7 @@ http://www.relativewave.com/form/ <::sif::> RelativeWave - Form <::tags::>
 http://www.researchgate.net/post/What_are_the_advantages_and_disadvantages_of_functional_programming <::sif::> What are the advantages and disadvantages of functional programming? - ResearchGate <::tags::>
 http://www.restapitutorial.com/resources.html <::sif::> RESTful Web Services Resources <::tags::>
 http://www.revsys.com/writings/quicktips/ssh-tunnel.html <::sif::> HOWTO: SSH Tunneling Made Easy <::tags::>
-http://www.rfc-editor.org/rfc/rfc7540.txt <::tags::>
+http://www.rfc-editor.org/rfc/rfc7540.txt <::sif::> Hypertext Transfer Protocol Version 2 (HTTP/2) <::tags::>
 http://www.robohornet.org/ <::sif::> RoboHornet <::tags::>
 http://www.rorsecurity.info/ <::sif::> Ruby on Rails Security Project | Hand-picked Rails security resources <::tags::>
 http://www.rpm.org/max-rpm/ch-rpm-install.html <::sif::> Using RPM to Install Packages <::tags::>
@@ -1354,7 +1353,7 @@ https://www.linkedin.com/ <::sif::> World&#39;s Largest Professional Network | L
 https://www.linkedin.com/grp/post/49301-103760767 <::sif::> What does net.core.somaxconn exact means? | LinkedIn <::tags::>
 https://www.linode.com/ <::sif::> SSD Cloud Hosting - Linode <::tags::>
 https://www.linode.com/docs/tools-reference/tools/load-testing-with-siege <::sif::> Load Testing Web Servers with Siege - Linode Guides & Tutorials <::tags::>
-https://www.linode.com/docs/websites/nginx/basic-nginx-configuration/ <::tags::>
+https://www.linode.com/docs/websites/nginx/basic-nginx-configuration/ <::sif::> How to Configure Nginx <::tags::>
 https://www.lucidchart.com/techblog/2015/07/21/selenium-7-things-you-need-to-know-2/ <::sif::> Selenium: 7 Things You Need To Know - Lucidchart <::tags::>
 https://www.meteor.com/ <::sif::> Meteor <::tags::>
 https://www.meteor.com/blog/2013/08/13/an-interesting-kind-of-javascript-memory-leak <::sif::> An interesting kind of JavaScript memory leak <::tags::>

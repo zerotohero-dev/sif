@@ -32,7 +32,7 @@ program
 
 search(
     program.args.length ? program.args[ 0 ] : '*',
-    option.invert,
+    program.invert,
     ( found ) => print( COMMAND, found ),
     () => print( COMMAND, 'Done.')
 );
