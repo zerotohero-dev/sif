@@ -26,22 +26,18 @@ var _commander = require('commander');
 
 var _commander2 = _interopRequireDefault(_commander);
 
-var _byline = require('byline');
-
-var _byline2 = _interopRequireDefault(_byline);
-
 var _libTerminalOut = require('../lib/terminal/out');
 
 var _libQuery = require('../lib/query');
 
 var COMMAND = 'find';
 
-_commander2['default'].parse(process.argv);
+_commander2['default'].option('-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.').parse(process.argv);
 
-(0, _libQuery.find)(_commander2['default'].args.length ? _commander2['default'].args[0] : '*', function (found) {
-  return (0, _libTerminalOut.print)(COMMAND, found);
+(0, _libQuery.find)(_commander2['default'].args.length ? _commander2['default'].args[0] : '*', option.invert, function (found) {
+    return (0, _libTerminalOut.print)(COMMAND, found);
 }, function () {
-  return (0, _libTerminalOut.print)(COMMAND, 'Done.');
+    return (0, _libTerminalOut.print)(COMMAND, 'Done.');
 });
 
 //# sourceMappingURL=sif-find.js.map

@@ -151,6 +151,8 @@ backup.stdout.on( 'end', () => {
         let malformed = !needsProcessing && !alreadyProcessed;
 
         if ( malformed ) {
+            console.log('malformed');
+
             error(
                 COMMAND,
                 `badly-formatted line: "${line.replace( MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT )}"`
@@ -160,9 +162,14 @@ backup.stdout.on( 'end', () => {
         }
 
         if ( needsProcessing ) {
+
+            console.log('needs processing ' + line.toString());
+
             remainingMetaDataRequests++;
 
             let url = line.trim();
+
+            console.log(url);
 
             // {gzip: true} to add an `Accept-Encoding` header to the request.
             // Although `request` library does automatic gzip decoding, certain websites
@@ -171,10 +178,14 @@ backup.stdout.on( 'end', () => {
                 remainingMetaDataRequests--;
 
                 if ( err || response.statusCode !== SUCCESS ) {
+                    console.log(err);
+
                     tryPersistTemporaryData();
 
                     return;
                 }
+
+                console.log(url);
 
                 let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
                 let result = MATCH_PAGE_TITLE.exec( replaced );
@@ -206,6 +217,10 @@ backup.stdout.on( 'end', () => {
             });
 
             return;
+        }
+        
+        if (line.indexOf('wincent') > 0) {
+            console.log('found it');
         }
 
         tmpExistingFileWriteStream.write( `${line.trim()}\n` );

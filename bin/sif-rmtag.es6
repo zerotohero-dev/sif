@@ -20,20 +20,3 @@
  */
 
 import program from 'commander';
-
-import { print } from '../lib/terminal/out';
-import { find as search } from '../lib/query';
-
-const COMMAND = 'find';
-
-program
-    .option( '-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.' )
-    .parse( process.argv );
-
-search(
-    program.args.length ? program.args[ 0 ] : '*',
-    option.invert,
-    ( found ) => print( COMMAND, found ),
-    () => print( COMMAND, 'Done.')
-);
-

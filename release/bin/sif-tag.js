@@ -32,7 +32,30 @@ _commander2['default'].parse(process.argv);
 
 var COMMAND = 'tag';
 
-(0, _libTerminalOut.print)(COMMAND, 'Command not implemented yet!');
-(0, _libTerminalOut.printBlank)();
+if (_commander2['default'].args.length === 0) {
+  (0, _libTerminalOut.error)(COMMAND, 'Usage: sif tag [searchExpression] [tagName]');
+  exit(1);
+}
+
+var query = _commander2['default'].args[0];
+var tags = _commander2['default'].args.splice(1);
+
+// update the query library to perform an inverted search.
+
+// Perform an inverted search with query, save it to a temp file.
+// When file is closed, perform a search with query
+//    for each line split the line into non-tag, and tag portions
+//    for the tag portion compile a tags array.
+//    for every tag that is not contained in the tags array
+//    add that tag to the search array.
+//    sort the array.
+//    concat the nontag part with the sorted and parsed tags.
+//    append the result to the temp file.
+// when temp file is closed, backup index.idx and
+//  save the sorted temp file onto index.idx
+// console.log( program.args );
+
+// rmtag will work similarly, and instead of adding into the array it will
+// remove from the array.
 
 //# sourceMappingURL=sif-tag.js.map

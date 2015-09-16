@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 'use strict';
 
 /*    _,                            ,--.   ,---.
@@ -19,21 +20,10 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-import program from 'commander';
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-import { print } from '../lib/terminal/out';
-import { find as search } from '../lib/query';
+var _commander = require('commander');
 
-const COMMAND = 'find';
+var _commander2 = _interopRequireDefault(_commander);
 
-program
-    .option( '-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.' )
-    .parse( process.argv );
-
-search(
-    program.args.length ? program.args[ 0 ] : '*',
-    option.invert,
-    ( found ) => print( COMMAND, found ),
-    () => print( COMMAND, 'Done.')
-);
-
+//# sourceMappingURL=sif-rmtag.js.map
