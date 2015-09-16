@@ -4,12 +4,14 @@ http://52weeksofux.com/ <::sif::> 52 Weeks of UX
 http://960.gs/ <::sif::> 960 Grid System
 http://a-jie.github.io/Agile/ <::sif::> Agile Css3 Engine
 http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified <::sif::> OAuth 2 Simplified - Aaron Parecki
+http://addyosmani.com/blog/mutation-observers/ <::sif::> Detect, Undo And Redo DOM Changes With Mutation Observers
 http://addyosmani.com/resources/essentialjsdesignpatterns/book/ <::sif::> Learning JavaScript Design Patterns
 http://aelgru.github.io/ <::sif::> Visual Experiments
 http://agilemanifesto.org/ <::sif::> Manifesto for Agile Software Development
 http://alistapart.com <::sif::> A List Apart: For People Who Make Websites
 http://alistapart.com/ <::sif::> A List Apart: For People Who Make Websites
 http://alistapart.com/article/application-cache-is-a-douchebag <::sif::> Application Cache is a Douchebag · An A List Apart Article
+http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity <::sif::> Designing Safer Web Animation For Motion Sensitivity · An A List Apart Article
 http://ant.apache.org/ <::sif::> Apache Ant - Welcome
 http://anthonycalzadilla.com/css3-ATAT/index.html <::sif::> Pure CSS3 AT-AT Walker by: Anthony Calzadilla
 http://appium.io/ <::sif::> Appium: Mobile App Automation Made Awesome.
@@ -84,6 +86,7 @@ http://caniuse.com/ <::sif::> Can I use... Support tables for HTML5, CSS3, etc
 http://cantina.co/automated-dns-for-aws-instances-using-route-53/ <::sif::> Automated DNS for AWS Instances Using Route 53 | Cantina
 http://cassandra.apache.org/ <::sif::> The Apache Cassandra Project
 http://cbonte.github.io/haproxy-dconv/configuration-1.5.html <::sif::> HAProxy version 1.5.14 - Configuration Manual
+http://ceph.com <::sif::> Home Ceph
 http://chadfowler.com/blog/2014/01/22/the-crunch-mode-antipattern/ <::sif::> Killing the Crunch Mode Antipattern - Chad Fowler
 http://chaijs.com/ <::sif::> Home - Chai
 http://challengepost.com/ <::sif::> Devpost - Hackathons, App Contests, and Hackers
@@ -101,9 +104,11 @@ http://codepen.io/DeptofJeffAyer/full/waLYxy/ <::sif::> CodePen - Button, button
 http://codepen.io/Yakudoo/pen/rVGraP <::sif::> holy running cow
 http://codepen.io/callmenick/pen/XbdxbV <::sif::> Old
 http://codepen.io/fbrz/pen/whxbF <::sif::> CSS 3D Bending Effect - Page Flip
+http://codepen.io/jakealbaugh/pen/JYYENm <::sif::> CSS Scroll Jacking Demo Using `:hover`
 http://codepen.io/juliangarnier/pen/idhuG <::sif::> CSS 3D Solar System
 http://codepen.io/lbebber/pen/OPWXEd <::sif::> CSS Fake blend preloader
 http://codepen.io/maccadb7/pen/nbHEg <::sif::> Modal - Pure CSS (no Javascript)
+http://codepen.io/pixelass/pen/zvvJoX <::sif::> #2 Bomb those bees | beesandbombs remakes
 http://codepen.io/thebabydino/full/doBLxx/ <::sif::> CodePen - Nightly Sea Creatures
 http://codyhouse.co/demo/back-to-top/index.html <::sif::> Back To Top | Cody
 http://codyhouse.co/demo/smart-fixed-navigation/index.html <::sif::> Smart Fixed Navigation
@@ -121,6 +126,7 @@ http://css3test.com/ <::sif::> The CSS3 Test
 http://cssdeck.com/ <::sif::> HTML5, CSS3, JS Demos, Creations and Experiments | CSSDeck
 http://cssline.com/ <::sif::> CSSline - Showcase gallery of excellent CSS sites.
 http://csstriggers.com/ <::sif::> CSS Triggers...
+http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773 <::sif::> ds.algorithms - Core algorithms deployed - Theoretical Computer Science Stack Exchange
 http://cwe.mitre.org/data/definitions/398 <::sif::> CWE - CWE-398: Indicator of Poor Code Quality (2.8)
 http://cwe.mitre.org/index.html <::sif::> CWE - Common Weakness Enumeration
 http://d3js.org/ <::sif::> D3.js - Data-Driven Documents
@@ -135,6 +141,7 @@ http://demo.marcofolio.net/3d_animation_css3/ <::sif::> 3d animation using pure 
 http://demosthenes.info/blog/777/Create-Fullscreen-HTML5-Page-Background-Video <::sif::> the new code – Create Fullscreen HTML5 Page Background Video
 http://designshack.net/ <::sif::> Design Gallery, Articles &amp; Community | Design Shack
 http://developer.openstack.org/api-ref-telemetry-v2.html <::sif::> OpenStack API Documentation
+http://dialelo.github.io/application-architecture-with-react-rethinking-flux.html <::sif::> Application Architecture with React: rethinking Flux
 http://discuss.joelonsoftware.com/default.asp?joel.3.219431.12& <::sif::> The Joel on Software Discussion Group (CLOSED) - Why I Hate Frameworks
 http://diveintohtml5.info/ <::sif::> Dive Into HTML5
 http://diveintohtml5.info/offline.html <::sif::> Offline Web Applications - Dive Into HTML5
@@ -211,6 +218,7 @@ http://git-scm.com/docs/git-revert <::sif::> Git - git-revert Documentation
 http://git.wincent.com/command-t.git/blob_plain/HEAD:/doc/command-t.txt
 http://githubengineering.com/exception-monitoring-and-response/ <::sif::>  Exception Monitoring and Response - GitHub Engineering
 http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html <::sif::> git ready &raquo; squashing commits with rebase
+http://gogs.io <::sif::> Gogs: Go Git Service - A painless self-hosted Git service
 http://gradle.org/ <::sif::> Gradle l Endgame Open-Source Enterprise Build Automation
 http://gradle.org/docs/current/dsl/ <::sif::> Gradle DSL Version 2.6
 http://gradle.org/docs/current/userguide/userguide_single.html <::sif::> Gradle User Guide
@@ -319,8 +327,10 @@ http://meyerweb.com/eric/tools/dencoder/ <::sif::> URL Decoder/Encoder
 http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/ <::sif::> Install Jekyll 2 on Ubuntu 14.04 &#8211; michaelchelen.net
 http://mobilehtml5.org/ <::sif::> Mobile HTML5 compatibility on iPhone, Android, Windows Phone, BlackBerry, Firefox OS and other mobile devices
 http://modernizr.com/ <::sif::> Modernizr: the feature detection library for HTML5/CSS3
+http://modernweb.com/2014/06/23/using-node-js-in-production/ <::sif::> Using Node.js in Production - Modern Web
 http://momentjs.com/ <::sif::> Moment.js | Home
 http://momentjs.com/timezone/ <::sif::> Moment Timezone | Home
+http://monodraw.helftone.com <::sif::> Monodraw for Mac &mdash; Helftone
 http://monodraw.helftone.com/ <::sif::> Monodraw for Mac &mdash; Helftone
 http://mrale.ph/blog/2011/12/18/v8-optimization-checklist.html <::sif::>  I-want-to-optimize-my-JS-application-on-V8 checklist
 http://mrdoob.github.io/three.js/examples/css3d_periodictable.html <::sif::> three.js css3d - periodic table
@@ -344,6 +354,7 @@ http://nginx.org/en/docs/ <::sif::> nginx documentation
 http://nginx.org/en/docs/beginners_guide.html <::sif::> Beginner’s Guide
 http://nginx.org/en/docs/http/load_balancing.html <::sif::> Using nginx as HTTP load balancer
 http://nginx.org/en/docs/http/ngx_http_auth_basic_module.html <::sif::> Module ngx_http_auth_basic_module
+http://nginx.org/en/docs/http/ngx_http_proxy_module.html <::sif::> Module ngx_http_proxy_module
 http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#break <::sif::> Module ngx_http_rewrite_module
 http://nginx.org/en/docs/http/ngx_http_upstream_module.html <::sif::> Module ngx_http_upstream_module
 http://nikhilm.github.io/uvbook/ <::sif::> Table of Contents &mdash; An Introduction to libuv
@@ -381,10 +392,12 @@ http://queues.io/ <::sif::> Queues
 http://quirksmode.org/ <::sif::> QuirksMode - for all your browser quirks
 http://quoteunquoteapps.com/courierprime/faq <::sif::> Courier Prime FAQ | Quote-Unquote Apps
 http://qzaidi.github.io/2013/05/14/node-in-production/ <::sif::> 10 steps to nodejs nirvana in production | Thruput | Garbage In, Garbage Out
+http://rancher.com/rancher/ <::sif::> Rancher | Rancher Labs
 http://redis.io/ <::sif::>  Redis
 http://redis.io/documentation <::sif::>  Redis
 http://redis.io/topics/benchmarks <::sif::>  How fast is Redis? – Redis
 http://redis.io/topics/cluster-tutorial <::sif::>  Redis cluster tutorial – Redis
+http://redis.io/topics/cluster-tutorial <::sif::>  Redis cluster tutorial – Redis 
 http://redis.io/topics/introduction <::sif::>  Introduction to Redis – Redis
 http://redis.io/topics/replication <::sif::>  Replication – Redis
 http://reference.sitepoint.com/css <::sif::> SitePoint CSS Reference » Learn CSS3 | Cheat Sheet | CSS Tutorial | Selectors | Properties
@@ -392,6 +405,7 @@ http://regexone.com/ <::sif::> RegexOne - Learn Regular Expressions - Lesson 1: 
 http://requirejs.org/docs/start.html <::sif::> How to get started with RequireJS
 http://research.google.com/archive/chubby.html <::sif::> Google Research Publication: Chubby Distributed Lock Service
 http://rethinkdb.com/faq/ <::sif::>  Frequently asked questions - RethinkDB
+http://roeierez.github.io/infinite-list/ <::sif::> Infinite-list by roeierez
 http://roxik.com/cat/ <::sif::> Caaaaat
 http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven <::sif::>  REST APIs must be hypertext-driven &raquo; Untangled
 http://rubylearning.com/ <::sif::> Ruby Tutorial - Learn Ruby
@@ -432,6 +446,7 @@ http://socketcluster.io/ <::sif::> SocketCluster - Scalable realtime engine
 http://sporto.github.io/blog/2012/12/09/callbacks-listeners-promises/ <::sif::> Asynchronous JS: Callbacks, Listeners, Control Flow Libs and Promises - Sebastian's Blog
 http://spring.io/understanding/HATEOAS <::sif::> Understanding HATEOAS
 http://sproutcore.com/ <::sif::> SproutCore
+http://stackalytics.com <::sif::>  Stackalytics | OpenStack community contribution in Liberty release
 http://stackoverflow.com/ <::sif::> Stack Overflow
 http://stackoverflow.com/questions/10048173/why-is-it-bad-style-to-rescue-exception-e-in-ruby <::sif::> Why is it bad style to `rescue Exception =&gt; e` in Ruby? - Stack Overflow
 http://stackoverflow.com/questions/10386310/how-to-install-a-private-npm-module-without-my-own-registry <::sif::> node.js - How to install a private NPM module without my own registry? - Stack Overflow
@@ -472,10 +487,13 @@ http://stackoverflow.com/questions/8386685/is-copyfiles-a-standard-ant-task <::s
 http://stackoverflow.com/questions/8423493/what-is-the-performance-of-objects-arrays-in-javascript-specifically-for-googl <::sif::> What is the performance of Objects/Arrays in JavaScript? (specifically for Google V8) - Stack Overflow
 http://stackoverflow.com/questions/849308/pull-push-from-multiple-remote-locations <::sif::> git - pull/push from multiple remote locations - Stack Overflow
 http://stackoverflow.com/questions/9289243/read-and-write-atomic-operation-implementation-in-the-linux-kernel <::sif::> c - Read and Write atomic operation implementation in the Linux Kernel - Stack Overflow
+http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash <::sif::> string - Extract filename and extension in Bash - Stack Overflow
 http://stanhub.com/how-to-make-div-element-100-height-of-browser-window-using-css-only/ <::sif::> How to Make Div Element 100% Height of Browser Window Using CSS Only &#8211; Stanhub
 http://status.modern.ie/ <::sif::> Developer Resources : Microsoft Edge Dev
+http://steele.blue/responsive-images-picture-srcset/ <::sif::> Responsive Images using &lt;picture&gt; and srcset/sizes
 http://stu.radnidge.com/post/30612112900 <::sif::> Stu Radnidge - Using SmartOS for Node.js Development
 http://submarine-cable-map-2015.telegeography.com/ <::sif::> Submarine Cable Map 2015
+http://subtitlesapp.com <::sif::> Subtitles for Mac &amp; Windows &middot; Automatically download subtitles for your movies and TV shows
 http://superuser.com/questions/590808/yum-install-gcc-g-doesnt-work-anymore-in-centos-6-4 <::sif::> linux - yum install gcc-g++ doesn&#39;t work anymore in CentOs 6.4 - Super User
 http://support.suso.com/supki/CentOS_Init_startup_scripts <::sif::> CentOS Init startup scripts - Support Documentation
 http://susy.oddbird.net/ <::sif::> Susy
@@ -498,6 +516,7 @@ http://thesecretlivesofdata.com/raft/ <::sif::> Raft
 http://thetrendythings.com/read/13256 <::sif::> CPU Flame Graphs
 http://thlorenz.com/ <::sif::> thlorenz.com home
 http://thlorenz.com/v8-perf/ <::sif::> v8-perf
+http://thumbor.org
 http://tjholowaychuk.tumblr.com/ <::sif::> TJ Holowaychuk
 http://tjholowaychuk.tumblr.com/post/543349452/apachebench-gnuplot-graphing-benchmarks <::sif::> ApacheBench GnuPlot Graphing Benchmarks - TJ Holowaychuk
 http://toddfredrich.com/ <::sif::> ToddFredrich.com - RESTful/Platform APIs and Examples, Tutorials and the Software Craft. Mostly...ToddFredrich.com
@@ -533,11 +552,14 @@ http://uxmyths.com/ <::sif::> UX Myths
 http://validator.w3.org/ <::sif::> The W3C Markup Validation Service
 http://vim.wikia.com/wiki/All_the_right_moves <::sif::> All the right moves - Vim Tips Wiki
 http://vim.wikia.com/wiki/Change_font <::sif::> Change font - Vim Tips Wiki
+http://vim.wikia.com/wiki/Highlight_all_search_pattern_matches <::sif::> Highlight all search pattern matches - Vim Tips Wiki
+http://vim.wikia.com/wiki/Change_font <::sif::> Change font - Vim Tips Wiki
 http://vim.wikia.com/wiki/Search_and_replace <::sif::> Search and replace - Vim Tips Wiki
 http://vim.wikia.com/wiki/Vim_Tips_Wiki <::sif::> Vim Tips Wiki
 http://vimawesome.com <::sif::> Vim Awesome
 http://vimawesome.com/ <::sif::> Vim Awesome
 http://vimcolors.com/ <::sif::> Vim Colors
+http://vimdoc.sourceforge.net/htmldoc/motion.html <::sif::> Vim documentation: motion
 http://vimdoc.sourceforge.net/htmldoc/scroll.html <::sif::> Vim documentation: scroll
 http://vimr.org <::sif::> VimR — Refined Vim Experience For OS X
 http://vision.is.tohoku.ac.jp/~kyamagu/ <::sif::> Kota Yamaguchi
@@ -565,6 +587,7 @@ http://www.amcharts.com/ <::sif::> JavaScript Charts and Maps | amCharts
 http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html <::sif::> Common fonts to all versions of Windows &amp; Mac equivalents (Browser safe fonts) - Web design tips &amp; tricks
 http://www.angularjsbook.com/ <::sif::> Angular Basics by ScriptyBooks, a free book on AngularJS
 http://www.appsumo.com/creative-market/ <::sif::> $1200+ Creative Market design bundle for only $39
+http://www.asciidraw.com/ <::sif::> Asciiflow - ASCII Flow Diagram Tool
 http://www.asciidraw.com/#Draw <::sif::> Asciiflow - ASCII Flow Diagram Tool
 http://www.atozcss.com/ <::sif::>  Home - A to Z CSS
 http://www.babylonjs.com/ <::sif::> Babylon.js
@@ -602,6 +625,7 @@ http://www.cssmatic.com/ <::sif::> The ultimate CSS tools for web designers | CS
 http://www.cyberciti.biz/faq/centos-rhel-7-redhat-linux-install-gcc-compiler-development-tools/ <::sif::> CentOS / RHEL 7: Install GCC (C and C++ Compiler) and Development Tools
 http://www.cyberciti.biz/faq/linux-command-line-run-in-background/ <::sif::> Linux: Start Command In Background
 http://www.cyberciti.biz/faq/linux-install-glances-monitoring-tool/ <::sif::> Linux: Keep An Eye On Your System With Glances Monitor
+http://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/ <::sif::> xargs: How To Control and Use Command Line Arguments
 http://www.datejs.com/ <::sif::> Datejs - An open-source JavaScript Date Library
 http://www.diveintopython.net/power_of_introspection/optional_arguments.html <::sif::> 4.2.&nbsp;Using Optional and Named Arguments
 http://www.ediy.com.my/index.php/blog/item/102-raspberry-pi-running-midori-browser-without-a-desktop <::sif::> Raspberry Pi: Running Midori browser without a Desktop
@@ -661,6 +685,7 @@ http://www.linuxcommand.org/man_pages/logrotate8.html <::sif::> logrotate
 http://www.madogatari.jp/ <::sif::> MADOGATARI展［SHAFT 40th ANNIVERSARY］
 http://www.metabrew.com/article/a-million-user-comet-application-with-mochiweb-part-1 <::sif::> Richard Jones | A Million-user Comet Application with Mochiweb, Part 1
 http://www.microsoft.com/enterprise/microsoftcloud/platform/default.aspx <::sif::> Microsoft Cloud - Platform
+http://www.mitchchn.me/2014/os-x-terminal/ <::sif::>  Eight Terminal Utilities Every OS X Command Line User Should Know &middot; mitchchn.me
 http://www.mobify.com/blog/beginners-guide-to-http-cache-headers/ <::sif::> A Beginner's Guide to HTTP Cache Headers | Mobify
 http://www.mockflow.com/ <::sif::> MockFlow - Online Wireframe Tool and Design Cloud
 http://www.musingsfrommars.org/2006/03/ajax-dhtml-library-scorecard.html <::sif::> Musings from Mars &raquo; Ajax/DHTML Library Scorecard: How Cross Platform Are They?
@@ -715,6 +740,7 @@ http://www.sinatrarb.com/faq.html <::sif::> Sinatra: Frequently Asked Questions
 http://www.sinatrarb.com/intro.html <::sif::> Sinatra: README
 http://www.sitepoint.com/ <::sif::> SitePoint – Learn HTML, CSS, JavaScript, PHP, Ruby &amp; Responsive Design
 http://www.sitepoint.com/http-authentication-in-node-js/ <::sif::> HTTP Authentication in Node.js
+http://www.sitepoint.com/scrolljacking-accessibility/ <::sif::> Scrolljacking and Accessibility: Are we Breaking the Web?
 http://www.sitespeed.io/ <::sif::> Sitespeed.io - Analyze your website speed and performance
 http://www.sketchingwithcss.com/samplechapter/cheatsheet.html <::sif::> The Ultimate Flexbox Cheat Sheet
 http://www.sketchingwithcss.com/samplechapter/cheatsheet.html#create <::sif::> The Ultimate Flexbox Cheat Sheet
@@ -726,10 +752,12 @@ http://www.smashingmagazine.com/ <::sif::> Smashing Magazine &ndash; For Profess
 http://www.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/ <::sif::> Designing Better JavaScript APIs &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/ <::sif::> Writing Fast, Memory-Efficient JavaScript &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2013/05/centering-elements-with-flexbox/ <::sif::> Designing CSS Layouts With Flexbox Is As Easy As Pie &ndash; Smashing Magazine
+http://www.smashingmagazine.com/2014/06/a-better-way-to-request-app-ratings/ <::sif::> A Better Way To Request App Ratings &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2014/07/08/breakpoints-and-the-future-websites/ <::sif::> Breakpoints And The Future Of Websites &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/ <::sif::> Size Matters: Balancing Line Length And Font Size In Responsive Web Design &ndash; Smashing Magazine
 http://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/ <::sif::> Laying Out A Flexible Future For Web Design With Flexbox &ndash; Smashing Magazine
 http://www.sonarqube.org/ <::sif::> SonarQube™
+http://www.squid-cache.org <::sif::> squid : Optimising Web Delivery
 http://www.stylestats.org/ <::sif::> StyleStats - An evaluating tool for writing better CSS.
 http://www.subcide.com/experiments/fail-whale/ <::sif::> Pure CSS Twitter Fail Whale - By Steve Dennis
 http://www.sublimetext.com/3 <::sif::> Sublime Text - Download
@@ -811,6 +839,7 @@ https://archive.org/details/internetarcade <::sif::> Internet Arcade : Free Soft
 https://archive.org/web/ <::sif::> Internet Archive: Wayback Machine
 https://arnavkagrawal.wordpress.com/2013/07/21/websockets/ <::sif::> Working with websockets | Beyond Layman
 https://ask.openstack.org/en/question/51388/whats-the-difference-between-flat-gre-and-vlan-neutron-network-types/ <::sif::> What&#39;s the difference between flat, gre and vlan Neutron network types? - Ask OpenStack: Q&amp;A Site for OpenStack Users and Developers
+https://ask.openstack.org/en/questions/ <::sif::> Questions - Ask OpenStack: Q&amp;A Site for OpenStack Users and Developers
 https://atmospherejs.com/ <::sif::> The trusted source for JavaScript packages, Meteor resources and tools &#124; Atmosphere
 https://auth0.com/ <::sif::> Auth0 - Identity infrastructure, built for developers
 https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/ <::sif::> Critical vulnerabilities in JSON Web Token libraries
@@ -819,10 +848,12 @@ https://awwapp.com/ <::sif::> A web whiteboard
 https://babeljs.io/docs/learn-es2015/ <::sif::> Learn ES2015 · Babel
 https://babeljs.io/docs/learn-es6/ <::sif::> Redirecting...
 https://babeljs.io/docs/setup/ <::sif::> Using Babel · Babel
+https://babeljs.io/docs/usage/cli <::sif::> CLI · Babel
 https://babeljs.io/docs/usage/cli/ <::sif::> CLI · Babel
 https://blog.cloudflare.com/how-to-receive-a-million-packets/ <::sif::> How to receive a million packets per second
 https://blog.dylants.com/2014/05/10/creating-a-private-npm-registry-with-sinopia/ <::sif::> Creating a Private npm Registry with Sinopia
 https://blog.logentries.com/2014/12/keepalived-and-haproxy-in-aws-an-exploratory-guide/ <::sif::> Keepalived & HAProxy in AWS: An Exploratory Guide
+https://blog.neocities.org/its-time-for-the-permanent-web.html <::sif::> HTTP is obsolete. It's time for the distributed, permanent web
 https://blog.polymer-project.org/ <::sif::> Polymer Blog
 https://blog.pusher.com/ <::sif::> Pusher Blog - Enjoy our helpful resources &amp; Industry insights.
 https://blog.pusher.com/websockets-from-scratch/ <::sif::> WebSockets From Scratch - Pusher Blog
@@ -841,14 +872,18 @@ https://consul.io/ <::sif::> Consul by HashiCorp
 https://consul.io/docs/ <::sif::> Documentation - Consul by HashiCorp
 https://contribute.jquery.org/style-guide/js/ <::sif::> JavaScript Style Guide | Contribute to jQuery
 https://coolors.co/browser <::sif::> Coolors - The super fast color schemes generator!
+https://cryptography.io/en/latest/ <::sif::> Welcome to cryptography &mdash; Cryptography 1.1.dev1 documentation
+https://cryptography.io/en/latest/fernet/ <::sif::> Fernet (symmetric encryption) &mdash; Cryptography 1.1.dev1 documentation
 https://css-tricks.com/ <::sif::> CSS-Tricks
 https://css-tricks.com/building-a-circular-navigation-with-css-clip-paths/ <::sif::> Building A Circular Navigation with CSS Clip Paths | CSS-Tricks
 https://css-tricks.com/on-target/ <::sif::> On :target | CSS-Tricks
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <::sif::> A Complete Guide to Flexbox | CSS-Tricks
 https://css-tricks.com/snippets/css/keyframe-animation-syntax/ <::sif::> Keyframe Animation Syntax | CSS-Tricks
 https://css-tricks.com/snippets/css/style-placeholder-text/ <::sif::> Style Placeholder Text | CSS-Tricks
+https://css-tricks.com/the-importance-of-context-shifting-in-ux-patterns/ <::sif::> The Importance of Context-Shifting in UX Patterns | CSS-Tricks
 https://cssanimation.rocks/ <::sif::> CSS Animation
 https://cssanimation.rocks/buffer/ <::sif::> Buffer's loading animation - CSS Animation
+https://design.google.com/#resources <::sif::> Google Design
 https://dev.opera.com/ <::sif::> Dev.Opera
 https://dev.opera.com/articles/ux-accessibility-aria-label/ <::sif::> Dev.Opera — UX accessibility with aria-label
 https://developer.blackberry.com/html5/documentation/v2_2/css_best_practices.html <::sif::> CSS best practices - HTML5/WebWorks for BB10 - BlackBerry Developer
@@ -888,6 +923,7 @@ https://docs.docker.com/reference/commandline/cli/ <::sif::> Using the command l
 https://docs.docker.com/reference/commandline/commit/ <::sif::> commit
 https://docs.docker.com/userguide/dockerizing/ <::sif::> Dockerizing applications: A &#39;Hello world&#39;
 https://docs.docker.com/userguide/dockervolumes/ <::sif::> Managing data in containers
+https://docs.google.com/presentation/d/1UGXdy0NWPOoInsfws4KweQKyZMyuwG1x11OhJO_Am4s/edit#slide=id.p <::sif::> Q Promises - Google Slides
 https://docs.google.com/presentation/d/1r7QXGYOLCh4fcUq0jDdDwKJWNqWK1o4xMtYpKZCJYjM/present?slide=id.p19 <::sif::> HTTP/2 is here, let&#39;s optimize! - Velocity SC 2015 - Google Slides
 https://docs.jboss.org/ <::sif::> Dashboard - JBoss.org Documentation
 https://docs.jboss.org/jbossas/docs/Server_Configuration_Guide/4/html/TransactionJTA_Overview-Pessimistic_and_optimistic_locking.html <::sif::> 6.1.1. Pessimistic and optimistic locking
@@ -906,6 +942,7 @@ https://documentation.mailgun.com/user_manual.html <::sif::> User Manual &mdash;
 https://documentation.mailgun.com/user_manual.html#sending-via-api <::sif::> User Manual &mdash; Mailgun API documentation
 https://dribbble.com/ <::sif::> Dribbble - Show and tell for designers
 https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Classes <::sif::> Ruby Programming/Syntax/Classes - Wikibooks, open books for an open world
+https://en.wikipedia.org/wiki/Public_key_infrastructure <::sif::> Public key infrastructure - Wikipedia, the free encyclopedia
 https://engineering.gosquared.com/error-handling-using-domains-node-js <::sif::> Crash safety using domains in Node.js - GoSquared Engineering
 https://engineering.linkedin.com/nodejs/blazing-fast-nodejs-10-performance-tips-linkedin-mobile <::sif::> Blazing fast node.js: 10 performance tips from LinkedIn Mobile | LinkedIn Engineering
 https://ericelliottjs.com/ <::sif::> Learn JavaScript
@@ -983,6 +1020,7 @@ https://github.com/dumbmatter/fakeIndexedDB <::sif::> dumbmatter/fakeIndexedDB �
 https://github.com/ericdouglas/ES6-Learning <::sif::> ericdouglas/ES6-Learning · GitHub
 https://github.com/ericf/express-handlebars <::sif::> ericf/express-handlebars · GitHub
 https://github.com/ervandew/supertab <::sif::> ervandew/supertab · GitHub
+https://github.com/etsy/MIDAS <::sif::> etsy/MIDAS · GitHub
 https://github.com/eventmachine/eventmachine <::sif::> eventmachine/eventmachine · GitHub
 https://github.com/expressjs/body-parser <::sif::> expressjs/body-parser · GitHub
 https://github.com/fanout/zurl <::sif::> fanout/zurl · GitHub
@@ -1004,6 +1042,7 @@ https://github.com/harthur/nomnom <::sif::> harthur/nomnom · GitHub
 https://github.com/harthur/replace <::sif::> harthur/replace · GitHub
 https://github.com/hgarc014/git-game <::sif::> git-game/git-game · GitHub
 https://github.com/hueniverse/iron <::sif::> hueniverse/iron · GitHub
+https://github.com/iCHAIT/awesome-osx <::sif::> iCHAIT/awesome-osx · GitHub
 https://github.com/indexzero/http-server <::sif::> indexzero/http-server · GitHub
 https://github.com/indexzero/winston <::sif::> indexzero/winston · GitHub
 https://github.com/isRuslan/vim-es6 <::sif::> isRuslan/vim-es6 · GitHub
@@ -1038,6 +1077,8 @@ https://github.com/mozilla-services/heka/wiki/Sample--etc-init.d-hekad-file <::s
 https://github.com/mranney/node_redis <::sif::> NodeRedis/node_redis · GitHub
 https://github.com/msemenistyi/hypnos <::sif::> msemenistyi/hypnos · GitHub
 https://github.com/nathanaelkane/vim-indent-guides <::sif::> nathanaelkane/vim-indent-guides · GitHub
+https://github.com/nbs-system/naxsi <::sif::> nbs-system/naxsi · GitHub
+https://github.com/nathanaelkane/vim-indent-guides <::sif::> nathanaelkane/vim-indent-guides · GitHub
 https://github.com/node-inspector/node-inspector <::sif::> node-inspector/node-inspector · GitHub
 https://github.com/node-inspector/v8-profiler <::sif::> node-inspector/v8-profiler · GitHub
 https://github.com/nodejitsu/node-http-proxy <::sif::> nodejitsu/node-http-proxy · GitHub
@@ -1063,6 +1104,7 @@ https://github.com/rlidwka/sinopia <::sif::> rlidwka/sinopia · GitHub
 https://github.com/rmustacc/node-ctype <::sif::> rmustacc/node-ctype · GitHub
 https://github.com/saltstack/salt <::sif::> saltstack/salt · GitHub
 https://github.com/samizdatco/nginx-http-auth-digest/blob/master/htdigest.py <::sif::> nginx-http-auth-digest/htdigest.py at master · samizdatco/nginx-http-auth-digest · GitHub
+https://github.com/schwa/Swift-Community-Best-Practices <::sif::> schwa/Swift-Community-Best-Practices · GitHub
 https://github.com/sensu/uchiwa <::sif::> sensu/uchiwa · GitHub
 https://github.com/shaneGirish/bcrypt-nodejs <::sif::> shaneGirish/bcrypt-nodejs · GitHub
 https://github.com/shipitjs/shipit <::sif::> shipitjs/shipit · GitHub
@@ -1111,6 +1153,7 @@ https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/ <::sif::>  ES6 I
 https://hekad.readthedocs.org/en/v0.9.2/ <::sif::> Heka &mdash; Heka 0.9.2 documentation
 https://help.github.com/articles/generating-ssh-keys/ <::sif::>  Generating SSH keys - User Documentation
 https://help.github.com/articles/remove-sensitive-data/ <::sif::>  Remove sensitive data - User Documentation
+https://help.ubuntu.com/community/CloudInit <::sif::> CloudInit - Community Help Wiki
 https://html5boilerplate.com/ <::sif::> HTML5 Boilerplate: The web&#8217;s most popular front-end template
 https://http2.github.io/faq/ <::sif::> HTTP/2 Frequently Asked Questions
 https://hub.docker.com/_/centos/ <::sif::> Docker Hub
@@ -1124,6 +1167,7 @@ https://leanpub.com/understandinges6/read <::sif::> Read Understanding ECMAScrip
 https://linuxacademy.com/ <::sif::> Linux Training
 https://logging.apache.org/log4j/2.x/manual/async.html <::sif::> Log4j &#x2013; Log4j 2 Asynchronous Loggers for Low-Latency Logging - Apache Log4j 2
 https://lookback.io/ <::sif::> Understand users with Lookback
+https://luckymarmot.com/paw <::sif::> Paw – The ultimate REST client for Mac
 https://lw.microstrategy.com/msdz/MSDL/901/docs/SSO_Typical_single_sign-on_workflow.htm <::sif::> Typical single sign-on workflow
 https://mailgun.com/app/dashboard <::sif::> Mailgun Dashboard
 https://mathiasbynens.be/demo/url-regex <::sif::> In search of the perfect URL validation regex
@@ -1149,6 +1193,7 @@ https://msdn.microsoft.com/ <::sif::> Learn to Develop with Microsoft Developer 
 https://msdn.microsoft.com/en-us/ie/aa740473 <::sif::> Microsoft Edge – Windows app development
 https://msdn.microsoft.com/en-us/library/Bb742429.aspx <::sif::> Step-by-Step Guide to Internet Protocol Security (IPSec)
 https://msdn.microsoft.com/en-us/library/aa0416cz(v=vs.110).aspx <::sif::> Optimistic Concurrency
+https://msdn.microsoft.com/en-us/library/aa266173(v=vs.60).aspx <::sif::> On Error Statement
 https://msdn.microsoft.com/en-us/library/bb514138.aspx <::sif::> Create XML Documentation Comments for JavaScript IntelliSense
 https://msdn.microsoft.com/en-us/library/ee267816(v=bts.10).aspx <::sif::> Transformation vs. Translation
 https://msdn.microsoft.com/en-us/library/gg589512(v=vs.85).aspx <::sif::> Introduction to F12 Developer Tools (Windows)
@@ -1250,6 +1295,7 @@ https://www.chef.io/chef/ <::sif::> Chef | IT automation for speed and awesomene
 https://www.chromestatus.com/features <::sif::> Chrome Platform Status
 https://www.codeschool.com/ <::sif::> Learn to Code by Doing - Code School
 https://www.codeschool.com/blog/ <::sif::> Code School Blog - Supplement your learning by reading posts on educational strategy, technical tips, course previews, and all the haps at Code School.
+https://www.codeschool.com/blog/2015/09/11/how-to-keep-web-animations-from-slowing-you-down/ <::sif::> How to Keep Web Animations From Slowing You Down - Code School Blog
 https://www.codeschool.com/paths/javascript <::sif::> JavaScript - Code School
 https://www.contentful.com/ <::sif::> Reach any screen. API-first CMS for multi-device publishing - Contentful
 https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html <::sif::> E.W. Dijkstra Archive: On the cruelty of really teaching computing science (EWD 1036)
@@ -1335,6 +1381,8 @@ https://www.polymer-project.org/ <::sif::>  Welcome - Polymer 1.0
 https://www.pubnub.com/socket.io/ <::sif::> Socket.IO Tutorials And More | PubNub
 https://www.python.org/ <::sif::> Welcome to Python.org
 https://www.python.org/dev/peps/pep-0008/ <::sif::> PEP 0008 -- Style Guide for Python Code | Python.org
+https://www.quora.com/Does-bouncing-your-tea-bag-actually-do-anything-substantial/answer/Matt-Harbowy <::sif::> Matt Harbowy&#039;s answer to Does bouncing your tea bag actually do anything substantial? - Quora
+https://www.quora.com/If-advanced-algorithms-and-data-structures-are-never-used-in-industry-then-why-learn-them <::sif::> If advanced algorithms and data structures are never used in industry, then why learn them? - Quora
 https://www.rabbitmq.com/ <::sif::> RabbitMQ - Messaging that just works
 https://www.raspberrypi.org <::sif::> Raspberry Pi - Teach, Learn, and Make with Raspberry Pi
 https://www.reviewboard.org/ <::sif::> Take the pain out of code review | Review Board
@@ -1344,6 +1392,7 @@ https://www.ruby-toolbox.com/ <::sif::> The Ruby Toolbox - Know Your Options!
 https://www.schneier.com/blog/archives/2012/10/when_will_we_se.html <::sif::> When Will We See Collisions for SHA-1? - Schneier on Security
 https://www.scriptrock.com/blog/comparing-containers-generating-dockerfiles-guardrail <::sif::> Comparing Containers and Generating Dockerfiles with GuardRail
 https://www.serfdom.io/intro/vs-custom.html <::sif::> Serf vs. Custom Solutions - Serf by HashiCorp
+https://www.spectacleapp.com <::sif::> Spectacle
 https://www.textmaster.com/ <::sif::> TextMaster | Translation Service | Web Content Writing
 https://www.twitter.com/ <::sif::> Twitter
 https://www.udemy.com/ <::sif::>  Udemy: Online Courses Anytime, Anywhere
@@ -1413,10 +1462,12 @@ https://www.youtube.com/watch?v=0ZMvSh7lUdM <::sif::> dtrace.conf 2012 - DTrace 
 https://www.youtube.com/watch?v=1b831QnPIeo <::sif::> Nodejs in Production - YouTube
 https://www.youtube.com/watch?v=4uQMl7mFB6g <::sif::> The ServiceWorker: The network layer is yours to own - YouTube
 https://www.youtube.com/watch?v=7TZrkJBxDJw <::sif::> Best Practices for Deploying Node.js in Production - YouTube
+https://www.youtube.com/watch?v=90NsjKvz9Ns <::sif::> Mark DiMarco: User Interface Algorithms [JSConf2014] - YouTube
 https://www.youtube.com/watch?v=AH7kw8sKefg <::sif::> A Million Connections...and Beyond! - Node.js at Scale - YouTube
 https://www.youtube.com/watch?v=AMnnAFqgLaU <::sif::> Node.js in Production: Dave Pacheco at Hack Deploy Scale - YouTube
 https://www.youtube.com/watch?v=Axpi1_OVSdo <::sif::> Peter Flynn and Kevin Dangoor: Building Live HTML and Omniscient Debuggers in Brackets - YouTube
 https://www.youtube.com/watch?v=B-Iqld6-Y18 <::sif::> Node.js - How to debug using node-inspector ? - YouTube
+https://www.youtube.com/watch?v=BybFXAaMTcA <::sif::> Advanced Uses for Chrome DevTools - Kirill Cherkashin - YouTube
 https://www.youtube.com/watch?v=C8orjQLacTo <::sif::> TCP and The Lower Bound of Web Performance - YouTube
 https://www.youtube.com/watch?v=CN0jTnSROsk <::sif::> Node.JS: The Good Parts? A Skeptic&#39;s View - YouTube
 https://www.youtube.com/watch?v=DgVS-zXgMTk&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi <::sif::> Pete Hunt: React - Rethinking Best Practices (updated) - JSConf.Asia 2013 - YouTube
@@ -1426,6 +1477,7 @@ https://www.youtube.com/watch?v=IWPgUn8tL8s <::sif::> Scott Hanselman - &quot;It
 https://www.youtube.com/watch?v=JxAXlJEmNMg <::sif::> Crockford on JavaScript - Volume 1: The Early Years - YouTube
 https://www.youtube.com/watch?v=KAW8IyT-aV0 <::sif::> Node Philly 2012 :: Large Scale Node.js Panel - YouTube
 https://www.youtube.com/watch?v=R8W_6xWphtw <::sif::> Paul Irish, &quot;Delivering the goods&quot; - Fluent 2014 Keynote - YouTube
+https://www.youtube.com/watch?v=SdMxGNkZqnU <::sif::> Jake Archibald: Using the service worker - YouTube
 https://www.youtube.com/watch?v=TiLJKpzlOeY <::sif::> Jeremy Ashkenas - JS.Next and CoffeeScript (FutureJS 2014) - YouTube
 https://www.youtube.com/watch?v=VN4SNJ2JT9E <::sif::> Scaling A/B Testing on Netflix.com with Node.js - YouTube
 https://www.youtube.com/watch?v=XRYN2xt11Ek <::sif::> Netflix JavaScript Talks - Async JavaScript with Reactive Extensions - YouTube
@@ -1446,4 +1498,5 @@ https://www.youtube.com/watch?v=vQUq5rWWn-s <::sif::> Surge 2012 ~ David Pacheco
 https://www.youtube.com/watch?v=ya4UHuXNygM <::sif::> Crockford on JavaScript - Act III: Function the Ultimate - YouTube
 https://www.youtube.com/watch?v=ya4UHuXNygM&t=0m23s <::sif::> Crockford on JavaScript - Act III: Function the Ultimate - Why the NEW Keyword is a Code Smell - YouTube
 https://xkcd.com/323/ <::sif::> xkcd: Ballmer Peak
+https://xkcd.com/blue_eyes.html <::sif::>  Blue Eyes - A Logic Puzzle
 https://zeplin.io/ <::sif::> Zeplin
