@@ -20,12 +20,12 @@
  */
 
 import program from 'commander';
-
 import { print, printBlank as blank } from '../lib/terminal/out';
 
 const COMMAND = 'aliases';
 
-program.parse( process.argv );
+program
+    .parse( process.argv );
 
 print( COMMAND, 'Command not implemented yet!' );
 blank();

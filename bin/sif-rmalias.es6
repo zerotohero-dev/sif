@@ -21,12 +21,9 @@
 
 import program from 'commander';
 import byline from 'byline';
-
 import { spawn } from 'child_process';
 import { createReadStream as read, createWriteStream as write } from 'fs';
-
 import { print } from '../lib/terminal/out';
-
 import { ALIASES_FILE, ALIASES_TMP_FILE } from '../lib/config/files';
 import { ALIAS_DELIMITER } from '../lib/config/constants';
 

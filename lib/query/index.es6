@@ -22,12 +22,10 @@ import { createStream as createLineStream } from 'byline';
 import { createReadStream as read } from 'fs';
 import { spawn } from 'child_process';
 import { Promise } from 'bluebird';
-
 import {
     ALIASES_FILE,
     INDEX_FILE
 } from '../config/files'
-
 import {
     ALIAS_PREFIX,
     ALIAS_DELIMITER

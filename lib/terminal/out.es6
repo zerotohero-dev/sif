@@ -18,8 +18,10 @@
  */
 
 import chalk from 'chalk';
-
-import {MATCH_DELIMITER} from '../config/regexp';
+import {
+    MATCH_DELIMITER, 
+    MATCH_TAGS_DELIMITER 
+} from '../config/regexp';
 
 let printBanner = () => {
 
@@ -37,9 +39,7 @@ let printBanner = () => {
 };
 
 let printHeader = ( text ) => {
-    console.log(
-        chalk.white.bgGreen(text.toUpperCase())
-    );
+    console.log( chalk.green( text.toUpperCase() ) );
 };
 
 let print = ( commandName, text ) => {
@@ -48,9 +48,9 @@ let print = ( commandName, text ) => {
     if ( parts.length >= 2 ) {
         console.log(
             '  ' +
-            chalk.white.bgGreen( commandName.toUpperCase() ) + ': ' +
-            chalk.underline.black.bgYellow( parts[ 0 ] ) +
-            ' ("' + chalk.cyan.bgBlack( parts[ 1 ] ) + '").'
+            chalk.green( commandName.toUpperCase() ) + ': ' +
+            chalk.underline( parts[ 0 ] ) +
+            chalk.magenta(' ("') + ( parts[ 1 ].replace( MATCH_TAGS_DELIMITER, '' ) ) + chalk.magenta('")') + '.'
         );
 
         return;
@@ -58,7 +58,7 @@ let print = ( commandName, text ) => {
 
     console.log(
         '  ' +
-        chalk.white.bgGreen( commandName.toUpperCase() ) +
+        chalk.green( commandName.toUpperCase() ) +
         ': ' +
         text
     );
@@ -66,9 +66,9 @@ let print = ( commandName, text ) => {
 
 let printError = ( commandName, text ) => {
     print( commandName,
-        chalk.red.bold( 'ERROR ->' ) +
+        chalk.red.underline.bold( 'ERROR ->' ) +
         ' ' +
-        chalk.black.bgRed( text )
+        chalk.red( text )
     );
 };
 

@@ -20,12 +20,9 @@
  */
 
 import program from 'commander';
-
 import { createWriteStream as write } from 'fs';
 import { start, get } from 'prompt';
-
 import { print } from '../lib/terminal/out';
-
 import {
     ALIASES_FILE,
     INDEX_FILE

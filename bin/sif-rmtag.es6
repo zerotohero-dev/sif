@@ -20,3 +20,6 @@
  */
 
 import program from 'commander';
+
+console.log( 'Not implemented yet!' );
+

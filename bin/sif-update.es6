@@ -22,32 +22,22 @@
 import program from 'commander';
 import byline from 'byline';
 import request from 'request';
-
 import { join } from 'path';
 import { spawn } from 'child_process';
 import { createReadStream as read, createWriteStream as write } from 'fs';
-
-import {
-    print,
-    printBlank as blank,
-    printError as error
-} from '../lib/terminal/out';
-
+import { print, printError as error } from '../lib/terminal/out';
 import {
     PROCESS_TMP_EXISTING_FILE,
     PROCESS_TMP_PROCESSED_FILE,
     INDEX_FILE
 } from '../lib/config/files';
-
 import {
     noTitleFoundForUrl
 } from '../lib/config/message';
-
 import {
     DELIMITER,
     DELIMITER_REPLACEMENT
 } from '../lib/config/constants';
-
 import {
     MATCH_ALL_DELIMITERS,
     MATCH_ALL_WHITESPACES,
@@ -66,6 +56,7 @@ print( COMMAND, 'Started updating the index… This may take a while. Please be 
 let copyAssets = () => {
 
     // TODO: this is repeated; move it to a module.
+    // TODO: sort can do concatanetion, no need to pipe with cat.
     let cat = spawn( 'cat', [
         PROCESS_TMP_EXISTING_FILE,
         PROCESS_TMP_PROCESSED_FILE]

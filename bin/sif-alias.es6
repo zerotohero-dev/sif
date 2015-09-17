@@ -31,7 +31,9 @@ import { printError as error, print } from '../lib/terminal/out';
 import { ALIASES_FILE, ALIASES_TMP_FILE } from '../lib/config/files';
 import { ALIAS_DELIMITER } from '../lib/config/constants';
 
-program.parse( process.argv );
+program
+    .usage('<shorthand> <query>')
+    .parse( process.argv );
 
 const COMMAND = 'alias';
 
@@ -48,59 +50,63 @@ if (args.length < 2) {
 let shorthand = args[ 0 ];
 let query = args[ 1 ];
 
-let cat = spawn( 'cat', [ ALIASES_FILE ] );
-let lines = byline( cat.stdout );
-
-let processed = false;
-
 let tempStream = write( ALIASES_TMP_FILE, fsOptions );
 
-lines.on( 'data', ( line ) => {
-    let currentLine = line.toString();
-    let parts = currentLine.split( ALIAS_DELIMITER );
+{
+    tempStream.on('finish', () => {
+        let aliasWriteStream = write( ALIASES_FILE, fsOptions );
 
-    if (!parts.length) {return;}
+        let sort = spawn( 'sort', [ '-u', ALIASES_TMP_FILE ] );
 
-    // TODO: adding a line to a file based on a predicate is a common task; make it a module.
-    let alias = parts[0];
-    let command = parts[1];
+        cat.stdout.pipe(sort.stdin);
 
-    if ( alias === shorthand.trim() ) {
-        tempStream.write( `${alias}${ALIAS_DELIMITER}${query.trim()}\n` );
-        processed = true;
+        let sortedLines = byline( sort.stdout );
 
-        return;
-    }
+        sortedLines.on( 'data',
+            (line) => aliasWriteStream.write( `${line.toString()}\n` )
+        );
 
-    tempStream.write( `${alias}=${command}\n` );
-});
+        aliasWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
 
-tempStream.on('finish', () => {
-    let aliasWriteStream = write( ALIASES_FILE, fsOptions );
+        cat.stdout.on( 'end', () => sort.stdin.end() );
+        sort.stdout.on( 'end', () => aliasWriteStream.end() );
+    } );
+}
 
-    let cat = spawn( 'cat', [ ALIASES_TMP_FILE ] );
-    let sort = spawn( 'sort', [ '-u' ] );
+{
+    let cat = spawn( 'cat', [ ALIASES_FILE ] );
+    let lines = byline( cat.stdout );
 
-    cat.stdout.pipe(sort.stdin);
+    let processed = false;
 
-    let sortedLines = byline( sort.stdout );
+    lines.on( 'data', ( line ) => {
+        let currentLine = line.toString();
+        let parts = currentLine.split( ALIAS_DELIMITER );
 
-    sortedLines.on( 'data',
-        (line) => aliasWriteStream.write( `${line.toString()}\n` )
-    );
+        if ( !parts.length ) { return; }
 
-    aliasWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
+        // TODO: adding a line to a file based on a predicate is a common task; make it a module.
+        let alias = parts[ 0 ];
+        let command = parts[ 1 ];
 
-    cat.stdout.on( 'end', () => sort.stdin.end() );
-    sort.stdout.on( 'end', () => aliasWriteStream.end() );
-} );
+        if ( alias === shorthand.trim() ) {
+            tempStream.write( `${alias}${ALIAS_DELIMITER}${query.trim()}\n` );
+            processed = true;
 
-lines.on('end', () => {
-    if ( processed ) {
-        tempStream.end();
+            return;
+        }
 
-        return;
-    }
+        tempStream.write( `${alias}=${command}\n` );
+    });
 
-    tempStream.end( `${shorthand}${ALIAS_DELIMITER}${query}\n` );
-} );
+    lines.on('end', () => {
+        if ( processed ) {
+            tempStream.end();
+
+            return;
+        }
+
+        tempStream.end( `${shorthand}${ALIAS_DELIMITER}${query}\n` );
+    } );
+}
+

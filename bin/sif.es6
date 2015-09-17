@@ -20,7 +20,6 @@
  */
 
 import program from 'commander';
-
 import {printBanner as banner} from '../lib/terminal/out';
 
 banner();
