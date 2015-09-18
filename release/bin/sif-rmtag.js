@@ -3,6 +3,8 @@
 
 'use strict';
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -20,10 +22,10 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
 var _commander = require('commander');
 
 var _commander2 = _interopRequireDefault(_commander);
+
+console.log('Not implemented yet!');
 
 //# sourceMappingURL=sif-rmtag.js.map

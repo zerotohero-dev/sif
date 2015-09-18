@@ -66,17 +66,9 @@ var resolveAliasedQuery = function resolveAliasedQuery(aliased) {
     });
 };
 
-var searchForQuery = function searchForQuery(query, inverted, notifyData, notifyEnd) {
-    var eGrepOptions = ['-i'];
-
-    if (inverted) {
-        eGrepOptions.push('-v');
-    }
-
-    eGrepOptions.push(query);
-
+var searchForQuery = function searchForQuery(query, notifyData, notifyEnd) {
     var child = (0, _child_process.spawn)('cat', [_configFiles.INDEX_FILE]);
-    var filter = (0, _child_process.spawn)('egrep', eGrepOptions);
+    var filter = (0, _child_process.spawn)('egrep', ['-i', query]);
 
     var lines = (0, _byline.createStream)();
 
@@ -97,12 +89,12 @@ var searchForQuery = function searchForQuery(query, inverted, notifyData, notify
     });
 };
 
-var find = function find(query, inverted, notifyData, notifyEnd) {
+var find = function find(query, notifyData, notifyEnd) {
     resolveAliasedQuery(query).then(function (query) {
-        return searchForQuery(query, inverted, notifyData, notifyEnd);
+        return searchForQuery(query, notifyData, notifyEnd);
     });
 };
 
 exports.find = find;
 
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.es6.js.map

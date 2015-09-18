@@ -21,12 +21,10 @@ Object.defineProperty(exports, '__esModule', {
  */
 
 exports['default'] = {
-  MATCH_DELIMITER: /\s*<::sif::>\s*/,
-  MATCH_TAGS_DELIMITER: /\s*<::tags::>\s*/,
-  MATCH_ALL_DELIMITERS: /<::sif::>/g,
-  MATCH_PAGE_TITLE: /<title.*?>(.*?)<\/title.*?>/i,
-  MATCH_ALL_WHITESPACES: /\s+/g
+  noTitleFoundForUrl: function noTitleFoundForUrl(url) {
+    return 'no title found for: "' + url + '"; I\'ll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.';
+  }
 };
 module.exports = exports['default'];
 
-//# sourceMappingURL=regexp.js.map
+//# sourceMappingURL=message.es6.js.map

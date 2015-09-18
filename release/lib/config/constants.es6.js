@@ -21,12 +21,11 @@ Object.defineProperty(exports, '__esModule', {
  */
 
 exports['default'] = {
-  MATCH_DELIMITER: /\s*<::sif::>\s*/,
-  MATCH_TAGS_DELIMITER: /\s*<::tags::>\s*/,
-  MATCH_ALL_DELIMITERS: /<::sif::>/g,
-  MATCH_PAGE_TITLE: /<title.*?>(.*?)<\/title.*?>/i,
-  MATCH_ALL_WHITESPACES: /\s+/g
+  DELIMITER: '<::sif::>',
+  DELIMITER_REPLACEMENT: '__sif__',
+  ALIAS_PREFIX: '@',
+  ALIAS_DELIMITER: '='
 };
 module.exports = exports['default'];
 
-//# sourceMappingURL=regexp.js.map
+//# sourceMappingURL=constants.es6.js.map

@@ -45,23 +45,23 @@ var printBanner = function printBanner() {
 };
 
 var printHeader = function printHeader(text) {
-    console.log(_chalk2['default'].green(text.toUpperCase()));
+    console.log(_chalk2['default'].white.bgGreen(text.toUpperCase()));
 };
 
 var print = function print(commandName, text) {
     var parts = text.split(_configRegexp.MATCH_DELIMITER);
 
     if (parts.length >= 2) {
-        console.log('  ' + _chalk2['default'].green(commandName.toUpperCase()) + ': ' + _chalk2['default'].underline(parts[0]) + _chalk2['default'].magenta(' ("') + parts[1].replace(_configRegexp.MATCH_TAGS_DELIMITER, '') + _chalk2['default'].magenta('")') + '.');
+        console.log('  ' + _chalk2['default'].white.bgGreen(commandName.toUpperCase()) + ': ' + _chalk2['default'].underline.black.bgYellow(parts[0]) + ' ("' + _chalk2['default'].cyan.bgBlack(parts[1]) + '").');
 
         return;
     }
 
-    console.log('  ' + _chalk2['default'].green(commandName.toUpperCase()) + ': ' + text);
+    console.log('  ' + _chalk2['default'].white.bgGreen(commandName.toUpperCase()) + ': ' + text);
 };
 
 var printError = function printError(commandName, text) {
-    print(commandName, _chalk2['default'].red.underline.bold('ERROR ->') + ' ' + _chalk2['default'].red(text));
+    print(commandName, _chalk2['default'].red.bold('ERROR ->') + ' ' + _chalk2['default'].black.bgRed(text));
 };
 
 var printBlank = function printBlank() {
@@ -74,4 +74,4 @@ exports.printError = printError;
 exports.printHeader = printHeader;
 exports.printBanner = printBanner;
 
-//# sourceMappingURL=out.js.map
+//# sourceMappingURL=out.es6.js.map

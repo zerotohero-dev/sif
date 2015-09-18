@@ -3,6 +3,8 @@
 
 'use strict';
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -19,8 +21,6 @@
  *     \  |  /    Send your comments and suggestions to…
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 var _commander = require('commander');
 
@@ -62,6 +62,7 @@ _commander2['default'].parse(process.argv);
 var copyAssets = function copyAssets() {
 
     // TODO: this is repeated; move it to a module.
+    // TODO: sort can do concatanetion, no need to pipe with cat.
     var cat = (0, _child_process.spawn)('cat', [_libConfigFiles.PROCESS_TMP_EXISTING_FILE, _libConfigFiles.PROCESS_TMP_PROCESSED_FILE]);
     var sort = (0, _child_process.spawn)('sort', ['-u']);
 

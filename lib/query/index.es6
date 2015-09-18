@@ -59,7 +59,7 @@ let resolveAliasedQuery = ( aliased ) => {
 let searchForQuery = ( query, inverted, notifyData, notifyEnd ) => {
     let eGrepOptions = [ '-i' ];
 
-    if (inverted) {
+    if ( inverted ) {
         eGrepOptions.push( '-v' );
     }
 

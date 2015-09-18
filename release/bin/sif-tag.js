@@ -3,6 +3,8 @@
 
 'use strict';
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -20,29 +22,58 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
 var _commander = require('commander');
 
 var _commander2 = _interopRequireDefault(_commander);
 
+var _fs = require('fs');
+
+var _child_process = require('child_process');
+
 var _libTerminalOut = require('../lib/terminal/out');
+
+var _libConfigFiles = require('../lib/config/files');
 
 _commander2['default'].parse(process.argv);
 
 var COMMAND = 'tag';
 
+var fsOptions = { encoding: 'utf8' };
+var fsAppendOptions = { encoding: 'utf8', flags: 'a' };
+
 if (_commander2['default'].args.length === 0) {
-  (0, _libTerminalOut.error)(COMMAND, 'Usage: sif tag [searchExpression] [tagName]');
-  exit(1);
+    (0, _libTerminalOut.error)(COMMAND, 'Usage: sif tag [searchExpression] [tagName]');
+    exit(1);
 }
 
 var query = _commander2['default'].args[0];
 var tags = _commander2['default'].args.splice(1);
 
-// update the query library to perform an inverted search.
-
 // Perform an inverted search with query, save it to a temp file.
+var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.PROCESS_TMP_EXISTING_FILE, fsOptions);
+
+tempStream.on('finish', function () {
+    var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.PROCESS_TMP_EXISTING_FILE, fsAppendOptions);
+
+    tempStream.on('finish', function () {
+        var sort = (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.PROCESS_TMP_EXISTING_FILE]);
+    });
+
+    find(query, false, function (line) {
+        console.log(line);
+
+        tempStream.write(line + '\n');
+    }, function () {
+        tempStream.end();
+    });
+});
+
+find(query, true, function (line) {
+    tempStream.write(line + '\n');
+}, function () {
+    tempStream.end();
+});
+
 // When file is closed, perform a search with query
 //    for each line split the line into non-tag, and tag portions
 //    for the tag portion compile a tags array.

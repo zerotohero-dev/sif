@@ -3,6 +3,8 @@
 
 'use strict';
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -19,8 +21,6 @@
  *     \  |  /    Send your comments and suggestions to…
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 var _commander = require('commander');
 
@@ -65,8 +65,7 @@ var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_TMP_FILE, fs
     tempStream.on('finish', function () {
         var aliasWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_FILE, fsOptions);
 
-        var cat = (0, _child_process.spawn)('cat', [_libConfigFiles.ALIASES_TMP_FILE]);
-        var sort = (0, _child_process.spawn)('sort', ['-u']);
+        var sort = (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.ALIASES_TMP_FILE]);
 
         cat.stdout.pipe(sort.stdin);
 

@@ -1,5 +1,8 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -17,9 +20,6 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
 exports['default'] = {
   noTitleFoundForUrl: function noTitleFoundForUrl(url) {
     return 'no title found for: "' + url + '"; I\'ll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.';
