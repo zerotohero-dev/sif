@@ -1,8 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -19,6 +16,10 @@ Object.defineProperty(exports, '__esModule', {
  *     \  |  /    Send your comments and suggestions to…
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 
 var _path = require('path');
 

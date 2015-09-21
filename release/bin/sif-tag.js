@@ -3,8 +3,6 @@
 
 'use strict';
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -22,6 +20,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
 var _commander = require('commander');
 
 var _commander2 = _interopRequireDefault(_commander);
@@ -32,7 +32,11 @@ var _child_process = require('child_process');
 
 var _libTerminalOut = require('../lib/terminal/out');
 
+var _libQuery = require('../lib/query');
+
 var _libConfigFiles = require('../lib/config/files');
+
+var _libConfigRegexp = require('../lib/config/regexp');
 
 _commander2['default'].parse(process.argv);
 
@@ -56,19 +60,37 @@ tempStream.on('finish', function () {
     var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.PROCESS_TMP_EXISTING_FILE, fsAppendOptions);
 
     tempStream.on('finish', function () {
-        var sort = (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.PROCESS_TMP_EXISTING_FILE]);
+        console.log('tempstream finished');
+
+        // let sort = spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ]);
     });
 
-    find(query, false, function (line) {
-        console.log(line);
+    (0, _libQuery.find)(query, false, function (line) {
+        var parts = line.split(_libConfigRegexp.MATCH_DELIMITER);
+        var url = parts[0];
+        var meta = parts[1];
+
+        console.log(parts);
+
+        if (meta) {
+            var metaParts = meta.split(_libConfigRegexp.MATCH_TAGS_DELIMITER);
+            var description = metaParts[0];
+            var metaTags = metaParts[1];
+
+            console.log('descriptions', metaParts[0]);
+            console.log('tags', metaTags);
+            console.log(tags);
+        }
 
         tempStream.write(line + '\n');
     }, function () {
+        console.log('Ending tempstream');
         tempStream.end();
+        console.log('Ended tempstream ');
     });
 });
 
-find(query, true, function (line) {
+(0, _libQuery.find)(query, true, function (line) {
     tempStream.write(line + '\n');
 }, function () {
     tempStream.end();

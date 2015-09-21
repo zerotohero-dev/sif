@@ -1,11 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', {
-    value: true
-});
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -23,6 +17,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
 var _chalk = require('chalk');
 
 var _chalk2 = _interopRequireDefault(_chalk);
@@ -32,16 +32,16 @@ var _configRegexp = require('../config/regexp');
 var printBanner = function printBanner() {
 
     // TODO: move this to a banner.txt or something.
-    console.log('     _,');
-    console.log('    /(_');
-    console.log('   |   \'-._        . \' .');
-    console.log('   \\    ,-.)      -= * =-');
-    console.log('    \\((` .(        \'/. \'');
-    console.log('     )\\  _/        /');
-    console.log('  .-\'   \'--.      /');
-    console.log('  \\,         \\   /| ');
-    console.log('   \';,_) _)\'\\ \\,//');
-    console.log('');
+    console.log("     _,");
+    console.log("    /(_");
+    console.log("   |   '-._        . ' .");
+    console.log("   \\    ,-.)      -= * =-");
+    console.log("    \\((` .(        '/. '");
+    console.log("     )\\  _/        /");
+    console.log("  .-'   '--.      /");
+    console.log("  \\,         \\   /| ");
+    console.log("   ';,_) _)'\\ \\,//");
+    console.log("");
 };
 
 var printHeader = function printHeader(text) {

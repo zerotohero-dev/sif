@@ -23,10 +23,15 @@ import program from 'commander';
 import { createWriteStream as write, createReadStream as read } from 'fs';
 import { spawn } from 'child_process';
 import { print, error } from '../lib/terminal/out';
+import { find } from '../lib/query';
 import {
     PROCESS_TMP_EXISTING_FILE,
     PROCESS_TMP_PROCESSED_FILE
 } from '../lib/config/files';
+import {
+    MATCH_DELIMITER,
+    MATCH_TAGS_DELIMITER
+} from '../lib/config/regexp';
 
 program.parse( process.argv );
 
@@ -50,17 +55,35 @@ tempStream.on( 'finish', () => {
     let tempStream = write( PROCESS_TMP_EXISTING_FILE, fsAppendOptions );
 
     tempStream.on( 'finish', () => {
-        let sort = spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ]);
+        console.log( 'tempstream finished' );
+
+        // let sort = spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ]);
     } );
 
     find( query, false, ( line ) => {
-        console.log( line );
+        let parts = line.split( MATCH_DELIMITER );
+        let url = parts[ 0 ];
+        let meta = parts[ 1 ];
+
+        console.log( parts );
+
+        if ( meta ) {
+            let metaParts = meta.split( MATCH_TAGS_DELIMITER );
+            let description = metaParts[ 0 ];
+            let metaTags = metaParts[ 1 ];
+
+            console.log( 'descriptions', metaParts[ 0 ] );
+            console.log( 'tags', metaTags );
+            console.log( tags );
+        }
 
         tempStream.write( `${line}\n` );
     }, () => {
+        console.log( 'Ending tempstream' );
         tempStream.end(); 
+        console.log ( 'Ended tempstream ' );
     } );
-});
+} );
 
 find( query, true, ( line ) => {
     tempStream.write( `${line}\n` );

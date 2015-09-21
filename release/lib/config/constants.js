@@ -1,8 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -20,6 +17,9 @@ Object.defineProperty(exports, '__esModule', {
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 exports['default'] = {
   DELIMITER: '<::sif::>',
   DELIMITER_REPLACEMENT: '__sif__',

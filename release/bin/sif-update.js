@@ -3,8 +3,6 @@
 
 'use strict';
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -21,6 +19,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
  *     \  |  /    Send your comments and suggestions to…
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 var _commander = require('commander');
 
