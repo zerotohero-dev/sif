@@ -52,7 +52,7 @@ var print = function print(commandName, text) {
     var parts = text.split(_configRegexp.MATCH_DELIMITER);
 
     if (parts.length >= 2) {
-        console.log('  ' + _chalk2['default'].green(commandName.toUpperCase()) + ': ' + _chalk2['default'].underline(parts[0]) + _chalk2['default'].magenta(' ("') + parts[1].replace(_configRegexp.MATCH_TAGS_DELIMITER, '') + _chalk2['default'].magenta('")') + '.');
+        console.log('  ' + _chalk2['default'].green(commandName.toUpperCase()) + ': ' + _chalk2['default'].underline(parts[0]) + _chalk2['default'].magenta(' ("') + parts[1].replace(_configRegexp.MATCH_TAGS_DELIMITER, _chalk2['default'].magenta(' ««')) + _chalk2['default'].magenta('»» ")') + '.');
 
         return;
     }

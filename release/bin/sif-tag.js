@@ -62,7 +62,11 @@ tempStream.on('finish', function () {
     tempStream.on('finish', function () {
         console.log('tempstream finished');
 
-        // let sort = spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ]);
+        var backup = (0, _child_process.spawn)('cp', [_libConfigFiles.INDEX_FILE, _libConfigFiles.INDEX_FILE + '.backup']);
+
+        backup.stdout.on('end', function () {
+            (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.PROCESS_TMP_EXISTING_FILE]).stdout.pipe((0, _fs.createWriteStream)(_libConfigFiles.INDEX_FILE, fsOptions));
+        });
     });
 
     (0, _libQuery.find)(query, false, function (line) {
@@ -78,11 +82,32 @@ tempStream.on('finish', function () {
             var metaTags = metaParts[1];
 
             console.log('descriptions', metaParts[0]);
-            console.log('tags', metaTags);
-            console.log(tags);
-        }
 
-        tempStream.write(line + '\n');
+            var mergedTags = [];
+
+            var _MATCH_DELIMITER = /,/;
+            var DELIMITER = ',';
+
+            var uniq = function uniq(el, i, ar) {
+                return ar.indexOf(el) === i;
+            };
+
+            var tagLiteral = (metaTags || '').split(_MATCH_DELIMITER).filter(function (tag) {
+                return '' + tag;
+            }).concat(tags.filter(function (tag) {
+                return '' + tag;
+            })).map(function (tag) {
+                return tag.trim();
+            }).filter(uniq).sort().join(DELIMITER);
+
+            console.log(metaTags);
+            console.log(tags);
+            console.log('tagLiteral "' + tagLiteral + '"');
+
+            tempStream.write(url + ' <::sif::> ' + description + ' <::tags::> ' + tagLiteral + '\n');
+        } else {
+            tempStream.write(line + '\n');
+        }
     }, function () {
         console.log('Ending tempstream');
         tempStream.end();

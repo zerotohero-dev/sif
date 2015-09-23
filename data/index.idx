@@ -20,10 +20,10 @@ http://appstorm.net/ <::sif::>  AppStorm &#8211; App Review Network <::tags::>
 http://archive.org/web/ <::sif::> Internet Archive: Wayback Machine <::tags::>
 http://aroc.github.io/side-comments-demo/ <::sif::> Side Comments - Medium.com style commenting <::tags::>
 http://ask.xmodulo.com/upgrade-ruby-centos.html <::sif::> How to upgrade Ruby on CentOS - Ask Xmodulo <::tags::>
-http://askubuntu.com/ <::sif::> Ask Ubuntu <::tags::>
-http://askubuntu.com/questions/148171/dropbox-error-echo-100000-sudo-tee-proc-sys-fs-inotify-max-user-watches <::sif::> directory - Dropbox error - &#39;echo 100000 | sudo tee / proc/sys/fs/inotify/max_user_watches&#39; - Ask Ubuntu <::tags::>
-http://askubuntu.com/questions/396120/what-is-the-purpose-of-the-ssl-cert-snakeoil-key <::sif::> What is the purpose of the ssl-cert-snakeoil.key - Ask Ubuntu
-http://askubuntu.com/questions/462112/nofile-ulimit-n-on-ubuntu-14-04-lts <::sif::> nofile ulimit -n on Ubuntu 14.04 LTS - Ask Ubuntu <::tags::>
+http://askubuntu.com/ <::sif::> Ask Ubuntu <::tags::> ubuntu
+http://askubuntu.com/questions/148171/dropbox-error-echo-100000-sudo-tee-proc-sys-fs-inotify-max-user-watches <::sif::> directory - Dropbox error - &#39;echo 100000 | sudo tee / proc/sys/fs/inotify/max_user_watches&#39; - Ask Ubuntu <::tags::> ubuntu
+http://askubuntu.com/questions/396120/what-is-the-purpose-of-the-ssl-cert-snakeoil-key <::sif::> What is the purpose of the ssl-cert-snakeoil.key - Ask Ubuntu <::tags::> ubuntu
+http://askubuntu.com/questions/462112/nofile-ulimit-n-on-ubuntu-14-04-lts <::sif::> nofile ulimit -n on Ubuntu 14.04 LTS - Ask Ubuntu <::tags::> ubuntu
 http://avoidhumans.com/ <::sif::> Avoid Humans
 http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/ <::sif::> What is the difference between a block, a proc, and a lambda in ruby? - Build, Break, Learn. <::tags::>
 http://aws.amazon.com/ec2/instance-types/ <::sif::> AWS | Amazon EC2 | Instance Types <::tags::>
@@ -49,7 +49,7 @@ http://blog.atom.io/2014/07/02/moving-atom-to-react.html <::sif::> Moving Atom T
 http://blog.atom.io/2015/06/16/optimizing-an-important-atom-primitive.html <::sif::> Optimizing An Important Atom Primitive <::tags::>
 http://blog.bitovi.com/why-checklist/ <::sif::> Bitovi.com | Why You Need a JavaScript Project Checklist <::tags::>
 http://blog.bitovi.com/why-checklist/?utm_source=javascriptweekly&utm_medium=email <::sif::> Bitovi.com | Why You Need a JavaScript Project Checklist <::tags::>
-http://blog.bobbyallen.me/2013/01/21/installing-a-high-availability-web-server-cluster-on-ubuntu-12-04-lts-using-haproxy-heartbeat-and-nginx/ <::sif::> Installing a high availability web server cluster on Ubuntu 12.04 LTS using HAProxy, HeartBeat and Nginx | Life in apps, os&#039;s and code! <::tags::>
+http://blog.bobbyallen.me/2013/01/21/installing-a-high-availability-web-server-cluster-on-ubuntu-12-04-lts-using-haproxy-heartbeat-and-nginx/ <::sif::> Installing a high availability web server cluster on Ubuntu 12.04 LTS using HAProxy, HeartBeat and Nginx | Life in apps, os&#039;s and code! <::tags::> ubuntu
 http://blog.carbonfive.com/ <::sif::> Blog by Carbon Five <::tags::>
 http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/ <::sif::>  Sinatra Best Practices: Part One <::tags::>
 http://blog.carbonfive.com/2014/02/28/taking-advantage-of-multi-processor-environments-in-node-js/ <::sif::>  Taking Advantage of Multi-Processor Environments in Node.js <::tags::>
@@ -186,7 +186,7 @@ http://docs.openstack.org/developer/glance/ <::sif::> Welcome to Glance’s docu
 http://docs.openstack.org/developer/heat/template_guide/ <::sif::> Template Guide &mdash; heat 5.0.0.0b4.dev254 documentation
 http://docs.openstack.org/developer/nova/devref/filter_scheduler.html <::sif::> Filter Scheduler &mdash; nova 2015.1.1 documentation
 http://docs.openstack.org/developer/trove/ <::sif::> Welcome to Trove’s developer documentation! &mdash; trove 4.0.0.0b4.dev33 documentation
-http://docs.openstack.org/havana/install-guide/install/apt/content/heat-stack-create.html <::sif::> Create and manage stacks - OpenStack Installation Guide for Ubuntu 12.04 (LTS) - havana
+http://docs.openstack.org/havana/install-guide/install/apt/content/heat-stack-create.html <::sif::> Create and manage stacks - OpenStack Installation Guide for Ubuntu 12.04 (LTS) - havana <::tags::> ubuntu
 http://docs.openstack.org/openstack-ops/content/logging_monitoring.html <::sif::> Chapter 13. Logging and Monitoring - OpenStack Operations Guide <::tags::>
 http://docs.oracle.com/cd/E13214_01/wli/docs70/diuser/wlxtover.htm <::sif::> Introduction to Data Translation <::tags::>
 http://docs.oracle.com/cd/E17802_01/webservices/webservices/docs/2.0/tutorial/doc/ <::sif::> The Java(TM) Web Services Tutorial <::tags::>
@@ -195,7 +195,7 @@ http://docs.oracle.com/cd/E39820_01/doc.11121/gateway_docs/content/oauth_flows.h
 http://docs.oracle.com/en/ <::sif::> Oracle Help Center <::tags::>
 http://docs.saltstack.com/en/latest/ref/pillar/all/index.html <::sif::> Full list of builtin pillar modules <::tags::>
 http://docs.saltstack.com/en/latest/salt-modindex.html <::sif::> Salt Module Index <::tags::>
-http://docs.saltstack.com/en/latest/topics/installation/ubuntu.html <::sif::> Ubuntu Installation <::tags::>
+http://docs.saltstack.com/en/latest/topics/installation/ubuntu.html <::sif::> Ubuntu Installation <::tags::> ubuntu
 http://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html <::sif::> SaltStack Walk-through <::tags::>
 http://docs.uchiwa.io/en/latest/faq/faq/ <::sif::> Frequently asked questions - Uchiwa Docs <::tags::>
 http://dotnetslackers.com/ <::sif::>  DotNetSlackers: ASP.NET News and Articles For Lazy Developers <::tags::>
@@ -358,7 +358,7 @@ http://mac.appstorm.net/ <::sif::>  Mac.AppStorm <::tags::>
 http://makezine.com/projects/really-really-random-number-generator/ <::sif::> Really, Really Random Number Generator | Make: DIY Projects, How-Tos, Electronics, Crafts and Ideas for Makers
 http://man7.org/linux/man-pages/man1/gcore.1.html <::sif::> gcore(1) - Linux manual page <::tags::>
 http://manning.com/ <::sif::> Manning | Home <::tags::>
-http://manpages.ubuntu.com/manpages/lucid/man1/gcore.1.html <::sif::> Ubuntu Manpage: gcore - Generate a core file for a running process <::tags::>
+http://manpages.ubuntu.com/manpages/lucid/man1/gcore.1.html <::sif::> Ubuntu Manpage: gcore - Generate a core file for a running process <::tags::> ubuntu
 http://markdalgleish.github.io/presentation-return-of-the-progressive-web/ <::sif::> The Return of the Progressive Web <::tags::>
 http://martinfowler.com/ <::sif::> Martin Fowler <::tags::>
 http://martinfowler.com/articles/consumerDrivenContracts.html <::sif::> Consumer-Driven Contracts: A Service Evolution Pattern <::tags::>
@@ -381,7 +381,7 @@ http://merbist.com/2011/02/22/concurrency-in-ruby-explained/ <::sif::> Ruby conc
 http://meyerweb.com/ <::sif::> meyerweb.com <::tags::>
 http://meyerweb.com/eric/tools/dencoder/ <::sif::> URL Decoder/Encoder <::tags::>
 http://mherman.org/blog/2015/09/10/testing-node-js-with-mocha-and-chai/ <::sif::> Testing Node.js with Mocha and Chai - Michael Herman
-http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/ <::sif::> Install Jekyll 2 on Ubuntu 14.04 &#8211; michaelchelen.net <::tags::>
+http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/ <::sif::> Install Jekyll 2 on Ubuntu 14.04 &#8211; michaelchelen.net <::tags::> ubuntu
 http://mobilehtml5.org/ <::sif::> Mobile HTML5 compatibility on iPhone, Android, Windows Phone, BlackBerry, Firefox OS and other mobile devices <::tags::>
 http://modernizr.com/ <::sif::> Modernizr: the feature detection library for HTML5/CSS3 <::tags::>
 http://modernweb.com/2014/06/23/using-node-js-in-production/ <::sif::> Using Node.js in Production - Modern Web <::tags::>
@@ -541,7 +541,7 @@ http://stackoverflow.com/questions/15769739/determining-type-of-an-object-in-rub
 http://stackoverflow.com/questions/18561352/server-sent-events-cross-domain-safari <::sif::> php - Server sent events - cross domain safari - Stack Overflow <::tags::>
 http://stackoverflow.com/questions/19072070/how-can-i-find-where-gem-files-are-installed <::sif::> ruby - How can I find where gem files are installed? - Stack Overflow <::tags::>
 http://stackoverflow.com/questions/1911015/how-to-debug-node-js-applications/16512303 <::sif::> javascript - How to debug Node.js applications - Stack Overflow <::tags::>
-http://stackoverflow.com/questions/20058566/node-js-and-ulimit <::sif::> ubuntu - Node.js and ulimit - Stack Overflow <::tags::>
+http://stackoverflow.com/questions/20058566/node-js-and-ulimit <::sif::> ubuntu - Node.js and ulimit - Stack Overflow <::tags::> ubuntu
 http://stackoverflow.com/questions/20351637/how-to-create-a-simple-http-proxy-in-node-js <::sif::> javascript - How to create a simple http proxy in node.js? - Stack Overflow <::tags::>
 http://stackoverflow.com/questions/2117771/is-it-possible-to-run-one-logrotate-check-manually <::sif::> logging - Is it possible to run one logrotate check manually? - Stack Overflow <::tags::>
 http://stackoverflow.com/questions/2197461/how-to-set-an-alias-inside-a-bash-shell-script-so-that-is-it-visible-from-the-ou <::sif::> How to set an alias inside a bash shell script so that is it visible from the outside? - Stack Overflow <::tags::>
@@ -616,7 +616,7 @@ http://tympanus.net/Tutorials/OriginalHoverEffects/index3.html <::sif::> Origina
 http://tympanus.net/codrops/ <::sif::> Codrops | Useful resources and inspiration for creative minds <::tags::>
 http://tympanus.net/codrops/2013/11/07/css-overlay-techniques/ <::sif::> CSS Overlay Techniques <::tags::>
 http://typecast.com/blog/10-fonts-for-code <::sif::> 10 Fonts for Code - Typecast <::tags::>
-http://uec-images.ubuntu.com <::sif::> Ubuntu Cloud Images
+http://uec-images.ubuntu.com <::sif::> Ubuntu Cloud Images <::tags::> ubuntu
 http://uk.businessinsider.com/inside-facebooks-little-red-book-2015-5?op=1 <::sif::> Take a look inside Facebook's own little red book - Business Insider <::tags::>
 http://ukiyo-e.org/ <::sif::> Japanese Woodblock Print Search - Ukiyo-e Search <::tags::>
 http://unix.stackexchange.com/questions/140350/linux-g-command-not-found <::sif::> linux + g++: command not found - Unix & Linux Stack Exchange <::tags::>
@@ -629,7 +629,7 @@ http://unsucktheweb.com/ <::sif::> Unsucked Web Manifesto <::tags::>
 http://updates.html5rocks.com/ <::sif::> HTML5 Updates <::tags::>
 http://updates.html5rocks.com/2012/06/How-to-convert-ArrayBuffer-to-and-from-String <::sif::> How to convert ArrayBuffer to and from String <::tags::>
 http://updates.html5rocks.com/2015/04/permissions-api-for-the-web <::sif::> Permissions API for the Web <::tags::>
-http://upstart.ubuntu.com/ <::sif::> upstart - event-based init daemon <::tags::>
+http://upstart.ubuntu.com/ <::sif::> upstart - event-based init daemon <::tags::> ubuntu
 http://usabilitytools.com/ <::sif::> UsabilityTools - Unlock your business growth like never before <::tags::>
 http://usevim.com <::sif::> usevim
 http://ux.stackexchange.com/ <::sif::> User Experience Stack Exchange <::tags::>
@@ -1119,7 +1119,7 @@ https://gist.github.com/debasishg/8172796 <::sif::> A collection of links for st
 https://gist.github.com/edtsech/4364933 <::sif::> Merge two hashes/dictionaries in Ruby and Python. · GitHub <::tags::>
 https://gist.github.com/felixge/243632 <::sif::> client.js · GitHub <::tags::>
 https://gist.github.com/gregology/5313326 <::sif::> Service script for dashing. Update DASHING_DIR variable, add this file to /etc/init.d/ , chmod to 755, and let update rc.d with $ sudo update-rc.d dashboard defaults This scripts stops the dashing service with &quot;killall thin&quot; which will kill all thin services running on your server. · GitHub <::tags::>
-https://gist.github.com/julionc/7476620 <::sif::> How to install PhantomJS on Debian/Ubuntu · GitHub <::tags::>
+https://gist.github.com/julionc/7476620 <::sif::> How to install PhantomJS on Debian/Ubuntu · GitHub <::tags::> ubuntu
 https://gist.github.com/kentbrew/776580 <::sif::> How I Got Node.js Talking on EC2&#39;s Port 80 · GitHub <::tags::>
 https://gist.github.com/kixorz/5146008 <::sif::> Update Route53 DNS records from your EC2 instance using this simple Ruby script. You can call it from rc.local after setting your hostname locally. First parameter is the desired &lt;hostname&gt;.&lt;domain&gt; Domain and other parameters are hardcoded. This script is useful for handling internal DNS changes in your systems after instance changes. Attached is also IAM policy for your AWS IAM user. You should create a new user for this and not use your admin credentials to keep the security tight. · GitHub <::tags::>
 https://gist.github.com/kixorz/81287bb06dbc5e16e96b <::sif::> EC2 Instance Route53 Hostname registration init.d script. Instance needs to have the attached IAM instance role policy applied. · GitHub <::tags::>
@@ -1385,7 +1385,7 @@ https://heipei.github.io/2015/08/20/Persistent-AppCache-Injections/ <::sif::> Pe
 https://hekad.readthedocs.org/en/v0.9.2/ <::sif::> Heka &mdash; Heka 0.9.2 documentation <::tags::>
 https://help.github.com/articles/generating-ssh-keys/ <::sif::>  Generating SSH keys - User Documentation <::tags::>
 https://help.github.com/articles/remove-sensitive-data/ <::sif::>  Remove sensitive data - User Documentation <::tags::>
-https://help.ubuntu.com/community/CloudInit <::sif::> CloudInit - Community Help Wiki <::tags::>
+https://help.ubuntu.com/community/CloudInit <::sif::> CloudInit - Community Help Wiki <::tags::> ubuntu
 https://html5boilerplate.com/ <::sif::> HTML5 Boilerplate: The web&#8217;s most popular front-end template <::tags::>
 https://http.cat <::sif::> HTTP Status Cats API
 https://http2.github.io/faq/ <::sif::> HTTP/2 Frequently Asked Questions
@@ -1554,7 +1554,7 @@ https://wiki.openstack.org/wiki/Neutron/DVR <::sif::> Neutron/DVR - OpenStack
 https://wiki.openstack.org/wiki/Neutron/L3_High_Availability_VRRP <::sif::> Neutron/L3 High Availability VRRP - OpenStack
 https://wiki.openstack.org/wiki/Nova <::sif::> Nova - OpenStack
 https://wiki.openstack.org/wiki/Sahara <::sif::> Sahara - OpenStack
-https://wiki.ubuntu.com/SystemdForUpstartUsers <::sif::> SystemdForUpstartUsers - Ubuntu Wiki <::tags::>
+https://wiki.ubuntu.com/SystemdForUpstartUsers <::sif::> SystemdForUpstartUsers - Ubuntu Wiki <::tags::> ubuntu
 https://www.activecollab.com/ <::sif::> Active Collab — Task management, Team collaboration, Time tracking & Invoicing app <::tags::>
 https://www.antonlindstrom.com/2014/11/23/standalone-checks-with-sensu.html <::sif::> Standalone checks with Sensu &mdash; AntonLindstrom.com <::tags::>
 https://www.atlassian.com/software/crucible/overview <::sif::> Peer Code Review Tool | Atlassian Crucible <::tags::>
@@ -1572,16 +1572,16 @@ https://www.codeschool.com/paths/javascript <::sif::> JavaScript - Code School <
 https://www.contentful.com/ <::sif::> Reach any screen. API-first CMS for multi-device publishing - Contentful <::tags::>
 https://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html <::sif::> E.W. Dijkstra Archive: On the cruelty of really teaching computing science (EWD 1036) <::tags::>
 https://www.daniweb.com/software-development/python/threads/39004/what-does-__call__-method-do <::sif::> what does __call__() method do? - Python | DaniWeb <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04 <::sif::> How To Configure Sensu Monitoring, RabbitMQ, and Redis on Ubuntu 14.04 | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-14-04 <::sif::> How to Install and Configure VNC on Ubuntu 14.04 | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit <::sif::> How To Install And Run A Node.js App On Centos 6.4 64bit | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04 <::sif::> How To Install Git on Ubuntu 14.04 | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-6-with-yum <::sif::> How To Install nginx on CentOS 6 with yum | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-centos-6 <::sif::> How To Install Ruby on Rails on CentOS 6 | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-set-up-http-authentication-with-nginx-on-ubuntu-12-10 <::sif::> How To Set Up HTTP Authentication With Nginx On Ubuntu 12.10 | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh <::sif::> How To Use SSHFS to Mount Remote File Systems Over SSH | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking <::sif::> Understanding IP Addresses, Subnets, and CIDR Notation for Networking | DigitalOcean <::tags::>
-https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms <::sif::> Understanding Nginx Server and Location Block Selection Algorithms | DigitalOcean <::tags::>
+https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04 <::sif::> How To Configure Sensu Monitoring, RabbitMQ, and Redis on Ubuntu 14.04 | DigitalOcean <::tags::> tutorials,ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-14-04 <::sif::> How to Install and Configure VNC on Ubuntu 14.04 | DigitalOcean <::tags::> tutorials,ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit <::sif::> How To Install And Run A Node.js App On Centos 6.4 64bit | DigitalOcean <::tags::> tutorials
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04 <::sif::> How To Install Git on Ubuntu 14.04 | DigitalOcean <::tags::> tutorials,ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-6-with-yum <::sif::> How To Install nginx on CentOS 6 with yum | DigitalOcean <::tags::> tutorials
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-centos-6 <::sif::> How To Install Ruby on Rails on CentOS 6 | DigitalOcean <::tags::> tutorials
+https://www.digitalocean.com/community/tutorials/how-to-set-up-http-authentication-with-nginx-on-ubuntu-12-10 <::sif::> How To Set Up HTTP Authentication With Nginx On Ubuntu 12.10 | DigitalOcean <::tags::> tutorials,ubuntu
+https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh <::sif::> How To Use SSHFS to Mount Remote File Systems Over SSH | DigitalOcean <::tags::> tutorials
+https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking <::sif::> Understanding IP Addresses, Subnets, and CIDR Notation for Networking | DigitalOcean <::tags::> tutorials
+https://www.digitalocean.com/community/tutorials/understanding-nginx-server-and-location-block-selection-algorithms <::sif::> Understanding Nginx Server and Location Block Selection Algorithms | DigitalOcean <::tags::> tutorials
 https://www.docker.com/ <::sif::> Docker - Build, Ship, and Run Any App, Anywhere <::tags::>
 https://www.dropbox.com/ <::sif::> Dropbox <::tags::>
 https://www.elastic.co/ <::sif::> Elastic · Revealing Insights from Data (Formerly Elasticsearch) <::tags::>

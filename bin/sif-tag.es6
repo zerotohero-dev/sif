@@ -25,6 +25,7 @@ import { spawn } from 'child_process';
 import { print, error } from '../lib/terminal/out';
 import { find } from '../lib/query';
 import {
+    INDEX_FILE,
     PROCESS_TMP_EXISTING_FILE,
     PROCESS_TMP_PROCESSED_FILE
 } from '../lib/config/files';
@@ -57,7 +58,13 @@ tempStream.on( 'finish', () => {
     tempStream.on( 'finish', () => {
         console.log( 'tempstream finished' );
 
-        // let sort = spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ]);
+        let backup = spawn( 'cp', [ INDEX_FILE, INDEX_FILE + '.backup' ] );
+
+        backup.stdout.on( 'end', () => {
+            spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ] )
+                .stdout.pipe( write( INDEX_FILE, fsOptions ) ) 
+        } );
+
     } );
 
     find( query, false, ( line ) => {
@@ -73,11 +80,32 @@ tempStream.on( 'finish', () => {
             let metaTags = metaParts[ 1 ];
 
             console.log( 'descriptions', metaParts[ 0 ] );
-            console.log( 'tags', metaTags );
+
+            let mergedTags = [];
+
+            let MATCH_DELIMITER = /,/;
+            let DELIMITER = ',';
+
+            let uniq = ( el, i, ar ) => ar.indexOf( el ) === i;
+
+            let tagLiteral = ( metaTags || '' ) 
+                .split( MATCH_DELIMITER )
+                .filter( tag => '' + tag )
+                .concat( tags.filter( tag => '' + tag ) )
+                .map( ( tag ) => tag.trim() )
+                .filter( uniq )
+                .sort()
+                .join( DELIMITER );
+
+            console.log( metaTags );
             console.log( tags );
+            console.log( `tagLiteral "${tagLiteral}"`)
+
+            tempStream.write( `${url} <::sif::> ${description} <::tags::> ${tagLiteral}\n` );
+        } else {
+            tempStream.write( `${line}\n` );
         }
 
-        tempStream.write( `${line}\n` );
     }, () => {
         console.log( 'Ending tempstream' );
         tempStream.end(); 
