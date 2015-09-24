@@ -50,7 +50,7 @@ let print = ( commandName, text ) => {
             '  ' +
             chalk.green( commandName.toUpperCase() ) + ': ' +
             chalk.underline( parts[ 0 ] ) +
-            chalk.magenta(' ("') + ( parts[ 1 ].replace( MATCH_TAGS_DELIMITER, '' ) ) + chalk.magenta('")') + '.'
+            chalk.magenta(' ("') + ( parts[ 1 ].replace( MATCH_TAGS_DELIMITER, chalk.magenta( ' ««' ) ) ) + chalk.magenta('»» ")') + '.'
         );
 
         return;
