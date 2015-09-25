@@ -38,6 +38,8 @@ var _libConfigFiles = require('../lib/config/files');
 
 var _libConfigRegexp = require('../lib/config/regexp');
 
+var _libConfigConsants = require('../lib/config/consants');
+
 _commander2['default'].parse(process.argv);
 
 var COMMAND = 'tag';
@@ -60,11 +62,7 @@ tempStream.on('finish', function () {
     var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.PROCESS_TMP_EXISTING_FILE, fsAppendOptions);
 
     tempStream.on('finish', function () {
-        console.log('tempstream finished');
-
-        var backup = (0, _child_process.spawn)('cp', [_libConfigFiles.INDEX_FILE, _libConfigFiles.INDEX_FILE + '.backup']);
-
-        backup.stdout.on('end', function () {
+        (0, _child_process.spawn)('cp', [_libConfigFiles.INDEX_FILE, _libConfigFiles.INDEX_FILE + '.backup']).stdout.on('end', function () {
             (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.PROCESS_TMP_EXISTING_FILE]).stdout.pipe((0, _fs.createWriteStream)(_libConfigFiles.INDEX_FILE, fsOptions));
         });
     });
@@ -74,44 +72,34 @@ tempStream.on('finish', function () {
         var url = parts[0];
         var meta = parts[1];
 
-        console.log(parts);
-
         if (meta) {
             var metaParts = meta.split(_libConfigRegexp.MATCH_TAGS_DELIMITER);
             var description = metaParts[0];
             var metaTags = metaParts[1];
 
-            console.log('descriptions', metaParts[0]);
-
             var mergedTags = [];
 
-            var _MATCH_DELIMITER = /,/;
-            var DELIMITER = ',';
-
+            // TODO: to some util module.
             var uniq = function uniq(el, i, ar) {
                 return ar.indexOf(el) === i;
             };
-
-            var tagLiteral = (metaTags || '').split(_MATCH_DELIMITER).filter(function (tag) {
-                return '' + tag;
-            }).concat(tags.filter(function (tag) {
-                return '' + tag;
-            })).map(function (tag) {
+            var notEmpty = function notEmpty(what) {
+                return '' + what !== '';
+            };
+            var trim = function trim(tag) {
                 return tag.trim();
-            }).filter(uniq).sort().join(DELIMITER);
+            };
 
-            console.log(metaTags);
-            console.log(tags);
-            console.log('tagLiteral "' + tagLiteral + '"');
+            var tagLiteral = (metaTags || '').split(_libConfigRegexp.MATCH_TAG_DELIMITER)
+            // TODO: for remove case "exclude" instead of "concat".
+            .concat(tags).filter(notEmpty).map(trim).filter(uniq).sort().join(_libConfigConsants.TAG_DELIMITER);
 
-            tempStream.write(url + ' <::sif::> ' + description + ' <::tags::> ' + tagLiteral + '\n');
+            tempStream.write(url + ' ' + _libConfigConsants.DELIMITER + ' ' + description + ' ' + _libConfigConsants.TAGS_DELIMITER + ' ' + tagLiteral + '\n');
         } else {
-            tempStream.write(line + '\n');
+            _libConfigRegexp.MATCH_TAGS_DELIMITER.test(line) ? tempStream.write(line + '\n') : tempStream.write(line + ' ' + _libConfigConsants.TAGS_DELIMITER + '\n');
         }
     }, function () {
-        console.log('Ending tempstream');
         tempStream.end();
-        console.log('Ended tempstream ');
     });
 });
 
@@ -120,18 +108,6 @@ tempStream.on('finish', function () {
 }, function () {
     tempStream.end();
 });
-
-// When file is closed, perform a search with query
-//    for each line split the line into non-tag, and tag portions
-//    for the tag portion compile a tags array.
-//    for every tag that is not contained in the tags array
-//    add that tag to the search array.
-//    sort the array.
-//    concat the nontag part with the sorted and parsed tags.
-//    append the result to the temp file.
-// when temp file is closed, backup index.idx and
-//  save the sorted temp file onto index.idx
-// console.log( program.args );
 
 // rmtag will work similarly, and instead of adding into the array it will
 // remove from the array.

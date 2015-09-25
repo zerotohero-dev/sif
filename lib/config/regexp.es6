@@ -20,6 +20,7 @@
 export default {
     MATCH_DELIMITER: /\s*<::sif::>\s*/,
     MATCH_TAGS_DELIMITER: /\s*<::tags::>\s*/,
+    MATCH_TAG_DELIMITER: /\s*,\s*/,
     MATCH_ALL_DELIMITERS: /<::sif::>/g,
     MATCH_PAGE_TITLE: /<title.*?>(.*?)<\/title.*?>/i,
     MATCH_ALL_WHITESPACES: /\s+/g

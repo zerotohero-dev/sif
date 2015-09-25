@@ -24,8 +24,6 @@ import {
 } from '../config/regexp';
 
 let printBanner = () => {
-
-    // TODO: move this to a banner.txt or something.
     console.log( "     _,");
     console.log( "    /(_");
     console.log( "   |   '-._        . ' ." );
@@ -50,7 +48,9 @@ let print = ( commandName, text ) => {
             '  ' +
             chalk.green( commandName.toUpperCase() ) + ': ' +
             chalk.underline( parts[ 0 ] ) +
-            chalk.magenta(' ("') + ( parts[ 1 ].replace( MATCH_TAGS_DELIMITER, chalk.magenta( ' ««' ) ) ) + chalk.magenta('»» ")') + '.'
+            chalk.magenta( ' ("' ) + 
+            ( parts[ 1 ].replace( MATCH_TAGS_DELIMITER, chalk.magenta( ' ««' ) ) ) + 
+            chalk.magenta( '»» ")' ) + '.'
         );
 
         return;
@@ -75,3 +75,4 @@ let printError = ( commandName, text ) => {
 let printBlank = () => console.log( '' );
 
 export { print, printBlank, printError, printHeader, printBanner };
+

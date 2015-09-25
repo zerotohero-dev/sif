@@ -22,6 +22,7 @@ Object.defineProperty(exports, '__esModule', {
 });
 exports['default'] = {
   DELIMITER: '<::sif::>',
+  TAGS_DELIMITER: '<::tags::>',
   DELIMITER_REPLACEMENT: '__sif__',
   ALIAS_PREFIX: '@',
   ALIAS_DELIMITER: '='

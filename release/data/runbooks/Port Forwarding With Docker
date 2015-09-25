@@ -1,0 +1,2 @@
+docker run -i -t -p 8080:80 centos:prod /bin/bash
+docker run -i -t -p 3030:3030 -v /Users/volkan/Desktop:/Desktop centos:project /bin/bash

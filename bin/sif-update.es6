@@ -142,8 +142,6 @@ backup.stdout.on( 'end', () => {
         let malformed = !needsProcessing && !alreadyProcessed;
 
         if ( malformed ) {
-            console.log('malformed');
-
             error(
                 COMMAND,
                 `badly-formatted line: "${line.replace( MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT )}"`
@@ -153,19 +151,14 @@ backup.stdout.on( 'end', () => {
         }
 
         if ( needsProcessing ) {
-
-            console.log('needs processing ' + line.toString());
-
             remainingMetaDataRequests++;
 
             let url = line.trim();
 
-            console.log(url);
-
             // {gzip: true} to add an `Accept-Encoding` header to the request.
             // Although `request` library does automatic gzip decoding, certain websites
             // get confused if the header is not present in the initial request.
-            request( {method: 'GET', 'uri': url, gzip: true}, ( err, response, body ) => {
+            request( { method: 'GET', 'uri': url, gzip: true }, ( err, response, body ) => {
                 remainingMetaDataRequests--;
 
                 if ( err || response.statusCode !== SUCCESS ) {
@@ -184,8 +177,6 @@ backup.stdout.on( 'end', () => {
                 if ( !result ) {
                     error( COMMAND, `Cannot find title in ${url}.` );
 
-                    // For debugging purposes:
-                    // console.log(replaced);
 
                     tmpExistingFileWriteStream.write( `${url}\n` );
 
@@ -209,10 +200,6 @@ backup.stdout.on( 'end', () => {
 
             return;
         }
-        
-        if (line.indexOf('wincent') > 0) {
-            console.log('found it');
-        }
 
         tmpExistingFileWriteStream.write( `${line.trim()}\n` );
     });
@@ -224,3 +211,4 @@ backup.stdout.on( 'end', () => {
         tryPersistTemporaryData();
     });
 });
+

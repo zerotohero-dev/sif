@@ -31,8 +31,14 @@ import {
 } from '../lib/config/files';
 import {
     MATCH_DELIMITER,
-    MATCH_TAGS_DELIMITER
+    MATCH_TAGS_DELIMITER,
+    MATCH_TAG_DELIMITER
 } from '../lib/config/regexp';
+import {
+    DELIMITER,
+    TAGS_DELIMITER,
+    TAG_DELIMITER
+} from '../lib/config/consants';
 
 program.parse( process.argv );
 
@@ -56,15 +62,11 @@ tempStream.on( 'finish', () => {
     let tempStream = write( PROCESS_TMP_EXISTING_FILE, fsAppendOptions );
 
     tempStream.on( 'finish', () => {
-        console.log( 'tempstream finished' );
-
-        let backup = spawn( 'cp', [ INDEX_FILE, INDEX_FILE + '.backup' ] );
-
-        backup.stdout.on( 'end', () => {
-            spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ] )
-                .stdout.pipe( write( INDEX_FILE, fsOptions ) )
-        } );
-
+        spawn( 'cp', [ INDEX_FILE, INDEX_FILE + '.backup' ] )
+            .stdout.on( 'end', () => {
+                spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ] )
+                    .stdout.pipe( write( INDEX_FILE, fsOptions ) )
+            } );
     } );
 
     find( query, false, ( line ) => {
@@ -72,46 +74,36 @@ tempStream.on( 'finish', () => {
         let url = parts[ 0 ];
         let meta = parts[ 1 ];
 
-        console.log( parts );
-
         if ( meta ) {
             let metaParts = meta.split( MATCH_TAGS_DELIMITER );
             let description = metaParts[ 0 ];
             let metaTags = metaParts[ 1 ];
 
-            console.log( 'descriptions', metaParts[ 0 ] );
-
             let mergedTags = [];
 
-            const MATCH_DELIMITER = /,/;
-            const DELIMITER = ',';
-
+            // TODO: to some util module.
             let uniq = ( el, i, ar ) => ar.indexOf( el ) === i;
             let notEmpty = what => '' + what !== '';
             let trim = tag => tag.trim();
 
             let tagLiteral = ( metaTags || '' )
-                .split( MATCH_DELIMITER )
+                .split( MATCH_TAG_DELIMITER )
+                // TODO: for remove case "exclude" instead of "concat".
                 .concat( tags )
                 .filter( notEmpty )
                 .map( trim )
                 .filter( uniq )
                 .sort()
-                .join( DELIMITER );
+                .join( TAG_DELIMITER );
 
-            console.log( metaTags );
-            console.log( tags );
-            console.log( `tagLiteral "${tagLiteral}"`)
-
-            tempStream.write( `${url} <::sif::> ${description} <::tags::> ${tagLiteral}\n` );
+            tempStream.write( `${url} ${DELIMITER} ${description} ${TAGS_DELIMITER} ${tagLiteral}\n` );
         } else {
-            tempStream.write( `${line}\n` );
+            MATCH_TAGS_DELIMITER.test( line ) ?
+                tempStream.write( `${line}\n` ) :
+                tempStream.write( `${line} ${TAGS_DELIMITER}\n` );
         }
-
     }, () => {
-        console.log( 'Ending tempstream' );
         tempStream.end();
-        console.log ( 'Ended tempstream ' );
     } );
 } );
 
@@ -120,18 +112,6 @@ find( query, true, ( line ) => {
 }, () => {
    tempStream.end();
 } );
-
-// When file is closed, perform a search with query
-//    for each line split the line into non-tag, and tag portions
-//    for the tag portion compile a tags array.
-//    for every tag that is not contained in the tags array
-//    add that tag to the search array.
-//    sort the array.
-//    concat the nontag part with the sorted and parsed tags.
-//    append the result to the temp file.
-// when temp file is closed, backup index.idx and
-//  save the sorted temp file onto index.idx
-// console.log( program.args );
 
 // rmtag will work similarly, and instead of adding into the array it will
 // remove from the array.

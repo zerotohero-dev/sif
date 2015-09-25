@@ -30,8 +30,6 @@ var _chalk2 = _interopRequireDefault(_chalk);
 var _configRegexp = require('../config/regexp');
 
 var printBanner = function printBanner() {
-
-    // TODO: move this to a banner.txt or something.
     console.log("     _,");
     console.log("    /(_");
     console.log("   |   '-._        . ' .");
@@ -41,7 +39,6 @@ var printBanner = function printBanner() {
     console.log("  .-'   '--.      /");
     console.log("  \\,         \\   /| ");
     console.log("   ';,_) _)'\\ \\,//");
-    console.log("");
 };
 
 var printHeader = function printHeader(text) {
