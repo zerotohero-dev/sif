@@ -62,7 +62,7 @@ tempStream.on( 'finish', () => {
 
         backup.stdout.on( 'end', () => {
             spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ] )
-                .stdout.pipe( write( INDEX_FILE, fsOptions ) ) 
+                .stdout.pipe( write( INDEX_FILE, fsOptions ) )
         } );
 
     } );
@@ -83,16 +83,18 @@ tempStream.on( 'finish', () => {
 
             let mergedTags = [];
 
-            let MATCH_DELIMITER = /,/;
-            let DELIMITER = ',';
+            const MATCH_DELIMITER = /,/;
+            const DELIMITER = ',';
 
             let uniq = ( el, i, ar ) => ar.indexOf( el ) === i;
+            let notEmpty = what => '' + what !== '';
+            let trim = tag => tag.trim();
 
-            let tagLiteral = ( metaTags || '' ) 
+            let tagLiteral = ( metaTags || '' )
                 .split( MATCH_DELIMITER )
-                .filter( tag => '' + tag )
-                .concat( tags.filter( tag => '' + tag ) )
-                .map( ( tag ) => tag.trim() )
+                .concat( tags )
+                .filter( notEmpty )
+                .map( trim )
                 .filter( uniq )
                 .sort()
                 .join( DELIMITER );
@@ -108,7 +110,7 @@ tempStream.on( 'finish', () => {
 
     }, () => {
         console.log( 'Ending tempstream' );
-        tempStream.end(); 
+        tempStream.end();
         console.log ( 'Ended tempstream ' );
     } );
 } );
@@ -116,18 +118,18 @@ tempStream.on( 'finish', () => {
 find( query, true, ( line ) => {
     tempStream.write( `${line}\n` );
 }, () => {
-   tempStream.end(); 
+   tempStream.end();
 } );
 
 // When file is closed, perform a search with query
 //    for each line split the line into non-tag, and tag portions
-//    for the tag portion compile a tags array. 
+//    for the tag portion compile a tags array.
 //    for every tag that is not contained in the tags array
 //    add that tag to the search array.
 //    sort the array.
 //    concat the nontag part with the sorted and parsed tags.
 //    append the result to the temp file.
-// when temp file is closed, backup index.idx and 
+// when temp file is closed, backup index.idx and
 //  save the sorted temp file onto index.idx
 // console.log( program.args );
 
