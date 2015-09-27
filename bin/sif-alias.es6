@@ -42,7 +42,10 @@ let args = program.args;
 let fsOptions = { encoding: 'utf8' };
 
 if (args.length < 2) {
-    error( COMMAND, 'Invalid arguments. — Usage: "sif alias <shorthand> <query>".' );
+    error( 
+        COMMAND, 
+        'Invalid arguments. — Usage: "sif alias <shorthand> <query>".' 
+    );
 
     process.exit( 1 );
 }
@@ -54,22 +57,17 @@ let tempStream = write( ALIASES_TMP_FILE, fsOptions );
 
 {
     tempStream.on('finish', () => {
+        let sort = spawn( 'sort', [ '-u', ALIASES_TMP_FILE ] );
+        let sortedLines = byline( sort.stdout );
         let aliasWriteStream = write( ALIASES_FILE, fsOptions );
 
-        let sort = spawn( 'sort', [ '-u', ALIASES_TMP_FILE ] );
-
-        cat.stdout.pipe(sort.stdin);
-
-        let sortedLines = byline( sort.stdout );
-
-        sortedLines.on( 'data',
-            (line) => aliasWriteStream.write( `${line.toString()}\n` )
-        );
+        sortedLines.on( 'data', line => aliasWriteStream.write( `${line}\n` ) );
 
         aliasWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
 
-        cat.stdout.on( 'end', () => sort.stdin.end() );
-        sort.stdout.on( 'end', () => aliasWriteStream.end() );
+        sortedLines.on( 'end', () => { aliasWriteStream.end(); } );
+
+        return;
     } );
 }
 

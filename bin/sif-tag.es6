@@ -38,7 +38,7 @@ import {
     DELIMITER,
     TAGS_DELIMITER,
     TAG_DELIMITER
-} from '../lib/config/consants';
+} from '../lib/config/constants';
 
 program.parse( process.argv );
 
@@ -66,6 +66,7 @@ tempStream.on( 'finish', () => {
             .stdout.on( 'end', () => {
                 spawn( 'sort', [ '-u', PROCESS_TMP_EXISTING_FILE ] )
                     .stdout.pipe( write( INDEX_FILE, fsOptions ) )
+                    .on( 'finish', () => print( COMMAND, 'Done.' ) );
             } );
     } );
 

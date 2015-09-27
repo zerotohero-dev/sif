@@ -38,7 +38,7 @@ var _libConfigFiles = require('../lib/config/files');
 
 var _libConfigRegexp = require('../lib/config/regexp');
 
-var _libConfigConsants = require('../lib/config/consants');
+var _libConfigConstants = require('../lib/config/constants');
 
 _commander2['default'].parse(process.argv);
 
@@ -63,7 +63,9 @@ tempStream.on('finish', function () {
 
     tempStream.on('finish', function () {
         (0, _child_process.spawn)('cp', [_libConfigFiles.INDEX_FILE, _libConfigFiles.INDEX_FILE + '.backup']).stdout.on('end', function () {
-            (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.PROCESS_TMP_EXISTING_FILE]).stdout.pipe((0, _fs.createWriteStream)(_libConfigFiles.INDEX_FILE, fsOptions));
+            (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.PROCESS_TMP_EXISTING_FILE]).stdout.pipe((0, _fs.createWriteStream)(_libConfigFiles.INDEX_FILE, fsOptions)).on('finish', function () {
+                return (0, _libTerminalOut.print)(COMMAND, 'Done.');
+            });
         });
     });
 
@@ -92,11 +94,11 @@ tempStream.on('finish', function () {
 
             var tagLiteral = (metaTags || '').split(_libConfigRegexp.MATCH_TAG_DELIMITER)
             // TODO: for remove case "exclude" instead of "concat".
-            .concat(tags).filter(notEmpty).map(trim).filter(uniq).sort().join(_libConfigConsants.TAG_DELIMITER);
+            .concat(tags).filter(notEmpty).map(trim).filter(uniq).sort().join(_libConfigConstants.TAG_DELIMITER);
 
-            tempStream.write(url + ' ' + _libConfigConsants.DELIMITER + ' ' + description + ' ' + _libConfigConsants.TAGS_DELIMITER + ' ' + tagLiteral + '\n');
+            tempStream.write(url + ' ' + _libConfigConstants.DELIMITER + ' ' + description + ' ' + _libConfigConstants.TAGS_DELIMITER + ' ' + tagLiteral + '\n');
         } else {
-            _libConfigRegexp.MATCH_TAGS_DELIMITER.test(line) ? tempStream.write(line + '\n') : tempStream.write(line + ' ' + _libConfigConsants.TAGS_DELIMITER + '\n');
+            _libConfigRegexp.MATCH_TAGS_DELIMITER.test(line) ? tempStream.write(line + '\n') : tempStream.write(line + ' ' + _libConfigConstants.TAGS_DELIMITER + '\n');
         }
     }, function () {
         tempStream.end();

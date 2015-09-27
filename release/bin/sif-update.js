@@ -159,8 +159,6 @@ backup.stdout.on('end', function () {
         var malformed = !needsProcessing && !alreadyProcessed;
 
         if (malformed) {
-            console.log('malformed');
-
             (0, _libTerminalOut.printError)(COMMAND, 'badly-formatted line: "' + line.replace(_libConfigRegexp.MATCH_ALL_DELIMITERS, _libConfigConstants.DELIMITER_REPLACEMENT) + '"');
 
             return;
@@ -168,14 +166,9 @@ backup.stdout.on('end', function () {
 
         if (needsProcessing) {
             var _ret = (function () {
-
-                console.log('needs processing ' + line.toString());
-
                 remainingMetaDataRequests++;
 
                 var url = line.trim();
-
-                console.log(url);
 
                 // {gzip: true} to add an `Accept-Encoding` header to the request.
                 // Although `request` library does automatic gzip decoding, certain websites
@@ -198,9 +191,6 @@ backup.stdout.on('end', function () {
 
                     if (!result) {
                         (0, _libTerminalOut.printError)(COMMAND, 'Cannot find title in ' + url + '.');
-
-                        // For debugging purposes:
-                        // console.log(replaced);
 
                         tmpExistingFileWriteStream.write(url + '\n');
 
@@ -228,10 +218,6 @@ backup.stdout.on('end', function () {
             })();
 
             if (typeof _ret === 'object') return _ret.v;
-        }
-
-        if (line.indexOf('wincent') > 0) {
-            console.log('found it');
         }
 
         tmpExistingFileWriteStream.write(line.trim() + '\n');

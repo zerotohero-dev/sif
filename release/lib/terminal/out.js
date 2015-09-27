@@ -39,6 +39,7 @@ var printBanner = function printBanner() {
     console.log("  .-'   '--.      /");
     console.log("  \\,         \\   /| ");
     console.log("   ';,_) _)'\\ \\,//");
+    console.log("");
 };
 
 var printHeader = function printHeader(text) {

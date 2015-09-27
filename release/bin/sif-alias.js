@@ -63,28 +63,23 @@ var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_TMP_FILE, fs
 
 {
     tempStream.on('finish', function () {
+        var sort = (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.ALIASES_TMP_FILE]);
+        var sortedLines = (0, _byline2['default'])(sort.stdout);
         var aliasWriteStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_FILE, fsOptions);
 
-        var sort = (0, _child_process.spawn)('sort', ['-u', _libConfigFiles.ALIASES_TMP_FILE]);
-
-        cat.stdout.pipe(sort.stdin);
-
-        var sortedLines = (0, _byline2['default'])(sort.stdout);
-
         sortedLines.on('data', function (line) {
-            return aliasWriteStream.write(line.toString() + '\n');
+            return aliasWriteStream.write(line + '\n');
         });
 
         aliasWriteStream.on('finish', function () {
             return (0, _libTerminalOut.print)(COMMAND, 'Done!');
         });
 
-        cat.stdout.on('end', function () {
-            return sort.stdin.end();
+        sortedLines.on('end', function () {
+            aliasWriteStream.end();
         });
-        sort.stdout.on('end', function () {
-            return aliasWriteStream.end();
-        });
+
+        return;
     });
 }
 
