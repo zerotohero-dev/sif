@@ -62,6 +62,7 @@ _commander2['default'].parse(process.argv);
 var copyAssets = function copyAssets() {
 
     // TODO: this is repeated; move it to a module.
+    // TODO: sort can do concatanetion, no need to pipe with cat.
     var cat = (0, _child_process.spawn)('cat', [_libConfigFiles.PROCESS_TMP_EXISTING_FILE, _libConfigFiles.PROCESS_TMP_PROCESSED_FILE]);
     var sort = (0, _child_process.spawn)('sort', ['-u']);
 
@@ -176,19 +177,20 @@ backup.stdout.on('end', function () {
                     remainingMetaDataRequests--;
 
                     if (err || response.statusCode !== SUCCESS) {
+                        console.log(err);
+
                         tryPersistTemporaryData();
 
                         return;
                     }
+
+                    console.log(url);
 
                     var replaced = body.replace(_libConfigRegexp.MATCH_ALL_WHITESPACES, ' ');
                     var result = _libConfigRegexp.MATCH_PAGE_TITLE.exec(replaced);
 
                     if (!result) {
                         (0, _libTerminalOut.printError)(COMMAND, 'Cannot find title in ' + url + '.');
-
-                        // For debugging purposes:
-                        // console.log(replaced);
 
                         tmpExistingFileWriteStream.write(url + '\n');
 

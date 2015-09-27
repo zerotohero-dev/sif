@@ -22,32 +22,22 @@
 import program from 'commander';
 import byline from 'byline';
 import request from 'request';
-
 import { join } from 'path';
 import { spawn } from 'child_process';
 import { createReadStream as read, createWriteStream as write } from 'fs';
-
-import {
-    print,
-    printBlank as blank,
-    printError as error
-} from '../lib/terminal/out';
-
+import { print, printError as error } from '../lib/terminal/out';
 import {
     PROCESS_TMP_EXISTING_FILE,
     PROCESS_TMP_PROCESSED_FILE,
     INDEX_FILE
 } from '../lib/config/files';
-
 import {
     noTitleFoundForUrl
 } from '../lib/config/message';
-
 import {
     DELIMITER,
     DELIMITER_REPLACEMENT
 } from '../lib/config/constants';
-
 import {
     MATCH_ALL_DELIMITERS,
     MATCH_ALL_WHITESPACES,
@@ -66,6 +56,7 @@ print( COMMAND, 'Started updating the index… This may take a while. Please be 
 let copyAssets = () => {
 
     // TODO: this is repeated; move it to a module.
+    // TODO: sort can do concatanetion, no need to pipe with cat.
     let cat = spawn( 'cat', [
         PROCESS_TMP_EXISTING_FILE,
         PROCESS_TMP_PROCESSED_FILE]
@@ -167,14 +158,18 @@ backup.stdout.on( 'end', () => {
             // {gzip: true} to add an `Accept-Encoding` header to the request.
             // Although `request` library does automatic gzip decoding, certain websites
             // get confused if the header is not present in the initial request.
-            request( {method: 'GET', 'uri': url, gzip: true}, ( err, response, body ) => {
+            request( { method: 'GET', 'uri': url, gzip: true }, ( err, response, body ) => {
                 remainingMetaDataRequests--;
 
                 if ( err || response.statusCode !== SUCCESS ) {
+                    console.log(err);
+
                     tryPersistTemporaryData();
 
                     return;
                 }
+
+                console.log(url);
 
                 let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
                 let result = MATCH_PAGE_TITLE.exec( replaced );
@@ -182,8 +177,6 @@ backup.stdout.on( 'end', () => {
                 if ( !result ) {
                     error( COMMAND, `Cannot find title in ${url}.` );
 
-                    // For debugging purposes:
-                    // console.log(replaced);
 
                     tmpExistingFileWriteStream.write( `${url}\n` );
 
@@ -218,3 +211,4 @@ backup.stdout.on( 'end', () => {
         tryPersistTemporaryData();
     });
 });
+

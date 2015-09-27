@@ -19,6 +19,8 @@
 
 export default {
     DELIMITER: '<::sif::>',
+    TAGS_DELIMITER: '<::tags::>',
+    TAG_DELIMITER: ',',
     DELIMITER_REPLACEMENT: '__sif__',
     ALIAS_PREFIX: '@',
     ALIAS_DELIMITER: '='

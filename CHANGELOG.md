@@ -1,3 +1,8 @@
+### sif 0.8.0
+
+* Implemented `tag` functionality.
+* Minor bugfixes.
+
 ### sif 0.7.0
 
 * Implemented `purge` functionality.

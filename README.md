@@ -31,6 +31,13 @@ and now I decided to make it more usable.
 
 // TODO: add instructions about how to build sif for those who want to contribute.
 
+## Has Only What's Needed
+
+Parkinson's Law tells us that "work expands so as to fill the time available for 
+its completion". Applied to software, this means that applications tend to 
+bloatware, obese programs whose complexity makes them nearly impossible to
+ debug and maintain.
+ 
 ## Usage Examples
 
 TODO:// to be updated.

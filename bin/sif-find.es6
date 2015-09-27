@@ -20,17 +20,20 @@
  */
 
 import program from 'commander';
-import byline from 'byline';
-
 import { print } from '../lib/terminal/out';
-import {find as search} from '../lib/query';
+import { find as search } from '../lib/query';
 
 const COMMAND = 'find';
 
-program.parse(process.argv);
+program
+    .usage('<what> [options]')
+    .option( '-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.' )
+    .parse( process.argv );
 
 search(
-    program.args.length ? program.args[0] : '*',
-    (found) => print(COMMAND, found),
-    () => print(COMMAND, 'Done.')
+    program.args.length ? program.args[ 0 ] : '*',
+    program.invert,
+    ( found ) => print( COMMAND, found ),
+    () => print( COMMAND, 'Done.')
 );
+ 

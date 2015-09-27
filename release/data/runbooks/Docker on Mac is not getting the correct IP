@@ -1,0 +1,14 @@
+1. Comment out all docker-related variables in your ~/.bash_profile
+2. Check the network setting in virtualbox
+    Host Only Network:
+        IPv4 Address: 192.168.99.1
+        IPv4 NetMask: 255.255.255.0
+    DHCP Server:
+        Server Addr: 192.168.99.3
+        Server Mask: 255.255.255.0
+        Lower Bound: 192.168.99.100
+        Upper Bound: 192.168.99.254
+3. If you're still having isues it might be related to some kind of proxy
+(Cisco AnyConnect secure mobility client is the most reported one to cause
+such issues) try to reboot docker without the proxy and check if it changes
+anything.

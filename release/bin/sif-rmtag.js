@@ -26,18 +26,6 @@ var _commander = require('commander');
 
 var _commander2 = _interopRequireDefault(_commander);
 
-var _libTerminalOut = require('../lib/terminal/out');
+console.log('Not implemented yet!');
 
-var _libQuery = require('../lib/query');
-
-var COMMAND = 'find';
-
-_commander2['default'].usage('<what> [options]').option('-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.').parse(process.argv);
-
-(0, _libQuery.find)(_commander2['default'].args.length ? _commander2['default'].args[0] : '*', _commander2['default'].invert, function (found) {
-    return (0, _libTerminalOut.print)(COMMAND, found);
-}, function () {
-    return (0, _libTerminalOut.print)(COMMAND, 'Done.');
-});
-
-//# sourceMappingURL=sif-find.js.map
+//# sourceMappingURL=sif-rmtag.js.map

@@ -1,5 +1,8 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -17,12 +20,11 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-export default {
-    MATCH_DELIMITER: /\s*<::sif::>\s*/,
-    MATCH_TAGS_DELIMITER: /\s*<::tags::>\s*/,
-    MATCH_TAG_DELIMITER: /\s*,\s*/,
-    MATCH_ALL_DELIMITERS: /<::sif::>/g,
-    MATCH_PAGE_TITLE: /<title.*?>(.*?)<\/title.*?>/i,
-    MATCH_ALL_WHITESPACES: /\s+/g
+exports['default'] = {
+  noTitleFoundForUrl: function noTitleFoundForUrl(url) {
+    return 'no title found for: "' + url + '"; I\'ll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.';
+  }
 };
+module.exports = exports['default'];
 
+//# sourceMappingURL=message.es6.js.map

@@ -1,5 +1,8 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 /*    _,                            ,--.   ,---.
  *   /(_                     ,---.  `--'  /  .-'
  *  |   '-._        . ' .   (  .-'  ,--.  |  `-,
@@ -17,12 +20,15 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-export default {
-    MATCH_DELIMITER: /\s*<::sif::>\s*/,
-    MATCH_TAGS_DELIMITER: /\s*<::tags::>\s*/,
-    MATCH_TAG_DELIMITER: /\s*,\s*/,
-    MATCH_ALL_DELIMITERS: /<::sif::>/g,
-    MATCH_PAGE_TITLE: /<title.*?>(.*?)<\/title.*?>/i,
-    MATCH_ALL_WHITESPACES: /\s+/g
-};
+var _path = require('path');
 
+exports['default'] = {
+  ALIASES_FILE: (0, _path.join)(__dirname, '../../data/aliases.dat'),
+  ALIASES_TMP_FILE: (0, _path.join)(__dirname, '../../tmp/__tmp_aliases'),
+  INDEX_FILE: (0, _path.join)(__dirname, '../../data/index.idx'),
+  PROCESS_TMP_EXISTING_FILE: (0, _path.join)(__dirname, '../../tmp/__tmp_existing'),
+  PROCESS_TMP_PROCESSED_FILE: (0, _path.join)(__dirname, '../../tmp/__tmp_processed')
+};
+module.exports = exports['default'];
+
+//# sourceMappingURL=files.es6.js.map

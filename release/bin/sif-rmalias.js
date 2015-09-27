@@ -42,12 +42,14 @@ var _libConfigConstants = require('../lib/config/constants');
 
 _commander2['default'].parse(process.argv);
 
+var COMMAND = 'rmalias';
+
 var args = _commander2['default'].args;
 
 var fsOptions = { encoding: 'utf8' };
 
 if (args.length < 1) {
-    error('alias', 'Invalid arguments. — Usage: "sif rmalias <alias>".');
+    (0, _libTerminalOut.printError)('alias', 'Invalid arguments. — Usage: "sif rmalias <alias>".');
 
     process.exit(1);
 }
@@ -78,7 +80,7 @@ lines.on('data', function (line) {
 
 tempStream.on('finish', function () {
     (0, _fs.createReadStream)(_libConfigFiles.ALIASES_TMP_FILE, fsOptions).pipe((0, _fs.createWriteStream)(_libConfigFiles.ALIASES_FILE, fsOptions)).on('finish', function () {
-        (0, _libTerminalOut.print)('rmalias', 'Done!');
+        return (0, _libTerminalOut.print)(COMMAND, 'Done!');
     });
 });
 

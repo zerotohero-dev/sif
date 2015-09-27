@@ -21,16 +21,15 @@
 
 import program from 'commander';
 import byline from 'byline';
-
 import { spawn } from 'child_process';
 import { createReadStream as read, createWriteStream as write } from 'fs';
-
-import { print } from '../lib/terminal/out';
-
+import { print, printError as error } from '../lib/terminal/out';
 import { ALIASES_FILE, ALIASES_TMP_FILE } from '../lib/config/files';
 import { ALIAS_DELIMITER } from '../lib/config/constants';
 
 program.parse( process.argv );
+
+const COMMAND = 'rmalias';
 
 let args = program.args;
 
@@ -60,14 +59,12 @@ lines.on( 'data', ( line ) => {
     if ( currentAlias === alias.trim() ) { return; }
 
     tempStream.write( `${text}\n` );
-});
+} );
 
 tempStream.on( 'finish', () => {
     read( ALIASES_TMP_FILE, fsOptions )
         .pipe( write( ALIASES_FILE, fsOptions ) )
-        .on( 'finish', () => {
-            print( 'rmalias', 'Done!' );
-        });
-});
+        .on( 'finish', () => print( COMMAND, 'Done!' ) );
+} );
 
 lines.on( 'end', () => tempStream.end() );

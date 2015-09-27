@@ -1,0 +1,28 @@
+Run this to see your adapters:
+
+ls /sys/class/net
+
+It will list something like eth1, eth2, lo...
+
+Then, edit your network configuration.
+
+sudoedit /etc/network/interfaces
+
+    # The loopback network interface
+    auto lo
+    iface lo inet loopback
+
+    # Host-only interface
+    auto eth1
+    iface eth1 inet static
+            address         192.168.56.20
+            netmask         255.255.255.0
+            network         192.168.56.0
+            broadcast       192.168.56.255
+
+    # NAT interface
+    auto eth2
+    iface eth2 inet dhcp
+
+Note that eth1 has no default gateway specified.
+eth2 will get a default gateway from dhcp.

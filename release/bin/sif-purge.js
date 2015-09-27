@@ -62,7 +62,4 @@ var schema = {
     }
 });
 
-//print( COMMAND, 'Command not implemented yet!' );
-//blank();
-
 //# sourceMappingURL=sif-purge.js.map
