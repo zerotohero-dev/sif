@@ -83,3 +83,6 @@ sif runs in unix-like environments; why? because I wanted to leverage the alread
 superb file searching and sorting capabilities of unix. -- `egrep` and `sort`
 can be implemented in pure JavaScript (as streams) too; I'll leave it in the 
 "icebox" for issues to consider later.
+
+Tags can be any kind of text; try to keep your tags simple and memorable.
+An alias is a single-word token with no spaces in it.
