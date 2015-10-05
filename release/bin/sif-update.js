@@ -38,6 +38,8 @@ var _path = require('path');
 
 var _child_process = require('child_process');
 
+var _entities = require('entities');
+
 var _fs = require('fs');
 
 var _libTerminalOut = require('../lib/terminal/out');
@@ -118,13 +120,6 @@ backup.stdout.on('end', function () {
             indexWriteStream.on('finish', function () {
                 return (0, _libTerminalOut.print)(COMMAND, 'Done!');
             });
-
-            sort.stdout.on('end', function () {
-                return indexWriteStream.end();
-            });
-            cat.stdout.on('end', function () {
-                return sort.stdin.end();
-            });
         };
 
         var maybeCopyAssets = null;
@@ -168,7 +163,7 @@ backup.stdout.on('end', function () {
             var _ret = (function () {
                 remainingMetaDataRequests++;
 
-                var url = line.trim();
+                var url = line.replace(_libConfigConstants.TAGS_DELIMITER, '').trim();
 
                 // {gzip: true} to add an `Accept-Encoding` header to the request.
                 // Although `request` library does automatic gzip decoding, certain websites
@@ -177,14 +172,10 @@ backup.stdout.on('end', function () {
                     remainingMetaDataRequests--;
 
                     if (err || response.statusCode !== SUCCESS) {
-                        console.log(err);
-
                         tryPersistTemporaryData();
 
                         return;
                     }
-
-                    console.log(url);
 
                     var replaced = body.replace(_libConfigRegexp.MATCH_ALL_WHITESPACES, ' ');
                     var result = _libConfigRegexp.MATCH_PAGE_TITLE.exec(replaced);
@@ -192,7 +183,7 @@ backup.stdout.on('end', function () {
                     if (!result) {
                         (0, _libTerminalOut.printError)(COMMAND, 'Cannot find title in ' + url + '.');
 
-                        tmpExistingFileWriteStream.write(url + '\n');
+                        tmpExistingFileWriteStream.write((0, _entities.decodeHTML)(url + ' ' + _libConfigConstants.TAGS_DELIMITER + '\n'));
 
                         tryPersistTemporaryData();
 
@@ -202,11 +193,11 @@ backup.stdout.on('end', function () {
                     var title = result[1];
 
                     if (title) {
-                        tmpProcessedFileWriteStream.write(url + ' ' + _libConfigConstants.DELIMITER + ' ' + title + '\n');
+                        tmpProcessedFileWriteStream.write((0, _entities.decodeHTML)(url + ' ' + _libConfigConstants.DELIMITER + ' ' + title + ' ' + _libConfigConstants.TAGS_DELIMITER + '\n'));
                     } else {
                         (0, _libTerminalOut.printError)(COMMAND, (0, _libConfigMessage.noTitleFoundForUrl)(url));
 
-                        tmpExistingFileWriteStream.write(url + '\n');
+                        tmpExistingFileWriteStream.write((0, _entities.decodeHTML)(url + ' ' + _libConfigConstants.TAGS_DELIMITER + '\n'));
                     }
 
                     tryPersistTemporaryData();
@@ -220,7 +211,7 @@ backup.stdout.on('end', function () {
             if (typeof _ret === 'object') return _ret.v;
         }
 
-        tmpExistingFileWriteStream.write(line.trim() + '\n');
+        tmpExistingFileWriteStream.write((0, _entities.decodeHTML)(line.trim() + '\n'));
     });
 
     inStream.on('end', function () {
