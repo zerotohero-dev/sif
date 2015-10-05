@@ -187,7 +187,7 @@ backup.stdout.on( 'end', () => {
 
                     if ( title ) {
                         tmpProcessedFileWriteStream.write(
-                            decode( `${url} ${DELIMITER} ${title} ${TAGS_DELIMITER}\n` ) 
+                            decode( `${url} ${DELIMITER} ${title.trim()} ${TAGS_DELIMITER}\n` ) 
                         );
                     } else {
                         error( COMMAND, noTitleFoundForUrl( url ) ) ;
