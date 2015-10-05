@@ -20,12 +20,13 @@
  */
 
 import program from 'commander';
-import {printBanner as banner} from '../lib/terminal/out';
+import { printBanner as banner } from '../lib/terminal/out';
+import { version } from '../package.json';
 
 banner();
 
 program
-    .version( '0.1.0' )
+    .version( version )
     .command( 'aliases', 'Lists all aliases.' )
     .command( 'alias <shorthand> <query>', 'Adds a new alias <shorthand> for <query>.' )
     .command( 'rmalias <alias>', 'Removes the alias named <alias>.' )
