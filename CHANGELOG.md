@@ -1,3 +1,11 @@
+### sif 0.8.1
+
+* Encoding fixes on the index file.
+* Minor changes to  the `update` routine.
+* Added a watcher to the `devbin` (`devbin/watch.js`) so that changed files 
+are transpiled when changed.
+* Added a `list-empty-titles.sh` to list unprocessed lines.
+
 ### sif 0.8.0
 
 * Implemented `tag` functionality.

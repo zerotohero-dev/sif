@@ -24,6 +24,7 @@ import byline from 'byline';
 import request from 'request';
 import { join } from 'path';
 import { spawn } from 'child_process';
+import { decodeHTML as decode } from 'entities';
 import { createReadStream as read, createWriteStream as write } from 'fs';
 import { print, printError as error } from '../lib/terminal/out';
 import {
@@ -36,6 +37,7 @@ import {
 } from '../lib/config/message';
 import {
     DELIMITER,
+    TAGS_DELIMITER,
     DELIMITER_REPLACEMENT
 } from '../lib/config/constants';
 import {
@@ -105,9 +107,6 @@ backup.stdout.on( 'end', () => {
             sort.stdout.pipe( indexWriteStream );
 
             indexWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
-
-            sort.stdout.on( 'end', () => indexWriteStream.end() );
-            cat.stdout.on( 'end', () => sort.stdin.end() );
         };
 
         let maybeCopyAssets = null;
@@ -153,55 +152,59 @@ backup.stdout.on( 'end', () => {
         if ( needsProcessing ) {
             remainingMetaDataRequests++;
 
-            let url = line.trim();
+            let url = line.replace(TAGS_DELIMITER, '').trim();
 
             // {gzip: true} to add an `Accept-Encoding` header to the request.
             // Although `request` library does automatic gzip decoding, certain websites
             // get confused if the header is not present in the initial request.
-            request( { method: 'GET', 'uri': url, gzip: true }, ( err, response, body ) => {
-                remainingMetaDataRequests--;
+            request( 
+                { method: 'GET', 'uri': url, gzip: true }, 
+                ( err, response, body ) => {
+                    remainingMetaDataRequests--;
 
-                if ( err || response.statusCode !== SUCCESS ) {
-                    console.log(err);
+                    if ( err || response.statusCode !== SUCCESS ) {
+                        tryPersistTemporaryData();
+
+                        return;
+                    }
+
+                    let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
+                    let result = MATCH_PAGE_TITLE.exec( replaced );
+
+                    if ( !result ) {
+                        error( COMMAND, `Cannot find title in ${url}.` );
+
+                        tmpExistingFileWriteStream.write( 
+                            decode( `${url} ${TAGS_DELIMITER}\n` ) 
+                        );
+
+                        tryPersistTemporaryData();
+
+                        return;
+                    }
+
+                    let title = result[ 1 ];
+
+                    if ( title ) {
+                        tmpProcessedFileWriteStream.write(
+                            decode( `${url} ${DELIMITER} ${title} ${TAGS_DELIMITER}\n` ) 
+                        );
+                    } else {
+                        error( COMMAND, noTitleFoundForUrl( url ) ) ;
+
+                        tmpExistingFileWriteStream.write(
+                            decode( `${url} ${TAGS_DELIMITER}\n` )
+                        );
+                    }
 
                     tryPersistTemporaryData();
-
-                    return;
                 }
-
-                console.log(url);
-
-                let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
-                let result = MATCH_PAGE_TITLE.exec( replaced );
-
-                if ( !result ) {
-                    error( COMMAND, `Cannot find title in ${url}.` );
-
-
-                    tmpExistingFileWriteStream.write( `${url}\n` );
-
-                    tryPersistTemporaryData();
-
-                    return;
-                }
-
-                let title = result[ 1 ];
-
-                if ( title ) {
-                    tmpProcessedFileWriteStream.write( `${url} ${DELIMITER} ${title}\n` );
-                } else {
-                    error( COMMAND, noTitleFoundForUrl( url ) ) ;
-
-                    tmpExistingFileWriteStream.write( `${url}\n` );
-                }
-
-                tryPersistTemporaryData();
-            });
+            );
 
             return;
         }
 
-        tmpExistingFileWriteStream.write( `${line.trim()}\n` );
+        tmpExistingFileWriteStream.write( decode( `${line.trim()}\n` ) );
     });
 
     inStream.on( 'end', () => {
