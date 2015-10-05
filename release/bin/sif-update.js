@@ -193,7 +193,7 @@ backup.stdout.on('end', function () {
                     var title = result[1];
 
                     if (title) {
-                        tmpProcessedFileWriteStream.write((0, _entities.decodeHTML)(url + ' ' + _libConfigConstants.DELIMITER + ' ' + title + ' ' + _libConfigConstants.TAGS_DELIMITER + '\n'));
+                        tmpProcessedFileWriteStream.write((0, _entities.decodeHTML)(url + ' ' + _libConfigConstants.DELIMITER + ' ' + title.trim() + ' ' + _libConfigConstants.TAGS_DELIMITER + '\n'));
                     } else {
                         (0, _libTerminalOut.printError)(COMMAND, (0, _libConfigMessage.noTitleFoundForUrl)(url));
 
