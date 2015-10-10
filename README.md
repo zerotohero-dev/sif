@@ -16,9 +16,13 @@
      '.| /
 ```
 
-## About
+> **NOTE**
+> 
+> This README is in draft mode.
+>
+> I'll remove this notice when the README is finalized.
 
-TODO:// this README is in draft mode.
+## Summary
 
 `sif` is an intelligent curator that makes information meaningful and findable.
 
@@ -29,7 +33,49 @@ The only way to see how different it is, is through actually using it.
 I've been privately using a bunch of shell scripts for a similar purpose;
 and now I decided to make it more usable.
 
-// TODO: add instructions about how to build sif for those who want to contribute.
+## Dependencies
+
+TBD
+
+## How to Install
+
+TBD
+
+## Local Development Setup
+
+TBD
+
+## Configuration
+
+TBD
+
+## Supported Environments
+
+TBD
+
+## Usage Examples
+
+TBD
+
+## Versioning and Backwards Compatibility
+
+TBD
+
+## Wanna Help?
+
+TBD
+
+## Contact Information
+
+## LICENSE
+
+## Code of Conduct
+
+TBD
+
+## About
+
+
 
 ## Has Only What's Needed
 

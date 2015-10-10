@@ -157,7 +157,7 @@ backup.stdout.on( 'end', () => {
             // {gzip: true} to add an `Accept-Encoding` header to the request.
             // Although `request` library does automatic gzip decoding, certain websites
             // get confused if the header is not present in the initial request.
-            request( 
+            request(
                 { method: 'GET', 'uri': url, gzip: true }, 
                 ( err, response, body ) => {
                     remainingMetaDataRequests--;
@@ -205,7 +205,7 @@ backup.stdout.on( 'end', () => {
         }
 
         tmpExistingFileWriteStream.write( decode( `${line.trim()}\n` ) );
-    });
+    } );
 
     inStream.on( 'end', () => {
         inStreamEnded = true;
@@ -213,5 +213,5 @@ backup.stdout.on( 'end', () => {
         // on `end`, all the data is consumed.
         tryPersistTemporaryData();
     });
-});
+} );
 
