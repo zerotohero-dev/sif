@@ -28,10 +28,25 @@
 
 > `sif` is not a search engine; it's different.
 
-The only way to see how different it is, is through actually using it.
+If you love links, if you love to keep your information all together,
+and if you love to find things easily, then `sif` is just for you.
 
-I've been privately using a bunch of shell scripts for a similar purpose;
-and now I decided to make it more usable.
+If you cannot live without a graphical user interface. If you open some sort
+of rich-text-enable cloud-ready word processor to store a simple link to a
+web page, or to write a simple "how to" note for later reference, then 
+probably `sif` is not for you.  
+
+
+Since `sif` is a command line interface to sifting your stuff, you'll benefit
+it most, you are comfortable with the command line. However, even if you 
+are not a comamnd line aficionado it's really easy to get used to it if you
+[spend five minutes to read the **Usage Examples**][link].
+
+## Backstory
+
+I'd been privately using a bunch of shell scripts for a similar purpose;
+and I decided to make it more usable, and publicly available; and that's
+how `sif` came up to be.
 
 ## Dependencies
 
@@ -67,11 +82,52 @@ TBD
 
 ## Contact Information
 
-## LICENSE
+* **Project Owner**: [Volkan Özçelik](http://volkan.io/)
+* **Project Website**: [o2js.com](http://o2js.com/)
+
+## License
 
 ## Code of Conduct
 
-TBD
+As contributors and maintainers of this project, and in the interest of 
+fostering an open and welcoming community, we pledge to respect all people who 
+contribute through reporting issues, posting feature requests, updating 
+documentation, submitting pull requests or patches, and other activities.
+
+We are committed to making participation in this project a harassment-free 
+experience for everyone, regardless of level of experience, gender, gender 
+identity and expression, sexual orientation, disability, personal appearance, 
+body size, race, ethnicity, age, religion, or nationality.
+
+Examples of unacceptable behavior by participants include:
+
+* The use of sexualized language or imagery
+* Personal attacks
+* Trolling or insulting/derogatory comments
+* Public or private harassment
+* Publishing other's private information, such as physical or electronic 
+addresses, without explicit permission
+* Other unethical or unprofessional conduct.
+
+Project maintainers have the right and responsibility to remove, edit, or 
+reject comments, commits, code, wiki edits, issues, and other contributions 
+that are not aligned to this Code of Conduct. By adopting this Code of Conduct, 
+project maintainers commit themselves to fairly and consistently applying these 
+principles to every aspect of managing this project. Project maintainers who 
+do not follow or enforce the Code of Conduct may be permanently removed from 
+the project team.
+
+This code of conduct applies both within project spaces and in public spaces 
+when an individual is representing the project or its community.
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be 
+reported by opening an issue or contacting one or more of the project 
+maintainers.
+
+*This Code of Conduct is adapted from the 
+[Contributor Covenant](http://contributor-covenant.org), version 1.2.0, 
+available at 
+[http://contributor-covenant.org/version/1/2/0/](http://contributor-covenant.org/version/1/2/0/)*.
 
 ## About
 
