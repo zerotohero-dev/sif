@@ -42,9 +42,9 @@ let args = program.args;
 let fsOptions = { encoding: 'utf8' };
 
 if (args.length < 2) {
-    error( 
-        COMMAND, 
-        'Invalid arguments. — Usage: "sif alias <shorthand> <query>".' 
+    error(
+        COMMAND,
+        'Invalid arguments. — Usage: "sif alias <shorthand> <query>".'
     );
 
     process.exit( 1 );
@@ -107,4 +107,3 @@ let tempStream = write( ALIASES_TMP_FILE, fsOptions );
         tempStream.end( `${shorthand}${ALIAS_DELIMITER}${query}\n` );
     } );
 }
-
