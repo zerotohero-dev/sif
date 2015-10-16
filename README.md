@@ -50,15 +50,123 @@ how `sif` came up to be.
 
 ## Dependencies
 
-TBD
+`sif` is a [Node.JS] command line application, therefore it requires a [Node.JS]
+runtime. To install `sif`, you will also need [npm], which comes bundled with
+[Node.JS] most of the time.
+
+And since `sif` uses builtin `bash` commands for execution speed, you will need
+a unix flavor, or Mac OS X.
+
+For windows users, an emulation layer like Cygwin might also work; however
+`sif` has not been tested on Windows yet.
 
 ## How to Install
 
-TBD
+Once you have `node` and `npm` installed execute the following command to
+install `sif`:
+
+```bash
+npm install sif -g
+```
+
+To check that `sif` is up and running, simply call `sif` on the terminal which
+will display a help similar to the following:
+
+```bash
+sif
+
+     _,
+    /(_
+   |   '-._        . ' .
+   \    ,-.)      -= * =-
+    \((` .(        '/. '
+     )\  _/        /
+  .-'   '--.      /
+  \,         \   /| 
+   ';,_) _)'\ \,//
+
+
+  Usage: sif [options] [command]
+
+
+  Commands:
+
+    aliases                    ...
+    alias <shorthand> <query>  ...
+    rmalias <alias>            ...
+    tag <query> [tag]          ...
+    rmtag <query> [tag]        ...
+    purge                      ...
+    update                     ...
+    find <what> [options]      ...
+    help [cmd]                 ...
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+
+```
+
+You can get further help by executing `sif [cmd]` where `cmd` is the command
+name that you want to get help:
+
+```bash
+sif help find
+
+     _,
+    /(_
+   |   '-._        . ' .
+   \    ,-.)      -= * =-
+    \((` .(        '/. '
+     )\  _/        /
+  .-'   '--.      /
+  \,         \   /| 
+   ';,_) _)'\ \,//
+
+
+  Usage: sif-find <what> [options]
+
+  Options:
+
+    -h, --help    output usage information
+    -i, --invert  Inverts the selection so that anything 
+            that does NOT match the search criteria will be listed.
+```
 
 ## Local Development Setup
 
-TBD
+To develop `sif` locally first fork the project, and then do an `npm install`.
+
+From the project root, call:
+
+```bash
+./devbin/prepublish.sh
+```
+
+Then call:
+
+```bash
+./devbin/alias.sh
+```
+
+`alias.sh` will create an alias for `sif` that uses your local files.
+
+> **CAVEAT**
+>
+> **DO NOT** use `npm link`; `use `./alias.sh` instead.
+
+## `sif` Internals
+
+### Directory Structure
+
+* bin
+* data
+* runbooks
+* devbin
+* lib
+* release
+* tmp
 
 ## Configuration
 
