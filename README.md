@@ -26,16 +26,29 @@
 
 `sif` is an intelligent curator that makes information meaningful and findable.
 
-> `sif` is not a search engine; it's different.
+It's basically a command line interface that you can search for things real 
+fast. You can, for example call `sif find tutorial` and `sif` will display you
+a bunch of tutorial links. The `find` command takes a regular expression as the
+search argument, which means you can do things like 
+`sif find "youtube*tutorial"` which will show you a refined set of links.
+
+Although `sif`s main focus is on sifting and finding links, you can use it
+to store and search arbitrary lines of text too.
+
+Read [this section] to learn more about what `sif` is capable of.
+
+### Who Is `sif` For
 
 If you love links, if you love to keep your information all together,
-and if you love to find things easily, then `sif` is just for you.
+and if you love to find things easily, and if you like the speed and simplicity
+of the command line, then `sif` is just for you.
+
+### Who Is `sif` **NOT** For
 
 If you cannot live without a graphical user interface. If you open some sort
 of rich-text-enable cloud-ready word processor to store a simple link to a
 web page, or to write a simple "how to" note for later reference, then 
-probably `sif` is not for you.  
-
+probably `sif` is **not** for you.  
 
 Since `sif` is a command line interface to sifting your stuff, you'll benefit
 it most, you are comfortable with the command line. However, even if you 
