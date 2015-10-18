@@ -62,6 +62,7 @@ http://blog-zokahn.rhcloud.com/?p=185 <::sif::> Moving files around with RPM « 
 http://blog.arvidandersson.se/2014/06/17/best-practices-in-modern-web-projects <::sif::> Best practices in modern web projects - Random notes by Arvid Andersson <::tags::>
 http://blog.atom.io/2014/07/02/moving-atom-to-react.html <::sif::> Moving Atom To React <::tags::>
 http://blog.atom.io/2015/06/16/optimizing-an-important-atom-primitive.html <::sif::> Optimizing An Important Atom Primitive <::tags::>
+http://blog.bitovi.com/style-guide-driven-development/ <::sif::> Bitovi.com | Style Guide Driven Development: A How To Guide To Improve your Development Workflow <::tags::>
 http://blog.bitovi.com/why-checklist/ <::sif::> Bitovi.com | Why You Need a JavaScript Project Checklist <::tags::>
 http://blog.bobbyallen.me/2013/01/21/installing-a-high-availability-web-server-cluster-on-ubuntu-12-04-lts-using-haproxy-heartbeat-and-nginx/ <::sif::> Installing a high availability web server cluster on Ubuntu 12.04 LTS using HAProxy, HeartBeat and Nginx | Life in apps, os's and code! <::tags::> ubuntu
 http://blog.carbonfive.com/ <::sif::> Blog by Carbon Five <::tags::>
@@ -96,6 +97,7 @@ http://bocoup.com/weblog/node-stress-test-analysis/ <::sif::> Realtime Node.js A
 http://bokken.re/index.html <::sif::> Bokken - Home Page <::tags::>
 http://bonsaiden.github.io/JavaScript-Garden/ <::sif::> JavaScript Garden <::tags::>
 http://book.realworldhaskell.org/read/why-functional-programming-why-haskell.html <::sif::> Why functional programming? Why Haskell? <::tags::>
+http://bookshelfjs.org <::sif::> Bookshelf.js <::tags::>
 http://booster.railsware.com/ <::sif::> @Booster_app – The Best Mac OS X Desktop client for the Pivotal Tracker <::tags::>
 http://bootsnipp.com/ <::sif::> Home of free code snippets for Bootstrap | Bootsnipp.com <::tags::>
 http://bost.ocks.org/mike/algorithms/ <::sif::> Visualizing Algorithms <::tags::>
@@ -393,6 +395,7 @@ http://jonibologna.com/flexbox-cheatsheet/ <::sif::> Flexbox Cheatsheet Cheatshe
 http://jorgeatgu.github.io/svg-filters/ <::sif::> SVG FILTERS + DRAG AND DROP <::tags::>
 http://jquery.com <::sif::> jQuery <::tags::>
 http://jquery.com/ <::sif::> jQuery <::tags::>
+http://jqueryuk.com/2015/videos.php?s=mdo-ular-css <::sif::> jQuery UK Conference - Oxford 2015 <::tags::>
 http://js13kgames.com <::sif::> js13kGames - HTML5 and JavaScript Game Development Competition in just 13 kilobytes <::tags::>
 http://js1k.com <::sif::> JS1k - The JavaScript Code Golfing Competition <::tags::>
 http://js2.coffee/ <::sif::> js2coffee 2.0 — convert JavaScript to CoffeeScript <::tags::>
@@ -422,6 +425,7 @@ http://keepalived.org/ <::sif::> Keepalived for Linux <::tags::>
 http://keithclark.co.uk/ <::sif::> Keith Clark <::tags::>
 http://keithclark.co.uk/articles/pure-css-parallax-websites/ <::sif::> Pure CSS Parallax Websites by Keith Clark <::tags::>
 http://kkovacs.eu/cool-but-obscure-unix-tools <::sif::> Cool, but obscure unix tools :: Software architect Kristof Kovacs <::tags::>
+http://knexjs.org <::sif::> Knex.js - A SQL Query Builder for Javascript <::tags::>
 http://krakenjs.com/ <::sif::> krakenjs - Give your node.js express apps some extra arms <::tags::>
 http://kripken.github.io/emscripten-site/ <::sif::> Main — Emscripten 1.34.8 documentation <::tags::>
 http://kristopolous.github.io/BOOTSTRA.386/ <::sif::> Bootstrap <::tags::>
@@ -445,6 +449,7 @@ http://linux.die.net/man/2/listen <::sif::> listen(2): listen for connections on
 http://linux.die.net/man/3/write <::sif::> write(3): on file - Linux man page <::tags::>
 http://linuxcommand.org/lts0080.php <::sif::> Learning the shell - Lesson 8: Job Control <::tags::>
 http://live.amcharts.com <::sif::> Online Chart Maker | amCharts <::tags::>
+http://livestream.com/accounts/6779986/events/2928486/videos/51426837 <::sif::> Val Head: All the right mov... on Livestream <::tags::>
 http://logging.apache.org/log4j/ <::sif::> Apache log4j — A logging library <::tags::>
 http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/ <::sif::> 6 Rules of thumb to build blazing fast web applications (server side) | Loige <::tags::>
 http://lorempixel.com/ <::sif::> lorempixel - placeholder images for every case <::tags::>
@@ -475,6 +480,7 @@ http://maxogden.com/node-streams.html <::sif::> Max Ogden Blogotronz <::tags::>
 http://mcavage.me/node-restify/ <::sif::> API Guide | restify <::tags::>
 http://mcavage.me/presentations/dtrace_conf_2012-04-03/ <::sif::> DTrace Your Node.js Applications <::tags::>
 http://meandmax.github.io/lory/ <::sif::> lory <::tags::>
+http://mediaelementjs.com/ <::sif::> MediaElement.js - HTML5 video player and audio player with Flash and Silverlight shims <::tags::>
 http://merbist.com/2011/02/22/concurrency-in-ruby-explained/ <::sif::> Ruby concurrency explainined | Matt Aimonetti <::tags::>
 http://meteor.github.io/blaze/ <::sif::> Blaze: easy reactive templating <::tags::>
 http://meyerweb.com/ <::sif::> meyerweb.com <::tags::>
@@ -574,6 +580,7 @@ http://prettydiff.com <::sif::> Pretty Diff - The difference tool <::tags::>
 http://prettydiff.com/ <::sif::> Pretty Diff - The difference tool <::tags::>
 http://programmers.stackexchange.com/questions/221034/usage-of-magic-strings-numbers <::sif::> coding style - Usage of magic strings/numbers - Programmers Stack Exchange <::tags::>
 http://programmers.stackexchange.com/questions/278778/why-are-native-es6-promises-slower-and-more-memory-intensive-than-bluebird <::sif::> javascript - Why are native ES6 promises slower and more memory-intensive than bluebird? - Programmers Stack Exchange <::tags::>
+http://programmers.stackexchange.com/questions/65467/what-does-xxx-mean-in-a-comment <::sif::> coding standards - What does XXX mean in a comment? - Programmers Stack Exchange <::tags::>
 http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/ <::sif::> Consul Service Discovery with Docker :: Jeff Lindsay <::tags::>
 http://projects.spring.io/spring-boot/ <::sif::> Spring Boot <::tags::>
 http://psddd.co/ <::sif::> Psddd - Beautiful Dribbble freebies for the creative professional <::tags::>
@@ -615,6 +622,7 @@ http://rus.har.mn/blog/2010-07-05/subshells/ <::sif::> Bash Scripters: Stop usin
 http://rustyshelf.org/2014/07/08/the-android-screen-fragmentation-myth <::sif::> The Android Screen Fragmentation Myth | Rusty Rants <::tags::>
 http://rustyshelf.org/2014/07/08/the-android-screen-fragmentation-myth/ <::sif::> The Android Screen Fragmentation Myth | Rusty Rants <::tags::>
 http://rwdgrid.com <::sif::> Responsive Grid System for your Next Project - rwdgrid.com <::tags::>
+http://rwdgrid.com/ <::sif::> Responsive Grid System for your Next Project - rwdgrid.com <::tags::>
 http://rwdgrid.com/demo/ <::sif::> Demo - rwdgrid.com <::tags::>
 http://ryanclark.me/going-native-with-react/ <::sif::> Going native with React, an introduction <::tags::>
 http://saltstack.com/ <::sif::>  SaltStack automation for CloudOps, ITOps & DevOps at scale <::tags::>
@@ -764,6 +772,7 @@ http://tweaked.io/guide/kernel/ <::sif::> Optimizing servers - Tuning the GNU/Li
 http://tympanus.net/ <::sif::> Tympanus <::tags::>
 http://tympanus.net/Development/TextInputEffects/index.html <::sif::> Text Input Effects | Set 1 <::tags::>
 http://tympanus.net/Tutorials/AnimatedButtons/index.html <::sif::> Animated Buttons with CSS3 <::tags::>
+http://tympanus.net/Tutorials/CSSProgress/ <::sif::> Shaded Progress Bars: A CSS/Sass Exercise | Codrops Demo <::tags::>
 http://tympanus.net/Tutorials/OriginalHoverEffects/index3.html <::sif::> Original Hover Effects with CSS3 <::tags::>
 http://tympanus.net/codrops/ <::sif::> Codrops | Useful resources and inspiration for creative minds <::tags::>
 http://tympanus.net/codrops/2013/11/07/css-overlay-techniques/ <::sif::> CSS Overlay Techniques <::tags::>
@@ -1204,8 +1213,10 @@ https://atlas.oreilly.com <::sif::> O'Reilly Atlas <::tags::>
 https://atmospherejs.com/ <::sif::> The trusted source for JavaScript packages, Meteor resources and tools | Atmosphere <::tags::>
 https://auth0.com/ <::sif::> Auth0 - Identity infrastructure, built for developers <::tags::>
 https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/ <::sif::> Critical vulnerabilities in JSON Web Token libraries <::tags::>
+https://aws.amazon.com/blogs/aws/new-amazon-elasticsearch-service/ <::sif::> New – Amazon Elasticsearch Service | AWS Official Blog <::tags::>
 https://aws.amazon.com/blogs/compute/microservices-without-the-servers/ <::sif::> Microservices without the Servers | AWS Compute Blog <::tags::>
 https://aws.amazon.com/elasticache/pricing/ <::sif::> Pricing <::tags::>
+https://aws.amazon.com/waf/ <::sif::> AWS WAF <::tags::>
 https://awwapp.com/ <::sif::> A web whiteboard <::tags::>
 https://babeljs.io <::sif::> Babel · The compiler for writing next generation JavaScript <::tags::>
 https://babeljs.io/docs/learn-es2015/ <::sif::> Learn ES2015 · Babel <::tags::>
@@ -1227,6 +1238,7 @@ https://bonsaiden.github.io/JavaScript-Garden/ <::sif::> JavaScript Garden <::ta
 https://botwiki.org/ <::sif::> Welcome To Botwiki.org | botwiki.org <::tags::>
 https://buffer.com/gifs-for-social-media <::sif::> The Best GIFs for Social Media <::tags::>
 https://c9.io/blog/behind-the-scenes-continuous-integration-at-cloud9/ <::sif::> Behind the Scenes: Continuous Integration at Cloud9 <::tags::>
+https://cachethq.io <::sif::> Cachet - The Open Source Status Page System <::tags::>
 https://cacoo.com/ <::sif::> Cacoo - Your ideas. Our canvas. <::tags::>
 https://ceph.com/ceph-storage/block-storage/ <::sif::> Block Storage <::tags::>
 https://changelog.com/ <::sif::> The Changelog - Open source moves fast. Keep up. <::tags::>
@@ -1356,6 +1368,7 @@ https://flexibits.com/fantastical <::sif::> Flexibits | Fantastical 2 for Mac | 
 https://forgerock.org/openam/ <::sif::> OpenAM - Access Management & SSO - Project Home Page <::tags::>
 https://formfillerjs.com <::sif::> FormFiller – Stop Wasting Your Time <::tags::>
 https://formstone.it/components/grid/#demo <::sif::> Grid · Formstone <::tags::>
+https://freeboard.io <::sif::> freeboard - Dashboards For the Internet Of Things <::tags::>
 https://frontendmasters.com <::sif::> Expert JavaScript and Front-End Web Development Training Videos <::tags::>
 https://frontendmasters.com/courses/jsnext-es6/ <::sif::> Learn the New JavaScript Features: JS.Next: ES6 / ES2015 <::tags::>
 https://frontify.com/styleguide <::sif::> Create Free Brand & Design Style Guides with Frontify Style Guide <::tags::>
@@ -1527,6 +1540,7 @@ https://github.com/google/traceur-compiler <::sif::> google/traceur-compiler · 
 https://github.com/gotwarlost/istanbul <::sif::> gotwarlost/istanbul · GitHub <::tags::>
 https://github.com/graphql/graphql-js <::sif::> graphql/graphql-js · GitHub <::tags::>
 https://github.com/gregoryfabry/checkerboard <::sif::> gregoryfabry/checkerboard · GitHub <::tags::>
+https://github.com/gsvineeth/rwdgrid <::sif::> gsvineeth/rwdgrid · GitHub <::tags::>
 https://github.com/gulpjs/gulp <::sif::> gulpjs/gulp · GitHub <::tags::>
 https://github.com/h2non/toxy/ <::sif::> h2non/toxy · GitHub <::tags::>
 https://github.com/h5bp/html5-boilerplate <::sif::> h5bp/html5-boilerplate · GitHub <::tags::>
@@ -1626,17 +1640,20 @@ https://github.com/panitw/easy-rpm <::sif::> panitw/easy-rpm · GitHub <::tags::
 https://github.com/paramaggarwal/react-dropzone <::sif::> paramaggarwal/react-dropzone · GitHub <::tags::>
 https://github.com/patrick-steele-idem/morphdom <::sif::> patrick-steele-idem/morphdom · GitHub <::tags::>
 https://github.com/patrick-steele-idem/morphdom/ <::sif::> patrick-steele-idem/morphdom · GitHub <::tags::>
+https://github.com/paulmillr/chokidar <::sif::> paulmillr/chokidar · GitHub <::tags::>
 https://github.com/pburtchaell/react-karma-webpack-example <::sif::> pburtchaell/react-karma-webpack-example · GitHub <::tags::>
 https://github.com/petkaantonov/bluebird <::sif::> petkaantonov/bluebird · GitHub <::tags::>
 https://github.com/petkaantonov/bluebird/blob/master/API.md <::sif::> bluebird/API.md at master · petkaantonov/bluebird · GitHub <::tags::>
 https://github.com/petkaantonov/bluebird/wiki/Optimization-killers <::sif::> Optimization killers · petkaantonov/bluebird Wiki · GitHub <::tags::>
 https://github.com/pgte/nock <::sif::> pgte/nock · GitHub <::tags::>
 https://github.com/pheuter/essential-react <::sif::> pheuter/essential-react · GitHub <::tags::>
+https://github.com/plouc/mozaik <::sif::> plouc/mozaik · GitHub <::tags::>
 https://github.com/pocketjoso/penthouse <::sif::> pocketjoso/penthouse · GitHub <::tags::>
 https://github.com/polymer <::sif::> polymer · GitHub <::tags::>
 https://github.com/pqx/locales.lst <::sif::> pqx/locales.lst · GitHub <::tags::>
 https://github.com/prerender/prerender-node <::sif::> prerender/prerender-node · GitHub <::tags::>
 https://github.com/qiao/PathFinding.js/ <::sif::> qiao/PathFinding.js · GitHub <::tags::>
+https://github.com/qw3rtman/git-fire <::sif::> qw3rtman/git-fire · GitHub <::tags::>
 https://github.com/rareyman/HTMLBeautify <::sif::> rareyman/HTMLBeautify · GitHub <::tags::>
 https://github.com/remy/nodemon <::sif::> remy/nodemon · GitHub <::tags::>
 https://github.com/request/request <::sif::> request/request · GitHub <::tags::>
@@ -1652,8 +1669,10 @@ https://github.com/schwa/Swift-Community-Best-Practices <::sif::> schwa/Swift-Co
 https://github.com/scottcorgan/immu <::sif::> scottcorgan/immu · GitHub <::tags::>
 https://github.com/sensu/sensu-community-plugins/ <::sif::> sensu/sensu-community-plugins · GitHub <::tags::>
 https://github.com/sensu/uchiwa <::sif::> sensu/uchiwa · GitHub <::tags::>
+https://github.com/sequelize/sequelize <::sif::> sequelize/sequelize · GitHub <::tags::>
 https://github.com/shaneGirish/bcrypt-nodejs <::sif::> shaneGirish/bcrypt-nodejs · GitHub <::tags::>
 https://github.com/shipitjs/shipit <::sif::> shipitjs/shipit · GitHub <::tags::>
+https://github.com/showcases <::sif::> Showcases · GitHub <::tags::>
 https://github.com/sidorares/node-tick <::sif::> sidorares/node-tick · GitHub <::tags::>
 https://github.com/sindresorhus/awesome-nodejs <::sif::> sindresorhus/awesome-nodejs · GitHub <::tags::>
 https://github.com/sindresorhus/chalk <::sif::> chalk/chalk · GitHub <::tags::>
@@ -1662,6 +1681,7 @@ https://github.com/slevithan/xregexp <::sif::> slevithan/xregexp · GitHub <::ta
 https://github.com/socketio/socket.io <::sif::> socketio/socket.io · GitHub <::tags::>
 https://github.com/socketio/socket.io-client <::sif::> socketio/socket.io-client · GitHub <::tags::>
 https://github.com/stampit-org/stampit <::sif::> stampit-org/stampit · GitHub <::tags::>
+https://github.com/stars?direction=desc&sort=created <::sif::> Sign in · GitHub <::tags::>
 https://github.com/strongloop <::sif::> StrongLoop, Inc. · GitHub <::tags::>
 https://github.com/strongloop/express <::sif::> strongloop/express · GitHub <::tags::>
 https://github.com/substack/faucet <::sif::> substack/faucet · GitHub <::tags::>
@@ -1782,6 +1802,7 @@ https://medium.com/@typographias/learning-to-make-a-font-the-hard-way-5c5c7045e9
 https://medium.com/backchannel/i-ve-spent-a-lifetime-building-a-mighty-network-here-are-my-secrets-8590d893d30c <::sif::> I’ve Spent A Lifetime Building a Mighty Network. Here Are My Secrets. — Backchannel — Medium <::tags::>
 https://medium.com/conquering-corporate-america/10-tricks-to-appear-smart-during-meetings-27b489a39d1a <::sif::> 10 Tricks to Appear Smart During Meetings — The Cooper Review — Medium <::tags::>
 https://medium.com/design-and-innovation/design-pretty-b7ab0158454c <::sif::> (Design != Pretty) — Design and Innovation — Medium <::tags::>
+https://medium.com/facebook-design/how-not-to-make-your-engineer-s-life-completely-terrible-292a6d5d134c <::sif::> How Not to Make Your Engineer’s Life Completely Terrible — Facebook Design — Medium <::tags::>
 https://medium.com/google-developers/javascript-application-architecture-on-the-road-to-2015-d8125811101b <::sif::> JavaScript Application Architecture On The Road To 2015 — Google Developers — Medium <::tags::>
 https://medium.com/javascript-scene <::sif::> JavaScript Scene — Medium <::tags::>
 https://medium.com/javascript-scene/baby-s-first-reaction-2103348eccdd <::sif::> Baby’s First Reaction — JavaScript Scene — Medium <::tags::>
@@ -1903,7 +1924,6 @@ https://stuk.io <::sif::> Learn how to code and create amazing apps | Stuk.io <:
 https://support.comodo.com/index.php?/Knowledgebase/Article/View/789/0/certificate-installation-nginx <::sif::> Certificate Installation: NGINX - Powered by Kayako Help Desk Software <::tags::>
 https://support.microsoft.com/en-us/kb/253169 <::sif::> Traffic That Can--and Cannot--Be Secured by IPSec <::tags::>
 https://support.microsoft.com/en-us/kb/830555 <::sif::> Circular references to DOM objects on an HTML page cause a memory leak <::tags::>
-https://support.microsoft.com/en-us/kb/830555 <::tags::>
 https://susestudio.com <::sif::>  Welcome – SUSE Studio <::tags::>
 https://taiga.io/ <::sif::> Taiga.Io | Agile, Open Source, Free Project Management System <::tags::>
 https://teamtreehouse.com <::sif::> Start Learning at Treehouse for Free <::tags::>
@@ -1927,11 +1947,16 @@ https://unicornfree.com/2015/making-huge-projects-work-part-2 <::sif::> Making h
 https://unpm.nodesource.com/ <::sif::> Understanding npm <::tags::>
 https://url.spec.whatwg.org/ <::sif::> URL Standard <::tags::>
 https://userium.com/ <::sif::> Usability checklist <::tags::>
+https://vimeo.com/100501790 <::sif::> Slaying the Dragon: Refactoring CSS for Maintainability – Alicia Liu at Front-Trends 2014 on Vimeo <::tags::>
 https://vimeo.com/136965797 <::sif::> Joao Parreira - Scaling Node.js to 500 million Users on Vimeo <::tags::>
+https://vimeo.com/17091905 <::sif::> Dan Cederholm - Handcrafted CSS on Vimeo <::tags::>
+https://vimeo.com/54990931 <::sif::> GitHub's CSS Performance on Vimeo <::tags::>
 https://vimeo.com/69255635 <::sif::> Classical Inheritance is Obsolete - How to Think in Prototypal OO on Vimeo <::tags::>
+https://vimeo.com/95734680 <::sif::> Harry Roberts - What Is A CSS Framework Anyway? on Vimeo <::tags::>
 https://vimeo.com/96425312 <::sif::> Philip Roberts: Help, I'm stuck in an event-loop. on Vimeo <::tags::>
 https://vimeo.com/99877232 <::sif::> Jonathan Snook – CSS is a Mess – beyond tellerrand Düsseldorf 2014 on Vimeo <::tags::>
 https://volkan.io <::sif::> Volkan Özçelik <::tags::>
+https://vpn.ht/en <::sif::> VPN.ht - Be completely anonymous on the Internet <::tags::>
 https://whatwg.org/ <::sif::> Web Hypertext Application Technology Working Group <::tags::>
 https://wiki.archlinux.org/index.php/Simple_IP_Failover_with_Heartbeat <::sif::> Simple IP Failover with Heartbeat - ArchWiki <::tags::>
 https://wiki.archlinux.org/index.php/dnsmasq <::sif::> dnsmasq - ArchWiki <::tags::>
@@ -1978,6 +2003,7 @@ https://www.daniweb.com/software-development/python/threads/39004/what-does-__ca
 https://www.datacamp.com <::sif::> Learn R with R tutorials and coding challenges | DataCamp <::tags::>
 https://www.datadoghq.com/blog/top-varnish-performance-metrics/ <::sif::> Top Varnish performance metrics <::tags::>
 https://www.dataquest.io <::tags::>
+https://www.designernews.co <::sif::> Designer News <::tags::>
 https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04 <::sif::> How To Configure Sensu Monitoring, RabbitMQ, and Redis on Ubuntu 14.04 | DigitalOcean <::tags::> tutorials,ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-14-04 <::sif::> How to Install and Configure VNC on Ubuntu 14.04 | DigitalOcean <::tags::> tutorials,ubuntu
 https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit <::sif::> How To Install And Run A Node.js App On Centos 6.4 64bit | DigitalOcean <::tags::> tutorials
@@ -2003,6 +2029,7 @@ https://www.file.io/ <::sif::> file.io - Ephemeral file sharing <::tags::>
 https://www.flickr.com/ <::sif::> Flickr, a Yahoo company | Flickr - Photo Sharing! <::tags::>
 https://www.flickr.com/groups/_typography/ <::sif::> Typography * | Flickr - Photo Sharing! <::tags::>
 https://www.fpcomplete.com/school/starting-with-haskell?show=tutorials <::sif::> Starting with Haskell - School of Haskell | FP Complete <::tags::>
+https://www.geckoboard.com <::sif::> KPI dashboards for businesses | Geckoboard <::tags::>
 https://www.geotrust.com/ssl/compare-ssl-certificates.html <::sif::> Compare SSL Certificates | GeoTrust® <::tags::>
 https://www.gliffy.com/ <::sif::> Online Diagram Software and Flow Chart Software - Gliffy <::tags::>
 https://www.google.com/?gws_rd=ssl <::sif::> Google <::tags::>
@@ -2011,6 +2038,7 @@ https://www.google.com/events/io/ <::sif::> Google I/O 2014 <::tags::>
 https://www.google.com/events/io/io14videos <::sif::> Google I/O 2014 - Videos <::tags::>
 https://www.google.com/voice <::sif::> Google Voice <::tags::>
 https://www.h2check.org/ <::sif::> H2Check - test your site for HTTP/2 support <::tags::>
+https://www.happymetrix.com <::sif::> HappyMetrix Dashboards <::tags::>
 https://www.hashicorp.com/blog/otto.html <::sif::> Otto - HashiCorp <::tags::>
 https://www.haskell.org/platform/linux.html <::sif::> Download Haskell Platform <::tags::>
 https://www.hellobonsai.com <::sif::> Bulletproof contracts, simple e-signing, integrated escrow for freelancers | Bonsai <::tags::>
@@ -2185,8 +2213,11 @@ https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm <::sif:
 https://www.youtube.com/playlist?list=PL5586336C26BDB324 <::sif::>  The JavaScript Trilogy by Douglas Crockford - YouTube <::tags::>
 https://www.youtube.com/watch <::sif::> YouTube <::tags::>
 https://www.youtube.com/watch?t=1&v=g6-ZwZmRncs <::sif::> Fetch API (100 Days of Google Dev) - YouTube <::tags::>
+https://www.youtube.com/watch?v=-bZSTMLqf8Q&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> HTML5DevConf Brad Westfall, AZPixels: Play nice with CSS tools and Methodologies - YouTube <::tags::>
 https://www.youtube.com/watch?v=0ZMvSh7lUdM <::sif::> dtrace.conf 2012 - DTrace in node.js - YouTube <::tags::>
 https://www.youtube.com/watch?v=1b831QnPIeo <::sif::> Nodejs in Production - YouTube <::tags::>
+https://www.youtube.com/watch?v=1yUFTrAxTzg&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> Andrey Sitnik - PostCSS: The Future After Sass and LESS - YouTube <::tags::>
+https://www.youtube.com/watch?v=2iFw2GCOPj0&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> The Humble border-radius - YouTube <::tags::>
 https://www.youtube.com/watch?v=4uQMl7mFB6g <::sif::> The ServiceWorker: The network layer is yours to own - YouTube <::tags::>
 https://www.youtube.com/watch?v=7TZrkJBxDJw <::sif::> Best Practices for Deploying Node.js in Production - YouTube <::tags::>
 https://www.youtube.com/watch?v=90NsjKvz9Ns <::sif::> Mark DiMarco: User Interface Algorithms [JSConf2014] - YouTube <::tags::>
@@ -2200,12 +2231,16 @@ https://www.youtube.com/watch?v=C8orjQLacTo <::sif::> TCP and The Lower Bound of
 https://www.youtube.com/watch?v=CN0jTnSROsk <::sif::> Node.JS: The Good Parts? A Skeptic's View - YouTube <::tags::>
 https://www.youtube.com/watch?v=DgVS-zXgMTk&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi <::sif::> Pete Hunt: React - Rethinking Best Practices (updated) - JSConf.Asia 2013 - YouTube <::tags::>
 https://www.youtube.com/watch?v=FEs2jgZBaQA <::sif::> CSSconf EU 2014 | Addy Osmani: CSS Performance Tooling - YouTube <::tags::>
+https://www.youtube.com/watch?v=FEs2jgZBaQA&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> CSSconf EU 2014 | Addy Osmani: CSS Performance Tooling - YouTube <::tags::>
+https://www.youtube.com/watch?v=FYcu-wWrNqo&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> Kushagra Gour: 10 Commandments for Efficient CSS Architecture - CSSConf.Asia 2014 - YouTube <::tags::>
 https://www.youtube.com/watch?v=GRrvai-V58U <::sif::> How to Cluster Node.js Processes and Applications - YouTube <::tags::>
 https://www.youtube.com/watch?v=HYl7ReNB5TA <::sif::> Ariya Hidayat: Keynote - JavaScript API Design Principles. - YouTube <::tags::>
 https://www.youtube.com/watch?v=I7IdS-PbEgI&list=PLb0IAmt7-GS1cbw4qonlQztYV1TAW0sCr <::sif::> React.js Conf 2015 - Immutable Data and React - YouTube <::tags::>
+https://www.youtube.com/watch?v=I82ytAWxzrI&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> Realigning & Refactoring UI - Jina Bolton - YouTube <::tags::>
 https://www.youtube.com/watch?v=IWPgUn8tL8s <::sif::> Scott Hanselman - "It's not what you read, it's what you ignore" - YouTube <::tags::>
 https://www.youtube.com/watch?v=JxAXlJEmNMg <::sif::> Crockford on JavaScript - Volume 1: The Early Years - YouTube <::tags::>
 https://www.youtube.com/watch?v=KAW8IyT-aV0 <::sif::> Node Philly 2012 :: Large Scale Node.js Panel - YouTube <::tags::>
+https://www.youtube.com/watch?v=L8w3v9m6G04&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> dotCSS 2014 - Nicolas Gallagher - Thinking beyond “Scalable CSS” - YouTube <::tags::>
 https://www.youtube.com/watch?v=LmL0Gh193M0 <::sif::> Javascript ES6 Cheatsheet #2 - the best of JS ES6 - YouTube <::tags::>
 https://www.youtube.com/watch?v=MqHDDtVYJRI <::sif::> Bartek Szopka: Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013 - YouTube <::tags::>
 https://www.youtube.com/watch?v=QO07THdLWQo <::sif::> Javascript Generators - THEY CHANGE EVERYTHING - ES6 Generators Harmony Generators - YouTube <::tags::>
@@ -2213,6 +2248,8 @@ https://www.youtube.com/watch?v=R8W_6xWphtw <::sif::> Paul Irish, "Delivering th
 https://www.youtube.com/watch?v=SdMxGNkZqnU <::sif::> Jake Archibald: Using the service worker - YouTube <::tags::>
 https://www.youtube.com/watch?v=SiFwRtCnxv4 <::sif::> David Nolen: Immutability: Putting The Dream Machine To Work [JSConf2014] - YouTube <::tags::>
 https://www.youtube.com/watch?v=TiLJKpzlOeY <::sif::> Jeremy Ashkenas - JS.Next and CoffeeScript (FutureJS 2014) - YouTube <::tags::>
+https://www.youtube.com/watch?v=TjsXqt-UxLo&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> MOTION DESIGN WITH CSS Val Head - YouTube <::tags::>
+https://www.youtube.com/watch?v=Tk_0qYEFtAY&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> Christian Lilley: Build Scalable, Automated CSS - CSSConf.Asia 2014 - YouTube <::tags::>
 https://www.youtube.com/watch?v=VN4SNJ2JT9E <::sif::> Scaling A/B Testing on Netflix.com with Node.js - YouTube <::tags::>
 https://www.youtube.com/watch?v=XRYN2xt11Ek <::sif::> Netflix JavaScript Talks - Async JavaScript with Reactive Extensions - YouTube <::tags::>
 https://www.youtube.com/watch?v=X_VHWQa1k0k <::sif::> Eventually Consistent Distributed Systems with Node.js for Finance - Stefan Kutko of Electronifie - YouTube <::tags::>
@@ -2224,9 +2261,13 @@ https://www.youtube.com/watch?v=dwP1TNXE6fc <::sif::> Reactive Programming Overv
 https://www.youtube.com/watch?v=g01dGsKbXOk <::sif::> reactjs - netflix - tony casparro - chasing 60fps - YouTube <::tags::>
 https://www.youtube.com/watch?v=gawmdhCNy-A <::sif::> Asynchronous Programming at Netflix - @Scale 2014 - Web - YouTube <::tags::>
 https://www.youtube.com/watch?v=hAzhayTnhEI <::sif::> Google I/O 2012 - Jank Busters: Building Performant Web Apps - YouTube <::tags::>
+https://www.youtube.com/watch?v=hFdbE6T9QGc&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> Open Source Tools and Libraries for Designers - YouTube <::tags::>
 https://www.youtube.com/watch?v=hMd45Ij2DYQ <::sif::> HTML5 Lessons from LinkedIn using Node.js - YouTube <::tags::>
 https://www.youtube.com/watch?v=i_fGWJqdtFU <::sif::> Debugging, Profiling, Heap Dumping, Scaling and other fix-it techniques in Node.js - YouTube <::tags::>
+https://www.youtube.com/watch?v=iniwPUEbPUM&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> CODE GENIUS - Cascading Shit Show by Jacob Thornton - YouTube <::tags::>
+https://www.youtube.com/watch?v=j6sAm7CLoCQ <::sif::> Velocity 2010: Nicole Sullivan, "The Top 5 Mistakes of Massive CSS" - YouTube <::tags::>
 https://www.youtube.com/watch?v=jsiqvXi3qSA <::sif::> High Performance JavaScript with Trevor Norris - YouTube <::tags::>
+https://www.youtube.com/watch?v=ldx4ZFxMEeo&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA <::sif::> [CSSconf.eu 2013] Harry Roberts - Normalising designs for better quality CSS - YouTube <::tags::>
 https://www.youtube.com/watch?v=nQaCN-xWGnc <::sif::> AngularJs $http Promise Tutorial - YouTube <::tags::>
 https://www.youtube.com/watch?v=nYkdrAPrdcw&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi&index=9 <::sif::> Hacker Way: Rethinking Web App Development at Facebook - YouTube <::tags::>
 https://www.youtube.com/watch?v=obtCN3Goaw4&utm_source=webopsweekly&utm_medium=email <::sif::> Supercharged: The Guardian - YouTube <::tags::>
@@ -2242,6 +2283,3 @@ https://xkcd.com/323/ <::sif::> xkcd: Ballmer Peak <::tags::>
 https://xkcd.com/blue_eyes.html <::sif::>  Blue Eyes - A Logic Puzzle <::tags::>
 https://zeplin.io/ <::sif::> Zeplin <::tags::>
 https://zyan.scripts.mit.edu/blog/backdooring-js/ <::sif::> backdooring your javascript using minifier bugs | discrete blogarithm <::tags::>
-https://www.designernews.co
-https://github.com/showcases
-https://github.com/stars?direction=desc&sort=created
