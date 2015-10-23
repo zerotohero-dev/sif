@@ -23,17 +23,20 @@ cd $DIR/..
 
 ./devbin/batch-transpile.sh
 
-echo "Transpilation done. Starting copying files…"
+echo "Transpilation done."
 
-cp -r bin release
-cp -r data release
-cp -r lib release
+RELEASE=false
 
-echo "Finished copying files. Starting cleanup."
+if [[ "${RELEASE}" = true ]]; then
+    cp -r bin release
+    cp -r data release
+    cp -r lib release
 
-find release -name "*.es6" -delete
-find release -name "*.js.map" -delete
-find release -name "__tmp*" -delete
+    echo "Finished copying files. Starting cleanup."
 
-echo "Finished cleanup. All done!"
+    find release -name "*.es6" -delete
+    find release -name "*.js.map" -delete
+    find release -name "__tmp*" -delete
 
+    echo "Finished cleanup. All done!"
+fi

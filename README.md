@@ -28,38 +28,30 @@
 
 It's basically a command line interface that you can search for things real 
 fast. You can, for example call `sif find tutorial` and `sif` will display you
-a bunch of tutorial links. The `find` command takes a regular expression as the
+a bunch of tutorial links (*the `find` command takes a regular expression as the
 search argument, which means you can do things like 
-`sif find "youtube*tutorial"` which will show you a refined set of links.
+`sif find "youtube*tutorial"` which will show you a refined set of links*).
 
 Although `sif`s main focus is on sifting and finding links, you can use it
 to store and search arbitrary lines of text too.
 
 Read [this section] to learn more about what `sif` is capable of.
 
-### Who Is `sif` For
+## Who Should Use `sif`?
 
-If you love links, if you love to keep your information all together,
-and if you love to find things easily, and if you like the speed and simplicity
-of the command line, then `sif` is just for you.
+If you love links, if your browser has hundreds (*if not thousands*) bookmarks
+waiting to be sifted through, if you have used services like [read it later],
+[xmarks], or [delicious] for a hope to organize your links, if you love to keep 
+your information all together, and if you love to find things easily, and if 
+you like the speed, beauty, and simplicity of the command line, then `sif` 
+has been tailored just for you.
 
-### Who Is `sif` **NOT** For
-
-If you cannot live without a graphical user interface. If you open some sort
-of rich-text-enable cloud-ready word processor to store a simple link to a
-web page, or to write a simple "how to" note for later reference, then 
-probably `sif` is **not** for you.  
-
-Since `sif` is a command line interface to sifting your stuff, you'll benefit
-it most, you are comfortable with the command line. However, even if you 
-are not a comamnd line aficionado it's really easy to get used to it if you
-[spend five minutes to read the **Usage Examples**][link].
-
-## Backstory
-
-I'd been privately using a bunch of shell scripts for a similar purpose;
-and I decided to make it more usable, and publicly available; and that's
-how `sif` came up to be.
+> **Note**
+>
+> Since `sif` is a command line interface to sifting your stuff, you'll benefit
+> it most, you are comfortable with the command line. However, even if you 
+> are not a command line aficionado it's really easy to get used to it if you
+> [spend five minutes to read the **Usage Examples**][link].
 
 ## Dependencies
 
@@ -75,7 +67,7 @@ For windows users, an emulation layer like Cygwin might also work; however
 
 ## How to Install
 
-Once you have `node` and `npm` installed execute the following command to
+Once you have `node` and `npm` installed, execute the following command to
 install `sif`:
 
 ```bash
@@ -83,111 +75,124 @@ npm install sif -g
 ```
 
 To check that `sif` is up and running, simply call `sif` on the terminal which
-will display a help similar to the following:
-
-```bash
-sif
-
-     _,
-    /(_
-   |   '-._        . ' .
-   \    ,-.)      -= * =-
-    \((` .(        '/. '
-     )\  _/        /
-  .-'   '--.      /
-  \,         \   /| 
-   ';,_) _)'\ \,//
-
-
-  Usage: sif [options] [command]
-
-
-  Commands:
-
-    aliases                    ...
-    alias <shorthand> <query>  ...
-    rmalias <alias>            ...
-    tag <query> [tag]          ...
-    rmtag <query> [tag]        ...
-    purge                      ...
-    update                     ...
-    find <what> [options]      ...
-    help [cmd]                 ...
-
-  Options:
-
-    -h, --help     output usage information
-    -V, --version  output the version number
-
-```
+will display an introductory help message.
 
 You can get further help by executing `sif [cmd]` where `cmd` is the command
-name that you want to get help:
+name that you want to get help. 
+
+For example, to get further help about the `find` command, simply type the
+following in the terminal:
 
 ```bash
 sif help find
-
-     _,
-    /(_
-   |   '-._        . ' .
-   \    ,-.)      -= * =-
-    \((` .(        '/. '
-     )\  _/        /
-  .-'   '--.      /
-  \,         \   /| 
-   ';,_) _)'\ \,//
-
-
-  Usage: sif-find <what> [options]
-
-  Options:
-
-    -h, --help    output usage information
-    -i, --invert  Inverts the selection so that anything 
-            that does NOT match the search criteria will be listed.
 ```
+
+## How to Upgrade
+
+To update `sif` to the latest version run a
+
+```bash
+npm update sif -g
+```
+
+> **CAVEAT**
+> 
+> Currently updating `sif` will delete your current data.
+> So make sure that you backup your global `node_modules/sif/data` folder
+> before doing an update.
+>
+> Updating will be easier in the upcoming versions of `sif`; however, it's
+> not without side effects right now.
 
 ## Local Development Setup
 
-To develop `sif` locally first fork the project, and then do an `npm install`.
+To develop `sif` locally first fork the project, first [fork it][fork] and then
+[clone][clone] it to your computer.
+
+> **Note**
+>
+> We will use `~/PROJECTS/sif` as the project workspace, yours could be
+> different.
+
+After that, `cd` to the project root do an `npm install`:
+
+```bash
+cd ~/PROJECTS/sif
+npm install
+```
+
+This will install `sif` locally.
 
 From the project root, call:
 
 ```bash
+cd ~/PROJECTS/sif
 ./devbin/prepublish.sh
 ```
 
 Then call:
 
 ```bash
-./devbin/alias.sh
+cd ~/PROJECTS/sif
+source ./devbin/alias.sh
 ```
 
 `alias.sh` will create an alias for `sif` that uses your local files.
 
-> **CAVEAT**
+> **Note**
 >
-> **DO NOT** use `npm link`; `use `./alias.sh` instead.
+> You can also use `npm link`, instead of using `./devbin/alias.sh`.
+>
+> Though `npm link` will permanently replace your global `sif` command whereas
+> `./devbin/alias.sh` will only replace it for the current development session.
+
+You will need the `.es6` files to be regularly transpiled to `.js` to be able
+to run the code. To make that easier there is a watcher app.
+
+If you run… 
+
+```bash
+cd ~/PROJECTS/sif
+node ./devbin/watch.js
+```
+
+then whenever you change an `.es6` module, it will be automatically transpiled
+to **JS**.
+
+You can read more about **ES6** and transpilation at 
+[Babel's ES6 documentation][babel].
 
 ## `sif` Internals
 
+`sif` uses Linux file processing commands, [child processes][child_process] and
+[streams][streams] to get its job done.
+
+Here's a brief outline of its directory layout:
+
 ### Directory Structure
 
-* bin
-* data
-* runbooks
-* devbin
-* lib
-* release
-* tmp
+* **bin**: Contains commands that the global `sif` application uses. The `sif`
+ global is just an alias to `bin/sif.js`. --- `bin/sif.es6` is the entry point
+ of the application.
+* **data**: The index file, and the runbooks are stored here.
+* **data/runbooks**: This is currently a proof oc concept. It included bite-sized
+instructions to manage certain technical tasks, so that you don't have to google
+it over and over again.
+* **devbin**: Utility scripts that are used for developing, bundling, and 
+publishing `sif`.
+* **lib**: Helper modules that the files in **bin** use.
+* **CHANGELOG.md**
 
 ## Configuration
 
-TBD
+Currently there are no configuration options for `sif`; this will change
+in the upcoming releases
 
 ## Supported Environments
 
-TBD
+`sif` runs best in unix-like environments (*i.e., Mac OS, and Linux*).
+
+Currently it cannot run on Windows because it uses builtin Linux commands.
 
 ## Usage Examples
 

@@ -30,16 +30,13 @@ sif.iml
 Generated_files.xml
 
 ## Temporary Files
-__tmp_existing
-__tmp_aliases
-__tmp_processed
-index.idx.backup
+tmp/*
 
 ## Generated Files
-bin/**/*.js
-bin/**/*.js.map
-lib/**/*.js
-lib/**/*.js.map
+#bin/**/*.js
+#bin/**/*.js.map
+#lib/**/*.js
+#lib/**/*.js.map
 
 ## Vim-specific
 *.swp
