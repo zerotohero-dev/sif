@@ -172,7 +172,7 @@ Here's a brief outline of its directory layout:
 ### Directory Structure
 
 * **bin**: Contains commands that the global `sif` application uses. The `sif`
- global is just an alias to `bin/sif.js`. --- `bin/sif.es6` is the entry point
+ global is just an alias to `bin/sif.js`. — `bin/sif.es6` is the entry point
  of the application.
 * **data**: The index file, and the runbooks are stored here.
 * **data/runbooks**: This is currently a proof oc concept. It included bite-sized
@@ -255,7 +255,8 @@ maintainers.
 available at 
 [http://contributor-covenant.org/version/1/2/0/](http://contributor-covenant.org/version/1/2/0/)*.
 
-## About
+
+// TODO: below is to be move/removed.
 
 
 
@@ -294,7 +295,7 @@ command-line utility that will help me sift through data efficiently
 and effectively.
 
 Although there are websites for this purpose, they are slow to respond, and the
-are slower to use than a terminal. --- command line FTW!
+are slower to use than a terminal. — command line FTW!
 
 --
 
@@ -308,7 +309,7 @@ you can decide to update or ignore it.
 
 REMARK:
 sif runs in unix-like environments; why? because I wanted to leverage the already
-superb file searching and sorting capabilities of unix. -- `egrep` and `sort`
+superb file searching and sorting capabilities of unix. — `egrep` and `sort`
 can be implemented in pure JavaScript (as streams) too; I'll leave it in the 
 "icebox" for issues to consider later.
 
