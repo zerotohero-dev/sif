@@ -16,81 +16,112 @@
      '.| /
 ```
 
-> **NOTE**
-> 
-> This README is in draft mode.
->
-> I'll remove this notice when the README is finalized.
-
 ## Summary
 
-`sif` is an intelligent curator that makes information meaningful and findable.
+`sif` is an intelligent **curator** that makes information **meaningful** and 
+**findable**.
 
-It's basically a command line interface that you can search for things real 
-fast. You can, for example call `sif find tutorial` and `sif` will display you
-a bunch of tutorial links (*the `find` command takes a regular expression as the
-search argument, which means you can do things like 
-`sif find "youtube*tutorial"` which will show you a refined set of links*).
+`sif` is a command line interface that runs **as fast as you think**.
 
-Although `sif`s main focus is on sifting and finding links, you can use it
+You can, for example call `sif find tutorial` and `sif` will display you
+a list of tutorial links (*[the `find` command][#searching] accepts 
+regular expression too, which means you can do things like 
+`sif find "youtube*tutorial"` to search for things that have "youtube" or
+"tutorial" in them*).
+
+Although `sif`'s main focus is on sifting and finding links, you can use it
 to store and search arbitrary lines of text too.
 
-Read [this section] to learn more about what `sif` is capable of.
+[Read the usage examples section][usage-examples] to learn more about what 
+`sif` is capable of.
 
 ## The Backstory
 
+I am addicted to links.
+
 I touch a substantial amount of links while I'm doing my day-to-day work. 
+
 I collect, categorize, and sift links.
 
-After figuring out that it becomes damn hard to search your bookmarks after your 
-browser's bookmark index grows above tens of megabytes, I decided to create a
-command-line utility that will help me sift through data efficiently 
-and effectively.
+I've also figured out that after you browser's book mark index grows above 
+a few tens of megabytes, it becomes really hard to use it: Browsing websites
+and searching inside your bookmarks become unbearably slow.
 
-Although there are websites for this purpose, they are slow to respond, and the
-are slower to use than a terminal. — command line FTW!
+Although there are "social bookmarking as a service" websites for this purpose, 
+they are slow to respond, and they require you to be online, and you need 
+a browser to begin with.
+
+`sif` has zero latency because everything is stored locally.
+
+Grepping a plain text file in the command line is much more faster, and much 
+less disruptive than searching for things by launching the browser, going to 
+a website, performing a search, and waiting for the response to come over the
+wire. 
+
+Command line FTW!
 
 ## Who Should Use `sif`?
 
-If you love links, if your browser has hundreds (*if not thousands*) bookmarks
-waiting to be sifted through, if you have used services like [read it later],
-[xmarks], or [delicious] for a hope to organize your links, if you love to keep 
-your information all together, and if you love to find things easily, and if 
-you like the speed, beauty, and simplicity of the command line, then `sif` 
-has been tailored just for you.
+If you love **links**, if you have hundreds (*if not thousands*) bookmarks
+waiting to be sifted through, if you have used services like [pocket][pocket],
+[xmarks][xmarks], or [delicious][delicious] for a hope they will be good enough
+to **sift your links**, if you love to keep your information all together, 
+if you want to **find things without hassle**, and if you like the 
+**speed**, **beauty**, and **simplicity** of the **command line**, then 
+`sif` is just for you.
 
 > **Note**
 >
-> Since `sif` is a command line interface to sifting your stuff, you'll benefit
-> it most, you are comfortable with the command line. However, even if you 
-> are not a command line aficionado it's really easy to get used to it if you
-> [spend five minutes to read the **Usage Examples**][link].
+> Since `sif` is a command line interface, you'll benefit it most if you are 
+> comfortable with the command line. 
+> 
+> Even if you are not a command line aficionado, however, it's really easy to 
+> get used to it if you [spend five minutes to go through 
+> the **Usage Examples**][#usage-examples].
+
+[pocket]: https://getpocket.com
+[xmarks]: http://www.xmarks.com
+[delicious]: https://delicious.com
 
 ## Dependencies
 
-`sif` is a [Node.JS] command line application, therefore it requires a [Node.JS]
-runtime. To install `sif`, you will also need [npm], which comes bundled with
-[Node.JS] most of the time.
+`sif` is a [Node.JS][nodejs] command line application, therefore it requires a [Node.JS]
+runtime. 
 
-And since `sif` uses builtin `bash` commands for execution speed, you will need
-a unix flavor, or Mac OS X.
+> **Note**
+>
+> To install `sif`, you will also need [npm][npm], which comes bundled with
+[Node.JS][node] most of the time.
 
-For windows users, an emulation layer like Cygwin might also work; however
-`sif` has not been tested on Windows yet.
+`sif` runs best in unix-like environments because it leverages the already
+superb file searching and sorting capabilities of unix: Mainly [`egrep`][egrep] 
+and [`sort`][sort].
 
-sif runs in unix-like environments; why? because it leverages the already
-superb file searching and sorting capabilities of unix: Mainly `egrep` and `sort`
- 
-`egrep` and `sort` can be implemented in pure JavaScript (as streams) too; 
-this, and it's currently a [feature to be implemented in the future][ref].
+> **Note**
+> 
+> `egrep` and `sort` can be implemented in pure JavaScript (as streams) too;
+> [implementing these in the future][issue-16], will make `sif` more portable 
+> and more platform-agnostic. Until then if you don't have [bash][bash], 
+> then you'll need an emulation layer to run `sif`.
 
-Until then the only way to run `sif` on windows is to use some form of emulation
-layer.
+To rephrase, since `sif` uses builtin [bash][bash] commands. So, in order to 
+use it, you will either need a unix flavor such as [Ubuntu][ubuntu] 
+or [Fedora][fedora]; or a fake linux like [Mac OS][mac]; or a linux emulation 
+layer like [Cygwin (*for Windows*)][cygwin].
+
+> *Note*
+>
+> `sif` is not tested very thoroughly on Windows, so your experience there
+> may vary. — If you are a windows user,
+> [please report any issues you have][new-issue] so that it can be scheduled to
+> be fixed in the upcoming releases.
+
+
 
 ## How to Install
 
-Once you have `node` and `npm` installed, execute the following command to
-install `sif`:
+Once you have [`node`][nodejs] and [`npm`][npm] installed, execute the following 
+command to install `sif`:
 
 ```bash
 npm install sif -g
@@ -99,8 +130,8 @@ npm install sif -g
 To check that `sif` is up and running, simply call `sif` on the terminal which
 will display an introductory help message.
 
-You can get further help by executing `sif [cmd]` where `cmd` is the command
-name that you want to get help. 
+You can get further help by executing `sif help [cmd]` where `cmd` is the 
+command name that you want to get help. 
 
 For example, to get further help about the `find` command, simply type the
 following in the terminal:
@@ -128,8 +159,8 @@ npm update sif -g
 
 ## Local Development Setup
 
-To develop `sif` locally first fork the project, first [fork it][fork] and then
-[clone][clone] it to your computer.
+To develop `sif` locally first fork the project, first [fork it][git-fork] 
+and then [clone][git-clone] it to your computer.
 
 > **Note**
 >
@@ -143,9 +174,9 @@ cd ~/PROJECTS/sif
 npm install
 ```
 
-This will install `sif` locally.
+This will install a local development environment for `sif`.
 
-From the project root, call:
+Then, from the project root, call:
 
 ```bash
 cd ~/PROJECTS/sif
@@ -159,17 +190,19 @@ cd ~/PROJECTS/sif
 source ./devbin/alias.sh
 ```
 
-`alias.sh` will create an alias for `sif` that uses your local files.
+`alias.sh` will create an alias for `sif` that points to the `sif` executable
+in your project root (*i.e., `~/PROJECTS/bin/sif.js` in our case*).
 
 > **Note**
 >
 > You can also use `npm link`, instead of using `./devbin/alias.sh`.
 >
-> Though `npm link` will permanently replace your global `sif` command whereas
+> However, `npm link` will permanently replace your global `sif` command whereas
 > `./devbin/alias.sh` will only replace it for the current development session.
 
 You will need the `.es6` files to be regularly transpiled to `.js` to be able
-to run the code. To make that easier there is a watcher app.
+to run, debug, and develop the code. To make that easier there is a watcher
+binary.
 
 If you run… 
 
@@ -179,34 +212,49 @@ node ./devbin/watch.js
 ```
 
 then whenever you change an `.es6` module, it will be automatically transpiled
-to **JS**.
+to `.js`.
 
 You can read more about **ES6** and transpilation at 
-[Babel's ES6 documentation][babel].
+[Babel's documentation][babel].
+
+[babel]: http://babeljs.io
 
 ## `sif` Internals
 
-`sif` uses Linux file processing commands, [child processes][child_process] and
-[streams][streams] to get its job done.
+`sif` uses Linux file processing commands, [child processes][child-process] and
+[streams][node-streams] to get its job done.
 
-Here's a brief outline of its directory layout:
+`sif` is basically a a command line shell that manages a large text file which
+is **the index**. The following section has some additional details about that.
 
-### The Index
+### The Index (*data/index.idx*)
 
-`sif` has a large sample data that you can use out-of-the box if you want to.
+The index is a plain text file that can be modified with your favorite text
+editor. 
 
-This data set is regularly updated, and you can get the most recent version by
+When you run a `sif update` this file is traversed and processed:
+
+* The lines get sorted in alphabethical order
+* Some additional meta data (*such as description and titles*) is fetched from
+the web and amended to the lines.
+
+This index file is regularly updated, and you can get the most recent version by
 simply running an `npm update sif -g` command.
 
-Additionally, you are more than welcome to PR and add links to it.
+Additionally, you are more than welcome to add links to it and [create
+a pull request][git-pr] to get them merged back. 
 
-TODO:// explain process of how to suggest link.
-TODO:// add ability to fetch recent data set (from github)
+To do that simply…
 
-### Directory Structure
+* [Fork this repository][git-fork].
+* [Clone your forked repo][git-clone].
+* Add the links you want to be merged to the end of `data/index.idx`.
+* Finally, [create a pull request][git-pr].
+
+### The Directory Structure
 
 * **bin**: Contains commands that the global `sif` application uses. The `sif`
- global is just an alias to `bin/sif.js`. — `bin/sif.es6` is the entry point
+ global is an alias to `bin/sif.js`. — `bin/sif.es6` is the entry point
  of the application.
 * **data**: The index file, and the runbooks are stored here.
 * **data/runbooks**: This is currently a proof oc concept. It included bite-sized
@@ -215,12 +263,15 @@ it over and over again.
 * **devbin**: Utility scripts that are used for developing, bundling, and 
 publishing `sif`.
 * **lib**: Helper modules that the files in **bin** use.
-* **CHANGELOG.md**
+* **CHANGELOG.md**: A change log of what has been added recently.
+* **CODE_OF_CONDUCT.md**: Reminds you to be nice to others.
+* **README.md**: This readme you are looking at.
+* **LICENSE.md**: Boring copyright stuff
 
 ## Configuration
 
-Currently there are no configuration options for `sif`; this will change
-in the upcoming releases
+Currently there are no configuration options for `sif`; [this will change
+in the upcoming releases][issue-69].
 
 ## Supported Environments
 
@@ -261,6 +312,7 @@ TODO:// this command is under development.
 TODO:// this command is under development.
 
 Tags can be any kind of text; try to keep your tags simple and memorable.
+
 An alias is a single-word token with no spaces in it.
 
 ### Updating the `sif` Index
@@ -284,26 +336,35 @@ index, the runbooks, the aliases, and anything else.
 ## Versioning and Backwards Compatibility
 
 `sif` follows [semantic versioning][semver] rules and it is versioned in the
-`major.minor.patch` format. — Any breaking backwards-incompatible change will
-increment the **major** version number; any backwards-compatible enhancement will
-increment the **minor** version number; and any bugfixes that don't add extra 
-features will increment the **patch** version number.
+"**major**.**minor**.**patch**" format.
+
+* Any breaking backwards-incompatible change will
+increment the **major** version number. 
+* Any backwards-compatible enhancement will increment the **minor** version 
+number. 
+* And any bugfixes that don't add extra features will increment the **patch** 
+version number.
 
 ## Wanna Help? 
 
 Contributors are more than welcome. — 
 
-You can help make `sif` even better by…
+You can help make `sif` even better by:
 
-* [Suggesting new features by opening issues]
-* [Cleaning up open issues]
-* [Finding bugs in the code and creating issues for that]
-* Testing `sif` in your platform.
-* Actually using `sif` and providing feedback (as issues).
-* Forking the code, and creating pull requests.
+* [Suggesting new features by opening issues][new-issue].
+* [Cleaning up open issues][issues].
+* [Finding bugs in the code and creating issues for that][new-issue].
+* Testing `sif` by actually using it, and [providing feedback][new-issue].
+* [Forking the code, making it better, and creating pull requests][git-pr].
 
+> **Note**
+>
+> If you are planning to contribute to the source code we won't bore you with
+> a giant list of coding conventions **:)**. It's your contribution that
+> that matters.
+> 
 > In lieu of a formal styleguide, take care to maintain the existing 
-coding style. Other than that, there's no formal contribution requirements.
+> coding style. Other than that, there's no formal contribution requirements.
 
 ## Contact Information
 
@@ -312,15 +373,38 @@ coding style. Other than that, there's no formal contribution requirements.
 
 ## License
 
-MIT-Licensed. — See [LICENSE.md] for details.
+MIT-Licensed. — See [the license file][LICENSE.md] for details.
 
 ## Code of Conduct
-
-Bottom line up front:
 
 We are committed to making participation in this project a harassment-free 
 experience for everyone, regardless of level of experience, gender, gender 
 identity and expression, sexual orientation, disability, personal appearance, 
 body size, race, ethnicity, age, religion, or nationality.
 
-[See the code of conduct for details][code-of-conduct].
+[See the code of conduct for details][CODE_OF_CONDUCT.md].
+
+[git-clone]: https://git-scm.com/docs/git-clone
+[git-fork]: https://help.github.com/articles/fork-a-repo/
+[git-pr]: https://help.github.com/articles/using-pull-requests/
+
+[nodejs]: https://nodejs.org
+[npm]: https://www.npmjs.com
+
+[ubuntu]: http://www.ubuntu.com
+[fedora]: https://getfedora.org
+[cygwin]: https://www.cygwin.com
+[mac]: http://www.wikiwand.com/en/Mac_OS
+
+[bash]: https://www.gnu.org/software/bash/
+[egrep]: http://ss64.com/bash/egrep.html
+[sort]: http://ss64.com/bash/sort.html
+[child-process]: https://nodejs.org/api/child_process.html
+[node-streams]: https://nodejs.org/api/stream.html
+
+[semver]: http://semver.org
+
+[issues]: http://github.com/v0lkan/sif/issues/
+[new-issue]: http://github.com/v0lkan/sif/issues/new
+[issue-16]: https://github.com/v0lkan/sif/issues/16
+[issue-69]: https://github.com/v0lkan/sif/issues/69
