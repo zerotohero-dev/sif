@@ -32,7 +32,7 @@ regular expression too, which means you can do things like
 Although `sif`'s main focus is on sifting and finding links, you can use it
 to store and search arbitrary lines of text too.
 
-[Read the usage examples section][usage-examples] to learn more about what 
+[Read the usage examples section][#usage-examples] to learn more about what 
 `sif` is capable of.
 
 ## The Backstory
