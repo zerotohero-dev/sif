@@ -31,12 +31,7 @@ Generated_files.xml
 
 ## Temporary Files
 tmp/*
-
-## Generated Files
-#bin/**/*.js
-#bin/**/*.js.map
-#lib/**/*.js
-#lib/**/*.js.map
+data/index.idx.backup
 
 ## Vim-specific
 *.swp
