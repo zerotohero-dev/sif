@@ -133,23 +133,56 @@ TODO:// this command has not been implemented yet.
 
 ### Alias
 
-TODO:// this command is under development.
+An alias is a single-word token with no spaces in it. Instead of typing
+a complicated search RegExp over and over again you can just type the search
+alias preceeded by an "@" sign.
 
+For example, the following statement defines a search alias:
+
+```bash
+sif alias videos "youtube\.com|vimeo\.com"
+```
+
+And the following statement executes a search with the defined alias:
+
+```bash
+sif find @videos
+```
+
+If you define an existing alias you overrite it.
+
+```bash
+# Define a search alias:
+sif alias test "test"
+
+# Update the alias:
+sif alias test "test|sample"
+```
 ### Removing an Alias
+
+To remove an alias use `rmalis`:
+
+```bash
+sif rmalias youtube
+```
 
 TODO:// this command is under development.
 
 ### Tagging
 
-TODO:// this command is under development.
+You can also add tags to a set of links that match a search query.
 
 Tags can be any kind of text; try to keep your tags simple and memorable.
 
-An alias is a single-word token with no spaces in it.
+```bash
+# Tag all links that match the "cisco.com" with 'cisco'.
+sif tag "cisco.com" cisco
+```
 
 ### Updating the `sif` Index
 
-TODO:// this command is under development.
+Calling `sif update` will update the index file, amending necessary meta data
+if required.
 
 ### Deleting Everything
 
