@@ -19,4 +19,4 @@
 
 # `source` this for development purposes.
 
-alias s=./bin/sif.js
+alias sif=./bin/sif.js

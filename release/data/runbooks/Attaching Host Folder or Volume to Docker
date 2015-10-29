@@ -1,1 +1,0 @@
-docker run -i -t -v /Users/volkan/Desktop:Desktop ubuntu:latest /bin/bash

@@ -28,8 +28,10 @@ var _commander2 = _interopRequireDefault(_commander);
 
 var _libTerminalOut = require('../lib/terminal/out');
 
+var _packageJson = require('../package.json');
+
 (0, _libTerminalOut.printBanner)();
 
-_commander2['default'].version('0.1.0').command('aliases', 'Lists all aliases.').command('alias <shorthand> <query>', 'Adds a new alias <shorthand> for <query>.').command('rmalias <alias>', 'Removes the alias named <alias>.').command('tag <query> [tag1 tag2...]', 'Adds tags to all the results that match the search query <query>.').command('rmtag <query> [tag1 tag2...]', 'Removes tags from all the results that match the search query <query>.').command('purge', 'Removes ALL the indexed data, and ALL the aliases. This process is IRREVERSIBLE.').command('update', 'Updates and re-sorts the index by fetching metadata for the newly-added items.').command('find <what> [options]', 'Performs a search. See README.md for details.').parse(process.argv);
+_commander2['default'].version(_packageJson.version).command('aliases', 'Lists all aliases.').command('alias <shorthand> <query>', 'Adds a new alias <shorthand> for <query>.').command('rmalias <alias>', 'Removes the alias named <alias>.').command('tag <query> [tag1 tag2...]', 'Adds tags to all the results that match the search query <query>.').command('rmtag <query> [tag1 tag2...]', 'Removes tags from all the results that match the search query <query>.').command('purge', 'Removes ALL the indexed data, and ALL the aliases. This process is IRREVERSIBLE.').command('update', 'Updates and re-sorts the index by fetching metadata for the newly-added items.').command('find <what> [options]', 'Performs a search. See README.md for details.').parse(process.argv);
 
 //# sourceMappingURL=sif.js.map

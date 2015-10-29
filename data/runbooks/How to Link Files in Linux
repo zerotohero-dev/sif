@@ -1,0 +1,3 @@
+ln /Users/volkan/next-blog-post.md "/Users/volkan/Library/Mobile Documents/com~apple~CloudDocs/next-blog-post.md"
+
+ln -s /Users/volkan/next-blog-post.md "/Users/volkan/Library/Mobile Documents/com~apple~CloudDocs/next-blog-post.md"

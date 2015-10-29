@@ -19,7 +19,7 @@
 
 PD=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-cd $PD/..
+cd ${PD}/..
 
 FILENAME=$( basename "$1" )
 EXTENSION="${FILENAME##*.}"
