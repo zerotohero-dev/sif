@@ -1,3 +1,11 @@
+### sif 0.8.4
+
+* Updated README.md; added usage examples, installation instructions, and
+development guidelines.
+* Created a `tmp` folder. The folder is required for some of the `sif` commands
+to function properly.
+* Created a "code of conduct".
+
 ### sif 0.8.1
 
 * Encoding fixes on the index file.

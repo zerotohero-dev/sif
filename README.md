@@ -179,6 +179,14 @@ Tags can be any kind of text; try to keep your tags simple and memorable.
 sif tag "cisco.com" cisco
 ```
 
+### Removing a tag
+
+Removing a tag is equally easy:
+
+```bash
+sif rmtag "cisco.com" cisco
+```
+
 ### Updating the `sif` Index
 
 Calling `sif update` will update the index file, amending necessary meta data
