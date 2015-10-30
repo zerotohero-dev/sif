@@ -20,6 +20,7 @@
 
 `sif` is an intelligent **curator** that makes information **meaningful** and 
 **findable**; it's a command line interface that runs **as fast as you think**.
+— Oh, she's also known as a Norse goddess.
 
 You can, for example, call [`sif find tutorial`](#searching) and `sif` 
 will display you a list of tutorial links. 
