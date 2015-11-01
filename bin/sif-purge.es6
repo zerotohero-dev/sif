@@ -52,8 +52,8 @@ get( schema, ( err, result ) => {
         write( ALIASES_FILE ).write( '' );
         write( INDEX_FILE ).write( '' );
 
-        print( COMMAND, 
-            'Wiped everything! It\'s as clean as a baby\'s butt.' 
+        print( COMMAND,
+            'Wiped everything! It\'s as clean as a baby\'s butt.'
         );
     }
 } );

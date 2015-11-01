@@ -93,6 +93,7 @@ http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-
 http://blog.wia.io/installing-node-js-v4-0-0-on-a-raspberry-pi/ <::sif::> Installing Node.js v4.0.0 on a Raspberry Pi (All Models) <::tags::>
 http://blogs.adobe.com/webplatform/2014/03/18/css-animations-and-transitions-performance/ <::sif::> CSS animations and transitions performance: looking inside the browser | Web Platform Team Blog <::tags::>
 http://blogs.msdn.com/b/ericlippert/archive/2003/09/17/53038.aspx <::sif::>  How Do The Script Garbage Collectors Work? - Fabulous Adventures In Coding - Site Home - MSDN Blogs <::tags::>
+http://bluebirdjs.com/docs/api/new-promise.html <::sif::> new Promise | bluebird <::tags::>
 http://bocoup.com/weblog/node-stress-test-analysis/ <::sif::> Realtime Node.js App: A Stress Testing Story - Bocoup <::tags::>
 http://bokken.re/index.html <::sif::> Bokken - Home Page <::tags::>
 http://bonsaiden.github.io/JavaScript-Garden/ <::sif::> JavaScript Garden <::tags::>
@@ -226,6 +227,10 @@ http://diveintohtml5.info/ <::sif::> Dive Into HTML5 <::tags::>
 http://diveintohtml5.info/offline.html <::sif::> Offline Web Applications - Dive Into HTML5 <::tags::>
 http://dmitryfrank.com/articles/js_closures <::sif::>  How do JavaScript closures work under the hood [Dmitry Frank] <::tags::>
 http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html <::sif::> Choosing a Routing Policy - Amazon Route 53 <::tags::>
+http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html <::sif::> Getting Set Up with the AWS Command Line Interface - AWS Command Line Interface <::tags::>
+http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-intro.html <::sif::> Getting Started with AWS - Getting Started with AWS <::tags::>
+http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html <::sif::> AWS Tutorials - Getting Started with AWS <::tags::>
+http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-overview.html <::sif::> Analyzing Big Data with Amazon Web Services - Getting Started with AWS <::tags::>
 http://docs.libuv.org/en/v1.x/ <::sif::> Welcome to the libuv API documentation — libuv API documentation <::tags::>
 http://docs.openstack.org <::sif::>  OpenStack Docs: Current <::tags::>
 http://docs.openstack.org/ <::sif::>  OpenStack Docs: Current <::tags::>
@@ -581,6 +586,7 @@ http://prettydiff.com/ <::sif::> Pretty Diff - The difference tool <::tags::>
 http://programmers.stackexchange.com/questions/221034/usage-of-magic-strings-numbers <::sif::> coding style - Usage of magic strings/numbers - Programmers Stack Exchange <::tags::>
 http://programmers.stackexchange.com/questions/278778/why-are-native-es6-promises-slower-and-more-memory-intensive-than-bluebird <::sif::> javascript - Why are native ES6 promises slower and more memory-intensive than bluebird? - Programmers Stack Exchange <::tags::>
 http://programmers.stackexchange.com/questions/65467/what-does-xxx-mean-in-a-comment <::sif::> coding standards - What does XXX mean in a comment? - Programmers Stack Exchange <::tags::>
+http://programmers.stackexchange.com/questions/75919/should-package-names-be-singular-or-plural <::sif::> object oriented - Should package names be singular or plural? - Programmers Stack Exchange <::tags::>
 http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/ <::sif::> Consul Service Discovery with Docker :: Jeff Lindsay <::tags::>
 http://projects.spring.io/spring-boot/ <::sif::> Spring Boot <::tags::>
 http://psddd.co/ <::sif::> Psddd - Beautiful Dribbble freebies for the creative professional <::tags::>
@@ -591,6 +597,7 @@ http://qqrs.github.io/blog/2013/05/03/vim-on-a-mechanical-typewriter/ <::sif::> 
 http://queue.acm.org/detail.cfm?id=2039361 <::sif::> Postmortem Debugging in Dynamic Environments - ACM Queue <::tags::>
 http://queues.io/ <::sif::> Queues <::tags::>
 http://quirksmode.org/ <::sif::> QuirksMode - for all your browser quirks <::tags::>
+http://quoteunquoteapps.com/courierprime/ <::sif::> Courier Prime | Quote-Unquote Apps <::tags::>
 http://quoteunquoteapps.com/courierprime/faq <::sif::> Courier Prime FAQ | Quote-Unquote Apps <::tags::>
 http://qzaidi.github.io/2013/05/14/node-in-production/ <::sif::> 10 steps to nodejs nirvana in production | Thruput | Garbage In, Garbage Out <::tags::>
 http://rackt.github.io/redux/ <::sif::> Read Me | Redux <::tags::>
@@ -1215,6 +1222,8 @@ https://auth0.com/ <::sif::> Auth0 - Identity infrastructure, built for develope
 https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/ <::sif::> Critical vulnerabilities in JSON Web Token libraries <::tags::>
 https://aws.amazon.com/blogs/aws/new-amazon-elasticsearch-service/ <::sif::> New – Amazon Elasticsearch Service | AWS Official Blog <::tags::>
 https://aws.amazon.com/blogs/compute/microservices-without-the-servers/ <::sif::> Microservices without the Servers | AWS Compute Blog <::tags::>
+https://aws.amazon.com/documentation/cli/ <::sif::> AWS Command Line Interface Documentation <::tags::>
+https://aws.amazon.com/documentation/sdk-for-javascript/ <::sif::> AWS SDK for JavaScript Documentation <::tags::>
 https://aws.amazon.com/elasticache/pricing/ <::sif::> Pricing <::tags::>
 https://aws.amazon.com/waf/ <::sif::> AWS WAF <::tags::>
 https://awwapp.com/ <::sif::> A web whiteboard <::tags::>
@@ -1399,6 +1408,7 @@ https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration <::sif::> Git -
 https://github.com/ <::sif::> GitHub · Where software is built <::tags::>
 https://github.com/Automattic/mongoose <::sif::> Automattic/mongoose · GitHub <::tags::>
 https://github.com/CSSLint/csslint <::sif::> CSSLint/csslint · GitHub <::tags::>
+https://github.com/ConradIrwin/aws-name-server <::sif::> ConradIrwin/aws-name-server · GitHub <::tags::>
 https://github.com/CrossEye/ramda <::sif::> CrossEye/ramda · GitHub <::tags::>
 https://github.com/FuelFrontend/generator-smacss <::sif::> FuelFrontend/generator-smacss · GitHub <::tags::>
 https://github.com/HubSpot/pace <::sif::> HubSpot/pace · GitHub <::tags::>
@@ -1411,7 +1421,17 @@ https://github.com/MaciejCzyzewski/hyhyhy <::sif::> maciejczyzewski/hyhyhy · Gi
 https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills <::sif::> HTML5 Cross Browser Polyfills · Modernizr/Modernizr Wiki · GitHub <::tags::>
 https://github.com/MohamedBassem/getaredis <::sif::> MohamedBassem/getaredis · GitHub <::tags::>
 https://github.com/Nathanaela/v8-natives <::sif::> NathanaelA/v8-Natives · GitHub <::tags::>
+https://github.com/Netflix/SimianArmy <::sif::> Netflix/SimianArmy · GitHub <::tags::>
 https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey <::sif::> Chaos Monkey · Netflix/SimianArmy Wiki · GitHub <::tags::>
+https://github.com/Netflix/aminator <::sif::> Netflix/aminator · GitHub <::tags::>
+https://github.com/Netflix/archaius <::sif::> Netflix/archaius · GitHub <::tags::>
+https://github.com/Netflix/asgard <::sif::> Netflix/asgard · GitHub <::tags::>
+https://github.com/Netflix/aws-autoscaling <::sif::> Netflix/aws-autoscaling · GitHub <::tags::>
+https://github.com/Netflix/eureka <::sif::> Netflix/eureka · GitHub <::tags::>
+https://github.com/Netflix/ice <::sif::> Netflix/ice · GitHub <::tags::>
+https://github.com/Netflix/ribbon <::sif::> Netflix/ribbon · GitHub <::tags::>
+https://github.com/Netflix/security_monkey <::sif::> Netflix/security_monkey · GitHub <::tags::>
+https://github.com/Netflix/zuul <::sif::> Netflix/zuul · GitHub <::tags::>
 https://github.com/NodeRedis/node_redis <::sif::> NodeRedis/node_redis · GitHub <::tags::>
 https://github.com/OWASP/NodeGoat <::sif::> OWASP/NodeGoat · GitHub <::tags::>
 https://github.com/PaperElectron/Sundry <::sif::> PaperElectron/Sundry · GitHub <::tags::>
@@ -1422,29 +1442,49 @@ https://github.com/Reactive-Extensions/RxJS <::sif::> Reactive-Extensions/RxJS �
 https://github.com/ReactiveX/RxJava <::sif::> ReactiveX/RxJava · GitHub <::tags::>
 https://github.com/SBoudrias/Inquirer.js <::sif::> SBoudrias/Inquirer.js · GitHub <::tags::>
 https://github.com/SalGnt/cscs <::sif::> SalGnt/cscs · GitHub <::tags::>
+https://github.com/SaltwaterC/aws2js <::sif::> SaltwaterC/aws2js · GitHub <::tags::>
 https://github.com/Shopify/dashing/wiki/Additional-Widgets <::sif::> Additional Widgets · Shopify/dashing Wiki · GitHub <::tags::>
 https://github.com/TalAter/UpUp/ <::sif::> TalAter/UpUp · GitHub <::tags::>
+https://github.com/ThoughtWorksStudios/eb_deployer <::sif::> ThoughtWorksStudios/eb_deployer · GitHub <::tags::>
 https://github.com/Unitech/pm2 <::sif::> Unitech/PM2 · GitHub <::tags::>
 https://github.com/Unitech/pm2 <::sif::> Unitech/pm2 · GitHub <::tags::>
 https://github.com/VundleVim/Vundle.vim <::sif::> VundleVim/Vundle.vim · GitHub <::tags::>
 https://github.com/Yaffle/EventSource/ <::sif::> Yaffle/EventSource · GitHub <::tags::>
 https://github.com/Yalantis/PullToMakeSoup <::sif::> Yalantis/PullToMakeSoup · GitHub <::tags::>
 https://github.com/YuzuJS/setImmediate <::sif::> YuzuJS/setImmediate · GitHub <::tags::>
+https://github.com/about <::sif::> About · GitHub <::tags::>
+https://github.com/achiku/jungle <::sif::> achiku/jungle · GitHub <::tags::>
 https://github.com/addyosmani/es6-tools#build-time-transpilation <::sif::> addyosmani/es6-tools · GitHub <::tags::>
 https://github.com/adrai/flowchart.js <::sif::> adrai/flowchart.js · GitHub <::tags::>
 https://github.com/ageitgey/node-unfluff <::sif::> ageitgey/node-unfluff · GitHub <::tags::>
 https://github.com/aheckmann/gm <::sif::> aheckmann/gm · GitHub <::tags::>
 https://github.com/alexanderGugel/wsd <::sif::> alexanderGugel/wsd · GitHub <::tags::>
+https://github.com/alienfast/elastic-beanstalk <::sif::> alienfast/elastic-beanstalk · GitHub <::tags::>
 https://github.com/allotrop3/four <::sif::> allotrop3/four · GitHub <::tags::>
 https://github.com/ampproject/amphtml <::sif::> ampproject/amphtml · GitHub <::tags::>
 https://github.com/andris9/Nodemailer <::sif::> andris9/Nodemailer · GitHub <::tags::>
 https://github.com/angular/protractor <::sif::> angular/protractor · GitHub <::tags::>
 https://github.com/apresta/tagger <::sif::> apresta/tagger · GitHub <::tags::>
+https://github.com/aristidb/aws <::sif::> aristidb/aws · GitHub <::tags::>
 https://github.com/ariya/phantomjs <::sif::> ariya/phantomjs · GitHub <::tags::>
 https://github.com/artofrawr/profoundgrid/ <::sif::> artofrawr/profoundgrid · GitHub <::tags::>
 https://github.com/auchenberg/volkswagen <::sif::> auchenberg/volkswagen · GitHub <::tags::>
 https://github.com/auth0/node-jsonwebtoken <::sif::> auth0/node-jsonwebtoken · GitHub <::tags::>
+https://github.com/aws/amazon-ecs-agent <::sif::> aws/amazon-ecs-agent · GitHub <::tags::>
+https://github.com/aws/amazon-ecs-cli <::sif::> aws/amazon-ecs-cli · GitHub <::tags::>
+https://github.com/aws/aws-cli <::sif::> aws/aws-cli · GitHub <::tags::>
 https://github.com/aws/aws-sdk-js <::sif::> aws/aws-sdk-js · GitHub <::tags::>
+https://github.com/aws/opsworks-cookbooks <::sif::> aws/opsworks-cookbooks · GitHub <::tags::>
+https://github.com/awslabs/aws-lambda-redshift-loader <::sif::> awslabs/aws-lambda-redshift-loader · GitHub <::tags::>
+https://github.com/awslabs/aws-sha256-agentcs <::sif::> awslabs/aws-sha256-agentcs · GitHub <::tags::>
+https://github.com/awslabs/awscli-cookbook <::sif::> awslabs/awscli-cookbook · GitHub <::tags::>
+https://github.com/awslabs/cloudwatch-logs-subscription-consumer <::sif::> awslabs/cloudwatch-logs-subscription-consumer · GitHub <::tags::>
+https://github.com/awslabs/eb-py-flask-signup <::sif::> awslabs/eb-py-flask-signup · GitHub <::tags::>
+https://github.com/awslabs/ecs-cloudwatch-logs <::sif::> awslabs/ecs-cloudwatch-logs · GitHub <::tags::>
+https://github.com/awslabs/ecs-mesos-scheduler-driver <::sif::> awslabs/ecs-mesos-scheduler-driver · GitHub <::tags::>
+https://github.com/awslabs/logstash-output-cloudwatchlogs <::sif::> awslabs/logstash-output-cloudwatchlogs · GitHub <::tags::>
+https://github.com/awslabs/route53-infima <::sif::> awslabs/route53-infima · GitHub <::tags::>
+https://github.com/awslabs/s2n <::sif::> awslabs/s2n · GitHub <::tags::>
 https://github.com/azproduction/autopolyfiller <::sif::> azproduction/autopolyfiller · GitHub <::tags::>
 https://github.com/babel/babel <::sif::> babel/babel · GitHub <::tags::>
 https://github.com/babel/babel.github.io <::sif::> babel/babel.github.io · GitHub <::tags::>
@@ -1473,13 +1513,16 @@ https://github.com/cferdinandi/houdini/ <::sif::> cferdinandi/houdini · GitHub 
 https://github.com/chaijs/chai <::sif::> chaijs/chai · GitHub <::tags::>
 https://github.com/chalk/chalk <::sif::> chalk/chalk · GitHub <::tags::>
 https://github.com/cheeaun/mooeditable/wiki/Javascript-WYSIWYG-editors <::sif::> Javascript WYSIWYG editors · cheeaun/mooeditable Wiki · GitHub <::tags::>
+https://github.com/chef-cookbooks/aws <::sif::> chef-cookbooks/aws · GitHub <::tags::>
 https://github.com/chengguangnan/vine/blob/master/lib/vine.rb <::sif::> vine/vine.rb at master · chengguangnan/vine · GitHub <::tags::>
+https://github.com/chilts/awssum <::sif::> chilts/awssum · GitHub <::tags::>
 https://github.com/chjj/blessed <::sif::> chjj/blessed · GitHub <::tags::>
 https://github.com/chriso/cli <::sif::> chriso/cli · GitHub <::tags::>
 https://github.com/chrissimpkins/Hack <::sif::> chrissimpkins/Hack · GitHub <::tags::>
 https://github.com/chrissimpkins/Hack#desktop-usage <::sif::> chrissimpkins/Hack · GitHub <::tags::>
 https://github.com/clowwindy/Awesome-Networking <::sif::> clowwindy/Awesome-Networking · GitHub <::tags::>
 https://github.com/codingpains/crispy-stream <::sif::> codingpains/crispy-stream · GitHub <::tags::>
+https://github.com/colinbjohnson/aws-missing-tools <::sif::> colinbjohnson/aws-missing-tools · GitHub <::tags::>
 https://github.com/creationix/nvm <::sif::> creationix/nvm · GitHub <::tags::>
 https://github.com/cshum/levi <::sif::> cshum/levi · GitHub <::tags::>
 https://github.com/css-modules/css-modules <::sif::> css-modules/css-modules · GitHub <::tags::>
@@ -1499,8 +1542,10 @@ https://github.com/desandro/masonry <::sif::> desandro/masonry · GitHub <::tags
 https://github.com/dinbror/blazy <::sif::> dinbror/blazy · GitHub <::tags::>
 https://github.com/dodo/node-slug <::sif::> dodo/node-slug · GitHub <::tags::>
 https://github.com/donnemartin/dev-setup <::sif::> donnemartin/dev-setup · GitHub <::tags::>
+https://github.com/donnemartin/saws <::sif::> donnemartin/saws · GitHub <::tags::>
 https://github.com/doxout/recluster <::sif::> doxout/recluster · GitHub <::tags::>
 https://github.com/drduh/pwd.sh <::sif::> drduh/pwd.sh · GitHub <::tags::>
+https://github.com/drewblas/aws-ses <::sif::> drewblas/aws-ses · GitHub <::tags::>
 https://github.com/dropbox/hackpad <::sif::> dropbox/hackpad · GitHub <::tags::>
 https://github.com/dthree/vantage <::sif::> dthree/vantage · GitHub <::tags::>
 https://github.com/dthree/vantage/ <::sif::> dthree/vantage · GitHub <::tags::>
@@ -1508,6 +1553,7 @@ https://github.com/dtrace4linux/linux <::sif::> dtrace4linux/linux · GitHub <::
 https://github.com/ducksboard/gridster.js/tree/master/src <::sif::> gridster.js/src at master · ducksboard/gridster.js · GitHub <::tags::>
 https://github.com/dumbmatter/fakeIndexedDB <::sif::> dumbmatter/fakeIndexedDB · GitHub <::tags::>
 https://github.com/edmundojr/localhost <::sif::> edmundojr/localhost · GitHub <::tags::>
+https://github.com/elastic/elasticsearch-cloud-aws <::sif::> elastic/elasticsearch-cloud-aws · GitHub <::tags::>
 https://github.com/eorroe/NodeList.js <::sif::> eorroe/NodeList.js · GitHub <::tags::>
 https://github.com/ericdouglas/ES6-Learning <::sif::> ericdouglas/ES6-Learning · GitHub <::tags::>
 https://github.com/ericelliott/cuid <::sif::> ericelliott/cuid · GitHub <::tags::>
@@ -1516,6 +1562,7 @@ https://github.com/ervandew/supertab <::sif::> ervandew/supertab · GitHub <::ta
 https://github.com/es-shims/es5-shim <::sif::> es-shims/es5-shim · GitHub <::tags::>
 https://github.com/es-shims/es6-shim/ <::sif::> es-shims/es6-shim · GitHub <::tags::>
 https://github.com/etsy/MIDAS <::sif::> etsy/MIDAS · GitHub <::tags::>
+https://github.com/evannuil/aws-snapshot-tool <::sif::> evannuil/aws-snapshot-tool · GitHub <::tags::>
 https://github.com/eventmachine/eventmachine <::sif::> eventmachine/eventmachine · GitHub <::tags::>
 https://github.com/expressjs/body-parser <::sif::> expressjs/body-parser · GitHub <::tags::>
 https://github.com/expressjs/morgan <::sif::> expressjs/morgan · GitHub <::tags::>
@@ -1574,6 +1621,7 @@ https://github.com/jfromaniello/express-unless <::sif::> jfromaniello/express-un
 https://github.com/jlanzarotta/bufexplorer <::sif::> jlanzarotta/bufexplorer · GitHub <::tags::>
 https://github.com/jnv/lists <::sif::> jnv/lists · GitHub <::tags::>
 https://github.com/joeferner/node-sf <::sif::> joeferner/node-sf · GitHub <::tags::>
+https://github.com/jorgebastida/awslogs <::sif::> jorgebastida/awslogs · GitHub <::tags::>
 https://github.com/joyent <::sif::> Joyent · GitHub <::tags::>
 https://github.com/joyent/nhttpsnoop <::sif::> joyent/nhttpsnoop · GitHub <::tags::>
 https://github.com/joyent/node-snmpjs <::sif::> joyent/node-snmpjs · GitHub <::tags::>
@@ -1595,6 +1643,7 @@ https://github.com/kriskowal/q <::sif::> kriskowal/q · GitHub <::tags::>
 https://github.com/lapwinglabs/bare-auth <::sif::> lapwinglabs/bare-auth · GitHub <::tags::>
 https://github.com/letsgetrandy/brototype <::sif::> letsgetrandy/brototype · GitHub <::tags::>
 https://github.com/linkedin/dustjs/wiki/Dust-Tutorial <::sif::> Dust Tutorial · linkedin/dustjs Wiki · GitHub <::tags::>
+https://github.com/livelycode/aws-lib <::sif::> livelycode/aws-lib · GitHub <::tags::>
 https://github.com/lloyd/node-memwatch <::sif::> lloyd/node-memwatch · GitHub <::tags::>
 https://github.com/lob/calipers <::sif::> lob/calipers · GitHub <::tags::>
 https://github.com/lodash/lodash <::sif::> lodash/lodash · GitHub <::tags::>
@@ -1609,6 +1658,8 @@ https://github.com/mattallty/muguet <::sif::> mattallty/muguet · GitHub <::tags
 https://github.com/mattdesl/promise-cookbook <::sif::> mattdesl/promise-cookbook · GitHub <::tags::>
 https://github.com/mattermost/platform <::sif::> mattermost/platform · GitHub <::tags::>
 https://github.com/mblode/burger <::sif::> mblode/burger · GitHub <::tags::>
+https://github.com/mentum/lambdaws <::sif::> mentum/lambdaws · GitHub <::tags::>
+https://github.com/mitchellh/vagrant-aws <::sif::> mitchellh/vagrant-aws · GitHub <::tags::>
 https://github.com/mochajs/mocha <::sif::> mochajs/mocha · GitHub <::tags::>
 https://github.com/mohsen1/better-console <::sif::> mohsen1/better-console · GitHub <::tags::>
 https://github.com/moment/moment <::sif::> moment/moment · GitHub <::tags::>
@@ -1616,11 +1667,13 @@ https://github.com/moment/moment-timezone <::sif::> moment/moment-timezone · Gi
 https://github.com/moudy/agenda-ui <::sif::> moudy/agenda-ui · GitHub <::tags::>
 https://github.com/mozilla-services/heka <::sif::> mozilla-services/heka · GitHub <::tags::>
 https://github.com/mozilla-services/heka/wiki/Sample--etc-init.d-hekad-file <::sif::> Sample etc init.d hekad file · mozilla-services/heka Wiki · GitHub <::tags::>
+https://github.com/mozilla/awsbox <::sif::> mozilla/awsbox · GitHub <::tags::>
 https://github.com/mranney/node_redis <::sif::> NodeRedis/node_redis · GitHub <::tags::>
 https://github.com/msemenistyi/hypnos <::sif::> msemenistyi/hypnos · GitHub <::tags::>
 https://github.com/mtkopone/zelect <::sif::> mtkopone/zelect · GitHub <::tags::>
 https://github.com/nathanaelkane/vim-indent-guides <::sif::> nathanaelkane/vim-indent-guides · GitHub <::tags::>
 https://github.com/nbs-system/naxsi <::sif::> nbs-system/naxsi · GitHub <::tags::>
+https://github.com/newrelic-platform/newrelic_aws_cloudwatch_plugin <::sif::> newrelic-platform/newrelic_aws_cloudwatch_plugin · GitHub <::tags::>
 https://github.com/newrelic/node-newrelic <::sif::> newrelic/node-newrelic · GitHub <::tags::>
 https://github.com/node-inspector/node-inspector <::sif::> node-inspector/node-inspector · GitHub <::tags::>
 https://github.com/node-inspector/v8-profiler <::sif::> node-inspector/v8-profiler · GitHub <::tags::>
@@ -1647,6 +1700,7 @@ https://github.com/petkaantonov/bluebird/blob/master/API.md <::sif::> bluebird/A
 https://github.com/petkaantonov/bluebird/wiki/Optimization-killers <::sif::> Optimization killers · petkaantonov/bluebird Wiki · GitHub <::tags::>
 https://github.com/pgte/nock <::sif::> pgte/nock · GitHub <::tags::>
 https://github.com/pheuter/essential-react <::sif::> pheuter/essential-react · GitHub <::tags::>
+https://github.com/phstc/shoryuken <::sif::> phstc/shoryuken · GitHub <::tags::>
 https://github.com/plouc/mozaik <::sif::> plouc/mozaik · GitHub <::tags::>
 https://github.com/pocketjoso/penthouse <::sif::> pocketjoso/penthouse · GitHub <::tags::>
 https://github.com/polymer <::sif::> polymer · GitHub <::tags::>
@@ -1659,6 +1713,7 @@ https://github.com/remy/nodemon <::sif::> remy/nodemon · GitHub <::tags::>
 https://github.com/request/request <::sif::> request/request · GitHub <::tags::>
 https://github.com/rickharrison/validate.js/ <::sif::> rickharrison/validate.js · GitHub <::tags::>
 https://github.com/rietveld-codereview/rietveld <::sif::> rietveld-codereview/rietveld · GitHub <::tags::>
+https://github.com/rjrodger/simpledb <::sif::> rjrodger/simpledb · GitHub <::tags::>
 https://github.com/rlidwka/sinopia <::sif::> rlidwka/sinopia · GitHub <::tags::>
 https://github.com/rmustacc/node-ctype <::sif::> rmustacc/node-ctype · GitHub <::tags::>
 https://github.com/rschmukler/agenda <::sif::> rschmukler/agenda · GitHub <::tags::>
@@ -1667,6 +1722,7 @@ https://github.com/saltstack/salt <::sif::> saltstack/salt · GitHub <::tags::>
 https://github.com/samizdatco/nginx-http-auth-digest/blob/master/htdigest.py <::sif::> nginx-http-auth-digest/htdigest.py at master · samizdatco/nginx-http-auth-digest · GitHub <::tags::>
 https://github.com/schwa/Swift-Community-Best-Practices <::sif::> schwa/Swift-Community-Best-Practices · GitHub <::tags::>
 https://github.com/scottcorgan/immu <::sif::> scottcorgan/immu · GitHub <::tags::>
+https://github.com/sebdah/dynamic-dynamodb <::sif::> sebdah/dynamic-dynamodb · GitHub <::tags::>
 https://github.com/sensu/sensu-community-plugins/ <::sif::> sensu/sensu-community-plugins · GitHub <::tags::>
 https://github.com/sensu/uchiwa <::sif::> sensu/uchiwa · GitHub <::tags::>
 https://github.com/sequelize/sequelize <::sif::> sequelize/sequelize · GitHub <::tags::>
@@ -1693,6 +1749,7 @@ https://github.com/taskrabbit/node-resque <::sif::> taskrabbit/node-resque · Gi
 https://github.com/tcs-de/nodecache <::sif::> tcs-de/nodecache · GitHub <::tags::>
 https://github.com/tiddolangerak/tracegl <::sif::> TiddoLangerak/tracegl · GitHub <::tags::>
 https://github.com/timdown/rangy <::sif::> timdown/rangy · GitHub <::tags::>
+https://github.com/timkay/aws <::sif::> timkay/aws · GitHub <::tags::>
 https://github.com/timqian/jsCodeStructure <::sif::> timqian/jsCodeStructure · GitHub <::tags::>
 https://github.com/tj/cluster-live <::sif::> tj/cluster-live · GitHub <::tags::>
 https://github.com/tj/commander.js <::sif::> tj/commander.js · GitHub <::tags::>
@@ -1715,6 +1772,7 @@ https://github.com/v0lkan/sif/issues <::sif::> Issues · v0lkan/sif · GitHub <:
 https://github.com/vdemedes/trevor <::sif::> vdemedes/trevor · GitHub <::tags::>
 https://github.com/vedmack/feedback_me <::sif::> vedmack/feedback_me · GitHub <::tags::>
 https://github.com/vigetlabs/grunt-complexity <::sif::> vigetlabs/grunt-complexity · GitHub <::tags::>
+https://github.com/vsespb/mt-aws-glacier <::sif::> vsespb/mt-aws-glacier · GitHub <::tags::>
 https://github.com/w3c/ <::sif::> World Wide Web Consortium · GitHub <::tags::>
 https://github.com/wangzuo/react-input-color <::sif::> wangzuo/react-input-color · GitHub <::tags::>
 https://github.com/wasabeef/Blurry <::sif::> wasabeef/Blurry · GitHub <::tags::>
@@ -1723,6 +1781,7 @@ https://github.com/werk85/node-html-to-text <::sif::> werk85/node-html-to-text �
 https://github.com/whatwg/html <::sif::> whatwg/html · GitHub <::tags::>
 https://github.com/wieringen/tinyscrollbar <::sif::> wieringen/tinyscrollbar · GitHub <::tags::>
 https://github.com/williamngan/pt <::sif::> williamngan/pt · GitHub <::tags::>
+https://github.com/winebarrel/roadworker <::sif::> winebarrel/roadworker · GitHub <::tags::>
 https://github.com/winstonjs/winston <::sif::> winstonjs/winston · GitHub <::tags::>
 https://github.com/wooorm/mdast <::sif::> wooorm/mdast · GitHub <::tags::>
 https://github.com/yahoo/gryffin <::sif::> yahoo/gryffin · GitHub <::tags::>
@@ -1867,6 +1926,7 @@ https://plus.google.com/communities/115365528781941125390 <::sif::> node.js - Co
 https://popcorntime.io/ <::sif::> Popcorn Time - Watch movies and TV shows instantly! <::tags::>
 https://portswigger.net/burp/ <::sif::> Burp Suite <::tags::>
 https://prerender.io/ <::sif::> Prerender - AngularJS SEO, BackboneJS SEO, or EmberJS SEO <::tags::>
+https://promisesaplus.com <::sif::> Promises/A+ <::tags::>
 https://puppetlabs.com/puppet/what-is-puppet <::sif::> What is Puppet? | Puppet Labs <::tags::>
 https://pypi.python.org/pypi <::sif::> PyPI - the Python Package Index : Python Package Index <::tags::>
 https://pypi.python.org/pypi/nodeenv <::sif::> nodeenv 0.13.4 : Python Package Index <::tags::>

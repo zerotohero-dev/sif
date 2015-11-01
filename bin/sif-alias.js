@@ -78,8 +78,6 @@ var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_TMP_FILE, fs
         sortedLines.on('end', function () {
             aliasWriteStream.end();
         });
-
-        return;
     });
 }
 

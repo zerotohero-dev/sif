@@ -66,8 +66,6 @@ let tempStream = write( ALIASES_TMP_FILE, fsOptions );
         aliasWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
 
         sortedLines.on( 'end', () => { aliasWriteStream.end(); } );
-
-        return;
     } );
 }
 
@@ -95,7 +93,7 @@ let tempStream = write( ALIASES_TMP_FILE, fsOptions );
         }
 
         tempStream.write( `${alias}=${command}\n` );
-    });
+    } );
 
     lines.on('end', () => {
         if ( processed ) {

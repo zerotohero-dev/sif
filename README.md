@@ -216,6 +216,12 @@ You can display further help information by typing `sif help [cmd]`.
 For example, to get help about the `sif find` command, just type 
 `sif help find`.
 
+## Hey, I'm Stuck!
+
+For any issues that you stumble upon, [feel free to open a ticket][new-issue].
+
+TODO:// Code documentation is not ready yet.
+
 ## Supported Environments
 
 `sif` uses builtin [bash][bash] commands. So, to 

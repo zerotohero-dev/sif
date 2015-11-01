@@ -1,11 +1,11 @@
 {
   "name": "sif",
-  "version": "0.8.4",
+  "version": "0.8.6",
   "description": "Sifts important data so fast that it's \"t\" drops off.",
-  "main": "release/bin/sif.js",
+  "main": "bin/sif.js",
   "preferGlobal": true,
   "bin": {
-    "sif": "./release/bin/sif.js"
+    "sif": "bin/sif.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -50,7 +50,7 @@ let resolveAliasedQuery = ( aliased ) => {
             let query = tokens[ 1 ];
 
             if ( search === alias ) { resolve( query ); }
-        });
+        } );
 
         lines.on( 'end', () => resolve( aliased ) );
     } );
