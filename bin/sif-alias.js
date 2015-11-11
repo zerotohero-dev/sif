@@ -96,7 +96,8 @@ var tempStream = (0, _fs.createWriteStream)(_libConfigFiles.ALIASES_TMP_FILE, fs
                 return;
             }
 
-            // TODO: adding a line to a file based on a predicate is a common task; make it a module.
+            // TODO: adding a line to a file based on a predicate is a common task;
+            // make it a module.
             var alias = parts[0];
             var command = parts[1];
 

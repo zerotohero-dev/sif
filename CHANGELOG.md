@@ -1,3 +1,10 @@
+### sif 0.9.1
+
+* Verified that `sif` works on debian systems too.
+* Fixed a dependency error that was preventing `sif update`.
+* Updated `README.md` for different environments.
+* Minor bugfixes.
+
 ### sif 0.8.6
 
 * `npm install sif -g` was not working because of a path problem. — Fixed that.

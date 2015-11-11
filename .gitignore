@@ -36,3 +36,4 @@ data/index.idx.backup
 ## Vim-specific
 *.swp
 *.vim
+npm-debug.log

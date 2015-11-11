@@ -166,7 +166,8 @@ backup.stdout.on('end', function () {
                 var url = line.replace(_libConfigConstants.TAGS_DELIMITER, '').trim();
 
                 // {gzip: true} to add an `Accept-Encoding` header to the request.
-                // Although `request` library does automatic gzip decoding, certain websites
+                // Although `request` library does automatic gzip decoding,
+                // certain websites
                 // get confused if the header is not present in the initial request.
                 (0, _request2['default'])({ method: 'GET', 'uri': url, gzip: true }, function (err, response, body) {
                     remainingMetaDataRequests--;
