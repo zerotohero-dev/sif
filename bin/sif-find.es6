@@ -26,7 +26,7 @@ import { find as search } from '../lib/query';
 const COMMAND = 'find';
 
 program
-    .usage('<what> [options]')
+    .usage( '<what> [options]' )
     .option( '-i, --invert', 'Inverts the selection so that anything that does NOT match the search criteria will be listed.' )
     .parse( process.argv );
 
@@ -36,4 +36,3 @@ search(
     ( found ) => print( COMMAND, found ),
     () => print( COMMAND, 'Done.')
 );
- 

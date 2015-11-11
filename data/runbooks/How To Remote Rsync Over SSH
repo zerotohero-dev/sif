@@ -1,0 +1,7 @@
+~/.ssh/config
+IdentityFile "~/.ssh/aws.pem"
+
+rsync -a /path/to/o2js.com-v2/_posts/ ubuntu@volkan.io:/var/www/path/to/o2js./com/SRC/foo/_posts/
+
+# Remote publish
+sh /path/to/o2jscom-v2/bin/publish.sh

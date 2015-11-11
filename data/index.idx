@@ -1,6 +1,7 @@
-Ghttp://tjholowaychuk.tumblr.com/post/543349452/apachebench-gnuplot-graphing-benchmarks <::sif::> ApacheBench GnuPlot Graphing Benchmarks - TJ Holowaychuk <::tags::>
+http://tjholowaychuk.tumblr.com/post/543349452/apachebench-gnuplot-graphing-benchmarks <::sif::> ApacheBench GnuPlot Graphing Benchmarks - TJ Holowaychuk <::tags::>
 http://12factor.net <::sif::> The Twelve-Factor App <::tags::>
 http://24ways.org/2014/javascript-modules-the-es6-way/ <::sif::> JavaScript Modules the ES6 Way ◆ 24 ways <::tags::>
+http://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping <::sif::> Introducing smartcrop.js / 29a.ch <::tags::>
 http://52weeksofux.com/ <::sif::> 52 Weeks of UX <::tags::>
 http://84692bb0df6f30fc0687-25dde2f20b8e8c1bda75aeb96f737eae.r66.cf1.rackcdn.com/--xss.html <::sif::> XSS vector collection. Cross Site Scripting. Fuzzing. Filter Evasion. Web Hacking. <::tags::>
 http://960.gs/ <::sif::> 960 Grid System <::tags::>
@@ -8,18 +9,23 @@ http://a-jie.github.io/Agile/ <::sif::> Agile Css3 Engine <::tags::>
 http://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified <::sif::> OAuth 2 Simplified - Aaron Parecki <::tags::>
 http://acko.net/blog/mathbox2/ <::sif::> MathBox² — Acko.net <::tags::>
 http://acko.net/files/gltalks/pixelfactory/online.html <::sif::> The Pixel Factory <::tags::>
+http://acss.io <::sif::> Atomic CSS <::tags::>
 http://addyosmani.com/blog/mutation-observers/ <::sif::> Detect, Undo And Redo DOM Changes With Mutation Observers <::tags::>
 http://addyosmani.com/resources/essentialjsdesignpatterns/book/ <::sif::> Learning JavaScript Design Patterns <::tags::>
+http://addyosmani.github.io/backbone-fundamentals/ <::sif::> Developing Backbone.js Applications - <::tags::>
 http://adrai.github.io/flowchart.js/ <::sif::> flowchart.js <::tags::>
 http://adriansampson.net/blog/llvm.html <::sif::> Adrian Sampson: LLVM for Grad Students <::tags::>
 http://aelgru.github.io/ <::sif::> Visual Experiments <::tags::>
 http://agilemanifesto.org/ <::sif::> Manifesto for Agile Software Development <::tags::>
+http://alexgorbatchev.com/SyntaxHighlighter/ <::sif::> SyntaxHighlighter <::tags::>
 http://algebra.js.org <::sif::> algebra.js by nicolewhite <::tags::>
 http://alistapart.com/ <::sif::> A List Apart: For People Who Make Websites <::tags::>
 http://alistapart.com/article/application-cache-is-a-douchebag <::sif::> Application Cache is a Douchebag · An A List Apart Article <::tags::>
 http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity <::sif::> Designing Safer Web Animation For Motion Sensitivity · An A List Apart Article <::tags::>
 http://alistapart.com/blog/post/evaluating-ideas <::sif::> Evaluating Ideas · An A List Apart Blog Post <::tags::>
 http://amsul.ca/pickadate.js/ <::sif::> pickadate.js <::tags::>
+http://angular-ui.github.io/bootstrap/ <::sif::> Angular directives for Bootstrap <::tags::>
+http://angular-ui.github.io/ui-router/site/#/api/ui.router <::sif::> Docs <::tags::>
 http://animade.tv/frankensim/ <::sif::> frankenSim <::tags::>
 http://ant.apache.org/ <::sif::> Apache Ant - Welcome <::tags::>
 http://anthonycalzadilla.com/css3-ATAT/index.html <::sif::> Pure CSS3 AT-AT Walker by: Anthony Calzadilla <::tags::>
@@ -41,9 +47,11 @@ http://aws.amazon.com/importexport/ <::sif::> Cloud Data Transfer Service - AWS 
 http://aws.amazon.com/ses/ <::sif::> AWS | Amazon Simple Email Service (SES) - Cloud Based Email Services <::tags::>
 http://babeljs.io/docs/usage/runtime/ <::sif::> Runtime · Babel <::tags::>
 http://babeljs.io/repl/ <::sif::> Babel · The compiler for writing next generation JavaScript <::tags::>
+http://backbonejs.org <::sif::> Backbone.js <::tags::>
 http://backbonejs.org/ <::sif::> Backbone.js <::tags::>
 http://bagder.github.io/curl-cheat-sheet/http-sheet.html <::tags::>
 http://bamos.github.io/girl/ <::sif::> Girl <::tags::>
+http://baymard.com/blog/line-length-readability <::sif::> Readability: the Optimal Line Length - Articles - Baymard Institute <::tags::>
 http://becausejavascript.com/ <::sif::> Because JavaScript <::tags::>
 http://becausejavascript.com/node-js-process-nexttick-vs-setimmediate/ <::sif::> Node.js: process.nextTick() vs. setImmediate() <::tags::>
 http://begriffs.com/posts/2015-07-22-essence-of-frp.html <::sif::> The Essence of FRP <::tags::>
@@ -57,6 +65,9 @@ http://bevacqua.github.io/dragula/ <::sif::> dragula <::tags::>
 http://bevacqua.github.io/rome/ <::sif::> Rome <::tags::>
 http://bhavin.directi.com/unix-domain-sockets-vs-tcp-sockets/ <::sif::>  Unix domain sockets vs TCP Sockets <::tags::>
 http://bitsofco.de/2015/how-floating-works/ <::sif::>  How Floating Works | bitsofcode <::tags::>
+http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown <::sif::> Ben Kamens, Breaking down Amazon's mega dropdown <::tags::>
+http://bl.ocks.org/ <::sif::> bl.ocks.org - about <::tags::>
+http://blackhole.html5depot.com <::sif::> Blackhole - Minimalistic but powerful SASS / CSS Framework <::tags::>
 http://blanketjs.org/ <::sif::> Blanket.js | Seamless javascript code coverage <::tags::>
 http://blog-zokahn.rhcloud.com/?p=185 <::sif::> Moving files around with RPM « Zokahn <::tags::>
 http://blog.arvidandersson.se/2014/06/17/best-practices-in-modern-web-projects <::sif::> Best practices in modern web projects - Random notes by Arvid Andersson <::tags::>
@@ -73,7 +84,9 @@ http://blog.caustik.com/category/node-js/ <::sif::>  node.js at caustik's blog <
 http://blog.codeclimate.com/blog/2013/08/07/deciphering-ruby-code-metrics/ <::sif::> Deciphering Ruby Code Metrics - Code Climate Blog <::tags::>
 http://blog.davidmisshula.com/blog/2013/02/04/configure-haproxy-to-scale-multiple-nodes-with-stickiness-and-ssl/ <::sif::> Configure HAProxy to Scale Socket.io Node.js Apps with SSL - Divisa C <::tags::>
 http://blog.getify.com/unimorphic-isoversal-javascript-what/ <::sif::> Unimorphic Isoversal JavaScript What? | getiblog <::tags::>
+http://blog.gospodarets.com/chrome-timeline-to-gif/ <::sif::> Convert a Chrome Timeline data to a GIF (video) <::tags::>
 http://blog.html5test.com/2015/08/the-problems-with-feature-detection/ <::sif::> HTML5test - How well does your browser support HTML5? <::tags::>
+http://blog.invisionapp.com/why-empty-states-deserve-more-design-time/ <::sif::> Why empty states deserve more design time - InVision Blog <::tags::>
 http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/ <::sif::> How to Use npm as a Build Tool <::tags::>
 http://blog.lightstreamer.com/2013/05/benchmarking-socketio-vs-lightstreamer.html <::sif::> The Lightstreamer Blog: Benchmarking Socket.IO vs. Lightstreamer with Node.js <::tags::>
 http://blog.mact.me/ <::sif::> mact.me | Dan MacTough's Personal Site <::tags::>
@@ -93,6 +106,7 @@ http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-
 http://blog.wia.io/installing-node-js-v4-0-0-on-a-raspberry-pi/ <::sif::> Installing Node.js v4.0.0 on a Raspberry Pi (All Models) <::tags::>
 http://blogs.adobe.com/webplatform/2014/03/18/css-animations-and-transitions-performance/ <::sif::> CSS animations and transitions performance: looking inside the browser | Web Platform Team Blog <::tags::>
 http://blogs.msdn.com/b/ericlippert/archive/2003/09/17/53038.aspx <::sif::>  How Do The Script Garbage Collectors Work? - Fabulous Adventures In Coding - Site Home - MSDN Blogs <::tags::>
+http://bluebirdjs.com/docs/api/new-promise.html <::sif::> new Promise | bluebird <::tags::>
 http://bocoup.com/weblog/node-stress-test-analysis/ <::sif::> Realtime Node.js App: A Stress Testing Story - Bocoup <::tags::>
 http://bokken.re/index.html <::sif::> Bokken - Home Page <::tags::>
 http://bonsaiden.github.io/JavaScript-Garden/ <::sif::> JavaScript Garden <::tags::>
@@ -102,15 +116,21 @@ http://booster.railsware.com/ <::sif::> @Booster_app – The Best Mac OS X Deskt
 http://bootsnipp.com/ <::sif::> Home of free code snippets for Bootstrap | Bootsnipp.com <::tags::>
 http://bost.ocks.org/mike/algorithms/ <::sif::> Visualizing Algorithms <::tags::>
 http://bosun.org/ <::sif::> Bosun <::tags::>
+http://bower.io <::sif::> Bower <::tags::>
 http://bower.io/ <::sif::> Bower <::tags::>
+http://bowlingx.github.io/marklib/ <::sif::> marklib <::tags::>
 http://boz.com/articles/be-kind.html <::sif::> Be Kind <::tags::>
+http://brackets.io <::sif::> Brackets - A modern, open source code editor that understands web design. <::tags::>
 http://brackets.io/ <::sif::> Brackets - A modern, open source code editor that understands web design. <::tags::>
 http://bradfrost.com/blog/ <::sif::>  Brad Frost | Web Design, Speaking, Consulting, Music, and Art <::tags::>
 http://bradfrost.com/blog/post/float-label-pattern/ <::sif::>  Float Label Pattern | Brad Frost <::tags::>
 http://bramp.github.io/js-sequence-diagrams/ <::sif::> js-sequence-diagrams by bramp <::tags::>
+http://brianreavis.github.io/selectize.js/ <::sif::> Selectize.js <::tags::>
 http://brm.io/jquery-match-height-demo/ <::sif::> jquery.matchHeight Tests <::tags::>
 http://browserify.org <::sif::> Browserify <::tags::>
 http://browserify.org/ <::sif::> Browserify <::tags::>
+http://browserquest.mozilla.org <::sif::> BrowserQuest <::tags::>
+http://browserstate.github.io/history.js/demo/ <::sif::> History.js <::tags::>
 http://buckets.io/ <::sif::> Buckets <::tags::>
 http://buildbot.net/ <::sif::> Buildbot <::tags::>
 http://buildnewgames.com/optimizing-websockets-bandwidth/ <::sif::> Optimizing WebSockets Bandwidth - Build New Games <::tags::>
@@ -123,6 +143,7 @@ http://caniuse.com/#feat=http2 <::sif::> Can I use... Support tables for HTML5, 
 http://canjs.com <::sif::> CanJS - home <::tags::>
 http://cantina.co/automated-dns-for-aws-instances-using-route-53/ <::sif::> Automated DNS for AWS Instances Using Route 53 | Cantina <::tags::>
 http://casesandberg.github.io/react-color/ <::sif::> React Color <::tags::>
+http://casperjs.org <::sif::> CasperJS, a navigation scripting and testing utility for PhantomJS and SlimerJS <::tags::>
 http://cassandra.apache.org/ <::sif::> The Apache Cassandra Project <::tags::>
 http://cb.vu/unixtoolbox.xhtml <::sif::> Unix Toolbox <::tags::>
 http://cbonte.github.io/haproxy-dconv/configuration-1.5.html <::sif::> HAProxy version 1.5.14 - Configuration Manual <::tags::>
@@ -137,12 +158,17 @@ http://chriskempson.github.io/base16/ <::sif::> Base16 <::tags::>
 http://christianheilmann.com/ <::sif::> Christian Heilmann <::tags::>
 http://christianheilmann.com/2012/04/16/of-parser-fetishists-and-semi-colons/ <::sif::>  Of parser-fetishists and semi-colons | Christian Heilmann <::tags::>
 http://christianheilmann.com/2015/09/08/quick-trick-using-template-to-delay-loading-of-images/ <::sif::>  Quick trick: using template to delay loading of images | Christian Heilmann <::tags::>
+http://classeur.io/ <::sif::> Classeur – Re-enjoy writing, with Markdown <::tags::>
+http://clipboardjs.com <::sif::> clipboard.js — Copy to clipboard without Flash <::tags::>
 http://cloud.centos.org <::sif::> Index of / <::tags::>
+http://clzd.me/hulk-smash-svg/ <::sif::> Anthony Calzadilla Presents: Hulk Smash SVG! <::tags::>
 http://code.flickr.net/2015/06/25/real-time-resizing-of-flickr-images-using-gpus/ <::sif::> Real-time Resizing of Flickr Images Using GPUs | code.flickr.com <::tags::>
 http://code.macournoyer.com/thin/ <::sif::> Thin - yet another web server <::tags::>
+http://code.runnable.com/ <::sif::> Runnable - Discover Everything through Code <::tags::>
 http://code.runnable.com/U07z_Y_j9rZk1tTx/handlebars-template-examples-with-express-4-for-node-js <::sif::> Handlebars template examples with Express 4 for Node.js Code Example - Runnable <::tags::>
 http://code.runnable.com/UWw3g0PKxoAWAA6K/how-to-serve-static-files-in-express-for-node-js <::sif::> How to serve static files in Express for Node.js Code Example - Runnable <::tags::>
 http://codebeautify.org/ <::sif::> Free Online Tools For Developers - To Beautify, Validate, Minify, Analyse and Convert your JSON, XML, JavaScript, CSS, HTML, Excel <::tags::>
+http://codemirror.net <::sif::> CodeMirror <::tags::>
 http://codemyui.com/ <::sif::> CodeMyUI.com <::tags::>
 http://codeorchestra.com/ <::sif::> COLT.IO: Development tool for angular.js, node-webkit, node.js, phonegap <::tags::>
 http://codepen.io <::sif::> CodePen - Front End Developer Playground & Code Editor in the Browser <::tags::>
@@ -150,14 +176,24 @@ http://codepen.io/ <::sif::> CodePen - Front End Developer Playground & Code Edi
 http://codepen.io/16octets/pen/BoaBZK <::sif::> Confettis Generator <::tags::>
 http://codepen.io/BrianDGLS/pen/zGgdRR <::sif::> Something weird <::tags::>
 http://codepen.io/DeptofJeffAyer/full/waLYxy/ <::sif::> CodePen - Button, button, who's got the button <::tags::>
+http://codepen.io/Yakudoo/full/YXxmYR/ <::sif::> CodePen - Chill the lion <::tags::>
+http://codepen.io/Yakudoo/pen/YXxmYR <::sif::> Chill the lion <::tags::>
 http://codepen.io/Yakudoo/pen/rVGraP <::sif::> holy running cow <::tags::>
+http://codepen.io/anon/pen/jPGJMK <::sif::> Fourier series <::tags::>
+http://codepen.io/branny/pen/vNrLmJ <::sif::> Minion Halloween <::tags::>
 http://codepen.io/callmenick/pen/XbdxbV <::sif::> Old <::tags::>
+http://codepen.io/carolineartz/pen/ogVXZj <::sif::> angular interactive box-model diagram <::tags::>
+http://codepen.io/chrisgannon/details/NqyWOw/ <::sif::> SVG Flying Saucer <::tags::>
 http://codepen.io/chrisgannon/full/BNmVxj/?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning <::sif::> CodePen - SVG Summer Drink <::tags::>
 http://codepen.io/chrisgannon/full/WvJMXP <::sif::> CodePen - All Devices in SVG <::tags::>
+http://codepen.io/chrisgannon/pen/jPwvYy <::sif::> SVG Line Loader (success) <::tags::>
+http://codepen.io/desandro/pen/MwVJKm <::sif::> Ribbon physics study <::tags::>
 http://codepen.io/fbrz/pen/whxbF <::sif::> CSS 3D Bending Effect - Page Flip <::tags::>
 http://codepen.io/ge1doot/full/JdzXjb/ <::sif::> CodePen - the world <::tags::>
 http://codepen.io/ge1doot/full/dYPwdR/ <::sif::> CodePen - Yoshi's Island <::tags::>
+http://codepen.io/ge1doot/pen/WvwvOj <::sif::> mojo working <::tags::>
 http://codepen.io/jakealbaugh/pen/JYYENm <::sif::> CSS Scroll Jacking Demo Using `:hover` <::tags::>
+http://codepen.io/jakealbaugh/pen/PwLXXP <::sif::> pen#PwLXXP <::tags::>
 http://codepen.io/juanbrujo/pen/rVqQaP <::sif::> Classifieds box concept <::tags::>
 http://codepen.io/juliangarnier/pen/idhuG <::sif::> CSS 3D Solar System <::tags::>
 http://codepen.io/lbebber/pen/OPWXEd <::sif::> CSS Fake blend preloader <::tags::>
@@ -165,15 +201,21 @@ http://codepen.io/maccadb7/pen/nbHEg <::sif::> Modal - Pure CSS (no Javascript) 
 http://codepen.io/pen/ <::sif::> A Pen by Captain Anonymous <::tags::>
 http://codepen.io/pixelass/pen/zvvJoX <::sif::> #2 Bomb those bees | beesandbombs remakes <::tags::>
 http://codepen.io/rachel_web/pen/pjzowB <::sif::> Minion in Pure CSS <::tags::>
+http://codepen.io/rachsmith/pen/JdYemy <::sif::> Floaty fluttery rainbow stars <::tags::>
 http://codepen.io/rgg/full/QbRyOq/ <::sif::> Pure CSS Progress <::tags::>
+http://codepen.io/satchmorun/full/WQJpVN <::sif::> CodePen - Boxes 2 <::tags::>
+http://codepen.io/sdras/pen/JdJgrB <::sif::> Responsive Animated Infographic. <::tags::>
 http://codepen.io/sdras/pen/YyXewa <::sif::> City Construction Site <::tags::>
 http://codepen.io/thebabydino/full/doBLxx/ <::sif::> CodePen - Nightly Sea Creatures <::tags::>
 http://codepen.io/thebabydino/full/waoGBO/ <::sif::> CodePen - Tile adder (no JS, no added elements) <::tags::>
+http://codepen.io/tmrDevelops/pen/qdVJjM <::sif::> Foo Particles Four <::tags::>
+http://codersblock.com/blog/checkbox-trickery-with-css/ <::sif::> Coder's Block Blog / Checkbox Trickery with CSS <::tags::>
 http://codyhouse.co/demo/back-to-top/index.html <::sif::> Back To Top | Cody <::tags::>
 http://codyhouse.co/demo/smart-fixed-navigation/index.html <::sif::> Smart Fixed Navigation <::tags::>
 http://colorschemedesigner.com/csd-3.5/ <::sif::> Color Scheme Designer 3 <::tags::>
 http://com.hemiola.com/2009/11/23/memory-leaks-in-ie8/ <::sif::> Memory Leaks in IE8 and IE9 (Fixed in IE10) | Baffling Browsers <::tags::>
 http://commandlinepoweruser.com/ <::sif::> Command Line Power User <::tags::>
+http://compass-style.org <::sif::> Compass Home | Compass Documentation <::tags::>
 http://compass-style.org/ <::sif::>  Compass Home | Compass Documentation <::tags::>
 http://computer.howstuffworks.com/lan-switch15.htm <::sif::> Routers and Layer 3 Switching - How LAN Switches Work <::tags::>
 http://confreaks.tv/ <::sif::>  Confreaks TV <::tags::>
@@ -182,9 +224,11 @@ http://coppertino.com/ <::sif::> VOX Player for iPhone - play FLAC, MP3, CUE on 
 http://cordobo.com/wp-content/uploads/pure-css-animated-3d-super-mario/ <::sif::> Pure CSS animated 3D Super Mario Icon - An experiment by Andreas Jacob <::tags::>
 http://corpuscss.com/ <::sif::> Corpus. A collection of CSS things. <::tags::>
 http://cosplay.watch/ <::sif::> Cosplay Watch - Everything You Need For Cosplay <::tags::>
+http://createjs.com <::sif::> CreateJS | A suite of JavaScript libraries and tools designed for working with HTML5 <::tags::>
 http://css3pie.com/demos/ <::sif::> Demos and Example Sites – CSS3 PIE: CSS3 decorations for IE <::tags::>
 http://css3test.com/ <::sif::> The CSS3 Test <::tags::>
 http://cssdeck.com/ <::sif::> HTML5, CSS3, JS Demos, Creations and Experiments | CSSDeck <::tags::>
+http://cssdig.com <::sif::> CSS Dig <::tags::>
 http://cssline.com/ <::sif::> CSSline - Showcase gallery of excellent CSS sites. <::tags::>
 http://cssnano.co <::sif::> cssnano: A modular minifier based on the PostCSS ecosystem <::tags::>
 http://csstriggers.com/ <::sif::> CSS Triggers... <::tags::>
@@ -202,14 +246,17 @@ http://dashboarddude.com/blog/2013/08/16/dashing-dashboard-widget-challenge-the-
 http://dashing.io <::sif::> Dashing - The exceptionally handsome dashboard framework. <::tags::>
 http://dashing.io/ <::sif::> Dashing - The exceptionally handsome dashboard framework. <::tags::>
 http://datamonkey.pro <::sif::> Datamonkey – Learn to analyse data <::tags::>
+http://datascience.iq.harvard.edu/publications/big-data-technology-literature-review <::sif::> Big Data Technology Literature Review | Data Science <::tags::>
 http://davidandsuzi.com/using-react-for-faster-renders-and-isomorphism-in-angular/ <::sif::> David and Suzi | Using React for Faster Renders and Isomosphism in Angular <::tags::>
 http://davidscottlyons.com/threejs/presentations/frontporch14/#slide-0 <::sif::> Intro to WebGL with Three.js <::tags::>
 http://davidwalsh.name/document-readystate <::sif::> Detect if a Page Has Loaded with JavaScript <::tags::>
 http://davidwalsh.name/es6-generators <::sif::> The Basics Of ES6 Generators <::tags::>
 http://davidwalsh.name/javascript-objects <::sif::> JS Objects: Inherited a Mess <::tags::>
+http://dcmjs.com/lightsabers/ <::sif::> Vector Lightsabers <::tags::>
 http://deckofcardsapi.com/ <::sif::> Deck of Cards API <::tags::>
 http://deeplearning4j.org/eigenvector <::sif::>  Deeplearning4j - Open-source, distributed deep learning for the JVM <::tags::>
 http://deeplearning4j.org/lstm.html <::sif::>  Deeplearning4j - Open-source, distributed deep learning for the JVM <::tags::>
+http://definitelytyped.org <::sif::> Home | DefinitelyTyped <::tags::>
 http://demo.marcofolio.net/3d_animation_css3/ <::sif::> 3d animation using pure CSS3 <::tags::>
 http://demojs.org <::sif::> DemoJS 2014 <::tags::>
 http://demosthenes.info/blog/777/Create-Fullscreen-HTML5-Page-Background-Video <::sif::> the new code – Create Fullscreen HTML5 Page Background Video <::tags::>
@@ -220,12 +267,17 @@ http://developer.telerik.com/featured/a-guide-to-javascript-engines-for-idiots/ 
 http://developer.telerik.com/featured/safari-is-not-the-new-ie-but/ <::sif::> Safari is Not the New IE, But... -Telerik Developer Network <::tags::>
 http://developer.telerik.com/featured/whats-wrong-with-the-web/ <::sif::> What's Wrong with the Web? -Telerik Developer Network <::tags::>
 http://dialelo.github.io/application-architecture-with-react-rethinking-flux.html <::sif::> Application Architecture with React: rethinking Flux <::tags::>
+http://dimsemenov.com/plugins/magnific-popup/ <::sif::> Magnific Popup: Responsive jQuery Lightbox Plugin <::tags::>
 http://dischord.org/2015/03/09/troubleshooting-openstack-neutron-networking-part-one/ <::sif::>  Troubleshooting OpenStack Neutron Networking, Part One · dischord.org <::tags::>
 http://discuss.joelonsoftware.com/default.asp?joel.3.219431.12& <::sif::> The Joel on Software Discussion Group (CLOSED) - Why I Hate Frameworks <::tags::>
 http://diveintohtml5.info/ <::sif::> Dive Into HTML5 <::tags::>
 http://diveintohtml5.info/offline.html <::sif::> Offline Web Applications - Dive Into HTML5 <::tags::>
 http://dmitryfrank.com/articles/js_closures <::sif::>  How do JavaScript closures work under the hood [Dmitry Frank] <::tags::>
 http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html <::sif::> Choosing a Routing Policy - Amazon Route 53 <::tags::>
+http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html <::sif::> Getting Set Up with the AWS Command Line Interface - AWS Command Line Interface <::tags::>
+http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-intro.html <::sif::> Getting Started with AWS - Getting Started with AWS <::tags::>
+http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-tutorials.html <::sif::> AWS Tutorials - Getting Started with AWS <::tags::>
+http://docs.aws.amazon.com/gettingstarted/latest/emr/getting-started-emr-overview.html <::sif::> Analyzing Big Data with Amazon Web Services - Getting Started with AWS <::tags::>
 http://docs.libuv.org/en/v1.x/ <::sif::> Welcome to the libuv API documentation — libuv API documentation <::tags::>
 http://docs.openstack.org <::sif::>  OpenStack Docs: Current <::tags::>
 http://docs.openstack.org/ <::sif::>  OpenStack Docs: Current <::tags::>
@@ -243,11 +295,15 @@ http://docs.oracle.com/cd/E17802_01/webservices/webservices/docs/2.0/tutorial/do
 http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html <::sif::> What Every Computer Scientist Should Know About Floating-Point Arithmetic <::tags::>
 http://docs.oracle.com/cd/E39820_01/doc.11121/gateway_docs/content/oauth_flows.html <::sif::> API Gateway OAuth 2.0 Authentication Flows <::tags::>
 http://docs.oracle.com/en/ <::sif::> Oracle Help Center <::tags::>
+http://docs.python-requests.org/en/latest/ <::sif::> Requests: HTTP for Humans — Requests 2.8.1 documentation <::tags::>
 http://docs.saltstack.com/en/latest/ref/pillar/all/index.html <::sif::> Full list of builtin pillar modules <::tags::>
 http://docs.saltstack.com/en/latest/salt-modindex.html <::sif::> Salt Module Index <::tags::>
 http://docs.saltstack.com/en/latest/topics/installation/ubuntu.html <::sif::> Ubuntu Installation <::tags::> ubuntu
 http://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html <::sif::> SaltStack Walk-through <::tags::>
 http://docs.uchiwa.io/en/latest/faq/faq/ <::sif::> Frequently asked questions - Uchiwa Docs <::tags::>
+http://documentup.com/ <::sif::> DocumentUp <::tags::>
+http://documentup.com/kriskowal/q/ <::sif::> kriskowal/q <::tags::>
+http://documentup.com/v0lkan/sif <::sif::> v0lkan/sif <::tags::>
 http://dotnetslackers.com/ <::sif::>  DotNetSlackers: ASP.NET News and Articles For Lazy Developers <::tags::>
 http://dotnetslackers.com/articles/designpatterns/InversionOfControlAndDependencyInjectionWithCastleWindsorContainerPart1.aspx <::sif::>  Inversion of Control and Dependency Injection with Castle Windsor Container - Part I <::tags::>
 http://drewww.github.io/socket.io-benchmarking/ <::sif::> drewww/socket.io-benchmarking @ GitHub <::tags::>
@@ -265,6 +321,7 @@ http://effbot.org/zone/python-list.htm <::sif::> An Introduction to Python List
 http://effectivejs.com/ <::sif::> Effective JavaScript <::tags::>
 http://ejohn.org/blog/simple-javascript-inheritance/ <::sif::> John Resig - Simple JavaScript Inheritance <::tags::>
 http://electric-cloud.com/products/electricflow/electriccommander/ <::sif::> ElectricFlow: Make Continuous Delivery a Reality <::tags::>
+http://electron.atom.io <::sif::> Electron <::tags::>
 http://elemental-ui.com <::sif::> Elemental UI <::tags::>
 http://eli.thegreenplace.net/2014/02/19/squashing-github-pull-requests-into-a-single-commit <::sif::> Squashing Github pull requests into a single commit - Eli Bendersky's website <::tags::>
 http://eloquentjavascript.net <::sif::> Eloquent JavaScript <::tags::>
@@ -273,6 +330,7 @@ http://emberjs.com <::sif::> Ember.js - A framework for creating ambitious web a
 http://en.wikipedia.org/wiki/File:Xterm_256color_chart.svg <::sif::> File:Xterm 256color chart.svg - Wikipedia, the free encyclopedia <::tags::>
 http://enable-cors.org/ <::sif::> enable cross-origin resource sharing <::tags::>
 http://endoflineblog.com/gitflow-considered-harmful <::sif::> GitFlow considered harmful | End of Line Blog <::tags::>
+http://eng.wealthfront.com/2015/06/implementing-netflix-redesign.html <::sif::> Wealthfront Engineering: Performant CSS Animations: Netflix Case Study <::tags::>
 http://engineering.chartbeat.com/2014/01/02/part-1-lessons-learned-tuning-tcp-and-nginx-in-ec2/ <::sif::> Part 1: Lessons learned tuning TCP and Nginx in EC2 « Chartbeat Engineering Blog <::tags::>
 http://engineering.linkedin.com/performance/how-linkedin-used-pops-and-rum-make-dynamic-content-download-25-faster <::sif::> How LinkedIn used PoPs and RUM to make dynamic content download 25% faster | LinkedIn Engineering <::tags::>
 http://epydoc.sourceforge.net/docstrings.html <::sif::> Python Docstrings <::tags::>
@@ -285,6 +343,7 @@ http://eslint.org/docs/user-guide/command-line-interface <::sif::> Documentation
 http://espadrine.github.io/New-In-A-Spec/es6/ <::sif::> What's New In A Spec <::tags::>
 http://esprima.org/ <::sif::> Esprima <::tags::>
 http://ethanschoonover.com/solarized <::sif::> Solarized - Ethan Schoonover <::tags::>
+http://etherpad.org <::sif::> Etherpad <::tags::>
 http://eugene-eeo.github.io/stateless.js/ <::sif::> Stateless.js <::tags::>
 http://example.com/ <::sif::> Example Domain <::tags::>
 http://excellencenodejsblog.com/getting-started-express-4-x-template-engine/ <::sif::> Getting Started With Express 4.x View - Template Engine - Tutorial 3 <::tags::>
@@ -294,17 +353,25 @@ http://expressjs.com/ <::sif::> Express - Node.js web application framework <::t
 http://expressjs.com/4x/api.html <::sif::> Express 4.x - API Reference <::tags::>
 http://expressjs.com/api.html <::sif::> Express 4.x - API Reference <::tags::>
 http://expressjs.com/starter/hello-world.html <::sif::> Express "Hello World" example <::tags::>
+http://fabricjs.com <::sif::> Fabric.js Javascript Canvas Library <::tags::>
 http://facebook.github.io/flux/ <::sif::> Flux | Application Architecture for Building User Interfaces <::tags::>
+http://facebook.github.io/immutable-js/ <::sif::> Immutable.js <::tags::>
 http://facebook.github.io/jsx/ <::sif::> JSX | XML-like syntax extension to ECMAScript <::tags::>
+http://facebook.github.io/react-native/ <::sif::> React Native | A framework for building native apps using React <::tags::>
 http://facebook.github.io/react/blog/ <::sif::> Blog | React <::tags::>
 http://fastly.github.io/epoch/ <::sif::> Epoch by Fastly <::tags::>
+http://fclaussen.github.io/Flexbox-Framework/ <::sif::> Flexbox-Framework by fclaussen <::tags::>
 http://fent.github.io/randexp.js/ <::sif::> fent/randexp.js @ GitHub <::tags::>
 http://fgnass.github.io/spin.js/ <::sif::> spin.js <::tags::>
+http://fineuploader.com <::sif::> Fine Uploader Javascript Upload Library <::tags::>
 http://firstround.com/review/this-90-day-plan-turns-engineers-into-remarkable-managers/ <::sif::> This 90-Day Plan Turns Engineers into Remarkable Managers - First Round Review <::tags::>
+http://fittextjs.com <::sif::> FitText - A plugin for inflating web type <::tags::>
 http://five.sentenc.es/ <::sif::> Sentenc.es - A Disciplined Way To Deal With Email <::tags::>
 http://flexboxin5.com/ <::sif::> flexbox in 5 minutes <::tags::>
+http://flightjs.github.io <::sif::> Flight by Twitter <::tags::>
 http://flipclockjs.com/ <::sif::> FlipClock.js <::tags::>
 http://flowtype.org/ <::sif::> Flow | Flow | A static type checker for JavaScript <::tags::>
+http://fontcdn.org <::sif::> FontCDN: A search tool for Google web fonts <::tags::>
 http://forecastfont.iconvau.lt/ <::sif::> Forecast Font <::tags::>
 http://fortune.com/best-companies/cisco-70/ <::sif::> Cisco - 100 Best Companies to Work For 2015 - Fortune <::tags::> cisco
 http://foundation.zurb.com/ <::sif::> Foundation | The Most Advanced Responsive Front-end Framework from ZURB <::tags::>
@@ -312,6 +379,7 @@ http://framerjs.com/ <::sif::> Framer - Prototyping Tool for Designing UI, Inter
 http://franklinta.com/2014/11/30/image-diffing-using-css/ <::sif::> Image diffing using CSS | Franklin Ta <::tags::>
 http://fredkschott.com/post/2014/02/npm-no-longer-defaults-to-tildes/ <::sif::> "npm install --save" No Longer Using Tildes | FredKSchott <::tags::>
 http://freecodecamp.com/ <::sif::> Learn to Code and Build Projects for Nonprofits | Free Code Camp <::tags::>
+http://fullcalendar.io <::sif::> FullCalendar - JavaScript Event Calendar (jQuery plugin) <::tags::>
 http://futurice.com/blog/reactive-mvc-and-the-virtual-dom <::sif::> Reactive MVC and the Virtual DOM — Futurice <::tags::>
 http://galeracluster.com/products/ <::sif::> Products | Galera Cluster for MySQL <::tags::>
 http://gbracha.blogspot.com/2007/06/constructors-considered-harmful.html <::sif::> Room 101: Constructors Considered Harmful <::tags::>
@@ -321,9 +389,11 @@ http://getbootstrap.com/ <::sif::>  Bootstrap · The world's most popular mobile
 http://getbootstrap.com/components/ <::sif::>  Components · Bootstrap <::tags::>
 http://getcontenttools.com/demo <::sif::> Try before downloading · ContentTools <::tags::>
 http://getfirebug.com/ <::sif::> Firebug <::tags::>
+http://getfuelux.com <::sif::> Fuel UX <::tags::>
 http://getskeleton.com/ <::sif::> Skeleton: Responsive CSS Boilerplate <::tags::>
 http://getskeleton.com/#grid <::sif::> Skeleton: Responsive CSS Boilerplate <::tags::>
 http://gionkunz.github.io/chartist-js/ <::sif::> Chartist - Simple responsive charts <::tags::>
+http://git-scm.com/book/en/Git-Tools-Rewriting-History <::sif::> Git - Rewriting History <::tags::>
 http://git-scm.com/docs/git-revert <::sif::> Git - git-revert Documentation <::tags::>
 http://git.openstack.org/cgit/ <::sif::> OpenStack git repository browser <::tags::>
 http://git.wincent.com/command-t.git/blob_plain/HEAD:/doc/command-t.txt <::sif::> Command-T: A vim Plugin to Intelligently Find Things <::tags::>
@@ -331,30 +401,44 @@ http://github.e-sites.nl/zeptobuilder/ <::sif::> Zepto Builder 1.0.0-beta - Gene
 http://githubengineering.com/exception-monitoring-and-response/ <::sif::>  Exception Monitoring and Response - GitHub Engineering <::tags::>
 http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html <::sif::> git ready » squashing commits with rebase <::tags::>
 http://gitualize.com/ <::sif::> Gitualize <::tags::>
+http://gka.github.io/canvid/ <::sif::> canvid.js <::tags::>
 http://glenmaddern.com/articles/css-modules <::sif::> Glen Maddern: Internet Pro <::tags::>
 http://gofreerange.com/mocha/docs/Mocha/Mock.html <::sif::> Class: Mocha::Mock — Mocha 1.1.0 <::tags::>
 http://gogs.io <::sif::> Gogs: Go Git Service - A painless self-hosted Git service <::tags::>
+http://goinswriter.com/500-words/ <::sif::> 500 Words a Day: The Secret to Developing a Regular Writing Habit <::tags::>
 http://googlecloudplatform.blogspot.com/2015/10/Full-Speed-Ahead-with-HTTP2-on-Google-Cloud-Platform.html <::sif::> Google Cloud Platform Blog: Full Speed Ahead with HTTP/2 on Google Cloud Platform <::tags::>
 http://gradle.org/ <::sif::> Gradle l Endgame Open-Source Enterprise Build Automation <::tags::>
 http://gradle.org/docs/current/dsl/ <::sif::> Gradle DSL Version 2.6 <::tags::>
 http://gradle.org/docs/current/userguide/userguide_single.html <::sif::> Gradle User Guide <::tags::>
+http://grafana.org <::sif::> Grafana - Graphite and InfluxDB Dashboard and graph builder <::tags::>
+http://grammar.ccc.commnet.edu/grammar/ <::sif::> Guide to Grammar and Writing <::tags::>
 http://greweb.me/diaporama/ <::sif::> Diaporama: Examples <::tags::>
+http://gridster.net <::sif::> gridster.js <::tags::>
 http://gridster.net/ <::sif::> gridster.js <::tags::>
+http://gruntjs.com <::sif::> Grunt: The JavaScript Task Runner <::tags::>
 http://gruntjs.com/ <::sif::> Grunt: The JavaScript Task Runner <::tags::>
 http://guides.co <::sif::> Better How To Guides <::tags::>
 http://guides.rubyonrails.org/debugging_rails_applications.html <::sif::> Debugging Rails Applications — Ruby on Rails Guides <::tags::>
 http://guides.rubyonrails.org/security.html <::sif::> Ruby on Rails Security Guide — Ruby on Rails Guides <::tags::>
 http://guides.rubyonrails.org/testing.html <::sif::> A Guide to Testing Rails Applications — Ruby on Rails Guides <::tags::>
+http://gulpjs.com <::sif::> gulp.js - the streaming build system <::tags::>
 http://gumbyframework.com/ <::sif::> Gumby - A Flexible, Responsive CSS Framework - Powered by Sass <::tags::>
+http://hammerjs.github.io <::sif::> Hammer.JS - Hammer.js <::tags::>
+http://handlebarsjs.com <::sif::> Handlebars.js: Minimal Templating on Steroids <::tags::>
 http://handlebarsjs.com/ <::sif::> Handlebars.js: Minimal Templating on Steroids <::tags::>
+http://handsontable.com <::sif::> Handsontable | Excel-like spreadsheet for web apps. Handsontable is ready to use, open and free JavaScript component. <::tags::>
+http://hapijs.com <::sif::> hapi.js <::tags::>
 http://haskellformac.com/ <::sif::> Haskell for Mac <::tags::>
 http://helb.github.io/goodbye-sourceforge/ <::sif::> Goodbye, Sourceforge! <::tags::>
 http://hellohappy.org/beautiful-web-type/ <::sif::> Beautiful web type — the best typefaces from the Google web fonts directory <::tags::>
+http://hint.fm/wind/ <::sif::> Wind Map <::tags::>
 http://hivelogic.com/articles/top-10-programming-fonts <::sif::> Top 10 Programming Fonts <::tags::>
 http://hongkhanh.github.io/gridify/ <::sif::> Gridify <::tags::>
 http://hood.ie <::sif::> hood.ie <::tags::>
 http://hook.io/ <::sif::> hook.io - Free Microservice and Webhook Hosting. Deploy your code in seconds. <::tags::>
 http://howtonode.org/understanding-process-next-tick <::sif::> Understanding process.nextTick() - How To Node - NodeJS <::tags::>
+http://hpneo.github.io/gmaps/ <::sif::> gmaps.js — Google Maps API with less pain and more fun <::tags::>
+http://html2canvas.hertzen.com <::sif::> html2canvas <::tags::>
 http://html5doctor.com <::sif::>  HTML5 Doctor, helping you implement HTML5 today <::tags::>
 http://html5doctor.com/ <::sif::>  HTML5 Doctor, helping you implement HTML5 today <::tags::>
 http://html5doctor.com/html5-custom-data-attributes/ <::sif::>  HTML5 Custom Data Attributes (data-*) | HTML5 Doctor <::tags::>
@@ -369,18 +453,30 @@ http://iamvdo.me/en/blog/advanced-css-filters <::sif::> Advanced CSS filters - V
 http://ifelse.io/2015/08/17/dockerizing-a-nodejs-app/ <::sif::> Dockerizing A Node.JS App (again) | If Else <::tags::>
 http://ignitersworld.com/lab/patternLock.html <::sif::> jQuery plugin for android style pattern lock | ignitersworld.com <::tags::>
 http://ilovetypography.com/ <::sif::> Fonts, typefaces and all things typographical — I love Typography (ILT) <::tags::>
+http://imagesloaded.desandro.com <::sif::> imagesLoaded <::tags::>
 http://imaginea.github.io/uvCharts/ <::sif::> uvCharts <::tags::>
+http://imakewebthings.com/deck.js/#add-what-you-want <::sif::> deck.js » Modern HTML Presentations <::tags::>
+http://imakewebthings.com/waypoints/ <::sif::> Waypoints <::tags::>
 http://immersivemath.com/ila/index.html <::sif::> immersivemath: Immersive Linear Algebra <::tags::>
+http://impress.github.io/impress.js/ <::sif::> impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz <::tags::>
 http://info.meteor.com/blog/optimistic-ui-with-meteor-latency-compensation <::sif::> Optimistic UI with Meteor <::tags::>
 http://input.fontbureau.com/download/ <::sif::> Input: Fonts for Code — Download <::tags::>
 http://input.fontbureau.com/info/ <::sif::> Input: Fonts for Code — Info <::tags::>
+http://insertafter.com/en/blog/native-node-module.html <::sif::> InsertAfter : Create Native NodeJS Modules Fallbacking To Emscripten Ones <::tags::>
+http://ionicframework.com <::sif::> Ionic: Advanced HTML5 Hybrid Mobile App Framework <::tags::>
+http://is.js.org <::sif::> is.js - micro check library <::tags::>
+http://iscrolljs.com <::sif::> iScroll 5, smooth scrolling for the web <::tags::>
 http://isomorphic.net/ <::sif::> Isomorphic JavaScript - The future of web app development <::tags::>
+http://isotope.metafizzy.co <::sif::> Isotope <::tags::>
 http://isotope.metafizzy.co/layout-modes.html <::sif::> Isotope · Layout modes <::tags::>
+http://jade-lang.com <::sif::> Jade - Template Engine <::tags::>
 http://jaicab.com/2015/05/18/making-a-difference-with-performance/ <::sif::>  Making a difference with performance | Frontend architect based in London | Jaime Caballero <::tags::>
 http://jakearchibald.com/2014/using-serviceworker-today/ <::sif::> Using ServiceWorker in Chrome today - JakeArchibald.com <::tags::>
+http://jakiestfu.github.io/Snap.js/demo/apps/default.html <::sif::> Snap.js <::tags::>
 http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/ <::sif::> Learn React By Itself -- no JSX, no Flux, no ES6, no Webpack. <::tags::>
 http://jankfree.org/ <::sif::> Jank Free: Let's Make the Web Silky Smooth! <::tags::>
 http://jaredforsyth.com/2015/03/06/visualizing-reactive-streams-hot-and-cold/ <::sif::> Visualizing Reactive Streams: Hot and Cold Observables <::tags::>
+http://jasmine.github.io <::sif::> Jasmine: Behavior-Driven JavaScript <::tags::>
 http://jasmine.github.io/ <::sif::> Jasmine: Behavior-Driven JavaScript <::tags::>
 http://jasmine.github.io/edge/introduction.html <::sif::> introduction.js <::tags::>
 http://jasonwilder.com/blog/2012/01/03/centralized-logging/ <::sif::> Centralized Logging · <::tags::>
@@ -389,21 +485,27 @@ http://javascriptkicks.com <::sif::> JavaScriptKicks <::tags::>
 http://javascriptweekly.com <::sif::> JavaScript Weekly: A Free, Weekly Email Newsletter <::tags::>
 http://javierbyte.github.io/cohesive-colors/ <::sif::> Cohesive Colors | A tool for creating more cohesive color schemes. <::tags::>
 http://jekyllrb.com/ <::sif::> Jekyll • Simple, blog-aware, static sites <::tags::>
+http://jhollingworth.github.io/bootstrap-wysihtml5/ <::sif::> bootstrap-wysihtml5 <::tags::>
 http://jigsaw.w3.org/css-validator/ <::sif::> The W3C CSS Validation Service <::tags::>
+http://jinja.pocoo.org/docs/dev/templates/ <::sif::> Template Designer Documentation — Jinja2 Documentation (2.8-dev) <::tags::>
 http://jlongster.com/Taming-the-Asynchronous-Beast-with-CSP-in-JavaScript <::sif::> Taming the Asynchronous Beast with CSP Channels in JavaScript <::tags::>
 http://jonibologna.com/flexbox-cheatsheet/ <::sif::> Flexbox Cheatsheet Cheatsheet <::tags::>
 http://jorgeatgu.github.io/svg-filters/ <::sif::> SVG FILTERS + DRAG AND DROP <::tags::>
+http://joshdmiller.github.io/ng-boilerplate/#/home <::tags::>
 http://jquery.com <::sif::> jQuery <::tags::>
 http://jquery.com/ <::sif::> jQuery <::tags::>
 http://jqueryuk.com/2015/videos.php?s=mdo-ular-css <::sif::> jQuery UK Conference - Oxford 2015 <::tags::>
+http://jqueryvalidation.org <::sif::> jQuery Validation Plugin | Form validation with jQuery <::tags::>
 http://js13kgames.com <::sif::> js13kGames - HTML5 and JavaScript Game Development Competition in just 13 kilobytes <::tags::>
 http://js1k.com <::sif::> JS1k - The JavaScript Code Golfing Competition <::tags::>
 http://js2.coffee/ <::sif::> js2coffee 2.0 — convert JavaScript to CoffeeScript <::tags::>
 http://jsbeautifier.org/ <::sif::> Online JavaScript beautifier <::tags::>
 http://jsbin.com/?html,css,js,output <::sif::> JS Bin - Collaborative JavaScript Debugging <::tags::>
 http://jsbin.com/?html,js,output <::sif::> JS Bin - Collaborative JavaScript Debugging <::tags::>
+http://jscs.info/ <::sif::> JSCS <::tags::>
 http://jsfiddle.net/ <::sif::> Create a new fiddle - JSFiddle <::tags::>
 http://jsfiddle.net/thirtydot/5CJ5e/ <::sif::> Edit fiddle - JSFiddle <::tags::>
+http://jsfiddle.net/wybiral/3bdkp5c0/embedded/result/ <::tags::>
 http://jsforcats.com/ <::sif::> JavaScript for Cats <::tags::>
 http://jshint.com <::sif::> JSHint, a JavaScript Code Quality Tool <::tags::>
 http://jshint.com/about/ <::sif::> About JSHint <::tags::>
@@ -420,19 +522,31 @@ http://kallithea-scm.org/ <::sif::> Kallithea <::tags::>
 http://kangax.github.io/compat-table/es5/ <::sif::> ECMAScript 5 compatibility table <::tags::>
 http://kangax.github.io/compat-table/es6/ <::sif::> ECMAScript 6 compatibility table <::tags::>
 http://kangax.github.io/nfe/ <::sif::> Named function expressions demystified <::tags::>
+http://karma-runner.github.io/0.13/index.html <::sif::> Karma - Spectacular Test Runner for Javascript <::tags::>
 http://kb.imakewebsites.ca/2014/01/03/nodejs-setup-tips-for-devops/ <::sif::> NodeJS setup tips for DevOps – Knowledge Base <::tags::>
+http://keen.github.io/dashboards/ <::sif::> Dashboards by Keen IO <::tags::>
 http://keepalived.org/ <::sif::> Keepalived for Linux <::tags::>
 http://keithclark.co.uk/ <::sif::> Keith Clark <::tags::>
 http://keithclark.co.uk/articles/pure-css-parallax-websites/ <::sif::> Pure CSS Parallax Websites by Keith Clark <::tags::>
+http://kenwheeler.github.io/slick/ <::sif::> slick - the last carousel you'll ever need <::tags::>
+http://keysleft.com/ <::sif::> Keys Left - You have a finite number of keystrokes left in your hands before you die. How many is that? <::tags::>
+http://khan.github.io/tota11y/ <::sif::> tota11y – an accessibility visualization toolkit <::tags::>
 http://kkovacs.eu/cool-but-obscure-unix-tools <::sif::> Cool, but obscure unix tools :: Software architect Kristof Kovacs <::tags::>
 http://knexjs.org <::sif::> Knex.js - A SQL Query Builder for Javascript <::tags::>
+http://knockoutjs.com <::sif::> Knockout : Home <::tags::>
+http://knsv.github.io/mermaid/#online-live-editor <::sif::> mermaid - Generation of diagrams and flowcharts from text in a similar manner as markdown. <::tags::>
 http://krakenjs.com/ <::sif::> krakenjs - Give your node.js express apps some extra arms <::tags::>
 http://kripken.github.io/emscripten-site/ <::sif::> Main — Emscripten 1.34.8 documentation <::tags::>
 http://kristopolous.github.io/BOOTSTRA.386/ <::sif::> Bootstrap <::tags::>
+http://lab.ejci.net/favico.js/ <::sif::> favico.js - Make use of your favicon <::tags::>
+http://lab.hakim.se/reveal-js/ <::sif::> reveal.js - The HTML Presentation Framework <::tags::>
 http://labs.omniti.com/labs/jsend <::sif::> JSend <::tags::>
 http://languagelog.ldc.upenn.edu/nll/?p=3534 <::sif::> Language Log » Real trends in word and sentence length <::tags::>
 http://lea.verou.me/ <::sif::> Lea Verou | Life at the bleeding edge (of web standards) <::tags::>
 http://lea.verou.me/2015/04/jquery-considered-harmful/ <::sif::> jQuery considered harmful | Lea Verou <::tags::>
+http://leafletjs.com <::sif::> Leaflet - a JavaScript library for interactive maps <::tags::>
+http://learn.getgrav.org/ <::sif::> Basics | Grav Documentation <::tags::>
+http://learnboost.github.io/stylus/ <::sif::> Stylus — expressive, robust, feature-rich CSS preprocessor <::tags::>
 http://learning-0mq-with-pyzmq.readthedocs.org/en/latest/pyzmq/devices/devices.html <::sif::> ØMQ Devices — Learning 0MQ with examples <::tags::>
 http://learnrubythehardway.org/book/ <::sif::> Learn Ruby The Hard Way <::tags::>
 http://learnrubythehardway.org/book/ex44.html <::sif::> Learn Ruby The Hard Way <::tags::>
@@ -440,6 +554,7 @@ http://learnxinyminutes.com <::sif::> Learn X in Y Minutes: Scenic Programming L
 http://learnxinyminutes.com/ <::sif::> Learn X in Y Minutes: Scenic Programming Language Tours <::tags::>
 http://learnxinyminutes.com/docs/groovy/ <::sif::> Learn Groovy in Y Minutes <::tags::>
 http://learnyouahaskell.com/ <::sif::> Learn You a Haskell for Great Good! <::tags::>
+http://lesscss.org <::sif::> Getting started | Less.js <::tags::>
 http://lesscss.org/ <::sif::>  Getting started | Less.js <::tags::>
 http://libmill.org/tutorial.html <::sif::> libmill <::tags::>
 http://lighttable.com/ <::sif::> Light Table <::tags::>
@@ -452,6 +567,7 @@ http://live.amcharts.com <::sif::> Online Chart Maker | amCharts <::tags::>
 http://livestream.com/accounts/6779986/events/2928486/videos/51426837 <::sif::> Val Head: All the right mov... on Livestream <::tags::>
 http://logging.apache.org/log4j/ <::sif::> Apache log4j — A logging library <::tags::>
 http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/ <::sif::> 6 Rules of thumb to build blazing fast web applications (server side) | Loige <::tags::>
+http://loopback.io <::sif::> LoopBack <::tags::>
 http://lorempixel.com/ <::sif::> lorempixel - placeholder images for every case <::tags::>
 http://lunrjs.com/ <::sif::> lunr.js - A bit like Solr, but much smaller and not as bright <::tags::>
 http://mac.appstorm.net/ <::sif::>  Mac.AppStorm <::tags::>
@@ -459,7 +575,9 @@ http://makezine.com/projects/really-really-random-number-generator/ <::sif::> Re
 http://man7.org/linux/man-pages/man1/gcore.1.html <::sif::> gcore(1) - Linux manual page <::tags::>
 http://manning.com/ <::sif::> Manning | Home <::tags::>
 http://manpages.ubuntu.com/manpages/lucid/man1/gcore.1.html <::sif::> Ubuntu Manpage: gcore - Generate a core file for a running process <::tags::> ubuntu
+http://marionettejs.com <::sif::> Marionette.js – The Backbone Framework <::tags::>
 http://markdalgleish.github.io/presentation-return-of-the-progressive-web/ <::sif::> The Return of the Progressive Web <::tags::>
+http://maroslaw.github.io/rainyday.js/ <::sif::> rainyday.js <::tags::>
 http://martiancraft.com/blog/2014/07/inspecting-yosemite-icons/ <::sif::> Inspecting Yosemite's Icons <::tags::>
 http://martinfowler.com/ <::sif::> Martin Fowler <::tags::> patterns
 http://martinfowler.com/articles/consumerDrivenContracts.html <::sif::> Consumer-Driven Contracts: A Service Evolution Pattern <::tags::> patterns
@@ -473,18 +591,24 @@ http://martinfowler.com/bliki/TolerantReader.html <::sif::> TolerantReader <::ta
 http://martinfowler.com/eaaDev/EventSourcing.html <::sif::> Event Sourcing <::tags::> patterns
 http://mashable.com/ <::sif::> Mashable <::tags::>
 http://masonjs.com <::sif::> Mason by DrewDahlman <::tags::>
+http://masonry.desandro.com <::sif::> Masonry <::tags::>
+http://material-ui.com/#/ <::sif::> Material UI <::tags::>
 http://mathmistakes.org/ <::sif::> Math Mistakes « <::tags::>
 http://matt.might.net/articles/implementation-of-recursive-fixed-point-y-combinator-in-javascript-for-memoization/ <::sif::> Memoizing recursive functions via the fixed-point Y combinator: Applying functional programming techniques to Javascript <::tags::>
+http://matthew.wagerfield.com/parallax/ <::sif::> parallax.js <::tags::>
 http://matthewlein.com/ceaser/ <::sif::> Ceaser - CSS Easing Animation Tool - Matthew Lein <::tags::>
 http://maxogden.com/node-streams.html <::sif::> Max Ogden Blogotronz <::tags::>
 http://mcavage.me/node-restify/ <::sif::> API Guide | restify <::tags::>
 http://mcavage.me/presentations/dtrace_conf_2012-04-03/ <::sif::> DTrace Your Node.js Applications <::tags::>
+http://mean.io/#!/ <::sif::> MEAN - Full-Stack JavaScript Using MongoDB, Express, AngularJS, and Node.js. <::tags::>
 http://meandmax.github.io/lory/ <::sif::> lory <::tags::>
 http://mediaelementjs.com/ <::sif::> MediaElement.js - HTML5 video player and audio player with Flash and Silverlight shims <::tags::>
+http://melange.io <::sif::> Melange by Bilal Cinarli <::tags::>
 http://merbist.com/2011/02/22/concurrency-in-ruby-explained/ <::sif::> Ruby concurrency explainined | Matt Aimonetti <::tags::>
 http://meteor.github.io/blaze/ <::sif::> Blaze: easy reactive templating <::tags::>
 http://meyerweb.com/ <::sif::> meyerweb.com <::tags::>
 http://meyerweb.com/eric/tools/dencoder/ <::sif::> URL Decoder/Encoder <::tags::>
+http://mgcrea.github.io/angular-strap/ <::sif::> AngularStrap - AngularJS 1.2+ native directives for Twitter Bootstrap 3. <::tags::>
 http://mherman.org/blog/2015/02/12/postgresql-and-nodejs/ <::sif::> PostgreSQL and NodeJS - Michael Herman <::tags::>
 http://mherman.org/blog/2015/09/10/testing-node-js-with-mocha-and-chai/ <::sif::> Testing Node.js with Mocha and Chai - Michael Herman <::tags::>
 http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/ <::sif::> Install Jekyll 2 on Ubuntu 14.04 – michaelchelen.net <::tags::> ubuntu
@@ -492,19 +616,26 @@ http://mininet.org <::sif::> Mininet: An Instant Virtual Network on your Laptop 
 http://mithril.js.org <::sif::> Mithril <::tags::>
 http://mitmproxy.org/ <::sif::> mitmproxy - home <::tags::>
 http://mobilehtml5.org/ <::sif::> Mobile HTML5 compatibility on iPhone, Android, Windows Phone, BlackBerry, Firefox OS and other mobile devices <::tags::>
+http://mochajs.org <::sif::> Mocha - the fun, simple, flexible JavaScript test framework <::tags::>
 http://modernizr.com/ <::sif::> Modernizr: the feature detection library for HTML5/CSS3 <::tags::>
 http://modernweb.com/2014/06/23/using-node-js-in-production/ <::sif::> Using Node.js in Production - Modern Web <::tags::>
+http://momentjs.com <::sif::> Moment.js | Home <::tags::>
 http://momentjs.com/ <::sif::> Moment.js | Home <::tags::>
 http://momentjs.com/docs/ <::sif::> Moment.js | Docs <::tags::>
 http://momentjs.com/timezone/ <::sif::> Moment Timezone | Home <::tags::>
+http://mongodb.github.io/node-mongodb-native/ <::sif::> MongoDB Node.js Driver <::tags::>
+http://mongoosejs.com <::sif::> Mongoose ODM v4.2.3 <::tags::>
 http://monodraw.helftone.com <::sif::> Monodraw for Mac — Helftone <::tags::>
 http://monodraw.helftone.com/ <::sif::> Monodraw for Mac — Helftone <::tags::>
+http://morrisjs.github.io/morris.js/ <::sif::> morris.js <::tags::>
 http://mrale.ph/blog/2011/12/18/v8-optimization-checklist.html <::sif::>  I-want-to-optimize-my-JS-application-on-V8 checklist <::tags::>
 http://mrdoob.github.io/three.js/examples/css3d_periodictable.html <::sif::> three.js css3d - periodic table <::tags::>
 http://mrjoes.github.io/2011/12/15/sockjs-bench.html <::sif::> SockJS benchmark | Eat at Joe's <::tags::>
 http://msgpack.org/ <::sif::> MessagePack: It's like JSON. but fast and small. <::tags::>
+http://mustache.github.io <::sif::> {{ mustache }} <::tags::>
 http://mvnrepository.com <::sif::> Maven Repository: Search/Browse/Explore <::tags::>
 http://mvnrepository.com/ <::sif::> Maven Repository: Search/Browse/Explore <::tags::>
+http://mynameismatthieu.com/WOW/ <::sif::> Reveal Animations When Scrolling — WOW.js <::tags::>
 http://mywiki.wooledge.org/BashFAQ/031 <::sif::> BashFAQ/031 - Greg's Wiki <::tags::>
 http://mziccard.me/2015/08/10/node-timsort-fast-sorting-nodejs/ <::sif::>  Node-TimSort: Fast Sorting for Node.js · Marco Ziccardi <::tags::>
 http://n3-charts.github.io/line-chart/ <::sif::> n3-charts <::tags::>
@@ -531,6 +662,7 @@ http://nginx.org/en/docs/http/configuring_https_servers.html <::sif::> Configuri
 http://nginx.org/en/docs/http/load_balancing.html <::sif::> Using nginx as HTTP load balancer <::tags::>
 http://nginx.org/en/docs/http/ngx_http_auth_basic_module.html <::sif::> Module ngx_http_auth_basic_module <::tags::>
 http://nginx.org/en/docs/http/ngx_http_proxy_module.html <::sif::> Module ngx_http_proxy_module <::tags::>
+http://nginx.org/en/docs/http/ngx_http_rewrite_module.html <::sif::> Module ngx_http_rewrite_module <::tags::>
 http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#break <::sif::> Module ngx_http_rewrite_module <::tags::>
 http://nginx.org/en/docs/http/ngx_http_upstream_module.html <::sif::> Module ngx_http_upstream_module <::tags::>
 http://nikgraf.github.io/belle/#/ <::sif::> Belle - Configurable React Components with great UX <::tags::>
@@ -540,7 +672,10 @@ http://nikhilm.github.io/uvbook/threads.html <::sif::> Threads — An Introducti
 http://nixos.org/nix/ <::sif::> Nix: The Purely Functional Package Manager <::tags::>
 http://node-modules.com/ <::sif::> Better search for Node.js modules <::tags::>
 http://nodebots.io <::sif::> NodeBots - The Rise of JS Robotics <::tags::>
+http://nodemailer.com <::sif::> Nodemailer | Send e-mails with Node.JS – easy as cake! E-mail made in Estonia <::tags::>
+http://nodemon.io <::sif::> nodemon <::tags::>
 http://nodeweekly.com <::sif::> Node Weekly: A Free, Weekly Email Newsletter <::tags::>
+http://nvd3.org <::sif::> NVD3 <::tags::>
 http://nvie.com/posts/a-successful-git-branching-model/ <::sif::> A successful Git branching model » nvie.com <::tags::>
 http://o2js.com/ <::sif::> o2.js – A Coherent Solution to Your JavaScript Dilemma <::tags::>
 http://o2js.com/productivity/writing-has-never-been-easier <::sif::> Writing Has Never Been Easier <::tags::>
@@ -556,20 +691,28 @@ http://openvswitch.org/support/config-cookbooks/vlan-configuration-cookbook/ <::
 http://osxdaily.com/2008/03/21/how-to-flush-your-dns-cache-in-mac-os-x/ <::sif::> How to Flush DNS Cache in Mac OS X | OSXDaily <::tags::>
 http://osxfuse.github.io/ <::sif::> Home - FUSE for OS X <::tags::>
 http://packery.metafizzy.co <::sif::> Packery <::tags::>
+http://paperjs.org <::sif::> Paper.js <::tags::>
+http://parsleyjs.org <::sif::> Parsley - The ultimate JavaScript form validation library <::tags::>
+http://passportjs.org <::sif::> Passport <::tags::>
 http://passportjs.org/ <::sif::> Passport <::tags::>
 http://pastebin.com/48WdZR6L <::sif::> [HTML] 666 lines of XSS vectors, suitable for attacking an API - Pastebin.com <::tags::>
 http://patternlab.io/about.html <::sif::> About Pattern Lab and Atomic Design <::tags::>
+http://paulgraham.com/talk.html <::sif::> Write Like You Talk <::tags::>
+http://pcottle.github.io/learnGitBranching/?demo <::sif::> Learn Git Branching <::tags::>
 http://people.adams.edu/~cdmiller/posts/nginx-heartbeat-ha/ <::sif::> Nginx high availability via heartbeat <::tags::>
 http://phabricator.org/ <::sif::> Phabricator <::tags::>
 http://phantomjs.org/build.html <::sif::> Build | PhantomJS <::tags::>
 http://phantomjs.org/quick-start.html <::sif::> Quick Start | PhantomJS <::tags::>
+http://phaser.io <::sif::> Phaser - A fast, fun and free open source HTML5 game framework <::tags::>
 http://pheuter.github.io/essential-react/ <::sif::> Essential React <::tags::>
 http://photoswipe.com <::sif::> PhotoSwipe: Responsive JavaScript Image Gallery <::tags::>
 http://php.net/manual/en/function.socket-listen.php <::sif::> PHP: socket_listen - Manual <::tags::>
 http://pivotaltracker.com/ <::sif::> Pivotal Tracker | Agile Project Management <::tags::>
 http://pixelmap.amcharts.com <::sif::> Pixel Map Generator | amCharts <::tags::>
+http://pjax.herokuapp.com/aliens.html <::sif::> aliens - pjax <::tags::>
 http://planet.openstack.org <::sif::> Planet OpenStack <::tags::>
 http://pm2.keymetrics.io/ <::sif::> PM2 - Advanced Node.js process manager <::tags::>
+http://pomelo.netease.com <::sif::> Pomelo home <::tags::>
 http://ponyfoo.com/articles/es6-destructuring-in-depth <::sif::> ES6 JavaScript Destructuring in Depth <::tags::>
 http://ponyfoo.com/articles/es6-let-const-and-temporal-dead-zone-in-depth <::sif::> ES6 Let, Const and the “Temporal Dead Zone” (TDZ) in Depth <::tags::>
 http://ponyfoo.com/articles/es6-symbols-in-depth <::sif::> ES6 Symbols in Depth <::tags::>
@@ -578,11 +721,15 @@ http://popmotion.io/ <::sif::> Popmotion - JavaScript animation, physics and inp
 http://practicaltypography.com/ <::sif::> Butterick’s Practical Typography <::tags::>
 http://prettydiff.com <::sif::> Pretty Diff - The difference tool <::tags::>
 http://prettydiff.com/ <::sif::> Pretty Diff - The difference tool <::tags::>
+http://primercss.io <::sif::> Home · Primer <::tags::>
+http://programmers.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width <::sif::> history - Why is 80 characters the 'standard' limit for code width? - Programmers Stack Exchange <::tags::>
 http://programmers.stackexchange.com/questions/221034/usage-of-magic-strings-numbers <::sif::> coding style - Usage of magic strings/numbers - Programmers Stack Exchange <::tags::>
 http://programmers.stackexchange.com/questions/278778/why-are-native-es6-promises-slower-and-more-memory-intensive-than-bluebird <::sif::> javascript - Why are native ES6 promises slower and more memory-intensive than bluebird? - Programmers Stack Exchange <::tags::>
 http://programmers.stackexchange.com/questions/65467/what-does-xxx-mean-in-a-comment <::sif::> coding standards - What does XXX mean in a comment? - Programmers Stack Exchange <::tags::>
+http://programmers.stackexchange.com/questions/75919/should-package-names-be-singular-or-plural <::sif::> object oriented - Should package names be singular or plural? - Programmers Stack Exchange <::tags::>
 http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/ <::sif::> Consul Service Discovery with Docker :: Jeff Lindsay <::tags::>
 http://projects.spring.io/spring-boot/ <::sif::> Spring Boot <::tags::>
+http://protip.rocks/ <::sif::> Protip - Yet another jQuery tooltip plugin <::tags::>
 http://psddd.co/ <::sif::> Psddd - Beautiful Dribbble freebies for the creative professional <::tags::>
 http://psdrepo.com/ <::sif::> PSD Repo - Free quality PSDs available for download <::tags::>
 http://pw1.netcom.com/~tjensen/ptr/ch1x.htm <::sif::> Chapter 1 <::tags::>
@@ -590,13 +737,19 @@ http://px64.net/ <::sif::> Transparent PNG Pixel Base64 Encoded <::tags::>
 http://qqrs.github.io/blog/2013/05/03/vim-on-a-mechanical-typewriter/ <::sif::> Vim on a Mechanical Typewriter - qqrs <::tags::>
 http://queue.acm.org/detail.cfm?id=2039361 <::sif::> Postmortem Debugging in Dynamic Environments - ACM Queue <::tags::>
 http://queues.io/ <::sif::> Queues <::tags::>
+http://quilljs.com <::sif::> Quill - A Rich Text WYSIWYG Editor with an API <::tags::>
 http://quirksmode.org/ <::sif::> QuirksMode - for all your browser quirks <::tags::>
+http://quoteunquoteapps.com/courierprime/ <::sif::> Courier Prime | Quote-Unquote Apps <::tags::>
 http://quoteunquoteapps.com/courierprime/faq <::sif::> Courier Prime FAQ | Quote-Unquote Apps <::tags::>
 http://qzaidi.github.io/2013/05/14/node-in-production/ <::sif::> 10 steps to nodejs nirvana in production | Thruput | Garbage In, Garbage Out <::tags::>
 http://rackt.github.io/redux/ <::sif::> Read Me | Redux <::tags::>
 http://rancher.com/rancher/ <::sif::> Rancher | Rancher Labs <::tags::>
+http://raphaeljs.com <::sif::> Raphaël—JavaScript Library <::tags::>
 http://react.rocks <::sif::> ReactJS Examples, Demos, Code <::tags::>
+http://reactivex.io <::sif::> ReactiveX <::tags::>
+http://rebar.io <::sif::> Rebar Grid Framework <::tags::>
 http://reconstrukt.com/ingrid/ <::sif::> Ingrid, the jQuery Datagrid. <::tags::>
+http://redis.io <::sif::> Redis <::tags::>
 http://redis.io/ <::sif::>  Redis <::tags::>
 http://redis.io/documentation <::sif::>  Redis <::tags::>
 http://redis.io/topics/benchmarks <::sif::>  How fast is Redis? – Redis <::tags::>
@@ -604,17 +757,23 @@ http://redis.io/topics/cluster-tutorial <::sif::>  Redis cluster tutorial – Re
 http://redis.io/topics/cluster-tutorial <::sif::>  Redis cluster tutorial – Redis <::tags::>
 http://redis.io/topics/introduction <::sif::>  Introduction to Redis – Redis <::tags::>
 http://redis.io/topics/replication <::sif::>  Replication – Redis <::tags::>
+http://redis.js.org <::sif::> Node Redis <::tags::>
+http://redux.js.org <::sif::> Read Me | Redux <::tags::>
 http://reference.sitepoint.com/css <::sif::> SitePoint CSS Reference » Learn CSS3 | Cheat Sheet | CSS Tutorial | Selectors | Properties <::tags::>
 http://regexone.com/ <::sif::> RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and the ABCs <::tags::>
 http://requirebin.com <::sif::> RequireBin <::tags::>
+http://requirejs.org <::sif::> RequireJS <::tags::>
 http://requirejs.org/docs/start.html <::sif::> How to get started with RequireJS <::tags::>
 http://research.google.com/archive/chubby.html <::sif::> Google Research Publication: Chubby Distributed Lock Service <::tags::>
 http://rethinkdb.com/faq/ <::sif::>  Frequently asked questions - RethinkDB <::tags::>
+http://ricostacruz.com/jquery.transit/ <::sif::> Transit - CSS transitions and transformations for jQuery <::tags::>
+http://ricostacruz.com/nprogress/ <::sif::> NProgress: slim progress bars in JavaScript <::tags::>
 http://rigor.com/blog/2015/06/ads-increase-latency-by-40-percent <::sif::> Case Study: Ads increase page latency by 40 percent - Rigor <::tags::>
 http://roeierez.github.io/infinite-list/ <::sif::> Infinite-list by roeierez <::tags::>
 http://router5.github.io/ <::sif::> router5 | HTML5 router for reactive applications <::tags::>
 http://roxik.com/cat/ <::sif::> Caaaaat <::tags::>
 http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven <::sif::>  REST APIs must be hypertext-driven » Untangled <::tags::>
+http://ruanyf.github.io/es-checker/ <::sif::> How Much of ECMAScript 6 Does Your Browser Support? - ES-Checker <::tags::>
 http://rubaxa.github.io/Sortable/ <::sif::> Sortable. No jQuery. <::tags::>
 http://rubylearning.com/ <::sif::> Ruby Tutorial - Learn Ruby <::tags::>
 http://rubyplus.biz/ <::sif::> Ruby Plus <::tags::>
@@ -625,13 +784,18 @@ http://rwdgrid.com <::sif::> Responsive Grid System for your Next Project - rwdg
 http://rwdgrid.com/ <::sif::> Responsive Grid System for your Next Project - rwdgrid.com <::tags::>
 http://rwdgrid.com/demo/ <::sif::> Demo - rwdgrid.com <::tags::>
 http://ryanclark.me/going-native-with-react/ <::sif::> Going native with React, an introduction <::tags::>
+http://sailsjs.org <::sif::> Sails.js | Realtime MVC Framework for Node.js <::tags::>
 http://saltstack.com/ <::sif::>  SaltStack automation for CloudOps, ITOps & DevOps at scale <::tags::>
 http://salvattore.com <::sif::> Salvattore — A jQuery Masonry alternative with CSS-driven configuration <::tags::>
 http://samsung.github.io/iotjs/ <::sif::> Platform for Internet of Things with JavaScript <::tags::>
 http://sass-lang.com/ <::sif::> Sass: Syntactically Awesome Style Sheets <::tags::>
 http://sass-lang.com/guide <::sif::> Sass: Sass Basics <::tags::>
+http://sbstjn.github.io/timesheet.js/ <::sif::> Timesheet.js - Beautiful time tables with HTML, JavaScript and CSS … <::tags::>
+http://scottjehl.github.io/picturefill/ <::sif::> Picturefill <::tags::>
 http://scottksmith.com/blog/2015/06/15/secure-node-apps-against-owasp-top-10-authentication-and-sessions/ <::sif::> Secure Node Apps Against OWASP Top 10 - Authentication & Sessions - Scott Smith <::tags::>
 http://scrollerjs.com <::sif::> ScrollerJS <::tags::>
+http://scrollmagic.io <::sif::> ScrollMagic ♥ Demo <::tags::>
+http://scrollrevealjs.org <::sif::> scrollReveal.js | Easily reveal elements as they enter the viewport. <::tags::>
 http://searchcloudcomputing.techtarget.com/definition/private-cloud <::sif::> What is private cloud (internal cloud or corporate cloud) ? - Definition from WhatIs.com <::tags::>
 http://searchenterprisewan.techtarget.com/definition/Generic-routing-encapsulation-GRE <::sif::> What is Generic Routing Encapsulation (GRE)? - Definition from WhatIs.com <::tags::>
 http://searchsdn.techtarget.com/definition/distributed-virtual-switch <::sif::> What is distributed virtual switch? - Definition from WhatIs.com <::tags::>
@@ -654,24 +818,36 @@ http://serverfault.com/questions/506465/is-there-a-hard-limit-to-the-number-of-f
 http://shakrmedia.github.io/tuesday/ <::tags::>
 http://shapeshed.com/command-line-utilities-with-nodejs/ <::sif::> Command Line Utilities with Node.js | Shape Shed <::tags::>
 http://shaundon.github.io/simple-notifications/ <::sif::> Simple Notifications by shaundon <::tags::>
+http://shichuan.github.io/javascript-patterns/ <::sif::> JavaScript Patterns <::tags::>
 http://shop.oreilly.com/product/0636920033141.do <::sif::> Programming JavaScript Applications - O'Reilly Media <::tags::>
 http://shop.oreilly.com/product/9780596802806.do <::sif::> High Performance JavaScript - O'Reilly Media <::tags::>
 http://shop.oreilly.com/product/9780596806767.do <::sif::> JavaScript Patterns - O'Reilly Media <::tags::>
+http://shopify.github.io/dashing/ <::sif::> Dashing - The exceptionally handsome dashboard framework. <::tags::>
+http://shouldiworkforfree.com/ <::sif::> Should I Work for Free? <::tags::>
+http://sigmajs.org <::sif::> Sigma js <::tags::>
+http://silviomoreto.github.io/bootstrap-select/ <::sif::> Bootstrap-select <::tags::>
 http://simpl.info/videoalpha/ <::sif::> Video alpha channel <::tags::>
 http://simpledesktops.com/ <::sif::> Simple Desktops <::tags::>
 http://sinonjs.org/ <::sif::> Sinon.JS - Documentation <::tags::>
 http://sintaxi.com/you-half-assed-it <::sif::> Sintaxi <::tags::>
 http://smartbear.com/product/collaborator/overview/ <::sif::>  Peer Code Review Tool | SmartBear Collaborator <::tags::>
 http://smartcomments.github.io/ <::sif::> SmartComments <::tags::>
+http://snapsvg.io <::sif::> Snap.svg - Home <::tags::>
+http://snipplr.com/ <::sif::> Code Snippets - Snipplr Social Snippet Repository <::tags::>
 http://snook.ca/technical/colour_contrast/colour.html <::sif::> Colour Contrast Check - snook.ca <::tags::>
+http://socket.io <::sif::> Socket.IO <::tags::>
 http://socket.io/docs/ <::sif::> Socket.IO — Docs <::tags::>
 http://socket.io/docs/client-api/ <::sif::> Socket.IO — Client API <::tags::>
 http://socket.io/docs/rooms-and-namespaces/ <::sif::> Socket.IO — Rooms and Namespaces <::tags::>
 http://socketcluster.io/ <::sif::> SocketCluster - Scalable realtime engine <::tags::>
+http://spacebase.space150.com <::sif::> spaceBase: A Sass-based Responsive CSS framework <::tags::>
+http://spectacle.surge.sh/ <::tags::>
 http://spectrum.ieee.org/telecom/wireless/electronic-noise-is-drowning-out-the-internet-of-things <::sif::> Electronic Noise Is Drowning Out the Internet of Things - IEEE Spectrum <::tags::>
+http://spin.js.org <::sif::> spin.js <::tags::>
 http://sporto.github.io/blog/2012/12/09/callbacks-listeners-promises/ <::sif::> Asynchronous JS: Callbacks, Listeners, Control Flow Libs and Promises - Sebastian's Blog <::tags::>
 http://spring.io/understanding/HATEOAS <::sif::> Understanding HATEOAS <::tags::>
 http://sproutcore.com/ <::sif::> SproutCore <::tags::>
+http://square.github.io/crossfilter/ <::sif::> Crossfilter <::tags::>
 http://stackalytics.com <::sif::>  Stackalytics | OpenStack community contribution in Liberty release <::tags::>
 http://stackoverflow.com/ <::sif::> Stack Overflow <::tags::>
 http://stackoverflow.com/questions/10048173/why-is-it-bad-style-to-rescue-exception-e-in-ruby <::sif::> Why is it bad style to `rescue Exception => e` in Ruby? - Stack Overflow <::tags::>
@@ -716,11 +892,14 @@ http://stackoverflow.com/questions/8778732/parallel-http-requests-in-ruby <::sif
 http://stackoverflow.com/questions/9289243/read-and-write-atomic-operation-implementation-in-the-linux-kernel <::sif::> c - Read and Write atomic operation implementation in the Linux Kernel - Stack Overflow <::tags::>
 http://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash <::sif::> string - Extract filename and extension in Bash - Stack Overflow <::tags::>
 http://stanhub.com/how-to-make-div-element-100-height-of-browser-window-using-css-only/ <::sif::> How to Make Div Element 100% Height of Browser Window Using CSS Only – Stanhub <::tags::>
+http://stanko.github.io/skyblue/ <::sif::> SkyBlue CSS Framework <::tags::>
 http://stats.js.org <::sif::> JS.ORG | STATS <::tags::>
 http://status.modern.ie/ <::sif::> Developer Resources : Microsoft Edge Dev <::tags::>
 http://steele.blue/responsive-images-picture-srcset/ <::sif::> Responsive Images using <picture> and srcset/sizes <::tags::>
+http://stephesblog.blogs.com/my_weblog/2015/06/if-weve-won-why-are-we-still-explaining-open-source.html <::sif::> Once More unto the Breach: If We've Won, Why Are We Still Explaining Open Source? <::tags::>
 http://steve-yegge.blogspot.com.tr/2008/03/get-that-job-at-google.html <::sif::> Stevey's Blog Rants: Get that job at Google <::tags::>
 http://stu.radnidge.com/post/30612112900 <::sif::> Stu Radnidge - Using SmartOS for Node.js Development <::tags::>
+http://studio51.github.io/gridlecss/ <::sif::> GridleCSS | Yet another Flexbox Grid <::tags::>
 http://submarine-cable-map-2015.telegeography.com/ <::sif::> Submarine Cable Map 2015 <::tags::>
 http://subtitlesapp.com <::sif::> Subtitles for Mac & Windows · Automatically download subtitles for your movies and TV shows <::tags::>
 http://superuser.com/questions/590808/yum-install-gcc-g-doesnt-work-anymore-in-centos-6-4 <::sif::> linux - yum install gcc-g++ doesn't work anymore in CentOs 6.4 - Super User <::tags::>
@@ -732,7 +911,10 @@ http://susy.oddbird.net/ <::sif::> Susy <::tags::>
 http://svdictionary.com/ <::sif::> Your Guide To Silicon Valley Culture | Silicon Valley Dictionary <::tags::>
 http://svgpocketguide.com/ <::sif::> Pocket Guide to Writing SVG <::tags::>
 http://svgporn.com <::sif::> SVG PORN — 500+ high quality svg logos <::tags::>
+http://svgporn.com/ <::sif::> SVG PORN — 600+ high quality svg logos <::tags::>
+http://swagger.io <::sif::> Swagger | The World's Most Popular Framework for APIs. <::tags::>
 http://swagger.io/ <::sif::> Swagger | The World's Most Popular Framework for APIs. <::tags::>
+http://swiftipsum.com <::sif::> SwiftIpsum | The fastest way for designers and developers to fill their ideas with content. <::tags::>
 http://swreflections.blogspot.com.au/2015/06/does-devops-reduce-technical-debt-or.html <::sif::> Building Real Software: Does DevOps Reduce Technical Debt – or Make it Worse? <::tags::>
 http://sysmagazine.com/posts/123154/ <::sif::> One million simultaneous connections on Node.js — IT daily blog, news, magazine, technologies <::tags::>
 http://sysmagazine.com/posts/205804/ <::sif::> Sensu — freymvork for monitoring — IT daily blog, news, magazine, technologies <::tags::>
@@ -749,14 +931,18 @@ http://techblog.netflix.com/2015/08/from-chaos-to-control-testing.html <::sif::>
 http://techblog.netflix.com/2015/08/making-netflixcom-faster.html <::sif::> The Netflix Tech Blog: Making Netflix.com Faster <::tags::>
 http://ternjs.net <::sif::> Tern <::tags::>
 http://ternjs.net/ <::sif::> Tern <::tags::>
+http://teropa.info/blog/2015/06/09/transclusion.html <::sif::> A Guide To Transclusion in AngularJS <::tags::>
 http://testdroid.com/ <::sif::> Mobile App Testing on Android and iOS Devices - Testdroid <::tags::>
 http://thesecretlivesofdata.com/raft/ <::sif::> Raft <::tags::>
 http://thetrendythings.com/read/13256 <::sif::> CPU Flame Graphs <::tags::>
 http://thisisdallas.github.io/Simple-Grid/ <::sif::>  Simple Grid <::tags::>
 http://thlorenz.com/ <::sif::> thlorenz.com home <::tags::>
 http://thlorenz.com/v8-perf/ <::sif::> v8-perf <::tags::>
+http://threejs.org <::sif::> three.js - Javascript 3D library <::tags::>
 http://thumbor.org <::sif::> open-source smart on-demand image cropping, resizing and filters <::tags::>
 http://timdettmers.com/2015/07/27/brain-vs-deep-learning-singularity/ <::sif::> The Brain vs. Deep Learning vs. Singularity <::tags::>
+http://timeline.knightlab.com <::sif::> Timeline JS3 - Beautifully crafted timelines that are easy, and intuitive to use. <::tags::>
+http://timer.red/ <::sif::> Pomodoro Timer <::tags::>
 http://tjholowaychuk.tumblr.com/ <::sif::> TJ Holowaychuk <::tags::>
 http://tldp.org/LDP/abs/html/ <::sif::> Advanced Bash-Scripting Guide <::tags::>
 http://toddfredrich.com/ <::sif::> ToddFredrich.com - RESTful/Platform APIs and Examples, Tutorials and the Software Craft. Mostly...ToddFredrich.com <::tags::>
@@ -767,8 +953,10 @@ http://tools.maxcdn.com/procssor/ <::sif::> ProCSSor - Advanced CSS Prettifier <
 http://trac.nginx.org/nginx/ticket/50 <::sif::>  #50 (Basic Auth does not seem to work with SHA1 hashs) – nginx <::tags::>
 http://tributary.io/ <::sif::> Tributary <::tags::>
 http://troolee.github.io/gridstack.js/ <::sif::> gridstack.js <::tags::>
+http://troy.jdmz.net/rsync/index.html <::sif::> Using Rsync and SSH <::tags::>
 http://tuhrig.de/layering-of-docker-images/ <::sif::> Layering of Docker images – Thomas Uhrig <::tags::>
 http://tweaked.io/guide/kernel/ <::sif::> Optimizing servers - Tuning the GNU/Linux Kernel <::tags::>
+http://twitter.github.io/typeahead.js/ <::sif::> typeahead.js <::tags::>
 http://tympanus.net/ <::sif::> Tympanus <::tags::>
 http://tympanus.net/Development/TextInputEffects/index.html <::sif::> Text Input Effects | Set 1 <::tags::>
 http://tympanus.net/Tutorials/AnimatedButtons/index.html <::sif::> Animated Buttons with CSS3 <::tags::>
@@ -779,8 +967,12 @@ http://tympanus.net/codrops/2013/11/07/css-overlay-techniques/ <::sif::> CSS Ove
 http://typecast.com/blog/10-fonts-for-code <::sif::> 10 Fonts for Code - Typecast <::tags::>
 http://ubervu.github.io/grid/ <::tags::>
 http://uec-images.ubuntu.com <::sif::> Ubuntu Cloud Images <::tags::> ubuntu
+http://ui-grid.info <::tags::>
 http://uk.businessinsider.com/inside-facebooks-little-red-book-2015-5?op=1 <::sif::> Take a look inside Facebook's own little red book - Business Insider <::tags::>
 http://ukiyo-e.org/ <::sif::> Japanese Woodblock Print Search - Ukiyo-e Search <::tags::>
+http://una.im/CSSgram/ <::sif::> CSSGram <::tags::>
+http://underscorejs.org <::sif::> Underscore.js <::tags::>
+http://uniquehazards.com/post/670577460/a-caltrain-showdown-verizon-vs-sprint <::sif::> A Caltrain Showdown: Verizon vs. Sprint <::tags::>
 http://unix.stackexchange.com/questions/140350/linux-g-command-not-found <::sif::> linux + g++: command not found - Unix & Linux Stack Exchange <::tags::>
 http://unix.stackexchange.com/questions/28384/how-can-same-fd-in-different-processes-point-to-the-same-file <::sif::> kernel - How can same fd in different processes point to the same file? - Unix & Linux Stack Exchange <::tags::>
 http://unix.stackexchange.com/questions/29608/why-is-it-better-to-use-usr-bin-env-name-instead-of-path-to-name-as-my <::sif::> shell script - Why is it better to use "#!/usr/bin/env NAME" instead of "#!/path/to/NAME" as my shebang? - Unix & Linux Stack Exchange <::tags::>
@@ -793,6 +985,8 @@ http://updates.html5rocks.com/2012/06/How-to-convert-ArrayBuffer-to-and-from-Str
 http://updates.html5rocks.com/2015/04/permissions-api-for-the-web <::sif::> Permissions API for the Web <::tags::>
 http://upstart.ubuntu.com/ <::sif::> upstart - event-based init daemon <::tags::> ubuntu
 http://usabilitytools.com/ <::sif::> UsabilityTools - Unlock your business growth like never before <::tags::>
+http://usablica.github.io/intro.js/ <::sif::> Intro.js | Better introductions for websites and features with a step-by-step guide for your projects. <::tags::>
+http://usedetox.com <::sif::> Detox For Facebook <::tags::>
 http://usevim.com <::sif::> usevim <::tags::>
 http://ux.stackexchange.com/ <::sif::> User Experience Stack Exchange <::tags::>
 http://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes <::sif::> Dark or white color theme is better for the eyes? - User Experience Stack Exchange <::tags::>
@@ -801,6 +995,7 @@ http://uxmovement.com/navigation/why-hover-menus-do-users-more-harm-than-good/ <
 http://uxmyths.com/ <::sif::> UX Myths <::tags::>
 http://validator.w3.org/ <::sif::> The W3C Markup Validation Service <::tags::>
 http://verlok.github.io/lazyload/ <::sif::> Lazyload - a fast, lightweight and flexible script for loading images when they enter the viewport <::tags::>
+http://videojs.com <::sif::> Video.js: The Player Framework <::tags::>
 http://videojs.com/ <::sif::> Video.js: The Player Framework <::tags::>
 http://vim.wikia.com/wiki/All_the_right_moves <::sif::> All the right moves - Vim Tips Wiki <::tags::>
 http://vim.wikia.com/wiki/Change_font <::sif::> Change font - Vim Tips Wiki <::tags::>
@@ -816,7 +1011,9 @@ http://vimdoc.sourceforge.net/htmldoc/quickfix.html <::sif::> Vim documentation:
 http://vimdoc.sourceforge.net/htmldoc/scroll.html <::sif::> Vim documentation: scroll <::tags::>
 http://vimr.org <::sif::> VimR — Refined Vim Experience For OS X <::tags::>
 http://vision.is.tohoku.ac.jp/~kyamagu/ <::sif::> Kota Yamaguchi <::tags::>
+http://visionmedia.github.io/move.js/ <::sif::> Move.js - CSS3 animation framework for JavaScript <::tags::>
 http://vnjs.net/www/project/freewall/ <::sif::> Freewall - jQuery plugin for creating grid layouts <::tags::>
+http://vuejs.org <::sif::> vue.js <::tags::>
 http://w3c.github.io/beacon/ <::sif::> Beacon <::tags::>
 http://w3c.github.io/resource-hints/ <::sif::> Resource Hints <::tags::>
 http://wave.webaim.org/ <::sif::> WAVE Web Accessibility Tool <::tags::>
@@ -830,6 +1027,7 @@ http://webcomponents.org/polyfills/ <::sif::> Polyfills — WebComponents.org <:
 http://webglfundamentals.org <::sif::> WebGL Fundamentals <::tags::>
 http://webpack.github.io <::sif::> webpack module bundler <::tags::>
 http://webpack.github.io/ <::sif::> webpack module bundler <::tags::>
+http://wekan.io <::sif::> Wekan — open-source kanban <::tags::>
 http://wiki.centos.org/HowTos/SetupRpmBuildEnvironment <::sif::> HowTos/SetupRpmBuildEnvironment - CentOS Wiki <::tags::>
 http://wiki.ecmascript.org/doku.php?id=harmony:proposals <::sif::> harmony:proposals [ES Wiki] <::tags::>
 http://wiki.illumos.org/display/illumos/illumos+Home <::sif::> illumos Home - illumos - illumos wiki <::tags::>
@@ -846,6 +1044,7 @@ http://www.alfredapp.com/ <::sif::> Alfred - Productivity App for Mac OS X <::ta
 http://www.alllaw.com/articles/nolo/us-immigration/timeline-labor-certification-process.html <::sif::> Timeline of the U.S. Labor Certification Process - Employment-Based Immigration - AllLaw.com <::tags::>
 http://www.amazon.com/gp/product/0596517742/ <::sif::> JavaScript: The Good Parts: Douglas Crockford: 9780596517748: Amazon.com: Books <::tags::>
 http://www.amazon.com/gp/product/0596805527/ <::sif::> JavaScript: The Definitive Guide: Activate Your Web Pages (Definitive Guides): David Flanagan: 8580001053509: Amazon.com: Books <::tags::>
+http://www.amazon.com/gp/product/1449372635 <::sif::> CSS Secrets: Better Solutions to Everyday Web Design Problems: Lea Verou: 9781449372637: Amazon.com: Books <::tags::>
 http://www.amcharts.com/ <::sif::> JavaScript Charts and Maps | amCharts <::tags::>
 http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html <::sif::> Common fonts to all versions of Windows & Mac equivalents (Browser safe fonts) - Web design tips & tricks <::tags::>
 http://www.angularjsbook.com/ <::sif::> Angular Basics by ScriptyBooks, a free book on AngularJS <::tags::>
@@ -868,7 +1067,9 @@ http://www.brendangregg.com/flamegraphs.html <::sif::> Flame Graphs <::tags::>
 http://www.bullseye.com/minimum.html <::sif::> Minimum Acceptable Code Coverage <::tags::>
 http://www.capitalone.io/blog/contrasting-enterprise-nodejs-frameworks/ <::sif::> Capital One Engineering - Contrasting Enterprise Node.js Frameworks: Hapi vs. Kraken vs. Sails.js vs. Loopback <::tags::>
 http://www.carbonfive.com/ <::sif::> Carbon Five <::tags::>
+http://www.catb.org/esr/writings/taoup/html/ch01s06.html <::sif::> Basics of the Unix Philosophy <::tags::>
 http://www.catonmat.net/http-proxy-in-nodejs/ <::sif::> A HTTP Proxy Server in 20 Lines of node.js Code - good coders code, great coders reuse <::tags::>
+http://www.chartjs.org <::sif::> Chart.js | Open source HTML5 Charts for your website <::tags::>
 http://www.chartjs.org/ <::sif::> Chart.js | Open source HTML5 Charts for your website <::tags::>
 http://www.checkman.io/please/ <::sif::> Please JS <::tags::>
 http://www.checkman.io/please/?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning <::sif::> Please JS <::tags::>
@@ -899,15 +1100,22 @@ http://www.css3.info/ <::sif::> CSS3 . Info - All you ever needed to know about 
 http://www.css3.info/preview/rounded-border/ <::sif::>  Border-radius: create rounded corners with CSS! - CSS3 . Info <::tags::>
 http://www.cssmania.com/ <::sif::> CSS Galleries / CSSMania <::tags::>
 http://www.cssmatic.com/ <::sif::> The ultimate CSS tools for web designers | CSSmatic <::tags::>
+http://www.cupcakeipsum.com <::sif::> Cupcake Ipsum - Sugar-coated Lorem Ipsum Generator <::tags::>
 http://www.cyberciti.biz/faq/centos-rhel-7-redhat-linux-install-gcc-compiler-development-tools/ <::sif::> CentOS / RHEL 7: Install GCC (C and C++ Compiler) and Development Tools <::tags::>
 http://www.cyberciti.biz/faq/linux-command-line-run-in-background/ <::sif::> Linux: Start Command In Background <::tags::>
 http://www.cyberciti.biz/faq/linux-install-glances-monitoring-tool/ <::sif::> Linux: Keep An Eye On Your System With Glances Monitor <::tags::>
 http://www.cyberciti.biz/faq/linux-list-network-interfaces-names-command/ <::sif::> Linux: Show / Display Available Network Interfaces <::tags::>
 http://www.cyberciti.biz/faq/linux-unix-bsd-xargs-construct-argument-lists-utility/ <::sif::> xargs: How To Control and Use Command Line Arguments <::tags::>
 http://www.cyberciti.biz/open-source/command-line-hacks/linux-run-command-as-different-user/ <::sif::> Linux Run Command As Another User or Run as Root User <::tags::>
+http://www.dailywritingtips.com/ <::sif::> Daily Writing Tips <::tags::>
+http://www.dash-player.com/blog/2015/06/replacing-flash-adaptive-streaming-and-drm-in-html5/ <::sif::> bitdash HTML5 Player for HLS & MPEG-DASH – Replacing Flash: Adaptive Streaming and DRM in HTML5 <::tags::>
+http://www.daskeyboard.com/ <::sif::> Das Keyboard - Mechanical keyboard <::tags::>
 http://www.datejs.com/ <::sif::> Datejs - An open-source JavaScript Date Library <::tags::>
 http://www.diveintopython.net/power_of_introspection/optional_arguments.html <::sif::> 4.2. Using Optional and Named Arguments <::tags::>
+http://www.dropzonejs.com <::sif::> Dropzone.js <::tags::>
 http://www.echojs.com <::sif::> Echo JS - JavaScript News <::tags::>
+http://www.ecma-international.org/publications/standards/Ecma-262.htm <::sif::> Standard ECMA-262 <::tags::>
+http://www.ecma-international.org/publications/standards/Standardwithdrawn.htm <::sif::> Ecma withdrawn Standards - list <::tags::>
 http://www.ediy.com.my/index.php/blog/item/102-raspberry-pi-running-midori-browser-without-a-desktop <::sif::> Raspberry Pi: Running Midori browser without a Desktop <::tags::>
 http://www.ejschart.com/index.php <::sif::> Emprise Javascript Charts <::tags::>
 http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html <::sif::> Starbucks Does Not Use Two-Phase Commit - Enterprise Integration Patterns <::tags::>
@@ -917,12 +1125,15 @@ http://www.espruino.com <::sif::> Espruino - JavaScript for Microcontrollers <::
 http://www.evernote.com/ <::sif::>  The workspace for your life’s work | Evernote <::tags::>
 http://www.faqs.org/rfcs/rfc2616.html <::sif::> RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1 (RFC2616) <::tags::>
 http://www.fastcodesign.com/3033983/theres-finally-a-modern-typeface-for-programmers <::sif::> There's Finally A Modern Typeface For Programmers | Co.Design | business + design <::tags::>
+http://www.fefe.de/gatling/ <::sif::> gatling <::tags::>
 http://www.fileformat.info/ <::sif::> FileFormat.Info · The Digital Rosetta Stone <::tags::>
 http://www.firewall.cx/networking-topics/vlan-networks/219-vlan-tagging.html <::sif::> VLAN Tagging - Understanding VLANs Ethernet Frames <::tags::>
 http://www.flatuicolorpicker.com/ <::sif::> flatuicolorpicker : Best Flat Colors For UI Design <::tags::>
+http://www.flotcharts.org <::sif::> Flot: Attractive JavaScript plotting for jQuery <::tags::>
 http://www.flotcharts.org/ <::sif::> Flot: Attractive JavaScript plotting for jQuery <::tags::>
 http://www.formilux.org/archives/haproxy/1003/3259.html <::sif::> Hypermail <::tags::>
 http://www.freeformatter.com/html-formatter.html#ad-output <::sif::> Free Online HTML Formatter - FreeFormatter.com <::tags::>
+http://www.fsd.it/fonts/pragmatapro.htm <::sif::> PragmataPro™, coding font designed by Fabrizio Schiavi <::tags::>
 http://www.fusioncharts.com/ <::sif::> JavaScript Charts, Graphs for Web, Mobile & Apps - FusionCharts <::tags::>
 http://www.getlaura.com/how-to-enable-sessions-with-sinatra/ <::sif::> How to Enable Sessions with Sinatra | getLaura <::tags::>
 http://www.gluster.org <::sif::>  Storage for your Cloud. — Gluster <::tags::>
@@ -930,11 +1141,14 @@ http://www.google.com/design/#resources <::sif::> Google Design <::tags::>
 http://www.google.com/doodles <::sif::> Google Doodles <::tags::>
 http://www.google.com/inbox/ <::sif::>  Inbox by Gmail - the inbox that works for you <::tags::>
 http://www.gotldr.co/ <::sif::> TLDR <::tags::>
+http://www.grammar-monster.com/ <::sif::> Free English Grammar Lessons and Tests <::tags::>
 http://www.grammarly.com/handbook/ <::sif::> Grammarly Handbook | English Grammar Rules <::tags::>
 http://www.graphenedb.com/ <::sif::> Neo4j graph database hosting with GrapheneDB | GrapheneDB <::tags::>
 http://www.groovy-lang.org/ <::sif::> The Groovy programming language <::tags::>
 http://www.hadermann.be/blog/134/recognising-a-bad-user-interface-at-first-glance/ <::sif::> Recognising a Bad User Interface at First Glance <::tags::>
+http://www.hemingwayapp.com/ <::sif::> Hemingway Editor <::tags::>
 http://www.hexinvaders.com/ <::sif::> Hex Invaders <::tags::>
+http://www.highcharts.com <::sif::> Interactive JavaScript charts for your webpage | Highcharts <::tags::>
 http://www.highcharts.com/ <::sif::> Interactive JavaScript charts for your webpage | Highcharts <::tags::>
 http://www.hpcloud.com/ <::sif::> HP Public Cloud - Enterprise Public Cloud Products & Services <::tags::>
 http://www.html5rocks.com/ <::sif::> HTML5 Rocks - A resource for open web HTML5 developers <::tags::>
@@ -949,16 +1163,23 @@ http://www.html5rocks.com/en/tutorials/speed/html5/ <::sif::> Improving the Perf
 http://www.html5rocks.com/en/tutorials/speed/quick/ <::sif::> Best Practices for a Faster Web App with HTML5 - HTML5 Rocks <::tags::>
 http://www.ibm.com/cloud-computing/us/en/softlayer.html <::sif::> IBM Cloud Computing: Overview - United States <::tags::>
 http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm <::sif::>  Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST) <::tags::>
+http://www.idangero.us/framework7/ <::sif::> Framework7 - Full Featured Mobile HTML Framework For Building iOS & Android Apps <::tags::>
+http://www.idangero.us/swiper/ <::sif::> Swiper - Most Modern Mobile Touch Slider <::tags::>
 http://www.ideacolorthemes.org/home/ <::sif::> Color Themes & Fonts <::tags::>
 http://www.ietf.org/rfc/rfc1808.txt <::sif::> An example HTML document <::tags::>
 http://www.imagemagick.org/script/index.php <::sif::> ImageMagick: Convert, Edit, Or Compose Bitmap Images <::tags::>
+http://www.incaseofstairs.com/2015/06/es6-feature-performance/ <::sif::> ES6 Feature Performance - incaseofstairs <::tags::>
+http://www.infinite-scroll.com <::sif::> Infinite Scroll | jQuery plugin, Wordpress plugin, interaction design pattern <::tags::>
 http://www.initializr.com <::sif::> Initializr - Start an HTML5 Boilerplate project in 15 seconds! <::tags::>
 http://www.instructables.com/ <::sif::> Instructables - DIY How To Make Instructions <::tags::>
 http://www.instructables.com/id/Raspberry-Pi-Digital-Signage-Exchange-Rate-Display/step13/Start-the-Midori-browser-in-full-screen-mode/ <::sif::> Raspberry Pi Digital Signage: Exchange Rate Display Boards : Start the Midori browser in full screen mode <::tags::>
 http://www.ipaddressguide.com/cidr <::sif::> CIDR Utility Tool | IP Address Guide <::tags::>
+http://www.jacklmoore.com/colorbox/ <::sif::> Colorbox - a jQuery lightbox <::tags::>
 http://www.java2s.com/ <::sif::> Programming Tutorials and Source Code Examples <::tags::>
 http://www.joezimjs.com/javascript/plugging-into-socket-io-advanced/ <::sif::> Plugging Into Socket.IO: Advanced | Joe Zim's JavaScript Blog <::tags::>
 http://www.joyent.com/developers/node/debug/mdb <::sif::> MDB and Nodejs - Developer Center - Joyent <::tags::>
+http://www.jsbreakouts.org <::sif::> Breakouts <::tags::>
+http://www.json.org <::sif::> JSON <::tags::>
 http://www.json.org/JSONRequest.html <::sif::> JSONRequest <::tags::>
 http://www.jsonenglish.com/projects/flex/ <::sif::> jQuery plugin - Flex - Demo <::tags::>
 http://www.juniper.net/documentation/en_US/junos12.3/topics/concept/l2-qfx-series-overview.html <::sif::> Overview of Layer 2 Networking - Technical Documentation - Support - Juniper Networks <::tags::> <::tags::>
@@ -972,9 +1193,11 @@ http://www.letscodejavascript.com/ <::sif::> Let’s Code: Test-Driven JavaScrip
 http://www.libreoffice.org/ <::sif::> Home | LibreOffice - Free Office Suite - Fun Project - Fantastic People <::tags::>
 http://www.linux-ha.org/wiki/Main_Page <::sif::> Linux-HA <::tags::>
 http://www.linuxcommand.org/man_pages/logrotate8.html <::sif::> logrotate <::tags::>
+http://www.listjs.com <::sif::> List.js - Search, sort, filters, flexibility to tables, list and more! <::tags::>
 http://www.lynda.com <::sif::> Online video tutorials & training | lynda.com <::tags::>
 http://www.mad-hacking.net/documentation/linux/security/iptables/nat.xml <::sif::> Network Address Translation (NAT) - www.mad-hacking.net <::tags::>
 http://www.madogatari.jp/ <::sif::> MADOGATARI展［SHAFT 40th ANNIVERSARY］ <::tags::>
+http://www.mattermost.org <::sif::> Mattermost <::tags::>
 http://www.metabrew.com/article/a-million-user-comet-application-with-mochiweb-part-1 <::sif::> Richard Jones | A Million-user Comet Application with Mochiweb, Part 1 <::tags::>
 http://www.microsoft.com/enterprise/microsoftcloud/platform/default.aspx <::sif::> Microsoft Cloud - Platform <::tags::>
 http://www.mitchchn.me/2014/os-x-terminal/ <::sif::>  Eight Terminal Utilities Every OS X Command Line User Should Know · mitchchn.me <::tags::>
@@ -989,6 +1212,7 @@ http://www.nczonline.net/blog/2013/07/09/the-case-for-setimmediate/ <::sif::> Th
 http://www.networkinghowtos.com/howto/adding-users-to-a-htpasswd-file-for-nginx/ <::sif::> Adding users to a .htpasswd file for Nginx « Networking How To's <::tags::>
 http://www.newtldlist.com/ <::sif::> New TLD List of Not .Com Domain Extension Endings 2015 <::tags::>
 http://www.nginxtips.com/nginx-location-directive/ <::sif::> How to use the Nginx Location Directive <::tags::>
+http://www.nightmarejs.org <::sif::> Nightmare <::tags::>
 http://www.nodecopter.com <::sif::> The NodeCopter - Programming flying robots with node.js <::tags::>
 http://www.nr.com/ <::tags::>
 http://www.numion.com/calculators/ <::sif::> Bandwidth Calculators <::tags::>
@@ -998,9 +1222,12 @@ http://www.openstack.org/foundation/companies <::sif::> Companies » OpenStack O
 http://www.opera.com/dragonfly/ <::sif::> Opera Dragonfly – Opera's built-in web developer tools <::tags::>
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html <::sif::> Java SE Development Kit 8 - Downloads <::tags::>
 http://www.ossec.net/ <::sif::> OSSEC | Home | Open Source SECurity <::tags::>
+http://www.outlinecss.co.uk <::sif::> Outline - The clean & simple responsive CSS framework. <::tags::>
 http://www.owlnet.rice.edu/~elec539/Projects99/BACH/proj2/inverse.html <::sif::>  Inverse Filtering <::tags::>
 http://www.oxfordmathcenter.com/drupal7/node/44 <::sif::> Adding an External Library to an Eclipse Project Folder | The Oxford Math Center <::tags::>
 http://www.pathname.com/fhs/ <::sif::> Filesystem Hierarchy Standard <::tags::>
+http://www.paulirish.com/2010/the-protocol-relative-url/ <::sif::> The protocol-relative URL - Paul Irish <::tags::>
+http://www.paulirish.com/2011/the-history-of-the-html5-shiv/ <::sif::> The Story of the HTML5 Shiv - Paul Irish <::tags::>
 http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/ <::sif::> Advanced Performance Audits with DevTools - Paul Irish <::tags::>
 http://www.paulund.co.uk/ <::sif::> Paulund | Tutorials & Snippets <::tags::>
 http://www.paulund.co.uk/creating-different-css3-box-shadows-effects <::sif::> CSS Box Shadows Effects <::tags::>
@@ -1010,8 +1237,10 @@ http://www.physicsandbox.com/projects/double-pendulum.html <::sif::> Double Pend
 http://www.postgresguide.com/ <::sif::> Postgres Guide <::tags::>
 http://www.presslabs.com/gitfs/ <::sif::> gitfs - Presslabs <::tags::>
 http://www.producthunt.com/tech/section-io <::sif::> Section.io: Complete Varnish Cache Solution for your Website | Product Hunt <::tags::>
+http://www.protractortest.org/#/ <::sif::> Protractor - end to end testing for AngularJS <::tags::>
 http://www.psdbucket.com/ <::sif::>  Psd Bucket - Resources and Inspiration for Designers <::tags::>
 http://www.pubnub.com/products/publish-subscribe/ <::sif::> Publish Subscribe to Push Notifcations to Any Device <::tags::>
+http://www.quickanddirtytips.com/grammar-girl <::sif::> Grammar Girl :: Quick and Dirty Tips ™ <::tags::>
 http://www.quirksmode.org/ <::sif::> QuirksMode - for all your browser quirks <::tags::>
 http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html <::sif::> Tools don’t solve the web’s problems, they ARE the problem - QuirksBlog <::tags::>
 http://www.quirksmode.org/blog/archives/2015/07/stop_pushing_th.html <::sif::> Stop pushing the web forward - QuirksBlog <::tags::>
@@ -1077,10 +1306,15 @@ http://www.smashingmagazine.com/2013/06/clown-car-technique-solving-for-adaptive
 http://www.smashingmagazine.com/2014/06/a-better-way-to-request-app-ratings/ <::sif::> A Better Way To Request App Ratings – Smashing Magazine <::tags::>
 http://www.smashingmagazine.com/2014/07/08/breakpoints-and-the-future-websites/ <::sif::> Breakpoints And The Future Of Websites – Smashing Magazine <::tags::>
 http://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/ <::sif::> Size Matters: Balancing Line Length And Font Size In Responsive Web Design – Smashing Magazine <::tags::>
+http://www.smashingmagazine.com/2015/06/design-principles-compositional-balance-symmetry-asymmetry <::sif::> Design Principles: Compositional Balance, Symmetry And Asymmetry <::tags::>
+http://www.smashingmagazine.com/2015/06/efficient-image-resizing-with-imagemagick/ <::sif::> Efficient Image Resizing With ImageMagick <::tags::>
 http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/ <::sif::> Designing Flexible Pie Charts With CSS and SVG — Smashing Magazine <::tags::>
 http://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/ <::sif::> Laying Out A Flexible Future For Web Design With Flexbox – Smashing Magazine <::tags::>
 http://www.smashingmagazine.com/2015/08/understanding-critical-css/ <::sif::> Understanding Critical CSS – Smashing Magazine <::tags::>
 http://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/ <::sif::> Why Performance Matters: The Perception Of Time – Smashing Magazine <::tags::>
+http://www.smipple.net/ <::sif::> Smipple - Social Code Snippets <::tags::>
+http://www.soasta.com/blog/website-monitoring-fast-enough-user-experience/ <::sif::> When it comes to delivering the best possible user experience, how fast is fast enough? | SOASTA <::tags::>
+http://www.sonarqube.org <::sif::> SonarQube™ <::tags::>
 http://www.sonarqube.org/ <::sif::> SonarQube™ <::tags::>
 http://www.squid-cache.org <::sif::> squid : Optimising Web Delivery <::tags::>
 http://www.stylestats.org/ <::sif::> StyleStats - An evaluating tool for writing better CSS. <::tags::>
@@ -1089,15 +1323,21 @@ http://www.sublimetext.com/3 <::sif::> Sublime Text - Download <::tags::>
 http://www.tablesgenerator.com/ <::sif::> Create LaTeX tables online <::tags::>
 http://www.tablesgenerator.com/markdown_tables <::sif::> Markdown Tables generator - TablesGenerator.com <::tags::>
 http://www.ted.com <::sif::> TED: Ideas worth spreading <::tags::>
+http://www.telescopeapp.org <::sif::> Telescope: Build your own Hacker News, Reddit, or Product Hunt. <::tags::>
 http://www.theguardian.com/science/alexs-adventures-in-numberland/2015/aug/10/attack-on-the-pentagon-results-in-discovery-of-new-mathematical-tile <::sif::> Attack on the pentagon results in discovery of new mathematical tile | Science | The Guardian <::tags::>
+http://www.thepunctuationguide.com/index.html <::sif::> The Punctuation Guide <::tags::>
 http://www.thinkplexx.com/learn/article/unix/command/chmod-permissions-flags-explained-600-0600-700-777-100-etc <::sif::>  Chmod permissions (flags) explained: 600, 0600, 700, 777, 100 etc.. <::tags::>
 http://www.tldp.org/HOWTO/Ethernet-Bridge-netfilter-HOWTO-3.html <::sif::> Ethernet Bridge + netfilter Howto: Set Linux up to serve <::tags::>
 http://www.tokiwinter.com/building-a-highly-available-load-balancer-with-nginx-and-keepalived-on-centos/ <::sif::> Building a Highly-Available Load Balancer with Nginx and Keepalived on CentOS | Toki Winter <::tags::>
+http://www.toptal.com/react/navigating-the-react-ecosystem <::sif::> React.js Tutorial - A Guide to Tools and Libraries | Toptal <::tags::>
 http://www.toptal.com/ruby/ruby-concurrency-and-parallelism-a-practical-primer <::sif::> Ruby Concurrency and Parallelism in Multithreaded Apps: A Tutorial | Toptal <::tags::>
+http://www.turnjs.com/# <::sif::> Turn.js: The page flip effect in HTML5 <::tags::>
 http://www.typetoken.net/ <::sif::>  typetoken® | Showcasing & discussing the world of typography, icons and visual language <::tags::>
 http://www.typography.com/ <::sif::> Hoefler & Co. <::tags::>
 http://www.typographyserved.com/ <::sif::> Typography Served :: Gallery <::tags::>
 http://www.typophile.com/ <::sif::> ;) BRB <::tags::>
+http://www.ulyssesapp.com/mac/ <::sif::> Ulysses <::tags::>
+http://www.uncovermac.com/ <::sif::> Welcome | UNCOVER <::tags::>
 http://www.uxbooth.com/ <::sif::> UX Booth | A User Experience Design Publication <::tags::>
 http://www.uxisnotui.com/ <::sif::> UX is not UI <::tags::>
 http://www.uxmatters.com/ <::sif::> UXmatters :: Insights and inspiration for the user experience community <::tags::>
@@ -1112,6 +1352,7 @@ http://www.w3.org/TR/2015/PR-dom-20151006/ <::sif::> W3C DOM4 <::tags::>
 http://www.w3.org/TR/WCAG20/ <::sif::> Web Content Accessibility Guidelines (WCAG) 2.0 <::tags::>
 http://www.w3.org/community/webed/wiki/HTML/Elements <::sif::> HTML/Elements - Web Education Community Group <::tags::>
 http://www.w3.org/standards/ <::sif::> Standards - W3C <::tags::>
+http://www.walkercoderanger.com/blog/2015/06/state-of-js-build-tools-2015/ <::sif::> The State of JS Build Tools 2015 <::tags::>
 http://www.webdnstools.com/dnstools/articles/ip_address_subnets <::sif::> DNS Tools - Subnets <::tags::>
 http://www.webmonkey.com <::sif::> Webmonkey - The Web Developer's Resource <::tags::>
 http://www.webmonkey.com/2010/08/write-your-readme-before-your-code/ <::sif::> Write Your README Before Your Code - Webmonkey <::tags::>
@@ -1161,14 +1402,17 @@ http://www.wikiwand.com/en/Ssh-agent <::sif::> ssh-agent - Wikiwand <::tags::>
 http://www.wikiwand.com/en/St._Petersburg_paradox <::sif::> St. Petersburg paradox - Wikiwand <::tags::>
 http://www.wikiwand.com/en/Strace <::sif::> strace - Wikiwand <::tags::>
 http://www.wikiwand.com/en/Strategy_pattern <::sif::> Strategy pattern - Wikiwand <::tags::>
+http://www.wikiwand.com/en/Stripe_(company) <::sif::> Stripe (company) - Wikiwand <::tags::>
 http://www.wikiwand.com/en/Thunk <::sif::> Thunk - Wikiwand <::tags::>
 http://www.wikiwand.com/en/Transport_Layer_Security <::sif::> Transport Layer Security - Wikiwand <::tags::>
+http://www.wikiwand.com/en/Unix_philosophy <::sif::> Unix philosophy - Wikiwand <::tags::>
 http://www.wikiwand.com/en/Usage_share_of_web_browsers <::sif::> Usage share of web browsers - Wikiwand <::tags::>
 http://www.wikiwand.com/en/Virtual_Distributed_Ethernet <::sif::> Virtual Distributed Ethernet - Wikiwand <::tags::>
 http://www.wikiwand.com/en/Virtual_Router_Redundancy_Protocol <::sif::> Virtual Router Redundancy Protocol - Wikiwand <::tags::>
 http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-finding-a-potential-memory-leak-using-memwatch-part-2/ <::sif::> The node.js Profiling Guide that Hasn’t Existed - Finding a potential memory leak using memwatch - Part 2 <::tags::>
 http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-finding-the-cause-of-a-memory-leak-using-heap-snapshots-part-3/ <::sif::> The node.js Profiling Guide that Hasn’t Existed - Finding The Cause of a Memory Leak Using Heap Snapshots - Part 3 <::tags::>
 http://www.willvillanueva.com/the-node-js-profiling-guide-that-hasnt-existed-profiling-node-js-applications-part-1/ <::sif::> The node.js Profiling Guide that Hasn’t Existed - Profiling node.js Applications - Part 1 <::tags::>
+http://www.wix.com/ <::sif::> Free Website Builder | Create a Free Website | WIX.com <::tags::>
 http://www.worldtimebuddy.com/ <::sif::> Time Converter and World Clock - Conversion at a Glance - Pick best time to schedule conference calls, webinars, online meetings and phone calls. <::tags::>
 http://www.worqx.com/color/index.htm <::sif::> Color Theory Tutorial, Concepts, Essays and Color Basics <::tags::>
 http://www.wtfpl.net/txt/copying/ <::tags::>
@@ -1178,14 +1422,17 @@ http://www.youtransfer.io/ <::sif::> Youtransfer by remie <::tags::>
 http://www.zenoss.com/ <::sif::> Zenoss | Own IT. <::tags::>
 http://www.zingchart.com/ <::sif::> ZingChart: JavaScript charts with the features you need <::tags::>
 http://www.zytrax.com/books/dns/ch9/rr.html <::sif::> HOWTO - Configure Round Robin and Load Balancing <::tags::>
+http://xing.github.io/wysihtml5/ <::sif::> wysihtml5 - A better approach to rich text editing <::tags::>
 http://yaml.org/spec/1.1/ <::sif::>  YAML Ain’t a Markup Language (YAML™) Version  <::tags::>
 http://yehudakatz.com/2010/04/02/using-gemspecs-as-intended/ <::sif::> Using .gemspecs as Intended <::tags::>
 http://yehudakatz.com/2010/08/14/threads-in-ruby-enough-already/ <::sif::> Threads (in Ruby): Enough Already <::tags::>
 http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/ <::sif::> Understanding JavaScript Function Invocation and "this" <::tags::>
+http://yeoman.io <::sif::> The web's scaffolding tool for modern webapps | Yeoman <::tags::>
 http://yeoman.io/ <::sif::> The web's scaffolding tool for modern webapps | Yeoman <::tags::>
 http://ytiurin.github.io/html5tooltipsjs/ <::sif::> html5tooltips.js - Tooltips with smooth 3D animation <::tags::>
 http://zachtronics.com/typewriter/ <::sif::> The Programmable Typewriter <::tags::>
 http://zenorocha.github.io/clipboard.js/ <::sif::> clipboard.js — Copy to clipboard without Flash <::tags::>
+http://zeroclipboard.org <::sif::> ZeroClipboard v2.x <::tags::>
 http://zeromq.org/ <::sif::> Distributed Messaging - zeromq <::tags::>
 http://zguide.zeromq.org/js:_start <::sif::> Examples in Node.js - ØMQ - The Guide <::tags::>
 http://zguide.zeromq.org/page:all <::sif::> ØMQ - The Guide - ØMQ - The Guide <::tags::>
@@ -1195,11 +1442,15 @@ http://zurb.com/playground/motion-ui <::sif::> Motion UI | Playground from ZURB 
 https://access.redhat.com/documentation/en-US/Red_Hat_Certificate_System/8.0/html/Install_Guide/chkconfig.html <::sif::> 9.3. Starting the Subsystem Automatically <::tags::>
 https://access.redhat.com/documentation/en-US/Red_Hat_Network_Satellite/5.3/html/Deployment_Guide/satops-rpm-building.html <::sif::> 2.5. RPM Building <::tags::>
 https://access.redhat.com/documentation/en-US/index.html <::sif::> Product Documentation <::tags::>
+https://ace.c9.io/ <::sif::> Ace - The High Performance Code Editor for the Web <::tags::>
 https://advancedweb.hu/2015/09/01/revisiting_webapp_performance_on_http_2/ <::sif::> Revisiting webapp performance on HTTP/2 - Advanced Web Machinery <::tags::>
 https://aerotwist.com/blog/cors-for-concern/ <::sif::> Aerotwist - CORS for Concern <::tags::>
 https://aerotwist.com/blog/pixels-are-expensive <::sif::> Aerotwist - Pixels are expensive <::tags::>
 https://aerotwist.com/blog/pixels-are-expensive/ <::sif::> Aerotwist - Pixels are expensive <::tags::>
 https://airety.com <::sif::> Airety - Online Code Interviews <::tags::>
+https://anders.unix.se/2015/10/28/screenshots-from-developers--unix-people-2002/ <::sif::> Screenshots from developers & Unix people (2002) | Anders Jensen-Urstad <::tags::>
+https://angular.io <::sif::> Angular is a development platform for building mobile and desktop applications - Angular <::tags::>
+https://angularjs.org <::sif::> AngularJS — Superheroic JavaScript MVW Framework <::tags::>
 https://angularjs.org/ <::sif::> AngularJS — Superheroic JavaScript MVW Framework <::tags::>
 https://any-api.com <::sif::> AnyAPI - Discover and Try Public APIs <::tags::>
 https://aphyr.com/posts/281-call-me-maybe-carly-rae-jepsen-and-the-perils-of-network-partitions <::sif::> Call me maybe: Carly Rae Jepsen and the perils of network partitions <::tags::>
@@ -1211,10 +1462,17 @@ https://ask.openstack.org/en/question/51388/whats-the-difference-between-flat-gr
 https://ask.openstack.org/en/questions/ <::sif::> Questions - Ask OpenStack: Q&A Site for OpenStack Users and Developers <::tags::>
 https://atlas.oreilly.com <::sif::> O'Reilly Atlas <::tags::>
 https://atmospherejs.com/ <::sif::> The trusted source for JavaScript packages, Meteor resources and tools | Atmosphere <::tags::>
+https://atom.io <::sif::> Atom <::tags::>
+https://atom.io/ <::sif::> Atom <::tags::>
+https://atom.io/packages/minimap <::sif::> minimap <::tags::>
+https://atom.io/packages/typewriter <::sif::> typewriter <::tags::>
+https://atom.io/packages/zen <::sif::> zen <::tags::>
 https://auth0.com/ <::sif::> Auth0 - Identity infrastructure, built for developers <::tags::>
 https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/ <::sif::> Critical vulnerabilities in JSON Web Token libraries <::tags::>
 https://aws.amazon.com/blogs/aws/new-amazon-elasticsearch-service/ <::sif::> New – Amazon Elasticsearch Service | AWS Official Blog <::tags::>
 https://aws.amazon.com/blogs/compute/microservices-without-the-servers/ <::sif::> Microservices without the Servers | AWS Compute Blog <::tags::>
+https://aws.amazon.com/documentation/cli/ <::sif::> AWS Command Line Interface Documentation <::tags::>
+https://aws.amazon.com/documentation/sdk-for-javascript/ <::sif::> AWS SDK for JavaScript Documentation <::tags::>
 https://aws.amazon.com/elasticache/pricing/ <::sif::> Pricing <::tags::>
 https://aws.amazon.com/waf/ <::sif::> AWS WAF <::tags::>
 https://awwapp.com/ <::sif::> A web whiteboard <::tags::>
@@ -1225,6 +1483,7 @@ https://babeljs.io/docs/setup/ <::sif::> Using Babel · Babel <::tags::>
 https://babeljs.io/docs/usage/cli <::sif::> CLI · Babel <::tags::>
 https://babeljs.io/docs/usage/cli/ <::sif::> CLI · Babel <::tags::>
 https://bitcontainer.wordpress.com/2015/09/18/scaling-microservices-with-docker-compose-interlock-and-haproxynginx/ <::sif::> Scaling Microservices with Docker Compose, Interlock, and HAProxy/NGINX | Bitcontainer <::tags::>
+https://blog.cloudflare.com/how-to-achieve-low-latency/ <::sif::> How to achieve low latency with 10Gbps Ethernet <::tags::>
 https://blog.cloudflare.com/how-to-receive-a-million-packets/ <::sif::> How to receive a million packets per second <::tags::>
 https://blog.dylants.com/2014/05/10/creating-a-private-npm-registry-with-sinopia/ <::sif::> Creating a Private npm Registry with Sinopia <::tags::>
 https://blog.logentries.com/2014/12/keepalived-and-haproxy-in-aws-an-exploratory-guide/ <::sif::> Keepalived & HAProxy in AWS: An Exploratory Guide <::tags::>
@@ -1234,12 +1493,16 @@ https://blog.pusher.com/ <::sif::> Pusher Blog - Enjoy our helpful resources & I
 https://blog.pusher.com/websockets-from-scratch/ <::sif::> WebSockets From Scratch - Pusher Blog <::tags::>
 https://blog.talpor.com/2014/07/saltstack-beginners-tutorial/ <::sif::>  Salt - Beginners Tutorial | talPor Solutions Blog <::tags::>
 https://blot.im/typeset/ <::sif::> Typeset.js – an HTML pre-processor for web typography <::tags::>
+https://blueimp.github.io/jQuery-File-Upload/ <::sif::> jQuery File Upload Demo <::tags::>
 https://bonsaiden.github.io/JavaScript-Garden/ <::sif::> JavaScript Garden <::tags::>
 https://botwiki.org/ <::sif::> Welcome To Botwiki.org | botwiki.org <::tags::>
 https://buffer.com/gifs-for-social-media <::sif::> The Best GIFs for Social Media <::tags::>
 https://c9.io/blog/behind-the-scenes-continuous-integration-at-cloud9/ <::sif::> Behind the Scenes: Continuous Integration at Cloud9 <::tags::>
 https://cachethq.io <::sif::> Cachet - The Open Source Status Page System <::tags::>
 https://cacoo.com/ <::sif::> Cacoo - Your ideas. Our canvas. <::tags::>
+https://caddyserver.com <::sif::> Caddy - The HTTP/2 Web Server Made for Humans <::tags::>
+https://cdnjs.com/ <::sif::> cdnjs.com - The free and open source CDN for web related libraries to speed up your website! <::tags::>
+https://cdnjs.com/libraries/backbone.js/tutorials/ <::sif::> cdnjs.com - The free and open source CDN for web related libraries to speed up your website! <::tags::>
 https://ceph.com/ceph-storage/block-storage/ <::sif::> Block Storage <::tags::>
 https://changelog.com/ <::sif::> The Changelog - Open source moves fast. Keep up. <::tags::>
 https://changelog.com/winston-a-multi-transport-async-logging-library-for-node/ <::sif::> winston: Pluggable async logging library for Node.js - The Changelog <::tags::>
@@ -1254,12 +1517,14 @@ https://code.org <::sif::> Anybody can learn | Code.org <::tags::>
 https://codeforgeek.com/2015/09/command-line-application-nodejs/ <::sif::> Develop command line application using NodeJS | Code for geek <::tags::>
 https://codepicnic.com <::sif::> Welcome to CodePicnic. Your code to go <::tags::>
 https://codinginthetrenches.com/2013/12/14/nginx-ipv6only-setting-gotcha/ <::sif::> Nginx ipv6only setting gotcha | Coding in the Trenches <::tags::>
+https://commitizen.github.io/cz-cli/ <::sif::> Commitizen by commitizen <::tags::>
 https://community.hpcloud.com/article/backing-vs-taking-snapshot-your-block-storage-volume <::sif::> Backing Up vs. Taking a Snapshot of your Block Storage Volume | Cloud Services <::tags::>
 https://console.ng.bluemix.net/ <::sif::> IBM Bluemix - Next-Generation Cloud App Development Platform <::tags::>
 https://consul.io/ <::sif::> Consul by HashiCorp <::tags::>
 https://consul.io/docs/ <::sif::> Documentation - Consul by HashiCorp <::tags::>
 https://contribute.jquery.org/style-guide/js/ <::sif::> JavaScript Style Guide | Contribute to jQuery <::tags::>
 https://coolors.co/browser <::sif::> Coolors - The super fast color schemes generator! <::tags::>
+https://craig.is/killing/mice <::sif::> Mousetrap - Keyboard shortcuts in Javascript <::tags::>
 https://cryptography.io/en/latest/ <::sif::> Welcome to cryptography — Cryptography 1.1.dev1 documentation <::tags::>
 https://cryptography.io/en/latest/fernet/ <::sif::> Fernet (symmetric encryption) — Cryptography 1.1.dev1 documentation <::tags::>
 https://css-tricks.com/ <::sif::> CSS-Tricks <::tags::>
@@ -1275,19 +1540,24 @@ https://css-tricks.com/the-importance-of-context-shifting-in-ux-patterns/ <::sif
 https://cssanimation.rocks/ <::sif::> CSS Animation <::tags::>
 https://cssanimation.rocks/buffer/ <::sif::> Buffer's loading animation - CSS Animation <::tags::>
 https://curious.com <::sif::> Grow Your Skills with Online Video Lessons | Curious.com <::tags::>
+https://d3js.org <::sif::> D3.js - Data-Driven Documents <::tags::>
 https://dash.generalassemb.ly <::sif::> Dash | Learn HTML, CSS, JavaScript with our free online tutorial | General Assembly <::tags::>
 https://deck-of-cards.js.org/ <::sif::> HTML5 Deck of Cards <::tags::>
 https://design.google.com/#resources <::sif::> Google Design <::tags::>
 https://desktop.github.com/ <::sif::> GitHub Desktop <::tags::>
+https://dev.modern.ie/ <::sif::> Developer Resources : Microsoft Edge Dev <::tags::>
+https://dev.modern.ie/tools/vms/mac/ <::sif::> Virtual Machine (VM), Windows Virtual PC & BrowserStack : Microsoft Edge Dev <::tags::>
 https://dev.modern.ie/tools/vms/windows/ <::sif::> Virtual Machine (VM), Windows Virtual PC & BrowserStack : Microsoft Edge Dev <::tags::>
 https://dev.mysql.com/doc/refman/5.1/en/adding-users.html <::sif::> MySQL :: MySQL 5.1 Reference Manual :: 6.3.2 Adding User Accounts <::tags::>
 https://dev.opera.com/ <::sif::> Dev.Opera <::tags::>
 https://dev.opera.com/articles/ux-accessibility-aria-label/ <::sif::> Dev.Opera — UX accessibility with aria-label <::tags::>
 https://developer.blackberry.com/html5/documentation/v2_2/css_best_practices.html <::sif::> CSS best practices - HTML5/WebWorks for BB10 - BlackBerry Developer <::tags::>
+https://developer.chrome.com/apps/first_app <::sif::> Create Your First App - Google Chrome <::tags::>
 https://developer.chrome.com/devtools/docs/network <::sif::> Evaluating network performance - Google Chrome <::tags::>
 https://developer.mozilla.org/ <::sif::> Mozilla Developer Network <::tags::>
 https://developer.mozilla.org/en-US/ <::sif::> Mozilla Developer Network <::tags::>
 https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Attribute/onerror <::sif::> onerror - Mozilla | MDN <::tags::>
+https://developer.mozilla.org/en-US/docs/Security/MixedContent/How_to_fix_website_with_mixed_content <::sif::> How to fix a website with blocked mixed content - Security | MDN <::tags::>
 https://developer.mozilla.org/en-US/docs/Server-sent_events/Using_server-sent_events <::sif::> Using server-sent events - Web API Interfaces | MDN <::tags::>
 https://developer.mozilla.org/en-US/docs/Tools <::sif::> Firefox Developer Tools | MDN <::tags::>
 https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode <::sif::> Document.designMode - Web API Interfaces | MDN <::tags::>
@@ -1326,6 +1596,8 @@ https://developers.google.com/web/fundamentals/performance/optimizing-content-ef
 https://developers.google.com/web/updates/2015/08/27/using-requestidlecallback <::sif::> Using requestIdleCallback — Google Web Updates <::tags::>
 https://developers.google.com/web/updates/2015/09/history-api-scroll-restoration <::sif::> History API: Scroll Restoration — Google Web Updates <::tags::>
 https://developers.openshift.com/ <::sif::>  Home | OpenShift Developers <::tags::>
+https://diff.io <::sif::> difference as a service <::tags::>
+https://docs.c9.io/docs/running-your-own-ssh-workspace <::sif::> Setting Up an SSH Workspace · Cloud9 <::tags::>
 https://docs.docker.com/reference/commandline/cli/ <::sif::> Using the command line <::tags::>
 https://docs.docker.com/reference/commandline/commit/ <::sif::> commit <::tags::>
 https://docs.docker.com/reference/run/ <::sif::> Docker run reference <::tags::>
@@ -1359,8 +1631,11 @@ https://engineering.gosquared.com/error-handling-using-domains-node-js <::sif::>
 https://engineering.linkedin.com/nodejs/blazing-fast-nodejs-10-performance-tips-linkedin-mobile <::sif::> Blazing fast node.js: 10 performance tips from LinkedIn Mobile | LinkedIn Engineering <::tags::>
 https://ericelliottjs.com/ <::sif::> Learn JavaScript <::tags::>
 https://ericelliottjs.com/product/programming-javascript-applications-paper-ebook-bundle/ <::sif::> Programming JavaScript Applications Paper & eBook Bundle – Learn JavaScript <::tags::>
+https://esdiscuss.org <::sif::> ES Discuss <::tags::>
+https://esdiscuss.org/ <::sif::> ES Discuss <::tags::>
 https://esdiscuss.org/topic/finding-a-safety-syntax-for-classes <::sif::> Finding a "safety syntax" for classes <::tags::>
 https://evernote.com/ <::sif::>  The workspace for your life’s work | Evernote <::tags::>
+https://facebook.github.io/react/ <::sif::> A JavaScript library for building user interfaces | React <::tags::>
 https://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html <::sif::> Building The Facebook News Feed With Relay | React <::tags::>
 https://facebook.github.io/react/docs/getting-started.html <::sif::> Getting Started | React <::tags::>
 https://fivethirtyeight.com/features/the-best-jobs-now-require-you-to-be-a-people-person/ <::sif::> The Best Jobs Now Require You To Be A People Person | FiveThirtyEight <::tags::>
@@ -1394,16 +1669,24 @@ https://gist.github.com/trevnorris/6fea5ab2632dff8b5b25 <::sif::> module-notes.t
 https://gist.github.com/trevnorris/9616784 <::sif::> Quick steps of how to create a flame graph using perf · GitHub <::tags::>
 https://gist.github.com/v0lkan/90fcb83c86918732b894 <::sif::> Configuring NGINX for Maximum Throughput Under High Concurrency · GitHub <::tags::>
 https://gist.github.com/wincent/598fa75e22bdfa44cf47 <::sif::> gist:598fa75e22bdfa44cf47 · GitHub <::tags::>
+https://git-scm.com/blog/2011/07/11/reset.html <::sif::> Git <::tags::>
 https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging <::sif::> Git - Interactive Staging <::tags::>
 https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration <::sif::> Git - Git Configuration <::tags::>
 https://github.com/ <::sif::> GitHub · Where software is built <::tags::>
 https://github.com/Automattic/mongoose <::sif::> Automattic/mongoose · GitHub <::tags::>
+https://github.com/BrowserSync/browser-sync <::sif::> BrowserSync/browser-sync · GitHub <::tags::>
 https://github.com/CSSLint/csslint <::sif::> CSSLint/csslint · GitHub <::tags::>
+https://github.com/ConradIrwin/aws-name-server <::sif::> ConradIrwin/aws-name-server · GitHub <::tags::>
 https://github.com/CrossEye/ramda <::sif::> CrossEye/ramda · GitHub <::tags::>
+https://github.com/Elitewares/CSS3-Slider <::sif::> Elitewares/CSS3-Slider · GitHub <::tags::>
+https://github.com/FormidableLabs/spectacle <::sif::> FormidableLabs/spectacle · GitHub <::tags::>
+https://github.com/FredrikNoren/ungit <::sif::> FredrikNoren/ungit · GitHub <::tags::>
 https://github.com/FuelFrontend/generator-smacss <::sif::> FuelFrontend/generator-smacss · GitHub <::tags::>
 https://github.com/HubSpot/pace <::sif::> HubSpot/pace · GitHub <::tags::>
+https://github.com/Huddle/PhantomCSS <::sif::> Huddle/PhantomCSS · GitHub <::tags::>
 https://github.com/IFTTT/JazzHands <::sif::> IFTTT/JazzHands · GitHub <::tags::>
 https://github.com/JustinTulloss/zeromq.node <::sif::> JustinTulloss/zeromq.node · GitHub <::tags::>
+https://github.com/KrisSiegel/msngr.js <::sif::> KrisSiegel/msngr.js · GitHub <::tags::>
 https://github.com/LeaVerou/awesomplete <::sif::> LeaVerou/awesomplete · GitHub <::tags::>
 https://github.com/LeaVerou/stretchy <::sif::> LeaVerou/stretchy · GitHub <::tags::>
 https://github.com/Lokaltog/vim-powerline <::sif::> Lokaltog/vim-powerline · GitHub <::tags::>
@@ -1411,49 +1694,86 @@ https://github.com/MaciejCzyzewski/hyhyhy <::sif::> maciejczyzewski/hyhyhy · Gi
 https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills <::sif::> HTML5 Cross Browser Polyfills · Modernizr/Modernizr Wiki · GitHub <::tags::>
 https://github.com/MohamedBassem/getaredis <::sif::> MohamedBassem/getaredis · GitHub <::tags::>
 https://github.com/Nathanaela/v8-natives <::sif::> NathanaelA/v8-Natives · GitHub <::tags::>
+https://github.com/Netflix/SimianArmy <::sif::> Netflix/SimianArmy · GitHub <::tags::>
 https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey <::sif::> Chaos Monkey · Netflix/SimianArmy Wiki · GitHub <::tags::>
+https://github.com/Netflix/aminator <::sif::> Netflix/aminator · GitHub <::tags::>
+https://github.com/Netflix/archaius <::sif::> Netflix/archaius · GitHub <::tags::>
+https://github.com/Netflix/asgard <::sif::> Netflix/asgard · GitHub <::tags::>
+https://github.com/Netflix/aws-autoscaling <::sif::> Netflix/aws-autoscaling · GitHub <::tags::>
+https://github.com/Netflix/eureka <::sif::> Netflix/eureka · GitHub <::tags::>
+https://github.com/Netflix/ice <::sif::> Netflix/ice · GitHub <::tags::>
+https://github.com/Netflix/ribbon <::sif::> Netflix/ribbon · GitHub <::tags::>
+https://github.com/Netflix/security_monkey <::sif::> Netflix/security_monkey · GitHub <::tags::>
+https://github.com/Netflix/zuul <::sif::> Netflix/zuul · GitHub <::tags::>
 https://github.com/NodeRedis/node_redis <::sif::> NodeRedis/node_redis · GitHub <::tags::>
 https://github.com/OWASP/NodeGoat <::sif::> OWASP/NodeGoat · GitHub <::tags::>
 https://github.com/PaperElectron/Sundry <::sif::> PaperElectron/Sundry · GitHub <::tags::>
 https://github.com/PaulBGD/HashMap.js <::sif::> PaulBGD/HashMap.js · GitHub <::tags::>
 https://github.com/Polymer/vulcanize <::sif::> Polymer/vulcanize · GitHub <::tags::>
+https://github.com/RReverser/better-log <::sif::> RReverser/better-log · GitHub <::tags::>
 https://github.com/Randommood/Strangeloop2015 <::sif::> Randommood/Strangeloop2015 · GitHub <::tags::>
 https://github.com/Reactive-Extensions/RxJS <::sif::> Reactive-Extensions/RxJS · GitHub <::tags::>
 https://github.com/ReactiveX/RxJava <::sif::> ReactiveX/RxJava · GitHub <::tags::>
 https://github.com/SBoudrias/Inquirer.js <::sif::> SBoudrias/Inquirer.js · GitHub <::tags::>
 https://github.com/SalGnt/cscs <::sif::> SalGnt/cscs · GitHub <::tags::>
+https://github.com/SaltwaterC/aws2js <::sif::> SaltwaterC/aws2js · GitHub <::tags::>
 https://github.com/Shopify/dashing/wiki/Additional-Widgets <::sif::> Additional Widgets · Shopify/dashing Wiki · GitHub <::tags::>
 https://github.com/TalAter/UpUp/ <::sif::> TalAter/UpUp · GitHub <::tags::>
+https://github.com/ThoughtWorksStudios/eb_deployer <::sif::> ThoughtWorksStudios/eb_deployer · GitHub <::tags::>
 https://github.com/Unitech/pm2 <::sif::> Unitech/PM2 · GitHub <::tags::>
 https://github.com/Unitech/pm2 <::sif::> Unitech/pm2 · GitHub <::tags::>
 https://github.com/VundleVim/Vundle.vim <::sif::> VundleVim/Vundle.vim · GitHub <::tags::>
 https://github.com/Yaffle/EventSource/ <::sif::> Yaffle/EventSource · GitHub <::tags::>
 https://github.com/Yalantis/PullToMakeSoup <::sif::> Yalantis/PullToMakeSoup · GitHub <::tags::>
 https://github.com/YuzuJS/setImmediate <::sif::> YuzuJS/setImmediate · GitHub <::tags::>
+https://github.com/about <::sif::> About · GitHub <::tags::>
+https://github.com/achiku/jungle <::sif::> achiku/jungle · GitHub <::tags::>
 https://github.com/addyosmani/es6-tools#build-time-transpilation <::sif::> addyosmani/es6-tools · GitHub <::tags::>
 https://github.com/adrai/flowchart.js <::sif::> adrai/flowchart.js · GitHub <::tags::>
+https://github.com/afaqurk/linux-dash <::sif::> afaqurk/linux-dash · GitHub <::tags::>
 https://github.com/ageitgey/node-unfluff <::sif::> ageitgey/node-unfluff · GitHub <::tags::>
 https://github.com/aheckmann/gm <::sif::> aheckmann/gm · GitHub <::tags::>
 https://github.com/alexanderGugel/wsd <::sif::> alexanderGugel/wsd · GitHub <::tags::>
+https://github.com/alienfast/elastic-beanstalk <::sif::> alienfast/elastic-beanstalk · GitHub <::tags::>
 https://github.com/allotrop3/four <::sif::> allotrop3/four · GitHub <::tags::>
 https://github.com/ampproject/amphtml <::sif::> ampproject/amphtml · GitHub <::tags::>
 https://github.com/andris9/Nodemailer <::sif::> andris9/Nodemailer · GitHub <::tags::>
 https://github.com/angular/protractor <::sif::> angular/protractor · GitHub <::tags::>
+https://github.com/aosabook/500lines <::sif::> aosabook/500lines · GitHub <::tags::>
 https://github.com/apresta/tagger <::sif::> apresta/tagger · GitHub <::tags::>
+https://github.com/aristidb/aws <::sif::> aristidb/aws · GitHub <::tags::>
 https://github.com/ariya/phantomjs <::sif::> ariya/phantomjs · GitHub <::tags::>
 https://github.com/artofrawr/profoundgrid/ <::sif::> artofrawr/profoundgrid · GitHub <::tags::>
 https://github.com/auchenberg/volkswagen <::sif::> auchenberg/volkswagen · GitHub <::tags::>
+https://github.com/auth0/angular-storage <::sif::> auth0/angular-storage · GitHub <::tags::>
 https://github.com/auth0/node-jsonwebtoken <::sif::> auth0/node-jsonwebtoken · GitHub <::tags::>
+https://github.com/aws/amazon-ecs-agent <::sif::> aws/amazon-ecs-agent · GitHub <::tags::>
+https://github.com/aws/amazon-ecs-cli <::sif::> aws/amazon-ecs-cli · GitHub <::tags::>
+https://github.com/aws/aws-cli <::sif::> aws/aws-cli · GitHub <::tags::>
 https://github.com/aws/aws-sdk-js <::sif::> aws/aws-sdk-js · GitHub <::tags::>
+https://github.com/aws/opsworks-cookbooks <::sif::> aws/opsworks-cookbooks · GitHub <::tags::>
+https://github.com/awslabs/aws-lambda-redshift-loader <::sif::> awslabs/aws-lambda-redshift-loader · GitHub <::tags::>
+https://github.com/awslabs/aws-sha256-agentcs <::sif::> awslabs/aws-sha256-agentcs · GitHub <::tags::>
+https://github.com/awslabs/awscli-cookbook <::sif::> awslabs/awscli-cookbook · GitHub <::tags::>
+https://github.com/awslabs/cloudwatch-logs-subscription-consumer <::sif::> awslabs/cloudwatch-logs-subscription-consumer · GitHub <::tags::>
+https://github.com/awslabs/eb-py-flask-signup <::sif::> awslabs/eb-py-flask-signup · GitHub <::tags::>
+https://github.com/awslabs/ecs-cloudwatch-logs <::sif::> awslabs/ecs-cloudwatch-logs · GitHub <::tags::>
+https://github.com/awslabs/ecs-mesos-scheduler-driver <::sif::> awslabs/ecs-mesos-scheduler-driver · GitHub <::tags::>
+https://github.com/awslabs/logstash-output-cloudwatchlogs <::sif::> awslabs/logstash-output-cloudwatchlogs · GitHub <::tags::>
+https://github.com/awslabs/route53-infima <::sif::> awslabs/route53-infima · GitHub <::tags::>
+https://github.com/awslabs/s2n <::sif::> awslabs/s2n · GitHub <::tags::>
 https://github.com/azproduction/autopolyfiller <::sif::> azproduction/autopolyfiller · GitHub <::tags::>
+https://github.com/azproduction/node-mc <::sif::> azproduction/node-mc · GitHub <::tags::>
 https://github.com/babel/babel <::sif::> babel/babel · GitHub <::tags::>
 https://github.com/babel/babel.github.io <::sif::> babel/babel.github.io · GitHub <::tags::>
 https://github.com/baryon/tracer <::sif::> baryon/tracer · GitHub <::tags::>
 https://github.com/batmanjs/batman <::sif::> batmanjs/batman · GitHub <::tags::>
+https://github.com/bendc/animateplus <::sif::> bendc/animateplus · GitHub <::tags::>
 https://github.com/bendc/sprint <::sif::> bendc/sprint · GitHub <::tags::>
 https://github.com/bevacqua/angular-dragula <::sif::> bevacqua/angular-dragula · GitHub <::tags::>
 https://github.com/bevacqua/dominus <::sif::> bevacqua/dominus · GitHub <::tags::>
 https://github.com/bevacqua/horsey <::sif::> bevacqua/horsey · GitHub <::tags::>
+https://github.com/bevacqua/local-storage <::sif::> bevacqua/local-storage · GitHub <::tags::>
 https://github.com/bevacqua/woofmark/blob/master/readme.markdown <::sif::> woofmark/readme.markdown at master · bevacqua/woofmark · GitHub <::tags::>
 https://github.com/bevry/caterpillar <::sif::> bevry/caterpillar · GitHub <::tags::>
 https://github.com/black-screen/black-screen <::sif::> black-screen/black-screen · GitHub <::tags::>
@@ -1462,9 +1782,12 @@ https://github.com/bnoordhuis/node-heapdump <::sif::> bnoordhuis/node-heapdump �
 https://github.com/bnoordhuis/node-profiler <::sif::> bnoordhuis/node-profiler · GitHub <::tags::>
 https://github.com/bredele/marc <::sif::> bredele/marc · GitHub <::tags::>
 https://github.com/btford/participating-in-open-source <::sif::> btford/participating-in-open-source · GitHub <::tags::>
+https://github.com/bucaran/fly <::sif::> bucaran/fly · GitHub <::tags::>
+https://github.com/buger/gor/ <::sif::> buger/gor · GitHub <::tags::>
 https://github.com/bumptech/stud <::sif::> bumptech/stud · GitHub <::tags::>
 https://github.com/c4milo/node-webkit-agent <::sif::> c4milo/node-webkit-agent · GitHub <::tags::>
 https://github.com/callmecavs/layzr.js <::sif::> callmecavs/layzr.js · GitHub <::tags::>
+https://github.com/canalplus/rx-player <::sif::> canalplus/rx-player · GitHub <::tags::>
 https://github.com/caolan/async <::sif::> caolan/async · GitHub <::tags::>
 https://github.com/casesandberg/react-color <::sif::> casesandberg/react-color · GitHub <::tags::>
 https://github.com/cferdinandi/drop/ <::sif::> cferdinandi/drop · GitHub <::tags::>
@@ -1473,18 +1796,24 @@ https://github.com/cferdinandi/houdini/ <::sif::> cferdinandi/houdini · GitHub 
 https://github.com/chaijs/chai <::sif::> chaijs/chai · GitHub <::tags::>
 https://github.com/chalk/chalk <::sif::> chalk/chalk · GitHub <::tags::>
 https://github.com/cheeaun/mooeditable/wiki/Javascript-WYSIWYG-editors <::sif::> Javascript WYSIWYG editors · cheeaun/mooeditable Wiki · GitHub <::tags::>
+https://github.com/chef-cookbooks/aws <::sif::> chef-cookbooks/aws · GitHub <::tags::>
 https://github.com/chengguangnan/vine/blob/master/lib/vine.rb <::sif::> vine/vine.rb at master · chengguangnan/vine · GitHub <::tags::>
+https://github.com/chilts/awssum <::sif::> chilts/awssum · GitHub <::tags::>
 https://github.com/chjj/blessed <::sif::> chjj/blessed · GitHub <::tags::>
 https://github.com/chriso/cli <::sif::> chriso/cli · GitHub <::tags::>
 https://github.com/chrissimpkins/Hack <::sif::> chrissimpkins/Hack · GitHub <::tags::>
 https://github.com/chrissimpkins/Hack#desktop-usage <::sif::> chrissimpkins/Hack · GitHub <::tags::>
 https://github.com/clowwindy/Awesome-Networking <::sif::> clowwindy/Awesome-Networking · GitHub <::tags::>
 https://github.com/codingpains/crispy-stream <::sif::> codingpains/crispy-stream · GitHub <::tags::>
+https://github.com/colinbjohnson/aws-missing-tools <::sif::> colinbjohnson/aws-missing-tools · GitHub <::tags::>
+https://github.com/coolwanglu/pdf2htmlEX/wiki/Building <::sif::> Building · coolwanglu/pdf2htmlEX Wiki · GitHub <::tags::>
 https://github.com/creationix/nvm <::sif::> creationix/nvm · GitHub <::tags::>
 https://github.com/cshum/levi <::sif::> cshum/levi · GitHub <::tags::>
 https://github.com/css-modules/css-modules <::sif::> css-modules/css-modules · GitHub <::tags::>
 https://github.com/csswizardry/csswizardry-grids <::sif::> csswizardry/csswizardry-grids · GitHub <::tags::>
+https://github.com/d10n/drilldown <::sif::> d10n/drilldown · GitHub <::tags::>
 https://github.com/daneden/animate.css <::sif::> daneden/animate.css · GitHub <::tags::>
+https://github.com/danialfarid/ng-file-upload <::sif::> danialfarid/ng-file-upload · GitHub <::tags::>
 https://github.com/danielstjules/redislock <::sif::> danielstjules/redislock · GitHub <::tags::>
 https://github.com/danluu/post-mortems <::sif::> danluu/post-mortems · GitHub <::tags::>
 https://github.com/danwrong/restler <::sif::> danwrong/restler · GitHub <::tags::>
@@ -1492,22 +1821,28 @@ https://github.com/davatron5000/FitText.js <::sif::> davatron5000/FitText.js · 
 https://github.com/davepacheco/kang <::sif::> davepacheco/kang · GitHub <::tags::>
 https://github.com/davepacheco/node-verror <::sif::> davepacheco/node-verror · GitHub <::tags::>
 https://github.com/dbushell/Pikaday <::sif::> dbushell/Pikaday · GitHub <::tags::>
+https://github.com/dc-js/dc.js <::sif::> dc-js/dc.js · GitHub <::tags::>
 https://github.com/dcodeIO/bcrypt.js <::sif::> dcodeIO/bcrypt.js · GitHub <::tags::>
+https://github.com/dcohenb/WebOverride <::sif::> dcohenb/WebOverride · GitHub <::tags::>
 https://github.com/ddopson/node-segfault-handler <::sif::> ddopson/node-segfault-handler · GitHub <::tags::>
 https://github.com/delight-im/HTML-Sheets-of-Paper <::sif::> delight-im/HTML-Sheets-of-Paper · GitHub <::tags::>
 https://github.com/desandro/masonry <::sif::> desandro/masonry · GitHub <::tags::>
 https://github.com/dinbror/blazy <::sif::> dinbror/blazy · GitHub <::tags::>
 https://github.com/dodo/node-slug <::sif::> dodo/node-slug · GitHub <::tags::>
 https://github.com/donnemartin/dev-setup <::sif::> donnemartin/dev-setup · GitHub <::tags::>
+https://github.com/donnemartin/saws <::sif::> donnemartin/saws · GitHub <::tags::>
 https://github.com/doxout/recluster <::sif::> doxout/recluster · GitHub <::tags::>
 https://github.com/drduh/pwd.sh <::sif::> drduh/pwd.sh · GitHub <::tags::>
+https://github.com/drewblas/aws-ses <::sif::> drewblas/aws-ses · GitHub <::tags::>
 https://github.com/dropbox/hackpad <::sif::> dropbox/hackpad · GitHub <::tags::>
 https://github.com/dthree/vantage <::sif::> dthree/vantage · GitHub <::tags::>
 https://github.com/dthree/vantage/ <::sif::> dthree/vantage · GitHub <::tags::>
 https://github.com/dtrace4linux/linux <::sif::> dtrace4linux/linux · GitHub <::tags::>
 https://github.com/ducksboard/gridster.js/tree/master/src <::sif::> gridster.js/src at master · ducksboard/gridster.js · GitHub <::tags::>
 https://github.com/dumbmatter/fakeIndexedDB <::sif::> dumbmatter/fakeIndexedDB · GitHub <::tags::>
+https://github.com/eBay/fabio <::sif::> eBay/fabio · GitHub <::tags::>
 https://github.com/edmundojr/localhost <::sif::> edmundojr/localhost · GitHub <::tags::>
+https://github.com/elastic/elasticsearch-cloud-aws <::sif::> elastic/elasticsearch-cloud-aws · GitHub <::tags::>
 https://github.com/eorroe/NodeList.js <::sif::> eorroe/NodeList.js · GitHub <::tags::>
 https://github.com/ericdouglas/ES6-Learning <::sif::> ericdouglas/ES6-Learning · GitHub <::tags::>
 https://github.com/ericelliott/cuid <::sif::> ericelliott/cuid · GitHub <::tags::>
@@ -1515,7 +1850,10 @@ https://github.com/ericf/express-handlebars <::sif::> ericf/express-handlebars �
 https://github.com/ervandew/supertab <::sif::> ervandew/supertab · GitHub <::tags::>
 https://github.com/es-shims/es5-shim <::sif::> es-shims/es5-shim · GitHub <::tags::>
 https://github.com/es-shims/es6-shim/ <::sif::> es-shims/es6-shim · GitHub <::tags::>
+https://github.com/eternicode/bootstrap-datepicker <::sif::> eternicode/bootstrap-datepicker · GitHub <::tags::>
 https://github.com/etsy/MIDAS <::sif::> etsy/MIDAS · GitHub <::tags::>
+https://github.com/etsy/statsd <::sif::> etsy/statsd · GitHub <::tags::>
+https://github.com/evannuil/aws-snapshot-tool <::sif::> evannuil/aws-snapshot-tool · GitHub <::tags::>
 https://github.com/eventmachine/eventmachine <::sif::> eventmachine/eventmachine · GitHub <::tags::>
 https://github.com/expressjs/body-parser <::sif::> expressjs/body-parser · GitHub <::tags::>
 https://github.com/expressjs/morgan <::sif::> expressjs/morgan · GitHub <::tags::>
@@ -1523,16 +1861,19 @@ https://github.com/facebook/react <::sif::> facebook/react · GitHub <::tags::>
 https://github.com/facebook/react-native <::sif::> facebook/react-native · GitHub <::tags::>
 https://github.com/facebook/relay <::sif::> facebook/relay · GitHub <::tags::>
 https://github.com/fanout/zurl <::sif::> fanout/zurl · GitHub <::tags::>
+https://github.com/felixge/node-mysql <::sif::> felixge/node-mysql · GitHub <::tags::>
 https://github.com/fent/socket.io-clusterhub <::sif::> fent/socket.io-clusterhub · GitHub <::tags::>
 https://github.com/fergiemcdowall/norch <::sif::> fergiemcdowall/norch · GitHub <::tags::>
 https://github.com/filamentgroup/loadCSS/ <::sif::> filamentgroup/loadCSS · GitHub <::tags::>
 https://github.com/flatiron/prompt <::sif::> flatiron/prompt · GitHub <::tags::>
 https://github.com/flitbit/json-path <::sif::> flitbit/json-path · GitHub <::tags::>
 https://github.com/foreverjs/forever <::sif::> foreverjs/forever · GitHub <::tags::>
+https://github.com/ftlabs/fastclick <::sif::> ftlabs/fastclick · GitHub <::tags::>
 https://github.com/getify/You-Dont-Know-JS <::sif::> getify/You-Dont-Know-JS · GitHub <::tags::>
 https://github.com/gevorg/htpasswd <::sif::> gevorg/htpasswd · GitHub <::tags::>
 https://github.com/giampaolo/psutil <::sif::> giampaolo/psutil · GitHub <::tags::>
 https://github.com/gilesbowkett/rewind <::sif::> gilesbowkett/rewind · GitHub <::tags::>
+https://github.com/gionkunz/chartist-js <::sif::> gionkunz/chartist-js · GitHub <::tags::>
 https://github.com/github/hub <::sif::> github/hub · GitHub <::tags::>
 https://github.com/google/fonts <::sif::> google/fonts · GitHub <::tags::>
 https://github.com/google/incremental-dom <::sif::> google/incremental-dom · GitHub <::tags::>
@@ -1560,6 +1901,7 @@ https://github.com/ilich/node-ipgeoblock <::sif::> ilich/node-ipgeoblock · GitH
 https://github.com/imsky/git-fresh <::sif::> imsky/git-fresh · GitHub <::tags::>
 https://github.com/indexzero/http-server <::sif::> indexzero/http-server · GitHub <::tags::>
 https://github.com/indexzero/winston <::sif::> indexzero/winston · GitHub <::tags::>
+https://github.com/infusion/Complex.js <::sif::> infusion/Complex.js · GitHub <::tags::>
 https://github.com/isRuslan/vim-es6 <::sif::> isRuslan/vim-es6 · GitHub <::tags::>
 https://github.com/isaacs/fast-list <::sif::> isaacs/fast-list · GitHub <::tags::>
 https://github.com/isaacs/node-supervisor <::sif::> petruisfan/node-supervisor · GitHub <::tags::>
@@ -1570,10 +1912,12 @@ https://github.com/jariz/vibrant.js <::sif::> jariz/vibrant.js · GitHub <::tags
 https://github.com/javve/list.js <::sif::> javve/list.js · GitHub <::tags::>
 https://github.com/jaws-framework/JAWS <::sif::> jaws-framework/JAWS · GitHub <::tags::>
 https://github.com/jayway/JsonPath <::sif::> jayway/JsonPath · GitHub <::tags::>
+https://github.com/jessepollak/card <::sif::> jessepollak/card · GitHub <::tags::>
 https://github.com/jfromaniello/express-unless <::sif::> jfromaniello/express-unless · GitHub <::tags::>
 https://github.com/jlanzarotta/bufexplorer <::sif::> jlanzarotta/bufexplorer · GitHub <::tags::>
 https://github.com/jnv/lists <::sif::> jnv/lists · GitHub <::tags::>
 https://github.com/joeferner/node-sf <::sif::> joeferner/node-sf · GitHub <::tags::>
+https://github.com/jorgebastida/awslogs <::sif::> jorgebastida/awslogs · GitHub <::tags::>
 https://github.com/joyent <::sif::> Joyent · GitHub <::tags::>
 https://github.com/joyent/nhttpsnoop <::sif::> joyent/nhttpsnoop · GitHub <::tags::>
 https://github.com/joyent/node-snmpjs <::sif::> joyent/node-snmpjs · GitHub <::tags::>
@@ -1585,9 +1929,11 @@ https://github.com/joyent/node/wiki/FAQ <::sif::> FAQ · nodejs/node-v0.x-archiv
 https://github.com/joyent/node/wiki/installing-node.js-via-package-manager <::sif::> Installing Node.js via package manager · nodejs/node-v0.x-archive Wiki · GitHub <::tags::>
 https://github.com/jprichardson/node-fs-extra <::sif::> jprichardson/node-fs-extra · GitHub <::tags::>
 https://github.com/jquery/globalize <::sif::> jquery/globalize · GitHub <::tags::>
+https://github.com/js-cookie/js-cookie <::sif::> js-cookie/js-cookie · GitHub <::tags::>
 https://github.com/jshttp/mime-types <::sif::> jshttp/mime-types · GitHub <::tags::>
 https://github.com/jtribe/ghostrunner <::sif::> jtribe/ghostrunner · GitHub <::tags::>
 https://github.com/kasper/phoenix <::sif::> kasper/phoenix · GitHub <::tags::>
+https://github.com/kevva/screenshot-stream <::sif::> kevva/screenshot-stream · GitHub <::tags::>
 https://github.com/kodyl/stilr <::sif::> kodyl/stilr · GitHub <::tags::>
 https://github.com/krakenjs/kappa <::sif::> krakenjs/kappa · GitHub <::tags::>
 https://github.com/kriskowal/gtor <::sif::> kriskowal/gtor · GitHub <::tags::>
@@ -1595,6 +1941,7 @@ https://github.com/kriskowal/q <::sif::> kriskowal/q · GitHub <::tags::>
 https://github.com/lapwinglabs/bare-auth <::sif::> lapwinglabs/bare-auth · GitHub <::tags::>
 https://github.com/letsgetrandy/brototype <::sif::> letsgetrandy/brototype · GitHub <::tags::>
 https://github.com/linkedin/dustjs/wiki/Dust-Tutorial <::sif::> Dust Tutorial · linkedin/dustjs Wiki · GitHub <::tags::>
+https://github.com/livelycode/aws-lib <::sif::> livelycode/aws-lib · GitHub <::tags::>
 https://github.com/lloyd/node-memwatch <::sif::> lloyd/node-memwatch · GitHub <::tags::>
 https://github.com/lob/calipers <::sif::> lob/calipers · GitHub <::tags::>
 https://github.com/lodash/lodash <::sif::> lodash/lodash · GitHub <::tags::>
@@ -1602,6 +1949,8 @@ https://github.com/lodash/lodash-fp <::sif::> lodash/lodash-fp · GitHub <::tags
 https://github.com/lorenzofox3/lrStickyHeader <::sif::> lorenzofox3/lrStickyHeader · GitHub <::tags::>
 https://github.com/lucagrulla/node-tail <::sif::> lucagrulla/node-tail · GitHub <::tags::>
 https://github.com/luochen1990/rainbow <::sif::> luochen1990/rainbow · GitHub <::tags::>
+https://github.com/mailcheck/mailcheck <::sif::> mailcheck/mailcheck · GitHub <::tags::>
+https://github.com/marcbachmann/node-html-pdf <::sif::> marcbachmann/node-html-pdf · GitHub <::tags::>
 https://github.com/mateodelnorte/servicebus <::sif::> mateodelnorte/servicebus · GitHub <::tags::>
 https://github.com/mateodelnorte/sourced <::sif::> mateodelnorte/sourced · GitHub <::tags::>
 https://github.com/mateogianolio/node-pip <::sif::> mateogianolio/node-pip · GitHub <::tags::>
@@ -1609,6 +1958,10 @@ https://github.com/mattallty/muguet <::sif::> mattallty/muguet · GitHub <::tags
 https://github.com/mattdesl/promise-cookbook <::sif::> mattdesl/promise-cookbook · GitHub <::tags::>
 https://github.com/mattermost/platform <::sif::> mattermost/platform · GitHub <::tags::>
 https://github.com/mblode/burger <::sif::> mblode/burger · GitHub <::tags::>
+https://github.com/mentum/lambdaws <::sif::> mentum/lambdaws · GitHub <::tags::>
+https://github.com/mgonto/restangular <::sif::> mgonto/restangular · GitHub <::tags::>
+https://github.com/mitchellh/vagrant-aws <::sif::> mitchellh/vagrant-aws · GitHub <::tags::>
+https://github.com/mitsuhiko/jinja2 <::sif::> mitsuhiko/jinja2 · GitHub <::tags::>
 https://github.com/mochajs/mocha <::sif::> mochajs/mocha · GitHub <::tags::>
 https://github.com/mohsen1/better-console <::sif::> mohsen1/better-console · GitHub <::tags::>
 https://github.com/moment/moment <::sif::> moment/moment · GitHub <::tags::>
@@ -1616,11 +1969,14 @@ https://github.com/moment/moment-timezone <::sif::> moment/moment-timezone · Gi
 https://github.com/moudy/agenda-ui <::sif::> moudy/agenda-ui · GitHub <::tags::>
 https://github.com/mozilla-services/heka <::sif::> mozilla-services/heka · GitHub <::tags::>
 https://github.com/mozilla-services/heka/wiki/Sample--etc-init.d-hekad-file <::sif::> Sample etc init.d hekad file · mozilla-services/heka Wiki · GitHub <::tags::>
+https://github.com/mozilla/awsbox <::sif::> mozilla/awsbox · GitHub <::tags::>
+https://github.com/mozilla/pdf.js <::sif::> mozilla/pdf.js · GitHub <::tags::>
 https://github.com/mranney/node_redis <::sif::> NodeRedis/node_redis · GitHub <::tags::>
 https://github.com/msemenistyi/hypnos <::sif::> msemenistyi/hypnos · GitHub <::tags::>
 https://github.com/mtkopone/zelect <::sif::> mtkopone/zelect · GitHub <::tags::>
 https://github.com/nathanaelkane/vim-indent-guides <::sif::> nathanaelkane/vim-indent-guides · GitHub <::tags::>
 https://github.com/nbs-system/naxsi <::sif::> nbs-system/naxsi · GitHub <::tags::>
+https://github.com/newrelic-platform/newrelic_aws_cloudwatch_plugin <::sif::> newrelic-platform/newrelic_aws_cloudwatch_plugin · GitHub <::tags::>
 https://github.com/newrelic/node-newrelic <::sif::> newrelic/node-newrelic · GitHub <::tags::>
 https://github.com/node-inspector/node-inspector <::sif::> node-inspector/node-inspector · GitHub <::tags::>
 https://github.com/node-inspector/v8-profiler <::sif::> node-inspector/v8-profiler · GitHub <::tags::>
@@ -1642,31 +1998,43 @@ https://github.com/patrick-steele-idem/morphdom <::sif::> patrick-steele-idem/mo
 https://github.com/patrick-steele-idem/morphdom/ <::sif::> patrick-steele-idem/morphdom · GitHub <::tags::>
 https://github.com/paulmillr/chokidar <::sif::> paulmillr/chokidar · GitHub <::tags::>
 https://github.com/pburtchaell/react-karma-webpack-example <::sif::> pburtchaell/react-karma-webpack-example · GitHub <::tags::>
+https://github.com/pemrouz/popper <::sif::> pemrouz/popper · GitHub <::tags::>
 https://github.com/petkaantonov/bluebird <::sif::> petkaantonov/bluebird · GitHub <::tags::>
 https://github.com/petkaantonov/bluebird/blob/master/API.md <::sif::> bluebird/API.md at master · petkaantonov/bluebird · GitHub <::tags::>
 https://github.com/petkaantonov/bluebird/wiki/Optimization-killers <::sif::> Optimization killers · petkaantonov/bluebird Wiki · GitHub <::tags::>
 https://github.com/pgte/nock <::sif::> pgte/nock · GitHub <::tags::>
 https://github.com/pheuter/essential-react <::sif::> pheuter/essential-react · GitHub <::tags::>
+https://github.com/phstc/shoryuken <::sif::> phstc/shoryuken · GitHub <::tags::>
+https://github.com/pixijs/pixi.js <::sif::> pixijs/pixi.js · GitHub <::tags::>
 https://github.com/plouc/mozaik <::sif::> plouc/mozaik · GitHub <::tags::>
 https://github.com/pocketjoso/penthouse <::sif::> pocketjoso/penthouse · GitHub <::tags::>
 https://github.com/polymer <::sif::> polymer · GitHub <::tags::>
 https://github.com/pqx/locales.lst <::sif::> pqx/locales.lst · GitHub <::tags::>
 https://github.com/prerender/prerender-node <::sif::> prerender/prerender-node · GitHub <::tags::>
+https://github.com/purifycss/purifycss <::sif::> purifycss/purifycss · GitHub <::tags::>
 https://github.com/qiao/PathFinding.js/ <::sif::> qiao/PathFinding.js · GitHub <::tags::>
 https://github.com/qw3rtman/git-fire <::sif::> qw3rtman/git-fire · GitHub <::tags::>
+https://github.com/rackt/react-router <::sif::> rackt/react-router · GitHub <::tags::>
 https://github.com/rareyman/HTMLBeautify <::sif::> rareyman/HTMLBeautify · GitHub <::tags::>
 https://github.com/remy/nodemon <::sif::> remy/nodemon · GitHub <::tags::>
 https://github.com/request/request <::sif::> request/request · GitHub <::tags::>
 https://github.com/rickharrison/validate.js/ <::sif::> rickharrison/validate.js · GitHub <::tags::>
 https://github.com/rietveld-codereview/rietveld <::sif::> rietveld-codereview/rietveld · GitHub <::tags::>
+https://github.com/rjrodger/simpledb <::sif::> rjrodger/simpledb · GitHub <::tags::>
 https://github.com/rlidwka/sinopia <::sif::> rlidwka/sinopia · GitHub <::tags::>
 https://github.com/rmustacc/node-ctype <::sif::> rmustacc/node-ctype · GitHub <::tags::>
 https://github.com/rschmukler/agenda <::sif::> rschmukler/agenda · GitHub <::tags::>
+https://github.com/rthor/isjs <::sif::> rthor/isjs · GitHub <::tags::>
 https://github.com/rushter/data-science-blogs <::sif::> rushter/data-science-blogs · GitHub <::tags::>
+https://github.com/rwaldron/idiomatic.js/ <::sif::> rwaldron/idiomatic.js · GitHub <::tags::>
+https://github.com/sahat/satellizer <::sif::> sahat/satellizer · GitHub <::tags::>
 https://github.com/saltstack/salt <::sif::> saltstack/salt · GitHub <::tags::>
 https://github.com/samizdatco/nginx-http-auth-digest/blob/master/htdigest.py <::sif::> nginx-http-auth-digest/htdigest.py at master · samizdatco/nginx-http-auth-digest · GitHub <::tags::>
 https://github.com/schwa/Swift-Community-Best-Practices <::sif::> schwa/Swift-Community-Best-Practices · GitHub <::tags::>
 https://github.com/scottcorgan/immu <::sif::> scottcorgan/immu · GitHub <::tags::>
+https://github.com/sebdah/dynamic-dynamodb <::sif::> sebdah/dynamic-dynamodb · GitHub <::tags::>
+https://github.com/semantic-release/semantic-release <::sif::> semantic-release/semantic-release · GitHub <::tags::>
+https://github.com/senchalabs/connect <::sif::> senchalabs/connect · GitHub <::tags::>
 https://github.com/sensu/sensu-community-plugins/ <::sif::> sensu/sensu-community-plugins · GitHub <::tags::>
 https://github.com/sensu/uchiwa <::sif::> sensu/uchiwa · GitHub <::tags::>
 https://github.com/sequelize/sequelize <::sif::> sequelize/sequelize · GitHub <::tags::>
@@ -1677,6 +2045,7 @@ https://github.com/sidorares/node-tick <::sif::> sidorares/node-tick · GitHub <
 https://github.com/sindresorhus/awesome-nodejs <::sif::> sindresorhus/awesome-nodejs · GitHub <::tags::>
 https://github.com/sindresorhus/chalk <::sif::> chalk/chalk · GitHub <::tags::>
 https://github.com/sindresorhus/is-progressive <::sif::> sindresorhus/is-progressive · GitHub <::tags::>
+https://github.com/sindresorhus/pageres#usage <::sif::> sindresorhus/pageres · GitHub <::tags::>
 https://github.com/slevithan/xregexp <::sif::> slevithan/xregexp · GitHub <::tags::>
 https://github.com/socketio/socket.io <::sif::> socketio/socket.io · GitHub <::tags::>
 https://github.com/socketio/socket.io-client <::sif::> socketio/socket.io-client · GitHub <::tags::>
@@ -1689,15 +2058,20 @@ https://github.com/substack/node-multimeter <::sif::> substack/node-multimeter �
 https://github.com/substack/stream-handbook <::sif::> substack/stream-handbook · GitHub <::tags::>
 https://github.com/sw4/revert.css <::sif::> sw4/revert.css · GitHub <::tags::>
 https://github.com/swagger-api/swagger-ui <::sif::> swagger-api/swagger-ui · GitHub <::tags::>
+https://github.com/t4t5/sweetalert <::sif::> t4t5/sweetalert · GitHub <::tags::>
 https://github.com/taskrabbit/node-resque <::sif::> taskrabbit/node-resque · GitHub <::tags::>
+https://github.com/tbranyen/backbone-boilerplate <::sif::> tbranyen/backbone-boilerplate · GitHub <::tags::>
 https://github.com/tcs-de/nodecache <::sif::> tcs-de/nodecache · GitHub <::tags::>
 https://github.com/tiddolangerak/tracegl <::sif::> TiddoLangerak/tracegl · GitHub <::tags::>
 https://github.com/timdown/rangy <::sif::> timdown/rangy · GitHub <::tags::>
+https://github.com/timdp/es6-promise-pool <::sif::> timdp/es6-promise-pool · GitHub <::tags::>
+https://github.com/timkay/aws <::sif::> timkay/aws · GitHub <::tags::>
 https://github.com/timqian/jsCodeStructure <::sif::> timqian/jsCodeStructure · GitHub <::tags::>
 https://github.com/tj/cluster-live <::sif::> tj/cluster-live · GitHub <::tags::>
 https://github.com/tj/commander.js <::sif::> tj/commander.js · GitHub <::tags::>
 https://github.com/tj/node-progress <::sif::> tj/node-progress · GitHub <::tags::>
 https://github.com/tj/reds <::sif::> tj/reds · GitHub <::tags::>
+https://github.com/tmpvar/jsdom <::sif::> tmpvar/jsdom · GitHub <::tags::>
 https://github.com/tomchristie/express-browsable-api <::sif::> tomchristie/express-browsable-api · GitHub <::tags::>
 https://github.com/tpope/vim-surround <::sif::> tpope/vim-surround · GitHub <::tags::>
 https://github.com/traceglMPL/tracegl <::sif::> traceglMPL/tracegl · GitHub <::tags::>
@@ -1715,6 +2089,7 @@ https://github.com/v0lkan/sif/issues <::sif::> Issues · v0lkan/sif · GitHub <:
 https://github.com/vdemedes/trevor <::sif::> vdemedes/trevor · GitHub <::tags::>
 https://github.com/vedmack/feedback_me <::sif::> vedmack/feedback_me · GitHub <::tags::>
 https://github.com/vigetlabs/grunt-complexity <::sif::> vigetlabs/grunt-complexity · GitHub <::tags::>
+https://github.com/vsespb/mt-aws-glacier <::sif::> vsespb/mt-aws-glacier · GitHub <::tags::>
 https://github.com/w3c/ <::sif::> World Wide Web Consortium · GitHub <::tags::>
 https://github.com/wangzuo/react-input-color <::sif::> wangzuo/react-input-color · GitHub <::tags::>
 https://github.com/wasabeef/Blurry <::sif::> wasabeef/Blurry · GitHub <::tags::>
@@ -1723,9 +2098,11 @@ https://github.com/werk85/node-html-to-text <::sif::> werk85/node-html-to-text �
 https://github.com/whatwg/html <::sif::> whatwg/html · GitHub <::tags::>
 https://github.com/wieringen/tinyscrollbar <::sif::> wieringen/tinyscrollbar · GitHub <::tags::>
 https://github.com/williamngan/pt <::sif::> williamngan/pt · GitHub <::tags::>
+https://github.com/winebarrel/roadworker <::sif::> winebarrel/roadworker · GitHub <::tags::>
 https://github.com/winstonjs/winston <::sif::> winstonjs/winston · GitHub <::tags::>
 https://github.com/wooorm/mdast <::sif::> wooorm/mdast · GitHub <::tags::>
 https://github.com/yahoo/gryffin <::sif::> yahoo/gryffin · GitHub <::tags::>
+https://github.com/yaronn/blessed-contrib <::sif::> yaronn/blessed-contrib · GitHub <::tags::>
 https://github.com/yeoman/generator <::sif::> yeoman/generator · GitHub <::tags::>
 https://github.com/young-steveo/bottlejs <::sif::> young-steveo/bottlejs · GitHub <::tags::>
 https://github.com/zb3/MockTheClock <::sif::> zb3/MockTheClock · GitHub <::tags::>
@@ -1740,6 +2117,7 @@ https://guidgenerator.com/ <::sif::>  Online GUID Generator <::tags::>
 https://guidgenerator.com/online-guid-generator.aspx <::sif::>  Online GUID Generator <::tags::>
 https://hacks.mozilla.org/2013/01/building-a-node-js-server-that-wont-melt-a-node-js-holiday-season-part-5/ <::sif::>  Building A Node.JS Server That Won't Melt – A Node.JS Holiday Season, part 5 ✩ Mozilla Hacks – the Web developer blog <::tags::>
 https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/ <::sif::>  ES6 In Depth: Arrow functions ✩ Mozilla Hacks – the Web developer blog <::tags::>
+https://hacks.mozilla.org/2015/07/how-fast-are-web-workers/ <::sif::> How fast are web workers? ★ Mozilla Hacks – the Web developer blog <::tags::>
 https://hacks.mozilla.org/2015/09/lets_write_a_webextension/ <::sif::>  Let’s Write a Web Extension ✩ Mozilla Hacks – the Web developer blog <::tags::>
 https://hbr.org/2015/09/design-thinking-comes-of-age <::sif::> Design Thinking Comes of Age <::tags::>
 https://heipei.github.io/2015/08/20/Persistent-AppCache-Injections/ <::sif::> Persistent AppCache Injections <::tags::>
@@ -1749,8 +2127,11 @@ https://help.github.com/articles/remove-sensitive-data/ <::sif::>  Remove sensit
 https://help.ubuntu.com/community/CloudInit <::sif::> CloudInit - Community Help Wiki <::tags::> ubuntu
 https://help.ubuntu.com/community/NetworkConfigurationCommandLine/Automatic <::sif::> NetworkConfigurationCommandLine/Automatic - Community Help Wiki <::tags::>
 https://help.ubuntu.com/community/SSH/OpenSSH/Configuring <::sif::> SSH/OpenSSH/Configuring - Community Help Wiki <::tags::>
+https://hexo.io <::sif::> Hexo <::tags::>
+https://highlightjs.org <::sif::> highlight.js <::tags::>
 https://howdns.works/ <::sif::> How DNS works <::tags::>
 https://html5backgroundvideos.com/video/typing-code/ <::sif::> Typing - Code - BG Stock <::tags::>
+https://html5boilerplate.com <::sif::> HTML5 Boilerplate: The web’s most popular front-end template <::tags::>
 https://html5boilerplate.com/ <::sif::> HTML5 Boilerplate: The web’s most popular front-end template <::tags::>
 https://http.cat <::sif::> HTTP Status Cats API <::tags::>
 https://http2.github.io/faq/ <::sif::> HTTP/2 Frequently Asked Questions <::tags::>
@@ -1762,23 +2143,28 @@ https://infinum.co/the-capsized-eight/articles/top-8-tools-for-ruby-on-rails-cod
 https://intercityup.com/blog/how-to-expose-an-ssh-tunnel-to-localhost-in-a-docker-container-via-vagrant.html <::sif::> How to expose an SSH tunnel to localhost in a docker container via vagrant. - Intercity <::tags::>
 https://iojs.org/en/index.html <::sif::> io.js - JavaScript I/O <::tags::>
 https://jakearchibald.github.io/isserviceworkerready/ <::sif::> Is ServiceWorker ready? <::tags::>
+https://js.org <::sif::> JS.ORG <::tags::>
 https://jslive.com <::sif::> JavaScript Live <::tags::>
 https://jsonresume.org/ <::sif::>  JSON Resume <::tags::>
 https://kapeli.com/dash <::sif::> Dash for OS X - API Documentation Browser, Snippet Manager - Kapeli <::tags::>
 https://keen.io <::sif::> Keen IO - Analytics for Developers <::tags::>
 https://keen.io/plans/self-service <::sif::> Keen IO - Analytics for Developers <::tags::>
+https://kitematic.com <::sif::> Kitematic <::tags::>
 https://kitematic.com/ <::sif::> Kitematic <::tags::>
 https://koding.com <::sif::> Koding | Say goodbye to your localhost and code in the cloud. <::tags::>
 https://kristopolous.github.io/BOOTSTRA.386/javascript.html <::sif::> Javascript · Bootstrap <::tags::>
+https://leanpub.com/js-next <::sif::> JavaScript on the… by Volkan Özçelik [Leanpub PDF/iPad/Kindle] <::tags::>
 https://leanpub.com/understandinges6/read <::sif::> Read Understanding ECMAScript 6 | Leanpub <::tags::>
 https://leanpub.com/understandinges6/read/ <::sif::> Read Understanding ECMAScript 6 | Leanpub <::tags::>
 https://learngraphql.com <::tags::>
 https://linuxacademy.com/ <::sif::> Linux Training <::tags::>
+https://lodash.com <::sif::> lodash <::tags::>
 https://logging.apache.org/log4j/2.x/manual/async.html <::sif::> Log4j – Log4j 2 Asynchronous Loggers for Low-Latency Logging - Apache Log4j 2 <::tags::>
 https://lookback.io/ <::sif::> Understand users with Lookback <::tags::>
 https://luckymarmot.com/paw <::sif::> Paw – The ultimate REST client for Mac <::tags::>
 https://lw.microstrategy.com/msdz/MSDL/901/docs/SSO_Typical_single_sign-on_workflow.htm <::sif::> Typical single sign-on workflow <::tags::>
 https://mailgun.com/app/dashboard <::sif::> Mailgun Dashboard <::tags::>
+https://material.angularjs.org/latest/ <::sif::> ' + menu.currentPage.name)"> Angular Material <::tags::>
 https://mathiasbynens.be/demo/url-regex <::sif::> In search of the perfect URL validation regex <::tags::>
 https://medium.com/ <::sif::> Medium <::tags::>
 https://medium.com/@AtrinAssa/the-dangerous-and-colorful-lie-in-your-visual-identity-document-db3c3ad27db5 <::sif::> The Dangerous and Colorful Lie in Your Visual Identity Document — Medium <::tags::>
@@ -1799,6 +2185,8 @@ https://medium.com/@padlet/an-honest-guide-to-the-san-francisco-startup-life-6df
 https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b <::sif::> Farewell Node.js — Medium <::tags::>
 https://medium.com/@tschundeee/express-vs-flask-vs-go-acc0879c2122 <::sif::> Express vs Flask vs Go vs Sparkjava vs Sinatra — Medium <::tags::>
 https://medium.com/@typographias/learning-to-make-a-font-the-hard-way-5c5c7045e92f <::sif::> Learning to make a font the hard way — Medium <::tags::>
+https://medium.com/@victordoss/building-backbone-apps-using-flux-f656fd8a873a <::sif::> Building Backbone apps using Flux — Medium <::tags::>
+https://medium.com/backchannel/how-companies-can-avoid-the-innovator-s-dilemma-3f980ae533a7 <::sif::> How Companies Can Avoid the Innovator’s Dilemma — Backchannel — Medium <::tags::>
 https://medium.com/backchannel/i-ve-spent-a-lifetime-building-a-mighty-network-here-are-my-secrets-8590d893d30c <::sif::> I’ve Spent A Lifetime Building a Mighty Network. Here Are My Secrets. — Backchannel — Medium <::tags::>
 https://medium.com/conquering-corporate-america/10-tricks-to-appear-smart-during-meetings-27b489a39d1a <::sif::> 10 Tricks to Appear Smart During Meetings — The Cooper Review — Medium <::tags::>
 https://medium.com/design-and-innovation/design-pretty-b7ab0158454c <::sif::> (Design != Pretty) — Design and Innovation — Medium <::tags::>
@@ -1852,12 +2240,18 @@ https://nodejs.org/api/stream.html <::sif::> Stream Node.js v4.1.1 Manual & Docu
 https://nodejs.org/api/timers.html <::sif::> Timers Node.js v0.12.7 Manual & Documentation <::tags::>
 https://nodejs.org/en/ <::sif::> Node.js <::tags::>
 https://nolaymanleftbehind.wordpress.com/2011/07/10/linear-algebra-what-matrices-actually-are/ <::sif::> Linear Algebra: What matrices actually are | No Layman Left Behind <::tags::>
+https://nylas.com/N1 <::sif::> N1 - The extensible, open source mail client. <::tags::>
+https://o2js.com/productivity/writing-has-never-been-easier <::sif::> Writing Has Never Been Easier <::tags::>
+https://o2js.com/reference/personal/my-side-projects <::sif::> I Confess, I'm a Lousy Side Projector <::tags::>
 https://oav.net/mirrors/cidr.html <::sif::> CIDR SUBNET MASK CHEATSHEET & ICMP TYPE CODES <::tags::>
 https://onemonth.com <::sif::> Learn to code and build web applications in one month. <::tags::>
 https://onion.io/omega/ <::sif::> Omega - Onion <::tags::>
 https://openseadragon.github.io/ <::sif::> OpenSeadragon <::tags::>
 https://osrg.github.io/ryu-book/en/html/rest_router.html <::sif::> Router — Ryubook 1.0 documentation <::tags::>
+https://owl.english.purdue.edu/owl/owlprint/607/ <::sif::> Purdue OWL <::tags::>
+https://owl.english.purdue.edu/owl/section/1/ <::sif::> The Purdue OWL: General Writing <::tags::>
 https://packer.io <::sif::>  Packer by HashiCorp <::tags::>
+https://parall.ax/products/jspdf <::sif::> jsPDF - HTML5 PDF Generator | Parallax <::tags::>
 https://pattle.github.io/simpsons-in-css/ <::sif::> The Simpsons in CSS <::tags::>
 https://people.mozilla.org/~jorendorff/es6-draft.html <::sif::> ECMAScript Language Specification ECMA-262 6th Edition – DRAFT <::tags::>
 https://plex.tv/ <::sif::> Plex: Your media on all your devices <::tags::>
@@ -1867,13 +2261,16 @@ https://plus.google.com/communities/115365528781941125390 <::sif::> node.js - Co
 https://popcorntime.io/ <::sif::> Popcorn Time - Watch movies and TV shows instantly! <::tags::>
 https://portswigger.net/burp/ <::sif::> Burp Suite <::tags::>
 https://prerender.io/ <::sif::> Prerender - AngularJS SEO, BackboneJS SEO, or EmberJS SEO <::tags::>
+https://promisesaplus.com <::sif::> Promises/A+ <::tags::>
 https://puppetlabs.com/puppet/what-is-puppet <::sif::> What is Puppet? | Puppet Labs <::tags::>
 https://pypi.python.org/pypi <::sif::> PyPI - the Python Package Index : Python Package Index <::tags::>
 https://pypi.python.org/pypi/nodeenv <::sif::> nodeenv 0.13.4 : Python Package Index <::tags::>
 https://raindrop.io <::sif::> Raindrop.io — Keep your favorites handy <::tags::>
+https://raygun.io <::sif::> Raygun - Meaningful App Insights For Developers | Raygun <::tags::>
 https://raymii.org/s/tutorials/NGINX_proxy_folder_to_different_root.html <::sif::> NGINX: Proxy folders to different root - Raymii.org <::tags::>
 https://realm.io/news/droidcon-michael-pardo-kotlin/ <::sif::> Kotlin: A New Hope in a Java 6 Wasteland, with Michael Pardo - Realm is a mobile database: a replacement for SQLite & Core Data <::tags::>
 https://redislabs.com/redis-cloud <::sif::> Redis Cloud - Fully-Managed Redis Service <::tags::>
+https://rocket.chat <::sif::> Rocket.Chat <::tags::>
 https://rrrepo.co/repo/designDocumentaries <::sif::> rrrepo - designDocumentaries <::tags::>
 https://rtcamp.com/tutorials/linux/sysctl-conf/ <::sif::> sysctl.conf - tweaking for high concurrancy & security <::tags::>
 https://rtyley.github.io/bfg-repo-cleaner/ <::sif::> BFG Repo-Cleaner by rtyley <::tags::>
@@ -1885,10 +2282,12 @@ https://runnable.io/ <::sif::> Runnable <::tags::>
 https://saucelabs.com <::sif::> Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More <::tags::>
 https://saucelabs.com/ <::sif::> Sauce Labs: Selenium Testing, Mobile Testing, JS Unit Testing and More <::tags::>
 https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties <::sif::> A Visual Guide to CSS3 Flexbox Properties | Scotch <::tags::>
+https://scotch.io/tutorials/building-a-real-time-markdown-viewer <::sif::> Build a Real-Time Markdown Editor with Node.js | Scotch <::tags::>
 https://scotch.io/tutorials/scraping-the-web-with-node-js <::sif::> Scraping the Web With Node.js | Scotch <::tags::>
 https://screeps.com <::sif::> Screeps - the world's first MMO open world strategy game for programmers <::tags::>
 https://scriptstoprograms.wordpress.com/2011/09/27/javascript-shared-state/ <::sif::> JavaScript: a concurrent language with shared mutable state | Scripts to Programs <::tags::>
 https://searchcode.com/ <::sif::> searchcode | source code search engine <::tags::>
+https://select2.github.io <::sif::> Select2 - The jQuery replacement for select boxes <::tags::>
 https://sendgrid.com/ <::sif::> Email Delivery & Transactional Email Service | SendGrid <::tags::>
 https://sensuapp.org/ <::sif::> Sensu | Monitoring for today's infrastructure. <::tags::>
 https://sensuapp.org/docs/0.16/adding_a_standalone_check <::sif::> Sensu | Adding a standalone check <::tags::>
@@ -1908,11 +2307,14 @@ https://smartos.org/ <::sif::> SmartOS <::tags::>
 https://smartos.org/tag/node-js/ <::sif::> node.js – SmartOS <::tags::>
 https://software.mirantis.com/openstack/ <::sif::> OpenStack - Mirantis OpenStack <::tags::>
 https://sourcegear.com/diffmerge/ <::sif::> SourceGear | DiffMerge <::tags::>
+https://speakerdeck.com/bluesmoon/d3-and-julia-at-opensourcebridge-2015 <::sif::> D3 and Julia at OpenSourceBridge 2015 // Speaker Deck <::tags::>
 https://speakerdeck.com/garethr/containers-and-microservices-make-performance-worse <::sif::> Containers and Microservices make performance worse // Speaker Deck <::tags::>
 https://speakerdeck.com/jakevdp/statistics-for-hackers <::sif::> Statistics for Hackers // Speaker Deck <::tags::>
 https://speakerdeck.com/patrickhamann/embracing-the-network-coldfront-september-2015 <::sif::> Embracing the Network – ColdFront, September 2015 // Speaker Deck <::tags::>
 https://squareknot.com/search/projects <::sif::> Squareknot <::tags::>
+https://stackedit.io/editor <::sif::> StackEdit – Editor <::tags::>
 https://stackstorm.com <::sif::> StackStorm | Event-driven automation <::tags::>
+https://storify.com/lukew/drop-downs-are-the-ui-of-last-resort <::sif::> Drop Downs Should be the UI of Last Resort (with images, tweets) · lukew · Storify <::tags::>
 https://strongloop.com/node-js/node-js-performance-tips/ <::sif::> StrongLoop | Node.js Performance Tips <::tags::>
 https://strongloop.com/node-js/performance-monitoring/ <::sif::> StrongLoop | Performance Monitoring <::tags::>
 https://strongloop.com/strongblog/compare-node-js-logging-winston-bunyan/ <::sif::> StrongLoop | Comparing Winston and Bunyan Node.js Logging <::tags::>
@@ -1936,13 +2338,17 @@ https://thestack.com/security/2015/09/24/cookies-can-render-secure-websites-vuln
 https://thethemefoundry.com/blog/why-we-dont-use-a-cdn-spdy-ssl/ <::sif::> Why we don't use a CDN: A story about SPDY and SSL <::tags::>
 https://thewiringcloset.wordpress.com/2013/03/27/linux-iptable-snat-dnat/ <::sif::> Source and Destination Network Address Translation (SNAT / DNAT) with iptables | The Wiring Closet <::tags::>
 https://thimble.webmaker.org/ <::sif::> Mozilla Thimble <::tags::>
+https://togetherjs.com <::sif::> Mozilla Labs : TogetherJS <::tags::>
 https://tonicdev.com/register <::sif::> Tonic <::tags::>
 https://trackjs.com/ <::sif::> {Track:js} Javascript Error and Event Logging <::tags::>
 https://travis-ci.org <::sif::> Travis CI - Test and Deploy Your Code with Confidence <::tags::>
 https://travis-ci.org/ <::sif::> Travis CI - Test and Deploy Your Code with Confidence <::tags::>
 https://try.github.io/levels/1/challenges/1 <::sif::> Code School - Try Git <::tags::>
+https://try.jupyter.org <::sif::> Try Jupyter! <::tags::>
 https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/ <::sif::> Constructors Are Bad For JavaScript | Tarek Sherif <::tags::>
+https://tunnelblick.net/downloads.html <::sif::> Downloads - Tunnelblick | Free open source OpenVPN VPN client server software for Mac OS X <::tags::>
 https://twitter.com/ydkjs <::sif::> You Don't Know JS (@YDKJS) | Twitter <::tags::>
+https://typing.io <::sif::> Typing Practice for Programmers | typing.io <::tags::>
 https://unicornfree.com/2015/making-huge-projects-work-part-2 <::sif::> Making huge projects work: Implementation | Unicornfree with Amy Hoy: Creating And Selling Your Own Products <::tags::>
 https://unpm.nodesource.com/ <::sif::> Understanding npm <::tags::>
 https://url.spec.whatwg.org/ <::sif::> URL Standard <::tags::>
@@ -1957,10 +2363,15 @@ https://vimeo.com/96425312 <::sif::> Philip Roberts: Help, I'm stuck in an event
 https://vimeo.com/99877232 <::sif::> Jonathan Snook – CSS is a Mess – beyond tellerrand Düsseldorf 2014 on Vimeo <::tags::>
 https://volkan.io <::sif::> Volkan Özçelik <::tags::>
 https://vpn.ht/en <::sif::> VPN.ht - Be completely anonymous on the Internet <::tags::>
+https://weakdh.org/ <::sif::> Weak Diffie-Hellman and the Logjam Attack <::tags::>
+https://weakdh.org/sysadmin.html <::sif::> Logjam: PFS Deployment Guide <::tags::>
+https://webpack.github.io <::sif::> webpack module bundler <::tags::>
+https://webtorrent.io <::sif::> WebTorrent - Streaming browser torrent client <::tags::>
 https://whatwg.org/ <::sif::> Web Hypertext Application Technology Working Group <::tags::>
 https://wiki.archlinux.org/index.php/Simple_IP_Failover_with_Heartbeat <::sif::> Simple IP Failover with Heartbeat - ArchWiki <::tags::>
 https://wiki.archlinux.org/index.php/dnsmasq <::sif::> dnsmasq - ArchWiki <::tags::>
 https://wiki.haskell.org/FRP_explanation_using_reactive-banana <::sif::> FRP explanation using reactive-banana - HaskellWiki <::tags::>
+https://wiki.mozilla.org/B2G <::sif::> B2G - MozillaWiki <::tags::>
 https://wiki.openstack.org/wiki/Ceilometer <::sif::> Ceilometer - OpenStack <::tags::>
 https://wiki.openstack.org/wiki/Cinder <::sif::> Cinder - OpenStack <::tags::>
 https://wiki.openstack.org/wiki/CinderSupportMatrix <::sif::> CinderSupportMatrix - OpenStack <::tags::>
@@ -1979,6 +2390,7 @@ https://www.activecollab.com/ <::sif::> Active Collab — Task management, Team 
 https://www.antonlindstrom.com/2014/11/23/standalone-checks-with-sensu.html <::sif::> Standalone checks with Sensu — AntonLindstrom.com <::tags::>
 https://www.atlassian.com/software/crucible/overview <::sif::> Peer Code Review Tool | Atlassian Crucible <::tags::>
 https://www.atlassian.com/software/stash <::sif::> Enterprise Git Repository Management | Atlassian <::tags::>
+https://www.backand.com/ <::sif::> AngularJS Backend - Back& <::tags::>
 https://www.baserails.com <::sif::> BaseRails: Learn Ruby on Rails with project-based tutorials <::tags::>
 https://www.behance.net/ <::sif::> Online Portfolios on Behance <::tags::>
 https://www.box.com/ <::sif::>  Box | Secure Content & Online File Sharing for Businesses <::tags::>
@@ -2024,6 +2436,7 @@ https://www.elastic.co/ <::sif::> Elastic · Revealing Insights from Data (Forme
 https://www.elastic.co/downloads/watcher <::sif::> Download Watcher Trial • Get Started Now | Elastic <::tags::>
 https://www.elastic.co/found <::sif::>  Hosted Elasticsearch | Elastic <::tags::>
 https://www.elastic.co/products/kibana <::sif::>  Kibana: Explore, Visualize, Discover Data | Elastic <::tags::>
+https://www.elastic.co/products/kibana <::sif::> Kibana: Explore, Visualize, Discover Data | Elastic <::tags::>
 https://www.facebook.com/ <::sif::> Update Your Browser | Facebook <::tags::>
 https://www.file.io/ <::sif::> file.io - Ephemeral file sharing <::tags::>
 https://www.flickr.com/ <::sif::> Flickr, a Yahoo company | Flickr - Photo Sharing! <::tags::>
@@ -2031,6 +2444,7 @@ https://www.flickr.com/groups/_typography/ <::sif::> Typography * | Flickr - Pho
 https://www.fpcomplete.com/school/starting-with-haskell?show=tutorials <::sif::> Starting with Haskell - School of Haskell | FP Complete <::tags::>
 https://www.geckoboard.com <::sif::> KPI dashboards for businesses | Geckoboard <::tags::>
 https://www.geotrust.com/ssl/compare-ssl-certificates.html <::sif::> Compare SSL Certificates | GeoTrust® <::tags::>
+https://www.gitbook.com <::sif::> GitBook · Writing made easy <::tags::>
 https://www.gliffy.com/ <::sif::> Online Diagram Software and Flow Chart Software - Gliffy <::tags::>
 https://www.google.com/?gws_rd=ssl <::sif::> Google <::tags::>
 https://www.google.com/about/careers/students/guide-to-technical-development.html <::sif::>  Students - Guide to Technical Development - Google Careers <::tags::>
@@ -2043,8 +2457,10 @@ https://www.hashicorp.com/blog/otto.html <::sif::> Otto - HashiCorp <::tags::>
 https://www.haskell.org/platform/linux.html <::sif::> Download Haskell Platform <::tags::>
 https://www.hellobonsai.com <::sif::> Bulletproof contracts, simple e-signing, integrated escrow for freelancers | Bonsai <::tags::>
 https://www.heroku.com/ <::sif::> Heroku | Cloud Application Platform <::tags::>
+https://www.heroku.com/home <::sif::> Heroku | Home <::tags::>
 https://www.icloud.com/ <::sif::> iCloud <::tags::>
 https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/ <::sif::> Optimizing NGINX TLS Time To First Byte (TTTFB) - igvita.com <::tags::>
+https://www.igvita.com/2015/06/25/browser-progress-bar-is-an-anti-pattern/ <::sif::> Browser Progress Bar is an Anti-pattern - igvita.com <::tags::>
 https://www.infoblox.com/ <::sif::> Network Control with Secure DNS, DHCP, and IPAM (DDI) | Infoblox DDI <::tags::>
 https://www.jetbrains.com/ <::sif::> JetBrains :: World's Leading Vendor of Professional Development Tools <::tags::>
 https://www.jetbrains.com/clion/ <::sif::> JetBrains CLion — intelligent cross-platform C/C++ IDE <::tags::>
@@ -2079,12 +2495,17 @@ https://www.lucidchart.com/techblog/2015/07/21/selenium-7-things-you-need-to-kno
 https://www.madetech.com/blog/rules-for-stylesheet-modularity <::sif::> Rules for Stylesheet Modularity - Made Tech Blog <::tags::>
 https://www.manning.com <::sif::> Manning | Home <::tags::>
 https://www.manning.com/books/node-js-in-action <::sif::> Manning | Node.js in Action <::tags::>
+https://www.maxcdn.com/blog/maxscale-jquery/ <::sif::> How jQuery Handles 15,000 CDN Requests/Sec <::tags::>
 https://www.memrise.com <::sif::> Learning, made joyful - Memrise <::tags::>
+https://www.mendix.com/tech-blog/making-react-reactive-pursuit-high-performing-easily-maintainable-react-apps/ <::sif::> Making React reactive: the pursuit of high performing, easily maintainable React apps <::tags::>
+https://www.meteor.com <::sif::> Meteor <::tags::>
 https://www.meteor.com/ <::sif::> Meteor <::tags::>
 https://www.meteor.com/blog/2013/08/13/an-interesting-kind-of-javascript-memory-leak <::sif::> An interesting kind of JavaScript memory leak <::tags::>
 https://www.mirantis.com/blog/understanding-openstack-authentication-keystone-pki/ <::sif::> Understanding OpenStack Authentication: Keystone PKI - Pure Play OpenStack. <::tags::>
 https://www.mnot.net/cache_docs/ <::sif::> Caching Tutorial for Web Authors and Webmasters <::tags::>
+https://www.mongodb.org <::sif::> MongoDB for GIANT Ideas | MongoDB <::tags::>
 https://www.moses.io/2015/09/tls-and-server-hardening-post-nginx/ <::sif::> TLS and Server Hardening Post - NGINX - i, Moses <::tags::>
+https://www.mozilla.org/en-US/firefox/developer/ <::sif::> Firefox Developer Edition — Mozilla <::tags::>
 https://www.mutuallyhuman.com/blog/2013/05/09/choosing-an-sso-strategy-saml-vs-oauth2/ <::sif::>  Choosing an SSO Strategy: SAML vs OAuth2 | Mutually Human <::tags::>
 https://www.namecheap.com/security/ssl-certificates/domain-validation.aspx <::sif::>  Cheap Domain Validation SSL Certificates • Namecheap.com <::tags::>
 https://www.nczonline.net/blog/2014/04/22/creating-defensive-objects-with-es6-proxies/ <::sif::> Creating defensive objects with ES6 proxies - NCZOnline <::tags::>
@@ -2095,6 +2516,7 @@ https://www.npmjs.com <::sif::> npm <::tags::>
 https://www.npmjs.com/ <::sif::> npm <::tags::>
 https://www.npmjs.com/package/es7-shim <::sif::> es7-shim <::tags::>
 https://www.npmjs.com/package/inquirer <::sif::> inquirer <::tags::>
+https://www.npmjs.com/package/sif <::sif::> sif <::tags::>
 https://www.npmjs.com/package/sinopia <::sif::> sinopia <::tags::>
 https://www.openshift.com/ <::sif::> OpenShift by Red Hat <::tags::>
 https://www.openstack.org/ <::sif::> Home » OpenStack Open Source Cloud Computing Software <::tags::>
@@ -2133,6 +2555,7 @@ https://www.scriptrock.com/blog/comparing-containers-generating-dockerfiles-guar
 https://www.serfdom.io/intro/vs-custom.html <::sif::> Serf vs. Custom Solutions - Serf by HashiCorp <::tags::>
 https://www.sitepoint.com/premium/ <::sif::> SitePoint <::tags::>
 https://www.skillshare.com <::sif::> Skillshare <::tags::>
+https://www.someone.io <::sif::> Someone - Wasn’t Someone supposed to take care of that? <::tags::>
 https://www.spectacleapp.com <::sif::> Spectacle <::tags::>
 https://www.symfony.fi/entry/comparing-http-2-on-aircraft-wifi <::sif::>  Comparing HTTP/1.1 and HTTP/2 on Aircraft WiFi | Symfony Finland <::tags::>
 https://www.talater.com/upup/ <::sif::> UpUp - The Offline First Library <::tags::>
@@ -2147,6 +2570,8 @@ https://www.vaultier.org/ <::sif::> Collaborative Password Manager & File Storag
 https://www.virtualbox.org/ <::sif::>  Oracle VM VirtualBox <::tags::>
 https://www.virtualbox.org/manual/ch06.html <::sif::> Chapter�6.�Virtual networking <::tags::>
 https://www.webplatform.org/ <::sif::> Your Web, documented · WebPlatform.org <::tags::>
+https://www.webrtc-experiment.com <::sif::> WebRTC Experiments & Demos ® Muaz Khan <::tags::>
+https://www.weepower.com <::sif::> Front-End Framework | Wee <::tags::>
 https://www.wikiwand.com/en/0.0.0.0 <::sif::> 0.0.0.0 - Wikiwand <::tags::>
 https://www.wikiwand.com/en/ARP_spoofing <::sif::> ARP spoofing - Wikiwand <::tags::>
 https://www.wikiwand.com/en/Apache_Hadoop <::sif::> Apache Hadoop - Wikiwand <::tags::>
@@ -2188,6 +2613,7 @@ https://www.wikiwand.com/en/Open_Shortest_Path_First <::sif::> Open Shortest Pat
 https://www.wikiwand.com/en/Opera_(web_browser) <::sif::> Opera (web browser) - Wikiwand <::tags::>
 https://www.wikiwand.com/en/Operational_transformation <::sif::> Operational transformation - Wikiwand <::tags::>
 https://www.wikiwand.com/en/Patch_cable <::sif::> Patch cable - Wikiwand <::tags::>
+https://www.wikiwand.com/en/Punched_card <::sif::> Punched card - Wikiwand <::tags::>
 https://www.wikiwand.com/en/ReDoS <::sif::> ReDoS - Wikiwand <::tags::>
 https://www.wikiwand.com/en/SHA-1 <::sif::> SHA-1 - Wikiwand <::tags::>
 https://www.wikiwand.com/en/SSL_termination_proxy <::sif::> TLS termination proxy - Wikiwand <::tags::>
@@ -2207,6 +2633,7 @@ https://www.wikiwand.com/en/Travelling_salesman_problem <::sif::> Travelling sal
 https://www.wikiwand.com/en/Unicast <::sif::> Unicast - Wikiwand <::tags::>
 https://www.wikiwand.com/en/Virtual_Extensible_LAN <::sif::> Virtual Extensible LAN - Wikiwand <::tags::>
 https://www.wikiwand.com/en/Virtual_Router_Redundancy_Protocol <::sif::> Virtual Router Redundancy Protocol - Wikiwand <::tags::>
+https://www.wikiwand.com/en/Vogon <::sif::> Vogon - Wikiwand <::tags::>
 https://www.wikiwand.com/en/X.509 <::sif::> X.509 - Wikiwand <::tags::>
 https://www.wunderlist.com/home <::sif::> Wunderlist | To-do list, Reminders, Errands - App of the Year! <::tags::>
 https://www.youtube.com/playlist?list=PL2ntRZ1ySWBf-_z-gHCOR2N156Nw930Hm <::sif::> GopherCon 2015 - YouTube <::tags::>
@@ -2281,5 +2708,6 @@ https://www.youtube.com/watch?v=zHObLRzQ-NU <::sif::> HTML5DevConf Volkan Ozceli
 https://www.zulip.org/ <::sif::> Zulip <::tags::>
 https://xkcd.com/323/ <::sif::> xkcd: Ballmer Peak <::tags::>
 https://xkcd.com/blue_eyes.html <::sif::>  Blue Eyes - A Logic Puzzle <::tags::>
+https://yabwe.github.io/medium-editor/ <::sif::> MediumEditor <::tags::>
 https://zeplin.io/ <::sif::> Zeplin <::tags::>
 https://zyan.scripts.mit.edu/blog/backdooring-js/ <::sif::> backdooring your javascript using minifier bugs | discrete blogarithm <::tags::>

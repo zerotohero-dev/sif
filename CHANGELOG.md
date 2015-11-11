@@ -1,3 +1,14 @@
+### sif 0.9.1
+
+* Verified that `sif` works on debian systems too.
+* Fixed a dependency error that was preventing `sif update`.
+* Updated `README.md` for different environments.
+* Minor bugfixes.
+
+### sif 0.8.6
+
+* `npm install sif -g` was not working because of a path problem. — Fixed that.
+
 ### sif 0.8.4
 
 * Updated README.md; added usage examples, installation instructions, and
@@ -10,7 +21,7 @@ to function properly.
 
 * Encoding fixes on the index file.
 * Minor changes to  the `update` routine.
-* Added a watcher to the `devbin` (`devbin/watch.js`) so that changed files 
+* Added a watcher to the `devbin` (`devbin/watch.js`) so that changed files
 are transpiled when changed.
 * Added a `list-empty-titles.sh` to list unprocessed lines.
 
@@ -53,7 +64,7 @@ them using their `@aliases`.
 
 ### sif 0.3.0
 
-* Implemented `sif update`. 
+* Implemented `sif update`.
 
 ### sif 0.2.1
 

@@ -32,7 +32,7 @@ import { ALIASES_FILE, ALIASES_TMP_FILE } from '../lib/config/files';
 import { ALIAS_DELIMITER } from '../lib/config/constants';
 
 program
-    .usage('<shorthand> <query>')
+    .usage( '<shorthand> <query>' )
     .parse( process.argv );
 
 const COMMAND = 'alias';
@@ -66,8 +66,6 @@ let tempStream = write( ALIASES_TMP_FILE, fsOptions );
         aliasWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
 
         sortedLines.on( 'end', () => { aliasWriteStream.end(); } );
-
-        return;
     } );
 }
 
@@ -83,7 +81,8 @@ let tempStream = write( ALIASES_TMP_FILE, fsOptions );
 
         if ( !parts.length ) { return; }
 
-        // TODO: adding a line to a file based on a predicate is a common task; make it a module.
+        // TODO: adding a line to a file based on a predicate is a common task;
+        // make it a module.
         let alias = parts[ 0 ];
         let command = parts[ 1 ];
 
@@ -95,7 +94,7 @@ let tempStream = write( ALIASES_TMP_FILE, fsOptions );
         }
 
         tempStream.write( `${alias}=${command}\n` );
-    });
+    } );
 
     lines.on('end', () => {
         if ( processed ) {

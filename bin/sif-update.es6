@@ -56,7 +56,7 @@ program.parse( process.argv );
 print( COMMAND, 'Started updating the index… This may take a while. Please be patient…' );
 
 let copyAssets = () => {
-
+    
     // TODO: this is repeated; move it to a module.
     // TODO: sort can do concatanetion, no need to pipe with cat.
     let cat = spawn( 'cat', [
@@ -85,8 +85,14 @@ let fsOptions = { encoding: 'utf8' };
 backup.stdout.on( 'end', () => {
     let inStream = byline( read( INDEX_FILE, fsOptions ) );
 
-    let tmpExistingFileWriteStream = write( PROCESS_TMP_EXISTING_FILE, fsOptions );
-    let tmpProcessedFileWriteStream = write( PROCESS_TMP_PROCESSED_FILE, fsOptions );
+    let tmpExistingFileWriteStream = write(
+        PROCESS_TMP_EXISTING_FILE,
+        fsOptions
+    );
+    let tmpProcessedFileWriteStream = write(
+        PROCESS_TMP_PROCESSED_FILE,
+        fsOptions
+    );
 
     // can be done with promises too.
     let remainingMetaDataRequests = 0;
@@ -152,13 +158,14 @@ backup.stdout.on( 'end', () => {
         if ( needsProcessing ) {
             remainingMetaDataRequests++;
 
-            let url = line.replace(TAGS_DELIMITER, '').trim();
+            let url = line.replace( TAGS_DELIMITER, '' ).trim();
 
             // {gzip: true} to add an `Accept-Encoding` header to the request.
-            // Although `request` library does automatic gzip decoding, certain websites
+            // Although `request` library does automatic gzip decoding,
+            // certain websites
             // get confused if the header is not present in the initial request.
             request(
-                { method: 'GET', 'uri': url, gzip: true }, 
+                { method: 'GET', 'uri': url, gzip: true },
                 ( err, response, body ) => {
                     remainingMetaDataRequests--;
 
@@ -174,8 +181,8 @@ backup.stdout.on( 'end', () => {
                     if ( !result ) {
                         error( COMMAND, `Cannot find title in ${url}.` );
 
-                        tmpExistingFileWriteStream.write( 
-                            decode( `${url} ${TAGS_DELIMITER}\n` ) 
+                        tmpExistingFileWriteStream.write(
+                            decode( `${url} ${TAGS_DELIMITER}\n` )
                         );
 
                         tryPersistTemporaryData();
@@ -187,7 +194,7 @@ backup.stdout.on( 'end', () => {
 
                     if ( title ) {
                         tmpProcessedFileWriteStream.write(
-                            decode( `${url} ${DELIMITER} ${title.trim()} ${TAGS_DELIMITER}\n` ) 
+                            decode( `${url} ${DELIMITER} ${title.trim()} ${TAGS_DELIMITER}\n` )
                         );
                     } else {
                         error( COMMAND, noTitleFoundForUrl( url ) ) ;
@@ -212,6 +219,5 @@ backup.stdout.on( 'end', () => {
 
         // on `end`, all the data is consumed.
         tryPersistTemporaryData();
-    });
+    } );
 } );
-
