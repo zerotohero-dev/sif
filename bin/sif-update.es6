@@ -24,7 +24,6 @@ import byline from 'byline';
 import request from 'request';
 import { join } from 'path';
 import { spawn } from 'child_process';
-import { decodeHTML as decode } from 'entities';
 import { createReadStream as read, createWriteStream as write } from 'fs';
 import { print, printError as error } from '../lib/terminal/out';
 import {
@@ -33,15 +32,22 @@ import {
     INDEX_FILE
 } from '../lib/config/files';
 import {
-    noTitleFoundForUrl
-} from '../lib/config/message';
+    noTitleFoundForUrlMessage,
+    badlyFormattedLineMessage,
+    startedUpdatingIndexMessage,
+    indexUpdatedSuccessfullyMessage,
+    completedMessage
+} from '../lib/config/messages';
+import {
+    trimmedLine,
+    urlWithTitleLine,
+    urlWithoutTitleLine
+} from '../lib/config/lines';
 import {
     DELIMITER,
-    TAGS_DELIMITER,
-    DELIMITER_REPLACEMENT
+    TAGS_DELIMITER
 } from '../lib/config/constants';
 import {
-    MATCH_ALL_DELIMITERS,
     MATCH_ALL_WHITESPACES,
     MATCH_PAGE_TITLE
 } from '../lib/config/regexp';
@@ -53,10 +59,10 @@ program.parse( process.argv );
 
 // TODO: this file needs some cleanup.
 
-print( COMMAND, 'Started updating the index… This may take a while. Please be patient…' );
+print( COMMAND,  startedUpdatingIndexMessage() );
 
 let copyAssets = () => {
-    
+
     // TODO: this is repeated; move it to a module.
     // TODO: sort can do concatanetion, no need to pipe with cat.
     let cat = spawn( 'cat', [
@@ -74,7 +80,7 @@ let copyAssets = () => {
 
     sort.stdout.on( 'end', () => indexWriteStream.end() );
     sort.stdout.on( 'end',
-        () => print( COMMAND, 'Index file has been successfully updated.' )
+        () => print( COMMAND, indexUpdatedSuccessfullyMessage() )
     );
 };
 
@@ -104,7 +110,10 @@ backup.stdout.on( 'end', () => {
         if ( !inStreamEnded || remainingMetaDataRequests !== 0 ) { return; }
 
         let copyAssets = () => {
-            let cat = spawn( 'cat', [ PROCESS_TMP_EXISTING_FILE, PROCESS_TMP_PROCESSED_FILE ] );
+            let cat = spawn( 'cat', [
+                PROCESS_TMP_EXISTING_FILE,
+                PROCESS_TMP_PROCESSED_FILE
+            ] );
             let sort = spawn( 'sort', [ '-u' ] );
 
             let indexWriteStream = write( INDEX_FILE, fsOptions );
@@ -112,7 +121,9 @@ backup.stdout.on( 'end', () => {
             cat.stdout.pipe( sort.stdin );
             sort.stdout.pipe( indexWriteStream );
 
-            indexWriteStream.on( 'finish', () => print( COMMAND, 'Done!' ) );
+            indexWriteStream.on( 'finish', () => print(
+                COMMAND, completedMessage()
+            ) );
         };
 
         let maybeCopyAssets = null;
@@ -147,10 +158,7 @@ backup.stdout.on( 'end', () => {
         let malformed = !needsProcessing && !alreadyProcessed;
 
         if ( malformed ) {
-            error(
-                COMMAND,
-                `badly-formatted line: "${line.replace( MATCH_ALL_DELIMITERS, DELIMITER_REPLACEMENT )}"`
-            );
+            error( COMMAND, badlyFormattedLineMessage( line ) );
 
             return;
         }
@@ -175,14 +183,15 @@ backup.stdout.on( 'end', () => {
                         return;
                     }
 
+                    //TODO: these replacements should go to a transformer module of some sort.
                     let replaced = body.replace( MATCH_ALL_WHITESPACES, ' ' );
                     let result = MATCH_PAGE_TITLE.exec( replaced );
 
                     if ( !result ) {
-                        error( COMMAND, `Cannot find title in ${url}.` );
+                        error( COMMAND,  cannotFindInTitleMessage( url ) );
 
                         tmpExistingFileWriteStream.write(
-                            decode( `${url} ${TAGS_DELIMITER}\n` )
+                            urlWithoutTitleLine( url )
                         );
 
                         tryPersistTemporaryData();
@@ -194,13 +203,13 @@ backup.stdout.on( 'end', () => {
 
                     if ( title ) {
                         tmpProcessedFileWriteStream.write(
-                            decode( `${url} ${DELIMITER} ${title.trim()} ${TAGS_DELIMITER}\n` )
+                            urlWithTitleLine( url, title )
                         );
                     } else {
-                        error( COMMAND, noTitleFoundForUrl( url ) ) ;
+                        error( COMMAND, noTitleFoundForUrlMessage( url ) ) ;
 
                         tmpExistingFileWriteStream.write(
-                            decode( `${url} ${TAGS_DELIMITER}\n` )
+                            urlWithoutTitleLine( url )
                         );
                     }
 
@@ -211,7 +220,7 @@ backup.stdout.on( 'end', () => {
             return;
         }
 
-        tmpExistingFileWriteStream.write( decode( `${line.trim()}\n` ) );
+        tmpExistingFileWriteStream.write( trimmedLine( line ) );
     } );
 
     inStream.on( 'end', () => {

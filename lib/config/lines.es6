@@ -17,7 +17,10 @@
  *      '.| /      <https://github.com/v0lkan/sif/issues>.
  */
 
-export default {
-    noTitleFoundForUrl: ( url ) => `no title found for: "${url}"; I'll leave it untouched. — Please file an issue at https://github.com/v0lkan/sif/issues/new to get it fixed.`
-};
+import { decodeHTML as decode } from 'entities';
 
+export default {
+    trimmedLine: (line): decode( `${line.trim()}\n` ),
+    urlWithoutTitleLine: (url) => decode( `${url} ${TAGS_DELIMITER}\n` ),
+    urlWithTitleLine: (url, title) => decode( `${url} ${DELIMITER} ${title.trim()} ${TAGS_DELIMITER}\n` )
+};

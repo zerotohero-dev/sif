@@ -19,8 +19,8 @@
 
 import chalk from 'chalk';
 import {
-    MATCH_DELIMITER, 
-    MATCH_TAGS_DELIMITER 
+    MATCH_DELIMITER,
+    MATCH_TAGS_DELIMITER
 } from '../config/regexp';
 
 let printBanner = () => {
@@ -48,8 +48,8 @@ let print = ( commandName, text ) => {
             '  ' +
             chalk.green( commandName.toUpperCase() ) + ': ' +
             chalk.underline( parts[ 0 ] ) +
-            chalk.magenta( ' ("' ) + 
-            ( parts[ 1 ].replace( MATCH_TAGS_DELIMITER, chalk.magenta( ' ««' ) ) ) + 
+            chalk.magenta( ' ("' ) +
+            ( parts[ 1 ].replace( MATCH_TAGS_DELIMITER, chalk.magenta( ' ««' ) ) ) +
             chalk.magenta( '»» ")' ) + '.'
         );
 
@@ -75,4 +75,3 @@ let printError = ( commandName, text ) => {
 let printBlank = () => console.log( '' );
 
 export { print, printBlank, printError, printHeader, printBanner };
-
